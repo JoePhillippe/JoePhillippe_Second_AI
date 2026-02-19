@@ -1,0 +1,43 @@
+{
+  "name": "VLAN",
+  "slug": "vlan",
+  "category": "Switching & Layer 2",
+  "description": "Virtual LANs (VLANs) segment a physical switch into multiple logical broadcast domains, improving security and reducing broadcast traffic. VLANs operate at Layer 2 of the OSI model.",
+  "key_topics": [
+    "Access ports vs Trunk ports",
+    "802.1Q tagging and native VLAN",
+    "VTP (VLAN Trunking Protocol) modes: Server, Client, Transparent",
+    "Inter-VLAN routing (router-on-a-stick and SVI)",
+    "VLAN ranges: Normal (1-1005) and Extended (1006-4094)",
+    "Default VLAN 1 and security implications",
+    "Voice VLANs for IP phones",
+    "DTP (Dynamic Trunking Protocol) negotiation"
+  ],
+  "config_guide_refs": {
+    "switch": [
+      "vlan",
+      "switchport mode access",
+      "switchport mode trunk",
+      "switchport access vlan",
+      "switchport trunk allowed vlan",
+      "switchport trunk native vlan",
+      "vtp mode"
+    ],
+    "router": [
+      "interface subinterface",
+      "encapsulation dot1q"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often state that native VLAN frames are never tagged. Cisco documentation clarifies that while native VLAN traffic is untagged by default, it CAN be tagged using 'vlan dot1q tag native'",
+    "Many resources oversimplify VTP. Cisco config guides warn that VTP in server mode can accidentally delete all VLANs across the network if a switch with higher revision number joins",
+    "Third-party books frequently claim VLAN 1 cannot be deleted. While true, Cisco documentation emphasizes you SHOULD move management traffic off VLAN 1 for security even though you can't delete it",
+    "Common error: forgetting that Inter-VLAN routing requires Layer 3. VLANs alone cannot communicate; you need either a router or a Layer 3 switch with SVIs"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "stp",
+    "ethernet",
+    "tcp-ip"
+  ]
+}

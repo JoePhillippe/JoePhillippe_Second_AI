@@ -1,0 +1,840 @@
+CCNA 200-301 - SDN and Network Automation
+==================================================
+
+1. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+2. What is an expected outcome when network management automation is deployed?
+A. A distributed management plane must be used.
+*B. Software upgrades are performed from a central controller
+C. Complexity increases when new device configurations are added
+D. Custom applications are needed to configure network devices
+
+3. What is a function of a Next-Generation IPS?
+A. makes forwarding decisions based on learned MAC addresses
+B. serves as a controller within a controller-based network
+C. integrates with a RADIUS server to enforce Layer 2 device authentication rules
+*D. correlates user activity with network events
+
+4. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+5. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+6. Which two primary drivers support the need for network automation? (Choose two.)
+A. Eliminating training needs
+B. Increasing reliance on self-diagnostic and self-healing
+*C. Policy-derived provisioning of resources
+*D. Providing a ship entry point for resource provisioning
+E. Reducing hardware footprint
+
+7. Where is the interface between the control plane and data plane within the software- defined architecture?
+*A. control layer and the infrastructure layer
+B. application layer and the infrastructure layer
+C. application layer and the management layer
+D. control layer and the application layer
+
+8. Which JSON data type is an unordered set of attribute- value pairs?
+A. array
+B. string
+*C. object
+D. Boolean
+
+9. What are two characteristics of a controller-based network? (Choose two)
+A. The administrator can make configuration updates from the CLI
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+*C. It moves the control plane to a central point.
+D. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+E. It uses Telnet to report system issues.
+
+10. [Exhibit] After running the code in the exhibit, which step reduces the amount of data that the NETCONF server returns to the NETCONF client, to only the interface\'s configuration?
+A. Use the Ixml library to parse the data returned by the NETCONF server for the interface\'s configuration.
+B. Create an XML filter as a string and pass it to get_config() method as an argument.
+C. Create a JSON filter as a string and pass it to the get_config() method as an argument.
+*D. Use the JSON library to parse the data returned by the NETCONF server for the interface\'s configuration.
+
+11. What uses HTTP messages to transfer data to applications residing on different hosts?
+A. OpenFlow
+B. OpenStack
+C. OpFlex
+*D. REST
+
+12. What is an advantage of Cisco DNA Center versus traditional campus device management?
+*A. It supports numerous extensibility options including cross-domain adapters and third- party SDKs.
+B. It supports high availability for management functions when operating in cluster mode.
+C. It enables easy autodiscovery of network elements m a brownfield deployment.
+D. It is designed primarily to provide network assurance.
+
+13. which purpose does a northbound API serve in a controller-based networking architecture?
+A. communicates between the controller and the physical network hardware
+B. reports device errors to a controller
+C. generates statistics for network hardware and traffic
+*D. facilitates communication between the controller and the applications
+
+14. Which two encoding methods are supported by REST APIs? (Choose two)
+A. YAML
+*B. JSON
+C. EBCDIC
+D. SGML
+*E. XML
+
+15. What are two southbound APIs? (Choose two )
+*A. OpenFlow
+*B. NETCONF
+C. Thrift
+D. CORBA
+E. DSC
+
+16. What is the function of a controller in controller-based networking?
+*A. It serves as the centralized management point of an SDN architecture.
+B. It centralizes the data plane for the network.
+C. It is the card on a core router that maintains all routing decisions for a campus.
+D. It is a pair of core routers that maintain all routing decisions for a campus
+
+17. Which two events occur automatically when a device is added to Cisco DNA Center? (Choose two. )
+*A. The device Is assigned to the Global site.
+*B. The device Is placed into the Unmanaged state.
+C. The device is placed into the Provisioned state.
+D. The device is placed into the Managed state.
+E. The device is assigned to the Local site.
+
+18. [Exhibit] Which type of configuration is represented in the output?
+A. Ansible
+B. JSON
+C. Chef
+*D. Puppet
+
+19. Which HTTP status code is returned after a successful REST API request?
+*A. 200
+B. 301
+C. 404
+D. 500
+
+20. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+21. What are two functions of an SDN controller? (Choose two)
+A. Layer 2 forwarding
+*B. coordinating VTNs
+C. tracking hosts
+*D. managing the topology
+E. protecting against DDoS attacks
+
+22. Which option about JSON is true?
+A. uses predefined tags or angle brackets () to delimit markup text
+*B. used to describe structured data that includes arrays
+C. used for storing information
+D. similar to HTML, it is more verbose than XML
+
+23. Which technology is appropriate for communication between an SDN controller and applications running over the network?
+A. OpenFlow
+*B. REST API
+C. NETCONF
+D. Southbound API
+
+24. Which output displays a JSON data representation?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+25. What are two fundamentals of virtualization? (choose two)
+A. The environment must be configured with one hypervisor that serves solely as a network manager to monitor SNMP traffic
+*B. It allows logical network devices to move traffic between virtual machines and the rest of the physical network
+*C. It allows multiple operating systems and applications to run independently on one physical server.
+D. It allows a physical router to directly connect NICs from each virtual machine into the network
+E. It requires that some servers, virtual machines and network gear reside on the Internet
+
+26. What are two functions of an SDN controller? (Choose two)
+A. Layer 2 forwarding
+*B. coordinating VTNs
+C. tracking hosts
+*D. managing the topology
+E. protecting against DDoS attacks
+
+27. What uses HTTP messages to transfer data to applications residing on different hosts?
+A. OpenFlow
+B. OpenStack
+C. OpFlex
+*D. REST
+
+28. What is the function of a controller in controller-based networking?
+*A. It serves as the centralized management point of an SDN architecture.
+B. It centralizes the data plane for the network.
+C. It is the card on a core router that maintains all routing decisions for a campus.
+D. It is a pair of core routers that maintain all routing decisions for a campus
+
+29. [Exhibit] After running the code in the exhibit, which step reduces the amount of data that the NETCONF server returns to the NETCONF client, to only the interface's configuration?
+A. Use the Ixml library to parse the data returned by the NETCONF server for the interface's configuration.
+B. Create an XML filter as a string and pass it to get_config() method as an argument.
+C. Create a JSON filter as a string and pass it to the get_config() method as an argument.
+*D. Use the JSON library to parse the data returned by the NETCONF server for the interface's configuration.
+
+30. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+31. Which network action occurs within the data plane?
+*A. compare the destination IP address to the IP routing table.
+B. run routing protocols (OSPF, EIGRP, RIP, BGP)
+C. make a configuration change from an incoming NETCONF RPC
+D. reply to an incoming ICMP echo request
+
+32. What is a function of the Cisco DNA Center Overall Health Dashboard?
+*A. It provides a summary of the top 10 global issues.
+B. It provides detailed activity logging for the 10 devices and users on the network.
+C. It summarizes the operational status of each wireless devise on the network.
+D. It summarizes daily and weekly CPU usage for servers and workstations in the network.
+
+33. Which CRUD operation modifies an existing table or view?
+A. read
+B. create
+C. replace
+*D. update
+
+34. Which two encoding methods are supported by REST APIs? (Choose two)
+A. YAML
+*B. JSON
+C. EBCDIC
+D. SGML
+*E. XML
+
+35. What are two benefits of controller-based networking compared to traditional networking?
+A. controller-based increases network bandwidth usage, while traditional lightens the load on the network.
+B. controller-based inflates software costs, while traditional decreases individual licensing costs
+*C. Controller-based reduces network configuration complexity, while traditional increases the potential for errors
+*D. Controller-based provides centralization of key IT functions. While traditional requires distributes management function
+E. controller-based allows for fewer network failure, while traditional increases failure rates.
+
+36. [Exhibit] Which type of configuration is represented in the output?
+A. Ansible
+B. JSON
+C. Chef
+*D. Puppet
+
+37. What is a role of wireless controllers in an enterprise network?
+*A. centralize the management of access points in an enterprise network
+B. support standalone or controller-based architectures
+C. serve as the first line of defense in an enterprise network
+D. provide secure user logins to devices on the network.
+
+38. What software defined architecture plane assists network devices with making packet- forwarding decisions by providing Layer 2 reachability and Layer 3 routing information?
+A. data plane
+*B. control plane
+C. policy plane
+D. management plane
+
+39. Which two components are needed to create an Ansible script that configures a VLAN on a switch? (Choose two.)
+A. cookbook
+B. task
+*C. playbook
+*D. model
+E. recipe
+
+40. Which option about JSON is true?
+A. uses predefined tags or angle brackets () to delimit markup text
+*B. used to describe structured data that includes arrays
+C. used for storing information
+D. similar to HTML, it is more verbose than XML
+
+41. In software defined architectures, which plane is distributed and responsible for traffic forwarding?
+A. management plane
+B. control plane
+C. policy plane
+*D. data plane
+
+42. Which API is used in controller-based architectures to interact with edge devices?
+A. overlay
+B. northbound
+C. underlay
+*D. southbound
+
+43. Which two events occur automatically when a device is added to Cisco DNA Center? (Choose two. )
+*A. The device Is assigned to the Global site.
+*B. The device Is placed into the Unmanaged state.
+C. The device is placed into the Provisioned state.
+D. The device is placed into the Managed state.
+E. The device is assigned to the Local site.
+
+44. Which two capacities of Cisco DNA Center make it more extensible as compared to traditional campus device management? (Choose two)
+A. adapters that support all families of Cisco IOS software
+*B. SDKs that support interaction with third-party network equipment
+C. customized versions for small, medium, and large enterprises
+*D. REST APIs that allow for external applications to interact natively with Cisco DNA Center
+E. modular design that is upgradable as needed
+
+45. What are two southbound APIs? (Choose two )
+*A. OpenFlow
+*B. NETCONF
+C. Thrift
+D. CORBA
+E. DSC
+
+46. What is an advantage of Cisco DNA Center versus traditional campus device management?
+*A. It supports numerous extensibility options including cross-domain adapters and third- party SDKs.
+B. It supports high availability for management functions when operating in cluster mode.
+C. It enables easy autodiscovery of network elements m a brownfield deployment.
+D. It is designed primarily to provide network assurance.
+
+47. Which HTTP status code is returned after a successful REST API request?
+*A. 200
+B. 301
+C. 404
+D. 500
+
+48. which purpose does a northbound API serve in a controller-based networking architecture?
+A. communicates between the controller and the physical network hardware
+B. reports device errors to a controller
+C. generates statistics for network hardware and traffic
+*D. facilitates communication between the controller and the applications
+
+49. What are two improvements provided by automation for network management in an SDN environment? (Choose two)
+A. Data collection and analysis tools establish a baseline for the network
+*B. Artificial intelligence identifies and prevents potential design failures.
+C. Machine learning minimizes the overall error rate when automating troubleshooting processes
+D. New devices are onboarded with minimal effort
+*E. Proprietary Cisco APIs leverage multiple network management tools.
+
+50. What is the purpose of a southbound API in a control based networking architecture?
+A. Facilities communication between the controller and the applications
+*B. Facilities communication between the controller and the networking hardware
+C. allows application developers to interact with the network
+D. integrates a controller with other automation and orchestration tools.
+
+51. Which CRUD operation corresponds to the HTTP GET method?
+*A. read
+B. update
+C. create
+D. delete
+
+52. What are two benefits of network automation? (Choose two)
+*A. reduced operational costs
+B. reduced hardware footprint
+*C. faster changes with more reliable results
+D. fewer network failures
+E. increased network security
+
+53. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+54. Which type of API allows SDN controllers to dynamically make changes to the network?
+A. northbound API
+B. REST API
+C. SOAP API
+*D. southbound API
+
+55. What makes Cisco DNA Center different from traditional network management applications and their management of networks?
+A. It omits supports auto-discovery of network elements in a greenfield deployment.
+B. It modular design allows someone to implement different versions to meet the specific needs of an organization
+*C. It abstracts policy from the actual device configuration
+D. It does not support high availability of management functions when operating in cluster mode
+
+56. Which statement correctly compares traditional networks and controller-based networks?
+A. Only traditional networks offer a centralized control plane
+B. Only traditional networks natively support centralized management
+C. Traditional and controller-based networks abstract policies from device configurations
+*D. Only controller-based networks decouple the control plane and the data plane
+
+57. Which JSON data type is an unordered set of attribute- value pairs?
+A. array
+B. string
+*C. object
+D. Boolean
+
+58. Which plane is centralized by an SDN controller?
+A. management-plane
+*B. control-plane
+C. data-plane
+D. services-plane
+
+59. Which configuration management mechanism uses TCP port 22 by default when communicating with managed nodes?
+*A. Ansible
+B. Python
+C. Puppet
+D. Chef
+
+60. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+61. What does an SDN controller use as a communication protocol to relay forwarding changes to a southbound API?
+*A. OpenFlow
+B. Java
+C. REST
+D. XML
+
+62. What are two characteristics of a controller-based network? (Choose two)
+A. The administrator can make configuration updates from the CLI
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+*C. It moves the control plane to a central point.
+D. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+E. It uses Telnet to report system issues.
+
+63. Which communication interaction takes place when a southbound API Is used?
+A. between the SDN controller and PCs on the network
+*B. between the SON controller and switches and routers on the network
+C. between the SON controller and services and applications on the network
+D. between network applications and switches and routers on the network
+
+64. With REST API, which standard HTTP header tells a server which media type is expected by the client?
+A. Accept-Encoding: gzip. deflate
+B. Accept-Patch: text/example; charset=utf-8
+C. Content-Type: application/json; charset=utf-8
+*D. Accept: application/json
+
+65. Which network plane is centralized and manages routing decisions?
+A. policy plane
+B. management plane
+*C. control plane
+D. data plane
+
+66. How do traditional campus device management and Cisco DNA Center device management differ in regards to deployment?
+*A. Cisco DNA Center device management can deploy a network more quickly than traditional campus device management
+B. Traditional campus device management allows a network to scale more quickly than with Cisco DNA Center device management
+C. Cisco DNA Center device management can be implemented at a lower cost than most traditional campus device management options
+D. Traditional campus device management schemes can typically deploy patches and updates more quickly than Cisco DNA Center device management
+
+67. Which two primary drivers support the need for network automation? (Choose two.)
+A. Eliminating training needs
+B. Increasing reliance on self-diagnostic and self-healing
+*C. Policy-derived provisioning of resources
+*D. Providing a ship entry point for resource provisioning
+E. Reducing hardware footprint
+
+68. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+69. What is a function of a Next-Generation IPS?
+A. makes forwarding decisions based on learned MAC addresses
+B. serves as a controller within a controller-based network
+C. integrates with a RADIUS server to enforce Layer 2 device authentication rules
+*D. correlates user activity with network events
+
+70. Which action is taken by the data plane within a network device?
+*A. forwards traffic to the next hop
+B. constructs a routing table based on a routing protocol
+C. provides CLI access to the network device
+D. looks up an egress interface in the forwarding information base
+
+71. What is an expected outcome when network management automation is deployed?
+A. A distributed management plane must be used.
+*B. Software upgrades are performed from a central controller
+C. Complexity increases when new device configurations are added
+D. Custom applications are needed to configure network devices
+
+72. What describes a northbound REST API for SON?
+A. application-facing interface for SNMP GET requests
+B. network-element-facing interface for GET POST PUT and DELETE methods
+C. network-element-facing interface for the control and data planes
+*D. application-facing interface far GET, POST, PUT, and DELETE methods
+
+73. [Exhibit] How many JSON objects are presented?
+A. 1
+B. 2
+C. 3
+*D. 4
+
+74. Which advantage does the network assurance capability of Cisco DNA Center provide over traditional campus management?
+A. Cisco DNA Center correlates information from different management protocols to obtain insights, and traditional campus management requires manual analysis.
+B. Cisco DNA Center handles management tasks at the controller to reduce the load on infrastructure devices, and traditional campus management uses the data backbone.
+*C. Cisco DNA Center leverages YANG and NETCONF to assess the status of fabric and nonfabric devices, and traditional campus management uses CLI exclusively.
+D. Cisco DNA Center automatically compares security postures among network devices, and traditional campus management needs manual comparisons.
+
+75. Which protocol does a REST API use to communicate?
+A. SSH
+B. SNMP
+*C. HTTP
+D. STP
+
+76. [Exhibit] How many objects are present in the given JSON-encoded data?
+A. one
+*B. four
+C. seven
+D. nine
+
+77. What should a network administrator consider when deciding to implement automation?
+A. Automated systems may have difficulty expanding network changes at scale.
+B. Network automation typically is limited to the configuration and management of virtual devices within a network.
+C. Network automation typically increases enterprise management operating costs.
+*D. Manual changes frequently lead to configuration errors and inconsistencies.
+
+78. What is a function of a southbound API?
+A. Automate configuration changes between a server and a switching fabric.
+B. Use orchestration to provision a virtual server configuration from a web server.
+*C. Manage flow control between an SDN controller and a switching fabric.
+D. Facilitate the information exchange between an SDN controller and application.
+
+79. What is the purpose of the URI string in a REST request?
+A. To identify a resource on a target server.
+B. To transport data or payload to a remote resource.
+*C. To specify the way in which a remote resource is modified.
+D. To respond with the data content encoding for a request.
+
+80. [Exhibit] A network engineer must configure NETCONF. After creating the configuration, the engineer gets output from the command show line but not from show running- config. Which command completes the configuration?
+A. Device(config)# netconf lock-time 500
+*B. Device(config)# netconf max-message 1000
+C. Device(config)# no netconf ssh acl 1
+D. Device(config)# netconf max-sessions 100
+
+81. Which two capabilities of Cisco DNA Center make it more extensible as compared to traditional campus device management? (Choose two.)
+*A. REST APIs that allow for external applications to interact natively
+B. adapters that support all families of Cisco IOS software
+*C. SDKs that support interaction with third-party network equipment
+D. customized versions for small, medium, and large enterprises
+E. modular design that is upgradable as needed
+
+82. Which part of the HTTP request is used in REST API basic authentication to carry credentials?
+A. cookie
+B. content-type
+C. authorization
+*D. accept
+
+83. Which protocol does Ansible use to push modules to nodes in a network?
+*A. SSH
+B. SNMP
+C. Kerberos
+D. Telnet
+
+84. [Exhibit] How many arrays are present in the JSON data?
+A. one
+B. three
+*C. six
+D. nine
+
+85. What is the functionality of the Cisco DNA Center?
+A. data center network pokey con
+B. console server that permits secure access to all network devices
+C. IP address cool distribution scheduler
+*D. software-defined controller for automaton of devices and services
+
+86. [Exhibit] What is represented by "R1" and "SW1" within the JSON output?
+A. key
+B. array
+*C. value
+D. object
+
+87. How do traditional campus device management and Cisco DNA Center device management differ in regards to deployment?
+A. Traditional campus device management schemes typically deploy patches and updates quicker than Cisco DNA Center device management.
+B. Cisco DNA Center device management is implemented at a lower cost than most traditional campus device management options.
+C. Traditional campus device management allows a network to scale quicker than using Cisco DNA Center device management.
+*D. Cisco DNA Center device management deploys a network faster than traditional campus device management.
+
+88. [Exhibit] What is represented by “R1” and “SW1” within the JSON output?
+A. object
+*B. value
+C. key
+D. array
+
+89. What are two advantages of implementing a controller-based architecture instead of a traditional network architecture? (Choose two.)
+A. It allows for seamless connectivity to virtual machines.
+B. It supports complex and high-scale IP addressing schemes.
+*C. It enables configuration task automation.
+*D. It provides increased scalability and management options.
+E. It increases security against denial-of-service attacks.
+
+90. What is the role of disaggregation in controller-based networking?
+*A. It divides the control-plane and data-plane functions.
+B. It summarizes the routes between the core and distribution layers of the network topology.
+C. It enables a network topology to quickly adjust from a ring network to a star network
+D. It streamlines traffic handling by assigning individual devices to perform either Layer 2 or Layer 3 functions.
+
+91. [Exhibit] Which type of JSON data is shown?
+A. sequence
+B. string
+*C. object
+D. Boolean
+
+92. [Exhibit] How many JSON objects are represented?
+A. 1
+B. 2
+C. 3
+*D. 4
+
+93. What are two characteristics of a controller-based network? (Choose two.)
+A. It uses Telnet to report system issues
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+C. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+*D. It moves the control plane to a central point
+E. The administrator can make configuration updates from the CLI
+
+94. Why choose Cisco DNA Center for automated lifecycle management?
+A. To perform upgrades without service interruption
+*B. To provide fast and accurate deployment of patches and updates
+C. To allow SSH access to all nodes in the network.
+D. To provide software redundancy in the network.
+
+95. Which REST method updates an object in the Cisco DNA Center Intent API?
+A. CHANGE
+B. UPDATE
+C. POST
+*D. PUT
+
+96. Which two HTTP methods are suitable for actions performed by REST-based APIs? (Choose two.)
+A. REMOVE
+B. REDIRECT
+*C. OPOST
+*D. GET
+E. UPOP
+
+97. [Exhibit] How many objects, Keys and JSON list values are present?
+A. three objects, two Keys, and three JSON list values
+B. three objects, three keys and two JSON Ml values
+*C. one object, three keys, and three JSON list values
+D. one object, three keys and two JSON list values
+
+98. What is used as a solution for protecting an individual network endpoint from attack?
+A. Router
+B. Wireless controller
+*C. Anti software
+D. Cisco DNA Center
+
+99. Which plane is centralized in software-defined networking (SDN)?
+A. Data
+*B. Control
+C. Application
+D. Services
+
+100. Which benefit does Cisco ONA Center provide over traditional campus management?
+A. Cisco DNA Center leverages SNMPv3 tor encrypted management, and traditional campus management uses SNMPv2.
+*B. Cisco DNA Center automates HTTPS for secure web access, and traditional campus management uses HTTP.
+C. Cisco DNA Center leverages APIs, and traditional campus management requires manual data gathering.
+D. Cisco DNA Center automates SSH access for encrypted entry, and SSH Is absent from traditional campus management.
+
+101. Which interface enables communication between a program on the controller and a program on the networking devices?
+A. northbound interface
+*B. software virtual interface
+C. southbound interface
+D. tunnel Interface
+
+102. What is the function of northbound API?
+A. It upgrades software and restores files.
+B. It relies on global provisioning and configuration.
+C. It supports distributed processing for configuration.
+*D. It provides a path between an SDN controller and network applications.
+
+103. Which protocol should be used to transfer large files on a company intranet that allows TCP ports 20 and 21 through the firewall?
+A. REST API
+*B. FTP
+C. SMTP
+D. TFTP
+
+104. What is the function of "off-the-shell" switches in a controller-based network?
+A. providing a central view of the deployed network
+B. forwarding packets
+C. making routing decisions
+*D. setting packet-handling policies
+
+105. What describes the functionality of southbound APIs?
+A. They use HTTP messages to communicate.
+*B. They enable communication between the controller and the network device.
+C. They convey information from the controller to the SDN applications.
+D. They communicate with the management plane.
+
+106. Which CRUD operation corresponds to me HTTP GET method?
+A. delete
+B. create
+C. update
+*D. read
+
+107. [Exhibit] What is represented by the word "switch’’ in line 2 of the JSON schema?
+A. array
+B. key
+*C. value
+D. object
+
+108. [Exhibit] Which type of JSON data is represented?
+A. string
+*B. array
+C. number
+D. object
+
+109. A network engineer must configure an access list on a new Cisco IOS router. The access list must deny HTTP traffic to network 10.125.128.32/27 from the 192.168.240.0/20 network, but it must allow the 192.168.240.0/20 network to reach the rest of the 10.0.0.0/8 network. Which configuration must the engineer apply? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+110. What is an Ansible inventory?
+A. file that defines the target devices upon which commands and tasks are executed
+B. unit of Python code to be executed within Ansible
+*C. collection of actions to perform on target devices, expressed in YAML format
+D. device with Ansible installed that manages target devices
+
+111. Why would a network administrator choose to implement automation in a network environment?
+*A. To simplify the process of maintaining a consistent configuration state across all devices
+B. To centralize device information storage
+C. To implement centralized user account management
+D. To deploy the management plane separately from the rest of the network Answer: A
+
+112. [Exhibit] Which types of JSON data is shown
+A. Object
+B. Sequence
+*C. String
+D. boolean
+
+113. What is the purpose of the Cisco DNA Center controller?
+A. to secure physical access to a data center
+B. to scan a network and generate a Layer 2 network diagram
+*C. to securely manage and deploy network devices
+D. to provide Layer 3 services to autonomous access points
+
+114. Which set of methods is supported with the REST API?
+A. GET, POST, MOD, ERASE
+B. GET, POST, ERASE, CHANGE
+*C. GET, PUT, POST, DELETE
+D. GET, PUT, ERASE, CHANGE
+
+115. What are two benefits of network automation? (Choose two.)
+*A. Faster changes with more reliable results
+*B. Reduced operational costs
+C. Fewer network failures
+D. Reduced hardware footprint
+E. Increased network security
+
+116. How does network automation help reduce network downtime?
+A. Changes can be implemented in parallel across multiple devices at once, which increases the speed of the change rate.
+B. By using automation platforms with intent-based configuration, all changes are checked for possible outages before being implemented.
+C. Emails can be generated based on when a network admin performs a network change, which increases visibility.
+*D. Configuration templates and testing can be built into implementation, which increases the success rate of a network change.
+
+117. What is the RFC 4627 default encoding for JSON text?
+A. UCS-2
+*B. UTF-8
+C. Hex
+D. GB18030
+
+118. What is the main difference between traditional networks and controller-based networking?
+A. Controller-based networks increase TCO for the company, and traditional networks require less investment.
+B. Controller-based networks provide a framework for Innovation, and traditional networks create efficiency.
+*C. Controller-based networks are open for application requests, and traditional networks operate manually.
+D. Controller-based networks are a closed ecosystem, and traditional networks take advantage of programmability.
+
+119. What is the difference between controller-based networks and traditional networks as they relate to control-plane and/or data-plane functions?
+*A. Controller-based networks centralize all important data-plane functions, and traditional networks distribute data-plane functions.
+B. Controller-based networks centralize all important control-plane functions, and traditional networks distribute control-plane functions.
+C. Traditional networks centralize all important control-plane functions, and controller- based networks distribute control-plane functions.
+D. Traditional networks centralize all important data-plane functions, and controller-based networks distribute data-plane functions.
+
+120. What is the advantage of separating the control plane from the data plane within an SDN network?
+*A. decreases overall network complexity
+B. limits data queries to the control plane
+C. reduces cost
+D. offloads the creation of virtual machines to the data plane
+
+121. Which header must be included in a REST request from an application that requires JSON- formatted content?
+*A. Content-Type: application/json
+B. Accept-Encoding: application/json
+C. Accept: application/json
+D. Accept-Language: application/json
+
+122. How does automation affect network management processes?
+A. It interoperates with ISE to define and manage patch and update schedules.
+B. It performs configuration updates based on user profiles.
+*C. It improves the efficiency of system lifecycle management.
+D. It provides a reactive support model.
+
+123. [Exhibit] What is represented in line 2 within this JSON schema?
+*A. key
+B. value
+C. object
+D. array
+
+124. What is represented by the word "LB13" within this JSON schema?
+*A. value
+B. object
+C. array
+D. key
+
+125. What is an advantage of using SDN versus traditional networking when it comes to security?
+A. SDN security is managed near the perimeter of the network with firewalls, VPNs, and IPS, and traditional networking security policies are created based on telemetry data.
+B. SDN exposes an API to configure locally per device for security policies, and traditional networking uses northbound API for network admin interface for configuring security policies.
+*C. SDN creates a unified control point making security policies consistent across all devices, and traditional networking must be configured device by device, leaving room for error.
+D. SDN devices communicate with each other to establish a security policy, and in traditional networking, devices communicate upstream to a central location to establish a security policy.
+
+126. Which key function is provided by the data plane?
+A. Making routing decisions
+B. Originating packets
+*C. Forwarding traffic to the next hop
+D. Exchanging routing table data
+
+127. What is a function of a Next-Generation IPS?
+A. Integrates with a RADIUS server to enforce Layer 2 device authentication rules
+B. Serves as a controller within a controller-based network
+C. Makes forwarding decisions based on learned MAC addresses
+*D. Correlates user activity with network events
+
+128. Which two features are provided by Ansible in network automation? (Choose two.)
+*A. supplying network credentials
+B. role-based access control
+*C. agentless deployment
+D. manual playbook runs
+E. launching job templates using version control
+
+129. What is represented by the word "switch" within this JSON schema?
+A. array
+B. value
+*C. key
+D. object
+
+130. Which two northbound APIs are found in a software-defined network? (Choose two.)
+A. OpenFlow
+*B. REST
+C. OpFlex
+*D. SOAP
+E. NETCONF
+
+131. What is a function of a northbound API in an SDN environment?
+A. It supports distributed processing for configuration.
+B. It relies on global provisioning and configuration.
+C. It upgrades software and restores files.
+*D. It provides orchestration and network automation services.
+
+132. Which protocol should be used to transfer large files on a company intranet that allows UDP 69 through the firewall?
+*A. FTP
+B. TFTP
+C. REST API
+D. SMTP
+
+133. What is an advantage of using SDN versus traditional networking when it comes to security?
+A. Security is managed near the perimeter of the network with firewalls, VPNs, and IPS.
+B. Devices communicate with each other to establish a security policy.
+*C. It creates a unified control point making security policies consistent across all devices.
+D. It exposes an API to configure locally per device for security policies.
+
+134. What is represented in line 3 within this JSON schema?
+A. object
+B. key
+C. array
+*D. value
+
+135. How does automation leverage data models to reduce the operational complexity of a managed network?
+A. Reduces the response time for specific requests to devices with many interfaces
+B. Categorizes traffic and provides insights
+*C. Allows the controller to be vendor-agnostic
+D. Streamlines monitoring using SNMP and other polling tools
+

@@ -1,0 +1,10 @@
+{
+  "name": "Network Security",
+  "slug": "network-security",
+  "category": "Security",
+  "description": "AAA, port security, 802.1X, DHCP snooping, DAI, threat types, firewalls, and IPS/IDS security concepts.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

@@ -1,0 +1,1672 @@
+{
+  "protocol": "wireless",
+  "groups": [
+    {
+      "group_id": "wireless_q1",
+      "concept": "Which interface mode must be configured to connect the lightweight APs in a cent...",
+      "question_ids": [
+        "wireless_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q2",
+      "concept": "Which value is the unique identifier that an access point uses to establish and ...",
+      "question_ids": [
+        "wireless_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q3",
+      "concept": "What is a requirement for nonoverlapping Wi-Fi channels?",
+      "question_ids": [
+        "wireless_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q4",
+      "concept": "What is a function of an endpoint on a network?",
+      "question_ids": [
+        "wireless_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q5",
+      "concept": "Which protocol does an access point use to draw power from a connected switch?",
+      "question_ids": [
+        "wireless_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q6",
+      "concept": "Which statement about Link Aggregation when implemented on a Cisco Wireless LAN ...",
+      "question_ids": [
+        "wireless_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q7",
+      "concept": "Which two values or settings must be entered when configuring a new WLAN in the ...",
+      "question_ids": [
+        "wireless_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q8",
+      "concept": "Which protocol prompts the Wireless LAN Controller to generate its own local web...",
+      "question_ids": [
+        "wireless_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q9",
+      "concept": "Which mode must be set for APs to communicate to a Wireless LAN Controller using...",
+      "question_ids": [
+        "wireless_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q10",
+      "concept": "An engineer must configure a WLAN using the strongest encryption type for WPA2- ...",
+      "question_ids": [
+        "wireless_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q11",
+      "concept": "When a WPA2-PSK WLAN is configured in the wireless LAN Controller, what is the m...",
+      "question_ids": [
+        "wireless_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q12",
+      "concept": "What are two characteristics of an SSID? (Choose Two)",
+      "question_ids": [
+        "wireless_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q13",
+      "concept": "An administrator must secure the WLC from receiving spoofed association requests...",
+      "question_ids": [
+        "wireless_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q14",
+      "concept": "Which 802.11 frame type is indicated by a probe response after a client sends a ...",
+      "question_ids": [
+        "wireless_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q15",
+      "concept": "What is the purpose of an SSID?",
+      "question_ids": [
+        "wireless_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q16",
+      "concept": "Which implementation provides the strongest encryption combination for the wirel...",
+      "question_ids": [
+        "wireless_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q17",
+      "concept": "[Exhibit] If the network environment is operating normally, which type of device...",
+      "question_ids": [
+        "wireless_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q18",
+      "concept": "Which device performs stateful inspection of traffic?",
+      "question_ids": [
+        "wireless_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q19",
+      "concept": "Which feature on the Cisco Wireless LAN Controller when enabled restricts manage...",
+      "question_ids": [
+        "wireless_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q20",
+      "concept": "Which WLC port connects to a switch to pass normal access-point traffic?",
+      "question_ids": [
+        "wireless_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q21",
+      "concept": "Which device tracks the state of active connections in order to make a decision ...",
+      "question_ids": [
+        "wireless_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q22",
+      "concept": "Which QoS Profile is selected in the GUI when configuring a voice over WLAN depl...",
+      "question_ids": [
+        "wireless_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q23",
+      "concept": "Which QoS Profile is selected in the GUI when configuring a voice over WLAN depl...",
+      "question_ids": [
+        "wireless_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q24",
+      "concept": "Which feature on the Cisco Wireless LAN Controller when enabled restricts manage...",
+      "question_ids": [
+        "wireless_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q25",
+      "concept": "Which type of wireless encryption is used for WPA2 in preshared key mode?",
+      "question_ids": [
+        "wireless_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q26",
+      "concept": "Which mode allows access points to be managed by Cisco Wireless LAN Controllers?",
+      "question_ids": [
+        "wireless_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q27",
+      "concept": "How will Link Aggregation be Implemented on a Cisco Wireless LAN Controller?",
+      "question_ids": [
+        "wireless_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q28",
+      "concept": "Which implementation provides the strongest encryption combination for the wirel...",
+      "question_ids": [
+        "wireless_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q29",
+      "concept": "What is a function of the Cisco DNA Center Overall Health Dashboard?",
+      "question_ids": [
+        "wireless_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q30",
+      "concept": "What is a difference between local AP mode and FiexConnet AP mode?",
+      "question_ids": [
+        "wireless_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q31",
+      "concept": "Several new coverage cells are required to improve the Wi-Fi network of an organ...",
+      "question_ids": [
+        "wireless_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q32",
+      "concept": "After installing a new Cisco ISE server, which task must the engineer perform on...",
+      "question_ids": [
+        "wireless_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q33",
+      "concept": "What is recommended for the wireless infrastructure design of an organization?",
+      "question_ids": [
+        "wireless_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q34",
+      "concept": "Which WLC port connects to a switch to pass normal access-point traffic?",
+      "question_ids": [
+        "wireless_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q35",
+      "concept": "[Exhibit] If the network environment is operating normally, which type of device...",
+      "question_ids": [
+        "wireless_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q36",
+      "concept": "What is a role of wireless controllers in an enterprise network?",
+      "question_ids": [
+        "wireless_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q37",
+      "concept": "Which device controls the forwarding of authentication requests for users when c...",
+      "question_ids": [
+        "wireless_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q38",
+      "concept": "Which 802.11 management frame type is sent when a client roams between access po...",
+      "question_ids": [
+        "wireless_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q39",
+      "concept": "What must be considered when using 802:11 ta?",
+      "question_ids": [
+        "wireless_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q40",
+      "concept": "What is a characteristic of cloud-based network topology?",
+      "question_ids": [
+        "wireless_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q41",
+      "concept": "Which device tracks the state of active connections in order to make a decision ...",
+      "question_ids": [
+        "wireless_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q42",
+      "concept": "When configuring a WLAN with WPA2 PSK in the Cisco Wireless LAN Controller GUI, ...",
+      "question_ids": [
+        "wireless_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q43",
+      "concept": "What is a benefit of using a Cisco Wireless LAN Controller?",
+      "question_ids": [
+        "wireless_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q44",
+      "concept": "Which device performs stateful inspection of traffic?",
+      "question_ids": [
+        "wireless_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q45",
+      "concept": "What is a function of Wireless LAN Controller?",
+      "question_ids": [
+        "wireless_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q46",
+      "concept": "How do servers connect to the network in a virtual environment?",
+      "question_ids": [
+        "wireless_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q47",
+      "concept": "What occurs when overlapping Wi-Fi channels are implemented?",
+      "question_ids": [
+        "wireless_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q48",
+      "concept": "Which two values or settings must be entered when configuring a new WLAN in the ...",
+      "question_ids": [
+        "wireless_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q49",
+      "concept": "Which protocol prompts the Wireless LAN Controller to generate its own local web...",
+      "question_ids": [
+        "wireless_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q50",
+      "concept": "What is a role of access points in an enterprise network?",
+      "question_ids": [
+        "wireless_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q51",
+      "concept": "Which 802.11 frame type is indicated by a probe response after a client sends a ...",
+      "question_ids": [
+        "wireless_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q52",
+      "concept": "A wireless administrator has configured a WLAN; however, the clients need access...",
+      "question_ids": [
+        "wireless_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q53",
+      "concept": "Which mode must be set for APs to communicate to a Wireless LAN Controller using...",
+      "question_ids": [
+        "wireless_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q54",
+      "concept": "How does WPA3 improve security?",
+      "question_ids": [
+        "wireless_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q55",
+      "concept": "When a WLAN with WPA2 PSK is configured in the Wireless LAN Controller GUI which...",
+      "question_ids": [
+        "wireless_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q56",
+      "concept": "Which WPA3 enhancement protects against hackers viewing traffic on the Wi-Fi net...",
+      "question_ids": [
+        "wireless_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q57",
+      "concept": "Which design element is a best practice when deploying an 802.11b wireless infra...",
+      "question_ids": [
+        "wireless_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q58",
+      "concept": "Which statement about Link Aggregation when implemented on a Cisco Wireless LAN ...",
+      "question_ids": [
+        "wireless_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q59",
+      "concept": "What are two characteristics of an SSID? (Choose Two)",
+      "question_ids": [
+        "wireless_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q60",
+      "concept": "Which two protocols must be disabled to increase security for management connect...",
+      "question_ids": [
+        "wireless_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q61",
+      "concept": "An engineer must configure a WLAN using the strongest encryption type for WPA2- ...",
+      "question_ids": [
+        "wireless_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q62",
+      "concept": "How does CAPWAP communicate between an access point in local mode and a WLC?",
+      "question_ids": [
+        "wireless_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q63",
+      "concept": "What is the purpose of an SSID?",
+      "question_ids": [
+        "wireless_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q64",
+      "concept": "What is the primary function of a Layer 3 device?",
+      "question_ids": [
+        "wireless_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q65",
+      "concept": "Which protocol does an access point use to draw power from a connected switch?",
+      "question_ids": [
+        "wireless_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q66",
+      "concept": "When a WPA2-PSK WLAN is configured in the wireless LAN Controller, what is the m...",
+      "question_ids": [
+        "wireless_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q67",
+      "concept": "[Exhibit] Between which zones do wireless users expect to experience intermitten...",
+      "question_ids": [
+        "wireless_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q68",
+      "concept": "How does a Cisco Unified Wireless network respond to Wi-Fi channel overlap?",
+      "question_ids": [
+        "wireless_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q69",
+      "concept": "Where does wireless authentication happen?",
+      "question_ids": [
+        "wireless_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q70",
+      "concept": "An administrator must secure the WLC from receiving spoofed association requests...",
+      "question_ids": [
+        "wireless_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q71",
+      "concept": "Which value is the unique identifier that an access point uses to establish and ...",
+      "question_ids": [
+        "wireless_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q72",
+      "concept": "[Exhibit] Users need to connect to the wireless network with IEEE 802. 11r-compa...",
+      "question_ids": [
+        "wireless_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q73",
+      "concept": "What is a requirement for nonoverlapping Wi-Fi channels?",
+      "question_ids": [
+        "wireless_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q74",
+      "concept": "What is a requirement when configuring or removing LAG on a WLC?",
+      "question_ids": [
+        "wireless_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q75",
+      "concept": "Which wireless security protocol relies on Perfect Forward Secrecy?",
+      "question_ids": [
+        "wireless_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q76",
+      "concept": "What is one reason to implement LAG on a Cisco WLC?",
+      "question_ids": [
+        "wireless_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q77",
+      "concept": "Which WLC management connection type is vulnerable to man-in-the-middle attacks?",
+      "question_ids": [
+        "wireless_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q78",
+      "concept": "What provides centralized control of authentication and roaming In an enterprise...",
+      "question_ids": [
+        "wireless_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q79",
+      "concept": "Which interface mode must be configured to connect the lightweight APs in a cent...",
+      "question_ids": [
+        "wireless_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q80",
+      "concept": "What is a function of Opportunistic Wireless Encryption in an environment?",
+      "question_ids": [
+        "wireless_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q81",
+      "concept": "What is a function of an endpoint on a network?",
+      "question_ids": [
+        "wireless_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q82",
+      "concept": "[Exhibit] The network engineer is configuring a new WLAN and is told to use a st...",
+      "question_ids": [
+        "wireless_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q83",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow o...",
+      "question_ids": [
+        "wireless_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q84",
+      "concept": "Which enhancement is implemented in WPA3?",
+      "question_ids": [
+        "wireless_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q85",
+      "concept": "[Exhibit] Clients on the WLAN are required to use 802.11r. What action must be t...",
+      "question_ids": [
+        "wireless_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q86",
+      "concept": "[Exhibit] Company A wants to use a RADIUS server to service all user and device ...",
+      "question_ids": [
+        "wireless_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q87",
+      "concept": "What are two differences between WPA2 and WPA3 wireless security? (Choose two.)",
+      "question_ids": [
+        "wireless_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q88",
+      "concept": "Which EtherChannel mode must be configured when using LAG on a WLC?",
+      "question_ids": [
+        "wireless_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q89",
+      "concept": "[Exhibit] A Cisco engineer creates a new WLAN called lantest. Which two actions ...",
+      "question_ids": [
+        "wireless_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q90",
+      "concept": "Which cipher is supported for wireless encryption only with the WPA2 standard?",
+      "question_ids": [
+        "wireless_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q91",
+      "concept": "Which WLC interface provides out-of-band management in the Cisco Unified Wireles...",
+      "question_ids": [
+        "wireless_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q92",
+      "concept": "Which mechanism allows WPA3 to provide a higher degree of security than its pred...",
+      "question_ids": [
+        "wireless_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q93",
+      "concept": "What is the primary purpose of a console port on a Cisco WLC?",
+      "question_ids": [
+        "wireless_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q94",
+      "concept": "Which selections must be used on the WLC when implementing a RADIUS server for w...",
+      "question_ids": [
+        "wireless_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q95",
+      "concept": "What does the term \"spirt MAC\u201d refer to in a wireless architecture?",
+      "question_ids": [
+        "wireless_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q96",
+      "concept": "What is a reason to implement LAG on a Cisco WLC?",
+      "question_ids": [
+        "wireless_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q97",
+      "concept": "What must be considered for a locally switched FlexConnect AP if the VLANs that ...",
+      "question_ids": [
+        "wireless_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q98",
+      "concept": "Which type of port is used to connect lo the wired network when an autonomous AP...",
+      "question_ids": [
+        "wireless_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q99",
+      "concept": "[Exhibit] The My_WLAN wireless LAN was configured with WPA2 Layer 2 PSK security...",
+      "question_ids": [
+        "wireless_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q100",
+      "concept": "What is a reason to configure a trunk port that connects to a WLC distribution p...",
+      "question_ids": [
+        "wireless_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q101",
+      "concept": "A network engineer starts to implement a new wireless LAN by configuring the aut...",
+      "question_ids": [
+        "wireless_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q102",
+      "concept": "Which command enables HTTP access to the Cisco WLC?",
+      "question_ids": [
+        "wireless_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q103",
+      "concept": "What does WPA3 provide in wireless networking?",
+      "question_ids": [
+        "wireless_qb103"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q104",
+      "concept": "What must a network administrator consider when deciding whether to configure a ...",
+      "question_ids": [
+        "wireless_qb104"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q105",
+      "concept": "An engineer is installing a new wireless printer with a static IP address on the...",
+      "question_ids": [
+        "wireless_qb105"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q106",
+      "concept": "[Exhibit] Wireless LAN access must be set up to force all clients from the NA WL...",
+      "question_ids": [
+        "wireless_qb106"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q107",
+      "concept": "[Exhibit] The P2P blocking action option is disabled on the WLC.",
+      "question_ids": [
+        "wireless_qb107"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q108",
+      "concept": "Which set of 2.4 GHz nonoverlapping wireless channels is standard in the United ...",
+      "question_ids": [
+        "wireless_qb108"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q109",
+      "concept": "[Exhibit] What must be configured to enable 802.11w on the WLAN?",
+      "question_ids": [
+        "wireless_qb109"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q110",
+      "concept": "Which encryption method is used by WPA3?",
+      "question_ids": [
+        "wireless_qb110"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q111",
+      "concept": "Which interface IP address serves as the tunnel source for CAPWAP packets from t...",
+      "question_ids": [
+        "wireless_qb111"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q112",
+      "concept": "Which WPA mode uses PSK authentication?",
+      "question_ids": [
+        "wireless_qb112"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q113",
+      "concept": "Which device separates networks by security domains?",
+      "question_ids": [
+        "wireless_qb113"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q114",
+      "concept": "What is used as a solution for protecting an individual network endpoint from at...",
+      "question_ids": [
+        "wireless_qb114"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q115",
+      "concept": "Which access point mode relies on a centralized controller for management, roami...",
+      "question_ids": [
+        "wireless_qb115"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q116",
+      "concept": "Which port type does a lightweight AP use to connect to the wired network when i...",
+      "question_ids": [
+        "wireless_qb116"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q117",
+      "concept": "Which functionality is provided by the console connection on a Cisco WLC?",
+      "question_ids": [
+        "wireless_qb117"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q118",
+      "concept": "What differentiates the Cisco OfficeExtend AP mode from FlexConnect AP mode?",
+      "question_ids": [
+        "wireless_qb118"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q119",
+      "concept": "What is a feature of WPA?",
+      "question_ids": [
+        "wireless_qb119"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q120",
+      "concept": "How is a configuration change made to a wireless AP in lightweight mode?",
+      "question_ids": [
+        "wireless_qb120"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q121",
+      "concept": "[Exhibit] An engineer is using the Cisco WLC GUI to configure a WLAN for WPA2 en...",
+      "question_ids": [
+        "wireless_qb121"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q122",
+      "concept": "SIP-based Call Admission Control must be configured in the Cisco WLC GUI. SIP ca...",
+      "question_ids": [
+        "wireless_qb122"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q123",
+      "concept": "What is the role of nonoverlapping channels in a wireless environment?",
+      "question_ids": [
+        "wireless_qb123"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q124",
+      "concept": "Which AP mode serves as the primary hub in a point-to-multipoint network topolog...",
+      "question_ids": [
+        "wireless_qb124"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q125",
+      "concept": "Which interface is used for out-of-band management on a WLC?",
+      "question_ids": [
+        "wireless_qb125"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q126",
+      "concept": "When an access point is seeking to join wireless LAN controller, which message i...",
+      "question_ids": [
+        "wireless_qb126"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q127",
+      "concept": "Which interface or port on the WLC is the default for in-band device administrat...",
+      "question_ids": [
+        "wireless_qb127"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q128",
+      "concept": "Which command configures the Cisco WLC to prevent a serial session with the WLC ...",
+      "question_ids": [
+        "wireless_qb128"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q129",
+      "concept": "A wireless access point is needed and must meet these requirements: \u2022 \"zero-touc...",
+      "question_ids": [
+        "wireless_qb129"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q130",
+      "concept": "A Cisco engineer at a new branch office is configuring a wireless network with a...",
+      "question_ids": [
+        "wireless_qb130"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q131",
+      "concept": "[Exhibit] What are the two steps an engineer must take to provide the highest en...",
+      "question_ids": [
+        "wireless_qb131"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q132",
+      "concept": "[Exhibit] Clients on the WLAN are required to use 802.11r. What action must be t...",
+      "question_ids": [
+        "wireless_qb132"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q133",
+      "concept": "Which architecture is best for small offices with minimal wireless needs and no ...",
+      "question_ids": [
+        "wireless_qb133"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q134",
+      "concept": "Which channel-group mode must be configured when multiple distribution interface...",
+      "question_ids": [
+        "wireless_qb134"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q135",
+      "concept": "Which WLC management connection type is vulnerable to man-in-the-middIe attacks?",
+      "question_ids": [
+        "wireless_qb135"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q136",
+      "concept": "How is noise defined in Wi-Fi?",
+      "question_ids": [
+        "wireless_qb136"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q137",
+      "concept": "A network architect planning a new Wi-Fi network must decide between autonomous,...",
+      "question_ids": [
+        "wireless_qb137"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q138",
+      "concept": "What is an advantage of using auto mode versus static mode for power allocation ...",
+      "question_ids": [
+        "wireless_qb138"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q139",
+      "concept": "[Exhibit] Which functionalities will this SSID have while being used by wireless...",
+      "question_ids": [
+        "wireless_qb139"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q140",
+      "concept": "What is a characteristics of a collapsed-core network topology?",
+      "question_ids": [
+        "wireless_qb140"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q141",
+      "concept": "Which device segregates a network into separate zones that have their own securi...",
+      "question_ids": [
+        "wireless_qb141"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q142",
+      "concept": "A WLC sends alarms about a rogue AP, and the network administrator verifies that...",
+      "question_ids": [
+        "wireless_qb142"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q143",
+      "concept": "[Exhibit] An engineer is creating a secure preshared key based SSID using WPA2 f...",
+      "question_ids": [
+        "wireless_qb143"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q144",
+      "concept": "When the LAG configuration is updated on a Cisco WLC which additional task must ...",
+      "question_ids": [
+        "wireless_qb144"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q145",
+      "concept": "A network engineer is implementing a corporate SSID for WPA3-Personal security w...",
+      "question_ids": [
+        "wireless_qb145"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q146",
+      "concept": "Which two wireless security stewards use Counter Mode Cipher Block Chaining Mess...",
+      "question_ids": [
+        "wireless_qb146"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q147",
+      "concept": "What is an enhancement implemented in WPA3?",
+      "question_ids": [
+        "wireless_qb147"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q148",
+      "concept": "When a WPA2-PSK WLAN is configured in the Wireless LAN Controller, what is the m...",
+      "question_ids": [
+        "wireless_qb148"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q149",
+      "concept": "[Exhibit] An architect is managing a wireless network with APs from several bran...",
+      "question_ids": [
+        "wireless_qb149"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q150",
+      "concept": "Which protocol must be implemented to support separate authorization and authent...",
+      "question_ids": [
+        "wireless_qb150"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q151",
+      "concept": "What provides connection redundancy increased bandwidth and load sharing between...",
+      "question_ids": [
+        "wireless_qb151"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q152",
+      "concept": "[Exhibit] A network engineer configures the Cisco WLC to authenticate local wire...",
+      "question_ids": [
+        "wireless_qb152"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q153",
+      "concept": "A network architect is deciding whether to implement Cisco autonomous access poi...",
+      "question_ids": [
+        "wireless_qb153"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q154",
+      "concept": "[Exhibit] A network engineer configures the CCNA WLAN so that clients must authe...",
+      "question_ids": [
+        "wireless_qb154"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q155",
+      "concept": "What is a function of Cisco Advanced Malware Protection for a Next-Generation IP...",
+      "question_ids": [
+        "wireless_qb155"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q156",
+      "concept": "Which enhancements were implemented as part of WPA3?",
+      "question_ids": [
+        "wireless_qb156"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q157",
+      "concept": "How does encryption project the wireless network?",
+      "question_ids": [
+        "wireless_qb157"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q158",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10...",
+      "question_ids": [
+        "wireless_qb158"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q159",
+      "concept": "[Exhibit] The network engineer is configuring a new WLAN and is told to use a se...",
+      "question_ids": [
+        "wireless_qb159"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q160",
+      "concept": "Which switch port configuration must be configured when connected to an AP runni...",
+      "question_ids": [
+        "wireless_qb160"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q161",
+      "concept": "[Exhibit] A network engineer is configuring a wireless LAN with Web Passthrough ...",
+      "question_ids": [
+        "wireless_qb161"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q162",
+      "concept": "Where are the real-time control functions processed in a split MAC architecture?",
+      "question_ids": [
+        "wireless_qb162"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q163",
+      "concept": "Which IP address is used when an administrator must open a web-based management ...",
+      "question_ids": [
+        "wireless_qb163"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q164",
+      "concept": "[Exhibit] An engineer is using the Cisco WLC GUI to configure a WLAN for WPA2 en...",
+      "question_ids": [
+        "wireless_qb164"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q165",
+      "concept": "How does a network administrator securely manage an AP in lightweight mode?",
+      "question_ids": [
+        "wireless_qb165"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q166",
+      "concept": "What is the purpose of the service-set identifier?",
+      "question_ids": [
+        "wireless_qb166"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q167",
+      "concept": "Which type of wired port is required when an AP offers one unique SSID, passes c...",
+      "question_ids": [
+        "wireless_qb167"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q168",
+      "concept": "What is the default interface for in-band wireless network management on a WLC?",
+      "question_ids": [
+        "wireless_qb168"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q169",
+      "concept": "What is a characteristic of an SSID in wireless networks?",
+      "question_ids": [
+        "wireless_qb169"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q170",
+      "concept": "Which interface on the WLC is used exclusively as a DHCP relay?",
+      "question_ids": [
+        "wireless_qb170"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q171",
+      "concept": "Which feature Is mandatory when configuring a new SSID for a wireless network ru...",
+      "question_ids": [
+        "wireless_qb171"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q172",
+      "concept": "[Exhibit] Which tasks must be performed on the Download File tab to install new ...",
+      "question_ids": [
+        "wireless_qb172"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q173",
+      "concept": "[Exhibit] After a recent internal security audit, the network administrator deci...",
+      "question_ids": [
+        "wireless_qb173"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q174",
+      "concept": "Which type of wired port is required when an AP offers one unique SSID, passes c...",
+      "question_ids": [
+        "wireless_qb174"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q175",
+      "concept": "[Exhibit] The Wi-Fi SSID \"Office_WLAN\" has Layer 2 Security configured with MAC ...",
+      "question_ids": [
+        "wireless_qb175"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q176",
+      "concept": "[Exhibit] Users will be using a preconfigured secret key and SSID and must have ...",
+      "question_ids": [
+        "wireless_qb176"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q177",
+      "concept": "[Exhibit] An engineer must document all Wi-Fi services on a new wireless LAN con...",
+      "question_ids": [
+        "wireless_qb177"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q178",
+      "concept": "A network engineer starts to implement a new wireless LAN by configuring the aut...",
+      "question_ids": [
+        "wireless_qb178"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q179",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow o...",
+      "question_ids": [
+        "wireless_qb179"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q180",
+      "concept": "What is the maximum length of characters used in an SSID?",
+      "question_ids": [
+        "wireless_qb180"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q181",
+      "concept": "[Exhibit] A guest WLAN must be created that prompts the client for a username an...",
+      "question_ids": [
+        "wireless_qb181"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q182",
+      "concept": "[Exhibit] Which configuration is needed to configure a WLAN with WPA2 only and w...",
+      "question_ids": [
+        "wireless_qb182"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q183",
+      "concept": "[Exhibit] An administrator is configuring a new WLAN for a wireless network that...",
+      "question_ids": [
+        "wireless_qb183"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q184",
+      "concept": "Which feature, when used on a WLC, allows it to bundle its distribution system p...",
+      "question_ids": [
+        "wireless_qb184"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wireless_q185",
+      "concept": "What is a characteristic of encryption in wireless networks?",
+      "question_ids": [
+        "wireless_qb185"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 185,
+  "total_questions": 185
+}

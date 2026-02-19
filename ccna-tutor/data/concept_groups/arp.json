@@ -1,0 +1,223 @@
+{
+  "protocol": "arp",
+  "groups": [
+    {
+      "group_id": "arp_q1",
+      "concept": "[Exhibit] Only four switches are participating in the VLAN spanning-tree process...",
+      "question_ids": [
+        "arp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q2",
+      "concept": "What are two recommendations for protecting network ports from being exploited w...",
+      "question_ids": [
+        "arp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q3",
+      "concept": "Which type of attack can be mitigated by dynamic ARP inspection?",
+      "question_ids": [
+        "arp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q4",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "arp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q5",
+      "concept": "What is the benefit of using FHRP?",
+      "question_ids": [
+        "arp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q6",
+      "concept": "If a notice-level messaging is sent to a syslog server, which event has occurred...",
+      "question_ids": [
+        "arp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q7",
+      "concept": "[Exhibit] PC1 is trying to ping PC3 for the first time and sends out an ARP to S...",
+      "question_ids": [
+        "arp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q8",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "arp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q9",
+      "concept": "What is a practice that protects a network from VLAN hopping attacks?",
+      "question_ids": [
+        "arp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q10",
+      "concept": "Which access layer threat-mitigation technique provides security based on identi...",
+      "question_ids": [
+        "arp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q11",
+      "concept": "How are VLAN hopping attacks mitigated?",
+      "question_ids": [
+        "arp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q12",
+      "concept": "If a notice-level messaging is sent to a syslog server, which event has occurred...",
+      "question_ids": [
+        "arp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q13",
+      "concept": "Which type of attack can be mitigated by dynamic ARP inspection?",
+      "question_ids": [
+        "arp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q14",
+      "concept": "Which protocol does an IPv4 host use to obtain a dynamically assigned IP address...",
+      "question_ids": [
+        "arp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q15",
+      "concept": "What is the benefit of using FHRP?",
+      "question_ids": [
+        "arp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q16",
+      "concept": "What are two recommendations for protecting network ports from being exploited w...",
+      "question_ids": [
+        "arp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q17",
+      "concept": "[Exhibit] What is the effect of this configuration?",
+      "question_ids": [
+        "arp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q18",
+      "concept": "[Exhibit] What is the effect of this configuration?",
+      "question_ids": [
+        "arp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q19",
+      "concept": "[Exhibit] Router-WAN1 has a new connection via Gi0/0 to the ISP. Users running t...",
+      "question_ids": [
+        "arp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q20",
+      "concept": "What is the benefit of using FHRP (First Hop Redundancy Protocol)?",
+      "question_ids": [
+        "arp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q21",
+      "concept": "A switch is a forwarding a frame out of an interfaces except the interface that ...",
+      "question_ids": [
+        "arp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q22",
+      "concept": "A switch is forwarding a frame out of all interfaces except the interface that r...",
+      "question_ids": [
+        "arp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q23",
+      "concept": "Why would VRRP be implemented when configuring a new subnet in a multivendor env...",
+      "question_ids": [
+        "arp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "arp_q24",
+      "concept": "Which two transport layer protocols carry syslog messages? (Choose two.)",
+      "question_ids": [
+        "arp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 24,
+  "total_questions": 24
+}

@@ -1,0 +1,248 @@
+CCNA 200-301 - DNS - Domain Name System
+==================================================
+
+1. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name on the router. Which additional command must the engineer configure before entering the command to generate the RSA key?
+A. password password
+B. crypto key generate rsa modulus 1024
+*C. ip domain-name domain
+D. ip ssh authentication-retries 2
+
+2. [Exhibit] The default-information originate command is configured under the R1 OSPF configuration After testing workstations on VLAN 20 at Site B cannot reach a DNS server on the Internet Which action corrects the configuration issue?
+A. Add the default-information originate command onR2
+*B. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.18 command on R1
+C. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.2 command on R2
+D. Add the always keyword to the default-information originate command on R1
+
+3. Which configuration is needed to generate an RSA key for SSH on a router?
+A. Configure the version of SSH
+B. Configure VTY access.
+C. Create a user with a password.
+*D. Assign a DNS domain name
+
+4. What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose two)
+*A. The DHCP server offers the ability to exclude specific IP addresses from a pool of IP addresses
+B. The DHCP client can request up to four DNS server addresses
+C. The DHCP server assigns IP addresses without requiring the client to renew them
+*D. The DHCP server leases client IP addresses dynamically.
+E. The DHCP client maintains a pool of IP addresses it can assign.
+
+5. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+6. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+7. What is a DHCP client?
+A. a workstation that requests a domain name associated with its IP address
+*B. a host that is configured to request an IP address automatically
+C. a server that dynamically assigns IP addresses to hosts.
+D. a router that statically assigns IP addresses to hosts.
+
+8. What is a DHCP client?
+*A. a host that is configured to request an IP address automatically
+B. a server that dynamically assigns IP addresses to hosts
+C. a workstation that requests a domain name associated with its IP address
+D. a rooter that statically assigns IP addresses to hosts
+
+9. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+10. What is a DNS lookup operation?
+A. DNS server pings the destination to verify that it is available
+B. serves requests over destination port 53
+C. DNS server forwards the client to an alternate IP address when the primary IP is down
+*D. responds to a request for IP address to domain name resolution to the DNS server
+
+11. When DHCP is configured on a router, which command must be entered so the default gateway is automatically distributed?
+*A. default-router
+B. default-gateway
+C. ip helper-address
+D. dns-server
+
+12. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+13. What are two roles of Domain Name Services (DNS)? (Choose Two)
+A. builds a flat structure of DNS names for more efficient IP operations
+B. encrypts network Traffic as it travels across a WAN by default
+C. improves security by protecting IP addresses under Fully Qualified Domain Names (FQDNs)
+*D. enables applications to identify resources by name instead of IP address
+*E. allows a single host name to be shared across more than one IP address
+
+14. What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose two)
+*A. The DHCP server offers the ability to exclude specific IP addresses from a pool of IP addresses
+B. The DHCP client can request up to four DNS server addresses
+C. The DHCP server assigns IP addresses without requiring the client to renew them
+*D. The DHCP server leases client IP addresses dynamically.
+E. The DHCP client maintains a pool of IP addresses it can assign.
+
+15. What does a router do when configured with the default DNS lookup settings, and a URL is entered on the CLI?
+A. initiates a ping request to the URL
+B. prompts the user to specify the desired IP address
+C. continuously attempts to resolve the URL until the command is cancelled
+*D. sends a broadcast message in an attempt to resolve the URL
+
+16. Which protocol does an IPv4 host use to obtain a dynamically assigned IP address?
+A. ARP
+*B. DHCP
+C. CDP
+D. DNS
+
+17. Which configuration is needed to generate an RSA key for SSH on a router?
+A. Configure the version of SSH
+B. Configure VTY access.
+C. Create a user with a password.
+*D. Assign a DNS domain name
+
+18. [Exhibit] The default-information originate command is configured under the R1 OSPF configuration After testing workstations on VLAN 20 at Site B cannot reach a DNS server on the Internet Which action corrects the configuration issue?
+A. Add the default-information originate command onR2
+*B. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.18 command on R1
+C. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.2 command on R2
+D. Add the always keyword to the default-information originate command on R1
+
+19. Which two must be met before SSH can operate normally on a Cisco IOS switch? (Choose two)
+*A. The switch must be running a k9 (crypto) IOS image
+*B. The Ip domain-name command must be configured on the switch
+C. IP routing must be enabled on the switch
+D. A console password must be configured on the switch
+E. Telnet must be disabled on the switch
+
+20. An engineer is configuring remote access to a router from IP subnet 10.139.58.0/28. The domain name, crypto keys, and SSH have been configured. Which configuration enables the traffic on the destination router? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+21. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name on the router. Which additional command must the engineer configure before entering the command to generate the RSA key?
+A. password password
+B. crypto key generate rsa modulus 1024
+*C. ip domain-name domain
+D. ip ssh authentication-retries 2
+
+22. An on-site service desk technician must verify the IP address and DNS server information on a users Windows computer. Which command must the technician enter at the command prompt on the user's computer?
+*A. ipconfig /all
+B. ifconfig -a
+C. show interface
+D. netstat -r
+
+23. What is a DHCP client?
+A. a server that dynamically assigns IP addresses to hosts
+B. a router that statically assigns IP addresses to hosts
+*C. a host that is configured to request an IP address automatically
+D. a workstation that requests a domain name associated with its IP address
+
+24. [Exhibit] The user has connectivity to devices on network 192.168.3 0/24 but cannot reach users on the network 10.10.1.0724. What is the first step to verify connectivity?
+A. Is the internet reachable?
+*B. Is the default gateway reachable?
+C. Is the DNS server reachable?
+
+25. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name. Which additional command must the engineer configure before entering the command to generate the RSA key?
+*A. ip domain-name domain
+B. password password
+C. crypto key generate rsa modulus 1024
+D. ip ssh authentication-retries 2
+
+26. An engineer has configured the domain name, user name, and password on the local router. What is the next step to complete the configuration tor a Secure Shell access RSA key?
+A. crypto key Import rsa pem
+B. crypto key pubkey-chain rsa
+*C. crypto key generate rsa
+D. crypto key zeroize rsa
+
+27. When is the PUT method used within HTTP?
+A. when a nonidempotent operation is needed
+*B. to update a DNS server
+C. to display a web site
+D. when a read-only operation it required
+
+28. [Exhibit] Which configuration parameter is preventing host C from reaching the internet?
+A. automatic DNS
+*B. default gateway
+C. IP network mask
+D. IP address assignment
+
+29. [Exhibit] A newly configured PC fails to connect to the internet using TCP port 80 to www cisco com Which setting must be modified for the connection to work?
+A. Subnet Mask
+*B. DNS Servers
+C. Default Gateway
+D. DHCP Server
+
+30. Which IPv6 address range is suitable for anycast addresses for distributed services such DHCP or DNS?
+*A. FF00:1/12
+B. 2001:db8:0234:ca3e::1/128
+C. 2002:db84:3f37:ca98:be05:8/64
+D. FE80::1/10
+
+31. What are two features of the DHCP relay agent? (Choose two.)
+A. assigns DNS locally and then forwards request to DHCP server
+*B. permits one IP helper command under an individual Layer 3 interface
+C. allows only MAC-to-IP reservations to determine the local subnet of a client
+D. minimizes the necessary number of DHCP servers
+*E. configured under the Layer 3 interface of a router on the client subnet
+
+32. What is a valid IPv6 address record in DNS?
+A. A
+B. MX
+*C. AAAA
+D. CNAME
+
+33. [Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and DNS services via UDP. The new administrator wants to add TCP access to the DNS service. Which configuration updates the ACL efficiently?
+*A. ip access-list extended Services35 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+B. no ip access-list extended Servicesip access-list extended Services30 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+C. ip access-list extended Servicespermit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+D. no ip access-list extended Servicesip access-list extended Servicespermit udp 10.0.0.0 0.255.255.255 any eq 53permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domaindeny ip any any log
+
+34. [Exhibit] An engineer executed the script and added commands that were not necessary for SSH and must now remove the commands. Which two commands must be executed to correct the configuration? (Choose two.)
+A. no ip domain name ccna.cisco.com
+B. no login local
+*C. no service password-encryption
+*D. no ip name-server 198.51.100.210
+E. no hostname CPE
+
+35. [Exhibit] What does the host do when using the IPv4 Preferred function?
+A. It continues to use a statically assigned IPv4 address
+B. It forces the DNS server to provide the same IPv4 address at each renewal.
+*C. It requests the same IPv4 address when it renews its lease with the DHCP server.
+D. It prefers a pool of addresses when renewing the IPv4 host IP address
+
+36. Which type of DNS record is used to specify the mail server responsible for accepting email messages on behalf of a recipient's domain?
+A. MX record
+B. TXT record
+*C. A record
+D. SRV record
+
+37. [Exhibit] What is preventing host A from reaching the internet?
+A. The domain name server is unreachable.
+B. LAN and WAN network segments are different.
+*C. IP address assignment is incorrect.
+D. The default gateway should be the first usable IP address.
+
+38. [Exhibit] During initial configuration testing, the Windows workstation PC1 cannot connect with the 172.16.2.0/24 network. Which set of actions corrects the configuration?
+A. Change the IP address to 172.16.1.6 and change the subnet mask to 255.255.255.248.
+*B. Change the IP address to 172.16.1.9 and change the default gateway to 172.16.1.7.
+C. Change the IP address to 172.16.1.9 and change the DNS server to 172.16.1.12 only.
+D. Change the IP address to 172.16.1.6 and change the DNS servers to 172.18.1.12 and 172.16.1.13.
+
+39. What is the main purpose of SSH management access?
+A. To support DES 56-bit and 3DES (168-bit) ciphers
+*B. To enable secured access to the inbound management interface
+C. To validate management access with username and domain name only
+D. To allow passwords protected with HTTPS encryption to be sent
+
+40. [Exhibit] During initial configuration testing, the Windows workstation PC1 cannot connect with the 172.16.2.0/24 network. Which set of actions corrects the configuration?
+*A. Change the IP address to 172.16.1.6 and change the subnet mask to 255.255.255.248.
+B. Change the IP address to 172.16.1.6 and change the DNS servers to 172.16.1.12 and 172.16.1.13.
+C. Change the IP address to 172.16.1.9 and change the default gateway to 172.16.1.7.
+D. Change the IP address to 172.16.1.9 and change the DNS server to 172.16.1.12 only.
+

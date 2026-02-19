@@ -1,0 +1,109 @@
+/* CCNA Tutor Stylesheet */
+
+/* Cisco Brand Colors */
+:root {
+    --cisco-blue: #1a365d;
+    --cisco-teal: #2c7a7b;
+    --cisco-blue-hover: #2d4a75;
+    --cisco-teal-hover: #3a9a9c;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navigation Bar */
+.bg-cisco-blue {
+    background-color: var(--cisco-blue) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Text Colors */
+.text-cisco-blue {
+    color: var(--cisco-blue);
+}
+
+.text-cisco-teal {
+    color: var(--cisco-teal);
+}
+
+/* Buttons */
+.btn-cisco-blue {
+    background-color: var(--cisco-blue);
+    border-color: var(--cisco-blue);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-cisco-blue:hover {
+    background-color: var(--cisco-blue-hover);
+    border-color: var(--cisco-blue-hover);
+    color: white;
+}
+
+.btn-cisco-teal {
+    background-color: var(--cisco-teal);
+    border-color: var(--cisco-teal);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-cisco-teal:hover {
+    background-color: var(--cisco-teal-hover);
+    border-color: var(--cisco-teal-hover);
+    color: white;
+}
+
+/* Cards */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+}

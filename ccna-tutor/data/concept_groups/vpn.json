@@ -1,0 +1,268 @@
+{
+  "protocol": "vpn",
+  "groups": [
+    {
+      "group_id": "vpn_q1",
+      "concept": "When a site-to-site VPN is used, which protocol is responsible for the transport...",
+      "question_ids": [
+        "vpn_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q2",
+      "concept": "Which type of traffic is sent with pure iPsec?",
+      "question_ids": [
+        "vpn_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q3",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "vpn_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q4",
+      "concept": "\\- (Topic 4) Which IPsec encryption mode is appropriate when the destination of ...",
+      "question_ids": [
+        "vpn_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q5",
+      "concept": "What mechanism carries multicast traffic between remote sites and supports encry...",
+      "question_ids": [
+        "vpn_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q6",
+      "concept": "In which situation is private IPv4 addressing appropriate for a new subnet on th...",
+      "question_ids": [
+        "vpn_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q7",
+      "concept": "What is a function of a remote access VPN?",
+      "question_ids": [
+        "vpn_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q8",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "vpn_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q9",
+      "concept": "When a site-to-site VPN is configured, which IPsec mode provides encapsulation a...",
+      "question_ids": [
+        "vpn_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q10",
+      "concept": "An engineer observes high usage on the 2.4GHz channels and lower usage on the 5G...",
+      "question_ids": [
+        "vpn_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q11",
+      "concept": "Which type of traffic is sent with pure iPsec?",
+      "question_ids": [
+        "vpn_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q12",
+      "concept": "When a site-to-site VPN is used, which protocol is responsible for the transport...",
+      "question_ids": [
+        "vpn_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q13",
+      "concept": "The service password-encryption command is entered on a router. What is the effe...",
+      "question_ids": [
+        "vpn_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q14",
+      "concept": "[Exhibit] Which command must be executed for Gi1.1 on SW1 to become a trunk port...",
+      "question_ids": [
+        "vpn_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q15",
+      "concept": "Which (unction generally performed by a traditional network device is replaced b...",
+      "question_ids": [
+        "vpn_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q16",
+      "concept": "Which two VPN technologies are recommended by Cisco for multiple branch offices ...",
+      "question_ids": [
+        "vpn_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q17",
+      "concept": "Which IPsec mode encapsulates the entire IP packet?",
+      "question_ids": [
+        "vpn_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q18",
+      "concept": "An engineer observes high usage on the 2.4GHz channels and lower usage on the 5G...",
+      "question_ids": [
+        "vpn_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q19",
+      "concept": "How does IPsec provide secure networking for applications within an organization...",
+      "question_ids": [
+        "vpn_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q20",
+      "concept": "Which interface IP address serves as the tunnel source for CAPWAP packets from t...",
+      "question_ids": [
+        "vpn_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q21",
+      "concept": "Which IPsec encryption mode is appropriate when the destination of a packet diff...",
+      "question_ids": [
+        "vpn_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q22",
+      "concept": "Which IPsec transport mode encrypts the IP header and the payload?",
+      "question_ids": [
+        "vpn_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q23",
+      "concept": "Which interface enables communication between a program on the controller and a ...",
+      "question_ids": [
+        "vpn_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q24",
+      "concept": "Which protocol is used in Software Defined Access (SDA) to provide a tunnel betw...",
+      "question_ids": [
+        "vpn_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q25",
+      "concept": "What are two protocols within the IPsec suite? (Choose two)",
+      "question_ids": [
+        "vpn_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q26",
+      "concept": "Which mechanism carries multicast traffic between remote sites and supports encr...",
+      "question_ids": [
+        "vpn_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q27",
+      "concept": "Why does an administrator choose to implement a remote access IPsec VPN?",
+      "question_ids": [
+        "vpn_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q28",
+      "concept": "Which default condition must be considered when an encrypted mobility tunnel is ...",
+      "question_ids": [
+        "vpn_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vpn_q29",
+      "concept": "Which technology allows for logical Layer 3 separation on physical network equip...",
+      "question_ids": [
+        "vpn_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 29,
+  "total_questions": 29
+}

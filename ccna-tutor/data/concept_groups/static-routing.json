@@ -1,0 +1,1150 @@
+{
+  "protocol": "static-routing",
+  "groups": [
+    {
+      "group_id": "static-routing_q1",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "static-routing_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q2",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "static-routing_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q3",
+      "concept": "[Exhibit] Which route type is configured to reach the internet?",
+      "question_ids": [
+        "static-routing_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q4",
+      "concept": "[Exhibit] Router R1 is running three different routing protocols. Which route ch...",
+      "question_ids": [
+        "static-routing_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q5",
+      "concept": "[Exhibit] Which command configures a floating static route to provide a backup t...",
+      "question_ids": [
+        "static-routing_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q6",
+      "concept": "[Exhibit] Which two prefixes are included in this routing table entry? (Choose t...",
+      "question_ids": [
+        "static-routing_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q7",
+      "concept": "What are two benefits of FHRPs? (Choose two.)",
+      "question_ids": [
+        "static-routing_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q8",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "static-routing_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q9",
+      "concept": "[Exhibit] An engineer configured the New York router with state routes that poin...",
+      "question_ids": [
+        "static-routing_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q10",
+      "concept": "Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0\\'1. Which a...",
+      "question_ids": [
+        "static-routing_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q11",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "static-routing_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q12",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "static-routing_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q13",
+      "concept": "When a floating static route is configured, which action ensures that the backup...",
+      "question_ids": [
+        "static-routing_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q14",
+      "concept": "By default, how Does EIGRP determine the metric of a route for the routing table...",
+      "question_ids": [
+        "static-routing_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q15",
+      "concept": "Router R1 must send all traffic without a matching routing-table entry to 192.16...",
+      "question_ids": [
+        "static-routing_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q16",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "static-routing_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q17",
+      "concept": "By default, how Does EIGRP determine the metric of a route for the routing table...",
+      "question_ids": [
+        "static-routing_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q18",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "static-routing_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q19",
+      "concept": "Which two outcomes are predictable behaviors for HSRP? (Choose two.)",
+      "question_ids": [
+        "static-routing_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q20",
+      "concept": "What is a benefit of VRRP?",
+      "question_ids": [
+        "static-routing_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q21",
+      "concept": "Router R1 must send all traffic without a matching routing-table entry to 192.16...",
+      "question_ids": [
+        "static-routing_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q22",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "static-routing_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q23",
+      "concept": "When DHCP is configured on a router, which command must be entered so the defaul...",
+      "question_ids": [
+        "static-routing_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q24",
+      "concept": "[Exhibit] A router reserved these five routes from different routing information...",
+      "question_ids": [
+        "static-routing_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q25",
+      "concept": "[Exhibit] Which type of route does R1 use to reach host 10.10.13.10/32?",
+      "question_ids": [
+        "static-routing_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q26",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "static-routing_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q27",
+      "concept": "Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0'1. Which ac...",
+      "question_ids": [
+        "static-routing_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q28",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol in a specific subnet?",
+      "question_ids": [
+        "static-routing_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q29",
+      "concept": "When a floating static route is configured, which action ensures that the backup...",
+      "question_ids": [
+        "static-routing_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q30",
+      "concept": "[Exhibit] Which command provides this output?",
+      "question_ids": [
+        "static-routing_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q31",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "static-routing_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q32",
+      "concept": "Which attribute does a router use to select the best path when two or more diffe...",
+      "question_ids": [
+        "static-routing_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q33",
+      "concept": "[Exhibit] How does the router manage traffic to 192.168.12.16?",
+      "question_ids": [
+        "static-routing_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q34",
+      "concept": "What is the primary purpose of a First Hop Redundancy Protocol?",
+      "question_ids": [
+        "static-routing_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q35",
+      "concept": "R1 has learned route 10.10.10.0/24 via numerous routing protocols. Which route i...",
+      "question_ids": [
+        "static-routing_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q36",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS. OSPF, RIP. and Internal EIGRP Un...",
+      "question_ids": [
+        "static-routing_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q37",
+      "concept": "[Exhibit] Which route type is configured to reach the internet?",
+      "question_ids": [
+        "static-routing_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q38",
+      "concept": "[Exhibit] Which two prefixes are included in this routing table entry? (Choose t...",
+      "question_ids": [
+        "static-routing_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q39",
+      "concept": "[Exhibit] How does router R1 handle traffic to 192.168.10.16?",
+      "question_ids": [
+        "static-routing_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q40",
+      "concept": "[Exhibit] Router R1 is running three different routing protocols. Which route ch...",
+      "question_ids": [
+        "static-routing_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q41",
+      "concept": "[Exhibit] If configuring a static default route on the router with the ip route ...",
+      "question_ids": [
+        "static-routing_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q42",
+      "concept": "[Exhibit] Which command configures a floating static route to provide a backup t...",
+      "question_ids": [
+        "static-routing_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q43",
+      "concept": "[Exhibit] An engineer is bringing up a new circuit to the MPLS provider on the G...",
+      "question_ids": [
+        "static-routing_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q44",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "static-routing_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q45",
+      "concept": "[Exhibit] An engineer configured the New York router with state routes that poin...",
+      "question_ids": [
+        "static-routing_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q46",
+      "concept": "[Exhibit] Router R1 Fa0/0 is unable ping router R3 Fa0/1. Which action must be t...",
+      "question_ids": [
+        "static-routing_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q47",
+      "concept": "Which two outcomes are predictable behaviors for HSRP? (Choose two)",
+      "question_ids": [
+        "static-routing_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q48",
+      "concept": "What are two benefits of FHRPs? (Choose two.)",
+      "question_ids": [
+        "static-routing_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q49",
+      "concept": "Router A learns the same route from two different neighbors, one of the neighbor...",
+      "question_ids": [
+        "static-routing_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q50",
+      "concept": "A packet is destined for 10.10.1.22. Which static route does the router choose t...",
+      "question_ids": [
+        "static-routing_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q51",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "static-routing_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q52",
+      "concept": "Which action is taken by the data plane within a network device?",
+      "question_ids": [
+        "static-routing_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q53",
+      "concept": "[Exhibit] Packets received by the router from BGP enter via a serial interface a...",
+      "question_ids": [
+        "static-routing_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q54",
+      "concept": "[Exhibit] A company is configuring a failover plan and must implement the defaul...",
+      "question_ids": [
+        "static-routing_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q55",
+      "concept": "[Exhibit] All traffic enters the CPE router from interface Serial0/3 with an IP ...",
+      "question_ids": [
+        "static-routing_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q56",
+      "concept": "[Exhibit] Which command must be issued to enable a floating static default route...",
+      "question_ids": [
+        "static-routing_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q57",
+      "concept": "[Exhibit] An engineer is updating the R1 configuration to connect a new server t...",
+      "question_ids": [
+        "static-routing_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q58",
+      "concept": "[Exhibit] Router R1 currently is configured to use R3 as the primary route to th...",
+      "question_ids": [
+        "static-routing_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q59",
+      "concept": "[Exhibit] R1 learns all routes via OSPF Which command configures a backup static...",
+      "question_ids": [
+        "static-routing_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q60",
+      "concept": "[Exhibit] Packets received by the router from BGP enter via a serial interface a...",
+      "question_ids": [
+        "static-routing_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q61",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "static-routing_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q62",
+      "concept": "[Exhibit] An engineer just installed network 10.120.10.0/24. Which configuration...",
+      "question_ids": [
+        "static-routing_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q63",
+      "concept": "[Exhibit] An engineer must configure a floating static route on an external EIGR...",
+      "question_ids": [
+        "static-routing_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q64",
+      "concept": "[Exhibit] A network engineer is updating the configuration on router R1 to conne...",
+      "question_ids": [
+        "static-routing_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q65",
+      "concept": "What does the implementation of a first-hop redundancy protocol protect against ...",
+      "question_ids": [
+        "static-routing_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q66",
+      "concept": "[Exhibit] An engineer executed the script and added commands that were not neces...",
+      "question_ids": [
+        "static-routing_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q67",
+      "concept": "[Exhibit] User traffic originating within site 0 is failing to reach an applicat...",
+      "question_ids": [
+        "static-routing_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q68",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "static-routing_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q69",
+      "concept": "[Exhibit] After configuring a new static route on the CPE. the engineer entered ...",
+      "question_ids": [
+        "static-routing_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q70",
+      "concept": "[Exhibit] The user has connectivity to devices on network 192.168.3 0/24 but can...",
+      "question_ids": [
+        "static-routing_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q71",
+      "concept": "[Exhibit] How will the device handle a packet destined to IP address 100.100.100...",
+      "question_ids": [
+        "static-routing_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q72",
+      "concept": "[Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its nex...",
+      "question_ids": [
+        "static-routing_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q73",
+      "concept": "A HCP pool has been created with the name CONTROL. The pool uses the next to las...",
+      "question_ids": [
+        "static-routing_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q74",
+      "concept": "[Exhibit] R1 has just received a packet from host A that is destined to host B. ...",
+      "question_ids": [
+        "static-routing_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q75",
+      "concept": "[Exhibit] Which configuration parameter is preventing host C from reaching the i...",
+      "question_ids": [
+        "static-routing_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q76",
+      "concept": "A router received three destination prefixes:10.0.0/18, and 10.0.0/24. When the ...",
+      "question_ids": [
+        "static-routing_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q77",
+      "concept": "[Exhibit] A newly configured PC fails to connect to the internet using TCP port ...",
+      "question_ids": [
+        "static-routing_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q78",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol on a specific subnet?",
+      "question_ids": [
+        "static-routing_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q79",
+      "concept": "[Exhibit] Router R14 is in the process of being configured. Which configuration ...",
+      "question_ids": [
+        "static-routing_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q80",
+      "concept": "[Exhibit] A packet sourced from 10.10.10.32 is destined for the Internet. What i...",
+      "question_ids": [
+        "static-routing_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q81",
+      "concept": "[Exhibit] Which IP route command created the best path for a packet destined for...",
+      "question_ids": [
+        "static-routing_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q82",
+      "concept": "[Exhibit] Which two values does router R1 use to identify valid routes for the R...",
+      "question_ids": [
+        "static-routing_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q83",
+      "concept": "[Exhibit] A network engineer executes the show ip route command on router D. Wha...",
+      "question_ids": [
+        "static-routing_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q84",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS, OSPF, RIP, and Internal EIGRP. U...",
+      "question_ids": [
+        "static-routing_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q85",
+      "concept": "[Exhibit] What does route 10.0.1.3/32 represent in the routing table?",
+      "question_ids": [
+        "static-routing_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q86",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "static-routing_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q87",
+      "concept": "Which Windows command is used instead of the route print command to display the ...",
+      "question_ids": [
+        "static-routing_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q88",
+      "concept": "Which type of address is shared by routers in a HSRP implementation and used by ...",
+      "question_ids": [
+        "static-routing_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q89",
+      "concept": "[Exhibit] The administrator must configure a floating sialic default route that ...",
+      "question_ids": [
+        "static-routing_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q90",
+      "concept": "[Exhibit] Router R1 is added to the network and configured with the 10.0.0.64/26...",
+      "question_ids": [
+        "static-routing_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q91",
+      "concept": "[Exhibit] An engineer is checking the routing table in the main router to identi...",
+      "question_ids": [
+        "static-routing_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q92",
+      "concept": "[Exhibit] The image server and client A are running an application that transfer...",
+      "question_ids": [
+        "static-routing_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q93",
+      "concept": "Why is a first-hop redundancy protocol implemented?",
+      "question_ids": [
+        "static-routing_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q94",
+      "concept": "What are two purposes of HSRP? (Choose two.)",
+      "question_ids": [
+        "static-routing_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q95",
+      "concept": "[Exhibit] The router R1 is in the process of being configured. Routers R2 and R3...",
+      "question_ids": [
+        "static-routing_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q96",
+      "concept": "[Exhibit] A network engineer must configure router R1 with a host route to the s...",
+      "question_ids": [
+        "static-routing_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q97",
+      "concept": "An engineer must configure a core router with a floating static default route to...",
+      "question_ids": [
+        "static-routing_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q98",
+      "concept": "An engineer is configuring router R1 with an IPv6 static route for prefix 2019:C...",
+      "question_ids": [
+        "static-routing_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q99",
+      "concept": "A packet from a company s branch office is destined to host 172.31.0.1 at headqu...",
+      "question_ids": [
+        "static-routing_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q100",
+      "concept": "The clients and OHCP server reside on different subnets. Which command must be u...",
+      "question_ids": [
+        "static-routing_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q101",
+      "concept": "[Exhibit] Router R1 must be configured to reach the 10.0.3.0/24 network from the...",
+      "question_ids": [
+        "static-routing_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q102",
+      "concept": "[Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its nex...",
+      "question_ids": [
+        "static-routing_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q103",
+      "concept": "[Exhibit] What does route 10.0.1.3/32 represent in the routing table?",
+      "question_ids": [
+        "static-routing_qb103"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q104",
+      "concept": "A DHCP pool has been created with the name NOCC. The pool is using 192.168.20.0/...",
+      "question_ids": [
+        "static-routing_qb104"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q105",
+      "concept": "[Exhibit] Which two values does router R1 use to determine the best path to reac...",
+      "question_ids": [
+        "static-routing_qb105"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q106",
+      "concept": "[Exhibit] The New York router must be configured so that traffic to 2000::1 is s...",
+      "question_ids": [
+        "static-routing_qb106"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q107",
+      "concept": "[Exhibit] Which command must be enable a floating default route on router A?",
+      "question_ids": [
+        "static-routing_qb107"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q108",
+      "concept": "[Exhibit] Routers R1 and R2 have been configured with their respective LAN inter...",
+      "question_ids": [
+        "static-routing_qb108"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q109",
+      "concept": "[Exhibit] What is preventing host A from reaching the internet?",
+      "question_ids": [
+        "static-routing_qb109"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q110",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "static-routing_qb110"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q111",
+      "concept": "[Exhibit] Which next hop is used to route packets to the application server at 1...",
+      "question_ids": [
+        "static-routing_qb111"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q112",
+      "concept": "What is a reason to implement HSRP on a network?",
+      "question_ids": [
+        "static-routing_qb112"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q113",
+      "concept": "Which key function is provided by the data plane?",
+      "question_ids": [
+        "static-routing_qb113"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q114",
+      "concept": "[Exhibit] What is the administrative distance for the advertised prefix that inc...",
+      "question_ids": [
+        "static-routing_qb114"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q115",
+      "concept": "[Exhibit] What is the value of the administrative distance for the default gatew...",
+      "question_ids": [
+        "static-routing_qb115"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q116",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "static-routing_qb116"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q117",
+      "concept": "[Exhibit] Inter-VLAN routing is configured on SW1. Client A is running Linux as ...",
+      "question_ids": [
+        "static-routing_qb117"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q118",
+      "concept": "[Exhibit] Which route type is configured to reach the Internet?",
+      "question_ids": [
+        "static-routing_qb118"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q119",
+      "concept": "[Exhibit] What is the administrative distance for the advertised prefix that inc...",
+      "question_ids": [
+        "static-routing_qb119"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q120",
+      "concept": "A default route must be configured to temporarily use a local broadband modem wi...",
+      "question_ids": [
+        "static-routing_qb120"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q121",
+      "concept": "[Exhibit] How will router R1 handle packets destined to 192.168.64.22?",
+      "question_ids": [
+        "static-routing_qb121"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q122",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "static-routing_qb122"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q123",
+      "concept": "Which type of protocol is VRRP?",
+      "question_ids": [
+        "static-routing_qb123"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q124",
+      "concept": "When deploying a new network that includes both Cisco and third-party network de...",
+      "question_ids": [
+        "static-routing_qb124"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q125",
+      "concept": "[Exhibit] A secondary route is required on router R1 to pass traffic to the LAN ...",
+      "question_ids": [
+        "static-routing_qb125"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q126",
+      "concept": "[Exhibit] A secondary route is required on router R1 to pass traffic to the LAN ...",
+      "question_ids": [
+        "static-routing_qb126"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "static-routing_q127",
+      "concept": "[Exhibit] What is the administrative distance for the advertised prefix that inc...",
+      "question_ids": [
+        "static-routing_qb127"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 127,
+  "total_questions": 127
+}

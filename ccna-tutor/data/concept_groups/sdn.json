@@ -1,0 +1,1222 @@
+{
+  "protocol": "sdn",
+  "groups": [
+    {
+      "group_id": "sdn_q1",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "sdn_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q2",
+      "concept": "What is an expected outcome when network management automation is deployed?",
+      "question_ids": [
+        "sdn_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q3",
+      "concept": "What is a function of a Next-Generation IPS?",
+      "question_ids": [
+        "sdn_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q4",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "sdn_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q5",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "sdn_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q6",
+      "concept": "Which two primary drivers support the need for network automation? (Choose two.)",
+      "question_ids": [
+        "sdn_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q7",
+      "concept": "Where is the interface between the control plane and data plane within the softw...",
+      "question_ids": [
+        "sdn_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q8",
+      "concept": "Which JSON data type is an unordered set of attribute- value pairs?",
+      "question_ids": [
+        "sdn_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q9",
+      "concept": "What are two characteristics of a controller-based network? (Choose two)",
+      "question_ids": [
+        "sdn_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q10",
+      "concept": "[Exhibit] After running the code in the exhibit, which step reduces the amount o...",
+      "question_ids": [
+        "sdn_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q11",
+      "concept": "What uses HTTP messages to transfer data to applications residing on different h...",
+      "question_ids": [
+        "sdn_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q12",
+      "concept": "What is an advantage of Cisco DNA Center versus traditional campus device manage...",
+      "question_ids": [
+        "sdn_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q13",
+      "concept": "which purpose does a northbound API serve in a controller-based networking archi...",
+      "question_ids": [
+        "sdn_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q14",
+      "concept": "Which two encoding methods are supported by REST APIs? (Choose two)",
+      "question_ids": [
+        "sdn_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q15",
+      "concept": "What are two southbound APIs? (Choose two )",
+      "question_ids": [
+        "sdn_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q16",
+      "concept": "What is the function of a controller in controller-based networking?",
+      "question_ids": [
+        "sdn_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q17",
+      "concept": "Which two events occur automatically when a device is added to Cisco DNA Center?...",
+      "question_ids": [
+        "sdn_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q18",
+      "concept": "[Exhibit] Which type of configuration is represented in the output?",
+      "question_ids": [
+        "sdn_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q19",
+      "concept": "Which HTTP status code is returned after a successful REST API request?",
+      "question_ids": [
+        "sdn_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q20",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "sdn_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q21",
+      "concept": "What are two functions of an SDN controller? (Choose two)",
+      "question_ids": [
+        "sdn_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q22",
+      "concept": "Which option about JSON is true?",
+      "question_ids": [
+        "sdn_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q23",
+      "concept": "Which technology is appropriate for communication between an SDN controller and ...",
+      "question_ids": [
+        "sdn_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q24",
+      "concept": "Which output displays a JSON data representation?",
+      "question_ids": [
+        "sdn_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q25",
+      "concept": "What are two fundamentals of virtualization? (choose two)",
+      "question_ids": [
+        "sdn_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q26",
+      "concept": "What are two functions of an SDN controller? (Choose two)",
+      "question_ids": [
+        "sdn_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q27",
+      "concept": "What uses HTTP messages to transfer data to applications residing on different h...",
+      "question_ids": [
+        "sdn_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q28",
+      "concept": "What is the function of a controller in controller-based networking?",
+      "question_ids": [
+        "sdn_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q29",
+      "concept": "[Exhibit] After running the code in the exhibit, which step reduces the amount o...",
+      "question_ids": [
+        "sdn_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q30",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "sdn_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q31",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "sdn_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q32",
+      "concept": "What is a function of the Cisco DNA Center Overall Health Dashboard?",
+      "question_ids": [
+        "sdn_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q33",
+      "concept": "Which CRUD operation modifies an existing table or view?",
+      "question_ids": [
+        "sdn_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q34",
+      "concept": "Which two encoding methods are supported by REST APIs? (Choose two)",
+      "question_ids": [
+        "sdn_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q35",
+      "concept": "What are two benefits of controller-based networking compared to traditional net...",
+      "question_ids": [
+        "sdn_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q36",
+      "concept": "[Exhibit] Which type of configuration is represented in the output?",
+      "question_ids": [
+        "sdn_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q37",
+      "concept": "What is a role of wireless controllers in an enterprise network?",
+      "question_ids": [
+        "sdn_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q38",
+      "concept": "What software defined architecture plane assists network devices with making pac...",
+      "question_ids": [
+        "sdn_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q39",
+      "concept": "Which two components are needed to create an Ansible script that configures a VL...",
+      "question_ids": [
+        "sdn_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q40",
+      "concept": "Which option about JSON is true?",
+      "question_ids": [
+        "sdn_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q41",
+      "concept": "In software defined architectures, which plane is distributed and responsible fo...",
+      "question_ids": [
+        "sdn_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q42",
+      "concept": "Which API is used in controller-based architectures to interact with edge device...",
+      "question_ids": [
+        "sdn_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q43",
+      "concept": "Which two events occur automatically when a device is added to Cisco DNA Center?...",
+      "question_ids": [
+        "sdn_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q44",
+      "concept": "Which two capacities of Cisco DNA Center make it more extensible as compared to ...",
+      "question_ids": [
+        "sdn_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q45",
+      "concept": "What are two southbound APIs? (Choose two )",
+      "question_ids": [
+        "sdn_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q46",
+      "concept": "What is an advantage of Cisco DNA Center versus traditional campus device manage...",
+      "question_ids": [
+        "sdn_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q47",
+      "concept": "Which HTTP status code is returned after a successful REST API request?",
+      "question_ids": [
+        "sdn_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q48",
+      "concept": "which purpose does a northbound API serve in a controller-based networking archi...",
+      "question_ids": [
+        "sdn_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q49",
+      "concept": "What are two improvements provided by automation for network management in an SD...",
+      "question_ids": [
+        "sdn_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q50",
+      "concept": "What is the purpose of a southbound API in a control based networking architectu...",
+      "question_ids": [
+        "sdn_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q51",
+      "concept": "Which CRUD operation corresponds to the HTTP GET method?",
+      "question_ids": [
+        "sdn_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q52",
+      "concept": "What are two benefits of network automation? (Choose two)",
+      "question_ids": [
+        "sdn_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q53",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "sdn_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q54",
+      "concept": "Which type of API allows SDN controllers to dynamically make changes to the netw...",
+      "question_ids": [
+        "sdn_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q55",
+      "concept": "What makes Cisco DNA Center different from traditional network management applic...",
+      "question_ids": [
+        "sdn_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q56",
+      "concept": "Which statement correctly compares traditional networks and controller-based net...",
+      "question_ids": [
+        "sdn_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q57",
+      "concept": "Which JSON data type is an unordered set of attribute- value pairs?",
+      "question_ids": [
+        "sdn_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q58",
+      "concept": "Which plane is centralized by an SDN controller?",
+      "question_ids": [
+        "sdn_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q59",
+      "concept": "Which configuration management mechanism uses TCP port 22 by default when commun...",
+      "question_ids": [
+        "sdn_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q60",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "sdn_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q61",
+      "concept": "What does an SDN controller use as a communication protocol to relay forwarding ...",
+      "question_ids": [
+        "sdn_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q62",
+      "concept": "What are two characteristics of a controller-based network? (Choose two)",
+      "question_ids": [
+        "sdn_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q63",
+      "concept": "Which communication interaction takes place when a southbound API Is used?",
+      "question_ids": [
+        "sdn_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q64",
+      "concept": "With REST API, which standard HTTP header tells a server which media type is exp...",
+      "question_ids": [
+        "sdn_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q65",
+      "concept": "Which network plane is centralized and manages routing decisions?",
+      "question_ids": [
+        "sdn_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q66",
+      "concept": "How do traditional campus device management and Cisco DNA Center device manageme...",
+      "question_ids": [
+        "sdn_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q67",
+      "concept": "Which two primary drivers support the need for network automation? (Choose two.)",
+      "question_ids": [
+        "sdn_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q68",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "sdn_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q69",
+      "concept": "What is a function of a Next-Generation IPS?",
+      "question_ids": [
+        "sdn_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q70",
+      "concept": "Which action is taken by the data plane within a network device?",
+      "question_ids": [
+        "sdn_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q71",
+      "concept": "What is an expected outcome when network management automation is deployed?",
+      "question_ids": [
+        "sdn_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q72",
+      "concept": "What describes a northbound REST API for SON?",
+      "question_ids": [
+        "sdn_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q73",
+      "concept": "[Exhibit] How many JSON objects are presented?",
+      "question_ids": [
+        "sdn_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q74",
+      "concept": "Which advantage does the network assurance capability of Cisco DNA Center provid...",
+      "question_ids": [
+        "sdn_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q75",
+      "concept": "Which protocol does a REST API use to communicate?",
+      "question_ids": [
+        "sdn_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q76",
+      "concept": "[Exhibit] How many objects are present in the given JSON-encoded data?",
+      "question_ids": [
+        "sdn_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q77",
+      "concept": "What should a network administrator consider when deciding to implement automati...",
+      "question_ids": [
+        "sdn_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q78",
+      "concept": "What is a function of a southbound API?",
+      "question_ids": [
+        "sdn_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q79",
+      "concept": "What is the purpose of the URI string in a REST request?",
+      "question_ids": [
+        "sdn_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q80",
+      "concept": "[Exhibit] A network engineer must configure NETCONF. After creating the configur...",
+      "question_ids": [
+        "sdn_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q81",
+      "concept": "Which two capabilities of Cisco DNA Center make it more extensible as compared t...",
+      "question_ids": [
+        "sdn_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q82",
+      "concept": "Which part of the HTTP request is used in REST API basic authentication to carry...",
+      "question_ids": [
+        "sdn_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q83",
+      "concept": "Which protocol does Ansible use to push modules to nodes in a network?",
+      "question_ids": [
+        "sdn_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q84",
+      "concept": "[Exhibit] How many arrays are present in the JSON data?",
+      "question_ids": [
+        "sdn_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q85",
+      "concept": "What is the functionality of the Cisco DNA Center?",
+      "question_ids": [
+        "sdn_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q86",
+      "concept": "[Exhibit] What is represented by \"R1\" and \"SW1\" within the JSON output?",
+      "question_ids": [
+        "sdn_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q87",
+      "concept": "How do traditional campus device management and Cisco DNA Center device manageme...",
+      "question_ids": [
+        "sdn_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q88",
+      "concept": "[Exhibit] What is represented by \u201cR1\u201d and \u201cSW1\u201d within the JSON output?",
+      "question_ids": [
+        "sdn_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q89",
+      "concept": "What are two advantages of implementing a controller-based architecture instead ...",
+      "question_ids": [
+        "sdn_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q90",
+      "concept": "What is the role of disaggregation in controller-based networking?",
+      "question_ids": [
+        "sdn_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q91",
+      "concept": "[Exhibit] Which type of JSON data is shown?",
+      "question_ids": [
+        "sdn_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q92",
+      "concept": "[Exhibit] How many JSON objects are represented?",
+      "question_ids": [
+        "sdn_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q93",
+      "concept": "What are two characteristics of a controller-based network? (Choose two.)",
+      "question_ids": [
+        "sdn_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q94",
+      "concept": "Why choose Cisco DNA Center for automated lifecycle management?",
+      "question_ids": [
+        "sdn_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q95",
+      "concept": "Which REST method updates an object in the Cisco DNA Center Intent API?",
+      "question_ids": [
+        "sdn_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q96",
+      "concept": "Which two HTTP methods are suitable for actions performed by REST-based APIs? (C...",
+      "question_ids": [
+        "sdn_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q97",
+      "concept": "[Exhibit] How many objects, Keys and JSON list values are present?",
+      "question_ids": [
+        "sdn_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q98",
+      "concept": "What is used as a solution for protecting an individual network endpoint from at...",
+      "question_ids": [
+        "sdn_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q99",
+      "concept": "Which plane is centralized in software-defined networking (SDN)?",
+      "question_ids": [
+        "sdn_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q100",
+      "concept": "Which benefit does Cisco ONA Center provide over traditional campus management?",
+      "question_ids": [
+        "sdn_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q101",
+      "concept": "Which interface enables communication between a program on the controller and a ...",
+      "question_ids": [
+        "sdn_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q102",
+      "concept": "What is the function of northbound API?",
+      "question_ids": [
+        "sdn_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q103",
+      "concept": "Which protocol should be used to transfer large files on a company intranet that...",
+      "question_ids": [
+        "sdn_qb103"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q104",
+      "concept": "What is the function of \"off-the-shell\" switches in a controller-based network?",
+      "question_ids": [
+        "sdn_qb104"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q105",
+      "concept": "What describes the functionality of southbound APIs?",
+      "question_ids": [
+        "sdn_qb105"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q106",
+      "concept": "Which CRUD operation corresponds to me HTTP GET method?",
+      "question_ids": [
+        "sdn_qb106"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q107",
+      "concept": "[Exhibit] What is represented by the word \"switch\u2019\u2019 in line 2 of the JSON schema...",
+      "question_ids": [
+        "sdn_qb107"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q108",
+      "concept": "[Exhibit] Which type of JSON data is represented?",
+      "question_ids": [
+        "sdn_qb108"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q109",
+      "concept": "A network engineer must configure an access list on a new Cisco IOS router. The ...",
+      "question_ids": [
+        "sdn_qb109"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q110",
+      "concept": "What is an Ansible inventory?",
+      "question_ids": [
+        "sdn_qb110"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q111",
+      "concept": "Why would a network administrator choose to implement automation in a network en...",
+      "question_ids": [
+        "sdn_qb111"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q112",
+      "concept": "[Exhibit] Which types of JSON data is shown",
+      "question_ids": [
+        "sdn_qb112"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q113",
+      "concept": "What is the purpose of the Cisco DNA Center controller?",
+      "question_ids": [
+        "sdn_qb113"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q114",
+      "concept": "Which set of methods is supported with the REST API?",
+      "question_ids": [
+        "sdn_qb114"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q115",
+      "concept": "What are two benefits of network automation? (Choose two.)",
+      "question_ids": [
+        "sdn_qb115"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q116",
+      "concept": "How does network automation help reduce network downtime?",
+      "question_ids": [
+        "sdn_qb116"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q117",
+      "concept": "What is the RFC 4627 default encoding for JSON text?",
+      "question_ids": [
+        "sdn_qb117"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q118",
+      "concept": "What is the main difference between traditional networks and controller-based ne...",
+      "question_ids": [
+        "sdn_qb118"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q119",
+      "concept": "What is the difference between controller-based networks and traditional network...",
+      "question_ids": [
+        "sdn_qb119"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q120",
+      "concept": "What is the advantage of separating the control plane from the data plane within...",
+      "question_ids": [
+        "sdn_qb120"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q121",
+      "concept": "Which header must be included in a REST request from an application that require...",
+      "question_ids": [
+        "sdn_qb121"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q122",
+      "concept": "How does automation affect network management processes?",
+      "question_ids": [
+        "sdn_qb122"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q123",
+      "concept": "[Exhibit] What is represented in line 2 within this JSON schema?",
+      "question_ids": [
+        "sdn_qb123"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q124",
+      "concept": "What is represented by the word \"LB13\" within this JSON schema?",
+      "question_ids": [
+        "sdn_qb124"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q125",
+      "concept": "What is an advantage of using SDN versus traditional networking when it comes to...",
+      "question_ids": [
+        "sdn_qb125"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q126",
+      "concept": "Which key function is provided by the data plane?",
+      "question_ids": [
+        "sdn_qb126"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q127",
+      "concept": "What is a function of a Next-Generation IPS?",
+      "question_ids": [
+        "sdn_qb127"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q128",
+      "concept": "Which two features are provided by Ansible in network automation? (Choose two.)",
+      "question_ids": [
+        "sdn_qb128"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q129",
+      "concept": "What is represented by the word \"switch\" within this JSON schema?",
+      "question_ids": [
+        "sdn_qb129"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q130",
+      "concept": "Which two northbound APIs are found in a software-defined network? (Choose two.)",
+      "question_ids": [
+        "sdn_qb130"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q131",
+      "concept": "What is a function of a northbound API in an SDN environment?",
+      "question_ids": [
+        "sdn_qb131"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q132",
+      "concept": "Which protocol should be used to transfer large files on a company intranet that...",
+      "question_ids": [
+        "sdn_qb132"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q133",
+      "concept": "What is an advantage of using SDN versus traditional networking when it comes to...",
+      "question_ids": [
+        "sdn_qb133"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q134",
+      "concept": "What is represented in line 3 within this JSON schema?",
+      "question_ids": [
+        "sdn_qb134"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "sdn_q135",
+      "concept": "How does automation leverage data models to reduce the operational complexity of...",
+      "question_ids": [
+        "sdn_qb135"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 135,
+  "total_questions": 135
+}

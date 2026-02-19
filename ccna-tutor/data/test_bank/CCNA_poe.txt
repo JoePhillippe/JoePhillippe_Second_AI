@@ -1,0 +1,47 @@
+CCNA 200-301 - PoE - Power over Ethernet
+==================================================
+
+1. Which PoE mode enables powered-device detection and guarantees power when the device is detected?
+A. dynamic
+*B. static
+C. active
+D. auto
+
+2. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+3. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+4. Which PoE mode enables powered-device detection and guarantees power when the device is detected?
+A. dynamic
+*B. static
+C. active
+D. auto
+
+5. What are two lacts that differentiate optical-fiber cabling from copper cabling? (Choose two.)
+A. It is less expensive when purchasing patch cables.
+B. It has a greater sensitivity to changes in temperature and moisture.
+*C. It provides greater throughput options.
+*D. It carries signals for longer distances.
+E. It carries electrical current further distances for PoE devices.
+
+6. What are two facts that differentiate optical fiber cabling from copper cabling? (Choose two.)
+*A. It has a greater sensitivity to changes in temperature and moisture.
+*B. It carries signals for longer distances.
+C. It carries electrical current further distances for PoE devices.
+D. It is less expensive when purchasing patch cables.
+E. It provides greater throughput options.
+
+7. What is an advantage of using auto mode versus static mode for power allocation when an access point is connected to a PoE switch port?
+A. All four pairs of the cable are used
+B. It detects the device is a powered device
+C. The default level is used for the access point
+*D. Power policing is enabled at the same time
+

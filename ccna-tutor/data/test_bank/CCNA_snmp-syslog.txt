@@ -1,0 +1,293 @@
+CCNA 200-301 - SNMP, Syslog, and NetFlow
+==================================================
+
+1. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+2. Which condition must be met before an NMS handles an SNMP trap from an agent?
+*A. The NMS software must be loaded with the MIB associated with the trap.
+B. The NMS must be configured on the same router as the SNMP agent
+C. The NMS must receive a trap and an inform message from the SNMP agent within a configured interval
+D. The NMS must receive the same trap from two different SNMP agents to verify that it is reliable.
+
+3. What Is a syslog facility?
+A. Host that is configured for the system to send log messages
+B. password that authenticates a Network Management System to receive log messages
+*C. group of log messages associated with the configured severity level
+D. set of values that represent the processes that can generate a log message
+
+4. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+5. An engineering team asks an implementer to configure syslog for warning conditions and error conditions. Which command does the implementer configure to achieve the desired result?
+A. logging trap 5
+B. logging trap 2
+*C. logging trap 4
+D. logging trap 3
+
+6. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+7. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+8. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+9. If a notice-level messaging is sent to a syslog server, which event has occurred?
+A. A network device has restarted
+B. An ARP inspection has failed
+*C. A routing instance has flapped
+D. A debug operation is running
+
+10. What protocol allows an engineer to back up 20 network router configurations globally while using the copy function?
+A. SMTP
+*B. SNMP
+C. TCP
+D. FTP
+
+11. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+12. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+13. What are two fundamentals of virtualization? (choose two)
+A. The environment must be configured with one hypervisor that serves solely as a network manager to monitor SNMP traffic
+*B. It allows logical network devices to move traffic between virtual machines and the rest of the physical network
+*C. It allows multiple operating systems and applications to run independently on one physical server.
+D. It allows a physical router to directly connect NICs from each virtual machine into the network
+E. It requires that some servers, virtual machines and network gear reside on the Internet
+
+14. What event has occurred if a router sends a notice level message to a syslog server?
+A. A TCP connection has been torn down
+B. An ICMP connection has been built
+*C. An interface line has changed status
+D. A certificate has expired.
+
+15. What protocol allows an engineer to back up 20 network router configurations globally while using the copy function?
+A. SMTP
+*B. SNMP
+C. TCP
+D. FTP
+
+16. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+17. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+18. An engineering team asks an implementer to configure syslog for warning conditions and error conditions. Which command does the implementer configure to achieve the desired result?
+A. logging trap 5
+B. logging trap 2
+*C. logging trap 4
+D. logging trap 3
+
+19. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+20. If a notice-level messaging is sent to a syslog server, which event has occurred?
+A. A network device has restarted
+B. An ARP inspection has failed
+*C. A routing instance has flapped
+D. A debug operation is running
+
+21. Which condition must be met before an NMS handles an SNMP trap from an agent?
+*A. The NMS software must be loaded with the MIB associated with the trap.
+B. The NMS must be configured on the same router as the SNMP agent
+C. The NMS must receive a trap and an inform message from the SNMP agent within a configured interval
+D. The NMS must receive the same trap from two different SNMP agents to verify that it is reliable.
+
+22. What is a role of access points in an enterprise network?
+*A. connect wireless devices to a wired network
+B. support secure user logins to devices or the network
+C. integrate with SNMP in preventing DDoS attacks
+D. serve as a first line of defense in an enterprise network
+
+23. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+24. Which function does an SNMP agent perform?
+*A. it sends information about MIB variables in response to requests from the NMS
+B. it requests information from remote network nodes about catastrophic system events.
+C. it manages routing between Layer 3 devices in a network
+D. it coordinates user authentication between a network device and a TACACS+ or RADIUS server
+
+25. When deploying syslog, which severity level logs informational message?
+A. 0
+B. 2
+C. 4
+*D. 6
+
+26. What Is a syslog facility?
+A. Host that is configured for the system to send log messages
+B. password that authenticates a Network Management System to receive log messages
+*C. group of log messages associated with the configured severity level
+D. set of values that represent the processes that can generate a log message
+
+27. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+28. Which technology must be implemented to configure network device monitoring with the highest security?
+A. IP SLA
+B. syslog
+*C. NetFlow
+D. SNMPv3
+
+29. What describes a northbound REST API for SON?
+A. application-facing interface for SNMP GET requests
+B. network-element-facing interface for GET POST PUT and DELETE methods
+C. network-element-facing interface for the control and data planes
+*D. application-facing interface far GET, POST, PUT, and DELETE methods
+
+30. Which protocol does a REST API use to communicate?
+A. SSH
+B. SNMP
+*C. HTTP
+D. STP
+
+31. What is the role of syslog level 7 in network device health monitoring?
+A. It provides information about error conditions visible on the network device.
+B. It shares normal operational messages from the network equipment.
+*C. It sends outputs from various debug commands on the device.
+D. It warns about emergency conditions on the network appliance.
+
+32. What is the difference between SNMP traps and SNMP polling?
+A. SNMP traps are used for proactive monitoring, and SNMP polling is used for reactive monitoring.
+*B. SNMP traps send periodic updates via the MIB, and SNMP polling sends data on demand.
+C. SNMP traps are initiated by the network management system, and network devices initiate SNMP polling.
+D. SNMP traps are initiated using a push model at the network device, and SNMP polling is initiated at the server.
+
+33. Which event has occurred if a router sends a notice level message to a syslog server?
+A. An ICMP connection has been built
+B. A certificate has expired
+*C. An interface line has changed status
+D. A TCP connection has been torn down
+
+34. What is the role of SNMP in the network?
+A. to monitor network devices and functions using a TCP underlay that operates on the presentation layer
+B. to collect data directly from network devices using an SSL underlay that operates on the transport layer
+*C. to monitor and manage network devices using a UDP underlay that operates on the application layer
+D. to collect telemetry and critical information from network devices using an SSH underlay that operates on the network layer
+
+35. Which protocol does Ansible use to push modules to nodes in a network?
+*A. SSH
+B. SNMP
+C. Kerberos
+D. Telnet
+
+36. Which protocol is implemented when an organization must verify network performance, troubleshoot issues, and use an agent to communicate between monitoring tools and end devices?
+A. SNMP
+B. FTP
+C. NTP
+*D. NFS
+
+37. Which syslog severity level is considered the most severe and results in the system being considered unusable?
+A. Alert
+B. Error
+*C. Emergency
+D. Critical
+
+38. Which command implies the use of SNMPv3?
+A. snmp-server host
+*B. snmp-server community
+C. snmp-server enable traps
+D. snmp-server user
+
+39. What is the role of community strings in SNMP operations?
+A. It serves as a sequence tag on SNMP traffic messages.
+*B. It serves as a password lo protect access to MIB objects.
+C. It passes the Active Directory username and password that are required for device access
+D. It translates alphanumeric MIB output values to numeric values.
+
+40. A network administrator wants the syslog server to filter incoming messages into different files based on their Importance. Which filtering criteria must be used?
+*A. level
+B. message body
+C. process ID
+D. facility
+
+41. How does authentication differ from authorization?
+*A. Authentication verifies the identity of a person accessing a network, and authorization determines what resource a user can access.
+B. Authentication is used to record what resource a user accesses, and authorization is used to determine what resources a user can access
+C. Authentication is used to determine what resources a user is allowed to access, and authorization is used to track what equipment is allowed access to the network
+D. Authentication is used to verify a person's identity, and authorization is used to create syslog messages for logins.
+
+42. What is the purpose of configuring different levels of syslog for different devices on the network?
+A. to rate-limit messages for different seventy levels from each device
+*B. to set the severity of syslog messages from each device
+C. to identify the source from which each syslog message originated
+D. to control the number of syslog messages from different devices that are stored locally
+
+43. Which two transport layer protocols carry syslog messages? (Choose two.)
+*A. UDP
+B. RTP
+*C. TCP
+D. IP
+E. ARP
+
+44. Which fact must the engineer consider when implementing syslog on a new network?
+A. Syslog defines the software or hardware component that triggered the message.
+B. There are 16 different logging levels (0-15).
+C. By default, all message levels are sent to the syslog server.
+*D. The logging level defines the severity of a particular message.
+
+45. Which role does AI play in monitoring network data flow?
+*A. It analyzes patterns for anomaly detection.
+B. It exclusively predicts device malfunctions.
+C. It simplifies traffic route mapping.
+D. It enhances data packet delivery speeds.
+
+46. Which syslog message logging level displays interface line protocol up/down events?
+A. Informational
+B. debugging
+C. alerts
+*D. notifications
+
+47. How does automation leverage data models to reduce the operational complexity of a managed network?
+A. Reduces the response time for specific requests to devices with many interfaces
+B. Categorizes traffic and provides insights
+*C. Allows the controller to be vendor-agnostic
+D. Streamlines monitoring using SNMP and other polling tools
+
+48. Which action prevents debug messages from being sent via syslog while allowing other messages when an abnormally high number of syslog messages are generated by a device with the debug process turned on?
+A. Use an access list to filter out the syslog messages.
+B. Turn off the logging monitor in global configuration mode.
+C. Disable logging to the console.
+*D. Set the logging trap severity level to informational.
+

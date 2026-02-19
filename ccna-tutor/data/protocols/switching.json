@@ -1,0 +1,10 @@
+{
+  "name": "Switching Fundamentals",
+  "slug": "switching",
+  "category": "Layer 2 Technologies",
+  "description": "Layer 2 switching concepts including MAC address table, frame forwarding, switch port types, and duplex settings.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

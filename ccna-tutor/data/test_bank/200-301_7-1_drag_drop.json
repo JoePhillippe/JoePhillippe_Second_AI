@@ -1,0 +1,517 @@
+{
+  "title": "CCNA 200-301 Drag and Drop Questions - Set 7-1",
+  "description": "Interactive drag-and-drop questions for CCNA practice",
+  "questions": [
+    {
+      "id": 1,
+      "type": "drag_drop",
+      "topic": "Topic 3",
+      "question": "Drag and drop the characteristics of networking from the left onto the networking types on the right.",
+      "instructions": "Match each networking characteristic to its correct network type.",
+      "draggable_items": [
+        {"id": "d1", "text": "Uses a single shared medium"},
+        {"id": "d2", "text": "Dedicated point-to-point links"},
+        {"id": "d3", "text": "Data transmitted in frames"},
+        {"id": "d4", "text": "Requires collision detection"},
+        {"id": "d5", "text": "Full-duplex communication"},
+        {"id": "d6", "text": "Uses CSMA/CD"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Half-duplex Ethernet"},
+        {"id": "t2", "text": "Full-duplex Ethernet"},
+        {"id": "t3", "text": "Switched Network"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d4": "t1",
+        "d6": "t1",
+        "d2": "t3",
+        "d5": "t2",
+        "d3": "t2"
+      },
+      "explanation": "Half-duplex Ethernet uses a single shared medium, requires collision detection, and uses CSMA/CD. Full-duplex Ethernet allows simultaneous send/receive and transmits data in frames. Switched networks provide dedicated point-to-point links."
+    },
+    {
+      "id": 2,
+      "type": "drag_drop",
+      "topic": "Topic 3",
+      "question": "An engineer is tasked to configure a switch with port security to ensure devices that forward unicasts, multicasts, and broadcasts are unable to flood the port. The port must be configured to permit only two random MAC addresses at a time. Drag and drop the required configuration commands from the left onto the sequence on the right. Not all commands are used.",
+      "instructions": "Arrange the commands in the correct order to configure port security.",
+      "draggable_items": [
+        {"id": "d1", "text": "switchport port-security"},
+        {"id": "d2", "text": "switchport mode access"},
+        {"id": "d3", "text": "switchport port-security maximum 2"},
+        {"id": "d4", "text": "switchport port-security mac-address sticky"},
+        {"id": "d5", "text": "switchport mode trunk"},
+        {"id": "d6", "text": "switchport port-security violation shutdown"},
+        {"id": "d7", "text": "switchport nonegotiate"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Step 1"},
+        {"id": "t2", "text": "Step 2"},
+        {"id": "t3", "text": "Step 3"},
+        {"id": "t4", "text": "Step 4"}
+      ],
+      "correct_matches": {
+        "d2": "t1",
+        "d1": "t2",
+        "d3": "t3",
+        "d6": "t4"
+      },
+      "explanation": "Port security configuration sequence: 1) Set port to access mode, 2) Enable port security, 3) Set maximum MAC addresses to 2, 4) Configure violation action. Trunk mode and nonegotiate are not used for this scenario."
+    },
+    {
+      "id": 3,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag the descriptions of IP protocol transmissions from the left onto the IP traffic types on the right.",
+      "instructions": "Match each transmission description to its correct IP traffic type.",
+      "draggable_items": [
+        {"id": "d1", "text": "One-to-one transmission"},
+        {"id": "d2", "text": "One-to-all transmission"},
+        {"id": "d3", "text": "One-to-many transmission"},
+        {"id": "d4", "text": "One-to-nearest transmission"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Unicast"},
+        {"id": "t2", "text": "Broadcast"},
+        {"id": "t3", "text": "Multicast"},
+        {"id": "t4", "text": "Anycast"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4"
+      },
+      "explanation": "Unicast is one-to-one (single source to single destination). Broadcast is one-to-all (single source to all hosts). Multicast is one-to-many (single source to a group). Anycast is one-to-nearest (single source to nearest member of a group)."
+    },
+    {
+      "id": 4,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the application protocols from the left onto the transport protocols that they use on the right.",
+      "instructions": "Match each application protocol to its transport protocol (TCP or UDP).",
+      "draggable_items": [
+        {"id": "d1", "text": "HTTP"},
+        {"id": "d2", "text": "DNS"},
+        {"id": "d3", "text": "FTP"},
+        {"id": "d4", "text": "TFTP"},
+        {"id": "d5", "text": "SMTP"},
+        {"id": "d6", "text": "SNMP"},
+        {"id": "d7", "text": "SSH"},
+        {"id": "d8", "text": "DHCP"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "TCP"},
+        {"id": "t2", "text": "UDP"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d3": "t1",
+        "d5": "t1",
+        "d7": "t1",
+        "d2": "t2",
+        "d4": "t2",
+        "d6": "t2",
+        "d8": "t2"
+      },
+      "explanation": "TCP protocols (connection-oriented): HTTP, FTP, SMTP, SSH. UDP protocols (connectionless): DNS (also uses TCP for zone transfers), TFTP, SNMP, DHCP."
+    },
+    {
+      "id": 5,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the TCP/IP protocols from the left onto the transmission protocols on the right.",
+      "instructions": "Match each protocol to whether it uses TCP or UDP for transmission.",
+      "draggable_items": [
+        {"id": "d1", "text": "Telnet (Port 23)"},
+        {"id": "d2", "text": "NTP (Port 123)"},
+        {"id": "d3", "text": "HTTPS (Port 443)"},
+        {"id": "d4", "text": "RIP (Port 520)"},
+        {"id": "d5", "text": "BGP (Port 179)"},
+        {"id": "d6", "text": "Syslog (Port 514)"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "TCP"},
+        {"id": "t2", "text": "UDP"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d3": "t1",
+        "d5": "t1",
+        "d2": "t2",
+        "d4": "t2",
+        "d6": "t2"
+      },
+      "explanation": "TCP: Telnet, HTTPS, BGP (requires reliable delivery for routing updates). UDP: NTP (time synchronization), RIP (routing protocol), Syslog (logging)."
+    },
+    {
+      "id": 6,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the networking parameters from the left onto the correct values on the right based on the Linux 'ip route' and 'ip addr show eth1' command outputs.",
+      "instructions": "Match the networking parameters to their correct values.",
+      "draggable_items": [
+        {"id": "d1", "text": "NIC vendor OUI"},
+        {"id": "d2", "text": "NIC MAC address"},
+        {"id": "d3", "text": "Default gateway"},
+        {"id": "d4", "text": "Host IP address"},
+        {"id": "d5", "text": "Subnet mask"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "00:0C:22"},
+        {"id": "t2", "text": "00:0C:22:83:79:A3"},
+        {"id": "t3", "text": "192.168.1.193"},
+        {"id": "t4", "text": "192.168.1.200"},
+        {"id": "t5", "text": "255.255.255.192"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5"
+      },
+      "explanation": "The OUI (first 3 octets) is 00:0C:22. The full MAC is 00:0C:22:83:79:A3. Default gateway is 192.168.1.193. Host IP is 192.168.1.200. Subnet mask 255.255.255.192 (/26) allows 62 usable hosts."
+    },
+    {
+      "id": 7,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the AAA terms from the left onto the descriptions on the right.",
+      "instructions": "Match each AAA term to its correct description.",
+      "draggable_items": [
+        {"id": "d1", "text": "Authentication"},
+        {"id": "d2", "text": "Authorization"},
+        {"id": "d3", "text": "Accounting"},
+        {"id": "d4", "text": "RADIUS"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Verifies user identity with username and password"},
+        {"id": "t2", "text": "Determines what resources a user can access"},
+        {"id": "t3", "text": "Tracks user activities and resource usage"},
+        {"id": "t4", "text": "Protocol that combines authentication and authorization"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4"
+      },
+      "explanation": "Authentication verifies who you are. Authorization determines what you can do. Accounting tracks what you did. RADIUS is a protocol that handles authentication and authorization together (unlike TACACS+ which separates them)."
+    },
+    {
+      "id": 8,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the lightweight access point operation modes from the left onto the descriptions on the right.",
+      "instructions": "Match each AP mode to its correct description.",
+      "draggable_items": [
+        {"id": "d1", "text": "Local mode"},
+        {"id": "d2", "text": "FlexConnect mode"},
+        {"id": "d3", "text": "Monitor mode"},
+        {"id": "d4", "text": "Sniffer mode"},
+        {"id": "d5", "text": "Rogue Detector mode"},
+        {"id": "d6", "text": "Bridge mode"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Default mode - tunnels all traffic to WLC"},
+        {"id": "t2", "text": "Can switch traffic locally at remote sites"},
+        {"id": "t3", "text": "Scans all channels for IDS/IPS and rogue detection"},
+        {"id": "t4", "text": "Captures and forwards packets to analysis tool"},
+        {"id": "t5", "text": "Monitors rogue APs using wired-side information"},
+        {"id": "t6", "text": "Used for point-to-point or point-to-multipoint connections"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5",
+        "d6": "t6"
+      },
+      "explanation": "Local mode is the default AP mode. FlexConnect allows local switching at branch offices. Monitor mode is for wireless IDS. Sniffer mode captures packets. Rogue Detector correlates wired and wireless. Bridge mode connects sites wirelessly."
+    },
+    {
+      "id": 9,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the descriptions from the left onto the configuration-management technologies on the right.",
+      "instructions": "Match each characteristic to the correct configuration management tool.",
+      "draggable_items": [
+        {"id": "d1", "text": "Uses SSH for remote device communication"},
+        {"id": "d2", "text": "Uses YAML for fundamental configuration elements"},
+        {"id": "d3", "text": "Uses TCP port 10002 for configuration push jobs"},
+        {"id": "d4", "text": "Uses Ruby for fundamental configuration elements"},
+        {"id": "d5", "text": "Configuration elements stored in a manifest"},
+        {"id": "d6", "text": "Uses TCP 8140 for communication"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Ansible"},
+        {"id": "t2", "text": "Chef"},
+        {"id": "t3", "text": "Puppet"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t1",
+        "d3": "t2",
+        "d4": "t2",
+        "d5": "t3",
+        "d6": "t3"
+      },
+      "explanation": "Ansible: Agentless, uses SSH and YAML playbooks. Chef: Uses Ruby, TCP 10002 for push jobs. Puppet: Uses manifests (.pp files), TCP 8140 for agent-master communication."
+    },
+    {
+      "id": 10,
+      "type": "drag_drop",
+      "topic": "Topic 1",
+      "question": "Drag and drop the threat-mitigation techniques from the left onto the types of threat or attack they mitigate on the right.",
+      "instructions": "Match each security feature to the attack it prevents.",
+      "draggable_items": [
+        {"id": "d1", "text": "VLAN Access Control Lists (VACL)"},
+        {"id": "d2", "text": "Dynamic ARP Inspection (DAI)"},
+        {"id": "d3", "text": "DHCP Snooping"},
+        {"id": "d4", "text": "Port Security"},
+        {"id": "d5", "text": "802.1X"},
+        {"id": "d6", "text": "Private VLANs"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Double-tagging VLAN hopping attack"},
+        {"id": "t2", "text": "ARP spoofing/poisoning attack"},
+        {"id": "t3", "text": "Rogue DHCP server attack"},
+        {"id": "t4", "text": "MAC flooding attack"},
+        {"id": "t5", "text": "Unauthorized network access"},
+        {"id": "t6", "text": "Inter-host communication in same VLAN"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d6": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5"
+      },
+      "explanation": "VACLs and Private VLANs mitigate VLAN hopping. DAI prevents ARP spoofing by validating ARP packets. DHCP Snooping blocks rogue DHCP servers. Port Security limits MAC addresses to prevent flooding. 802.1X authenticates devices."
+    },
+    {
+      "id": 11,
+      "type": "drag_drop",
+      "topic": "Topic 1",
+      "question": "Drag and drop the descriptions of file-transfer protocols from the left onto the correct protocols on the right.",
+      "instructions": "Match each description to the correct file transfer protocol.",
+      "draggable_items": [
+        {"id": "d1", "text": "Uses TCP port 21 for control and port 20 for data"},
+        {"id": "d2", "text": "Uses UDP port 69, no authentication"},
+        {"id": "d3", "text": "Secure file transfer over SSH, uses TCP port 22"},
+        {"id": "d4", "text": "FTP over SSL/TLS encryption"},
+        {"id": "d5", "text": "Simple, fast, used for firmware/config transfers"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "FTP"},
+        {"id": "t2", "text": "TFTP"},
+        {"id": "t3", "text": "SFTP"},
+        {"id": "t4", "text": "FTPS"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d5": "t2",
+        "d3": "t3",
+        "d4": "t4"
+      },
+      "explanation": "FTP uses TCP 21/20. TFTP uses UDP 69 and is commonly used for IOS transfers. SFTP is SSH-based file transfer. FTPS adds SSL/TLS encryption to standard FTP."
+    },
+    {
+      "id": 12,
+      "type": "drag_drop",
+      "topic": "Topic 1",
+      "question": "Drag and drop the QoS congestion management terms from the left onto the descriptions on the right.",
+      "instructions": "Match each QoS term to its correct description.",
+      "draggable_items": [
+        {"id": "d1", "text": "FIFO (First In First Out)"},
+        {"id": "d2", "text": "Priority Queuing (PQ)"},
+        {"id": "d3", "text": "Weighted Fair Queuing (WFQ)"},
+        {"id": "d4", "text": "Class-Based WFQ (CBWFQ)"},
+        {"id": "d5", "text": "Low Latency Queuing (LLQ)"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Default queuing, no traffic differentiation"},
+        {"id": "t2", "text": "Strict priority - high priority always first"},
+        {"id": "t3", "text": "Divides bandwidth based on flow weights"},
+        {"id": "t4", "text": "User-defined classes with guaranteed bandwidth"},
+        {"id": "t5", "text": "CBWFQ with strict priority queue for voice"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5"
+      },
+      "explanation": "FIFO is basic queuing. PQ gives strict priority to marked traffic. WFQ provides fair bandwidth sharing. CBWFQ allows custom class definitions. LLQ adds a priority queue to CBWFQ for real-time traffic like voice."
+    },
+    {
+      "id": 13,
+      "type": "drag_drop",
+      "topic": "Topic 1",
+      "question": "Drag and drop the IPv6 address type characteristics from the left to the right.",
+      "instructions": "Match each characteristic to the correct IPv6 address type.",
+      "draggable_items": [
+        {"id": "d1", "text": "Begins with 2000::/3"},
+        {"id": "d2", "text": "Begins with FE80::/10"},
+        {"id": "d3", "text": "Begins with FC00::/7 or FD00::/8"},
+        {"id": "d4", "text": "Begins with FF00::/8"},
+        {"id": "d5", "text": "Routable on the Internet"},
+        {"id": "d6", "text": "Not routable, single link only"},
+        {"id": "d7", "text": "Not routable, similar to RFC 1918"},
+        {"id": "d8", "text": "Used for group communication"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Global Unicast"},
+        {"id": "t2", "text": "Link-Local"},
+        {"id": "t3", "text": "Unique Local"},
+        {"id": "t4", "text": "Multicast"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d5": "t1",
+        "d2": "t2",
+        "d6": "t2",
+        "d3": "t3",
+        "d7": "t3",
+        "d4": "t4",
+        "d8": "t4"
+      },
+      "explanation": "Global Unicast (2000::/3) is Internet-routable. Link-Local (FE80::/10) is for single-link communication. Unique Local (FC00::/7) is like private IPv4. Multicast (FF00::/8) is for one-to-many communication."
+    },
+    {
+      "id": 14,
+      "type": "drag_drop",
+      "topic": "Topic 1",
+      "question": "Drag and drop the attack-mitigation techniques from the left onto the types of attack that they mitigate on the right.",
+      "instructions": "Match each security mechanism to the attack it prevents.",
+      "draggable_items": [
+        {"id": "d1", "text": "IP Source Guard"},
+        {"id": "d2", "text": "Storm Control"},
+        {"id": "d3", "text": "BPDU Guard"},
+        {"id": "d4", "text": "Root Guard"},
+        {"id": "d5", "text": "RA Guard"},
+        {"id": "d6", "text": "ACL"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "IP address spoofing"},
+        {"id": "t2", "text": "Broadcast/multicast storms"},
+        {"id": "t3", "text": "Rogue switch STP manipulation"},
+        {"id": "t4", "text": "Unauthorized STP root bridge"},
+        {"id": "t5", "text": "Rogue IPv6 router advertisements"},
+        {"id": "t6", "text": "Unauthorized traffic filtering"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5",
+        "d6": "t6"
+      },
+      "explanation": "IP Source Guard validates source IPs using DHCP snooping. Storm Control limits broadcast/multicast traffic. BPDU Guard disables ports receiving BPDUs. Root Guard prevents unauthorized root bridges. RA Guard blocks rogue router advertisements."
+    },
+    {
+      "id": 15,
+      "type": "drag_drop",
+      "topic": "Topic 4",
+      "question": "Drag and drop the characteristics from the left onto the IPv6 address types on the right.",
+      "instructions": "Match each IPv6 addressing characteristic to its address type.",
+      "draggable_items": [
+        {"id": "d1", "text": "Assigned by IANA for public use"},
+        {"id": "d2", "text": "Automatically configured on all interfaces"},
+        {"id": "d3", "text": "Can be assigned to multiple interfaces"},
+        {"id": "d4", "text": "Equivalent to IPv4 private addresses"},
+        {"id": "d5", "text": "Used by routing protocols"},
+        {"id": "d6", "text": "Routed to nearest destination"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "Global Unicast Address"},
+        {"id": "t2", "text": "Link-Local Address"},
+        {"id": "t3", "text": "Anycast Address"},
+        {"id": "t4", "text": "Unique Local Address"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d5": "t2",
+        "d3": "t3",
+        "d6": "t3",
+        "d4": "t4"
+      },
+      "explanation": "Global unicast addresses are assigned by IANA for Internet use. Link-local addresses are auto-configured and used by routing protocols. Anycast addresses can be on multiple interfaces with routing to nearest. Unique local addresses are like IPv4 private addresses."
+    },
+    {
+      "id": 16,
+      "type": "drag_drop",
+      "topic": "Topic 2",
+      "question": "Drag and drop the characteristics of networking from the left onto the correct networking types on the right.",
+      "instructions": "Match each characteristic to WAN or LAN.",
+      "draggable_items": [
+        {"id": "d1", "text": "Covers a small geographic area"},
+        {"id": "d2", "text": "Spans cities, countries, or continents"},
+        {"id": "d3", "text": "High bandwidth, low latency"},
+        {"id": "d4", "text": "Lower bandwidth, higher latency"},
+        {"id": "d5", "text": "Owned by the organization"},
+        {"id": "d6", "text": "Often uses leased lines from providers"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "LAN (Local Area Network)"},
+        {"id": "t2", "text": "WAN (Wide Area Network)"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d3": "t1",
+        "d5": "t1",
+        "d2": "t2",
+        "d4": "t2",
+        "d6": "t2"
+      },
+      "explanation": "LANs cover small areas (building/campus), have high bandwidth, low latency, and are typically owned by the organization. WANs span large geographic areas, have lower bandwidth, higher latency, and often use service provider connections."
+    },
+    {
+      "id": 17,
+      "type": "drag_drop",
+      "topic": "Topic 4",
+      "question": "Drag and drop the learned prefixes from the left onto the subnet masks on the right.",
+      "instructions": "Match each network prefix to its corresponding subnet mask.",
+      "draggable_items": [
+        {"id": "d1", "text": "/8"},
+        {"id": "d2", "text": "/16"},
+        {"id": "d3", "text": "/24"},
+        {"id": "d4", "text": "/25"},
+        {"id": "d5", "text": "/26"},
+        {"id": "d6", "text": "/27"},
+        {"id": "d7", "text": "/28"},
+        {"id": "d8", "text": "/30"}
+      ],
+      "drop_targets": [
+        {"id": "t1", "text": "255.0.0.0"},
+        {"id": "t2", "text": "255.255.0.0"},
+        {"id": "t3", "text": "255.255.255.0"},
+        {"id": "t4", "text": "255.255.255.128"},
+        {"id": "t5", "text": "255.255.255.192"},
+        {"id": "t6", "text": "255.255.255.224"},
+        {"id": "t7", "text": "255.255.255.240"},
+        {"id": "t8", "text": "255.255.255.252"}
+      ],
+      "correct_matches": {
+        "d1": "t1",
+        "d2": "t2",
+        "d3": "t3",
+        "d4": "t4",
+        "d5": "t5",
+        "d6": "t6",
+        "d7": "t7",
+        "d8": "t8"
+      },
+      "explanation": "CIDR notation to subnet mask: /8=255.0.0.0, /16=255.255.0.0, /24=255.255.255.0, /25=.128, /26=.192, /27=.224, /28=.240, /30=.252. Each additional bit doubles the subnet portion."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+CCNA 200-301 - VPN and Tunneling
+==================================================
+
+1. When a site-to-site VPN is used, which protocol is responsible for the transport of user data?
+A. IKEv2
+B. IKEv1
+*C. IPsec
+D. MD5
+
+2. Which type of traffic is sent with pure iPsec?
+A. broadcast packets from a switch that is attempting to locate a MAC address at one of several remote sites
+B. multicast traffic from a server at one site to hosts at another location
+C. spanning-tree updates between switches that are at two different sites
+*D. unicast messages from a host at a remote site to a server at headquarters
+
+3. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+4. \- (Topic 4) Which IPsec encryption mode is appropriate when the destination of a packet differs from the security termination point?
+A. tunnel
+*B. transport
+C. aggressive
+D. main
+
+5. What mechanism carries multicast traffic between remote sites and supports encryption?
+A. ISATAP
+*B. GRE over iPsec
+C. iPsec over ISATAP
+D. GRE
+
+6. In which situation is private IPv4 addressing appropriate for a new subnet on the network of an organization?
+*A. There is limited unique address space, and traffic on the new subnet will stay local within the organization.
+B. The network has multiple endpoint listeners, and it is desired to limit the number of broadcasts.
+C. Traffic on the subnet must traverse a site-to-site VPN to an outside organization.
+D. The ISP requires the new subnet to be advertised to the internet for web services.
+
+7. What is a function of a remote access VPN?
+A. used cryptographic tunneling to protect the privacy of data for multiple users simultaneously
+B. used exclusively when a user is connected to a company's internal network
+C. establishes a secure tunnel between two branch sites
+*D. allows the users to access company internal network resources through a secure tunnel
+
+8. How does Cisco DNA Center gather data from the network?
+*A. Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller
+B. Devices establish an iPsec tunnel to exchange data with the controller
+C. Devices use the call-home protocol to periodically send data to the controller.
+D. The Cisco CU Analyzer tool gathers data from each licensed network device and streams it to the controller.
+
+9. When a site-to-site VPN is configured, which IPsec mode provides encapsulation and encryption of the entire original P packet?
+A. IPsec tunnel mode with AH
+B. IPsec transport mode with AH
+*C. IPsec tunnel mode with ESP
+D. IPsec transport mode with ESP
+
+10. An engineer observes high usage on the 2.4GHz channels and lower usage on the 5GHz channels. What must be configured to allow clients to preferentially use 5GH2 access points?
+A. Re- Anchor Roamed Clients
+B. 11ac MU-MIMO
+C. OEAP Split Tunnel
+*D. Client Band Select
+
+11. Which type of traffic is sent with pure iPsec?
+A. broadcast packets from a switch that is attempting to locate a MAC address at one of several remote sites
+B. multicast traffic from a server at one site to hosts at another location
+C. spanning-tree updates between switches that are at two different sites
+*D. unicast messages from a host at a remote site to a server at headquarters
+
+12. When a site-to-site VPN is used, which protocol is responsible for the transport of user data?
+A. IKEv2
+B. IKEv1
+*C. IPsec
+D. MD5
+
+13. The service password-encryption command is entered on a router. What is the effect of this configuration?
+*A. restricts unauthorized users from viewing clear-text passwords in the running configuration
+B. encrypts the password exchange when a VPN tunnel is established
+C. prevents network administrators from configuring clear-text passwords
+D. protects the VLAN database from unauthorized PC connections on the switch
+
+14. [Exhibit] Which command must be executed for Gi1.1 on SW1 to become a trunk port if Gi1/1 on SW2 is configured in desirable or trunk mode?
+A. switchport mode trunk
+B. switchport mode dot1-tunnel
+*C. switchport mode dynamic auto
+D. switchport mode dynamic desirable
+
+15. Which (unction generally performed by a traditional network device is replaced by a software-defined controller?
+A. encryption and decryption for VPN link processing
+*B. building route tables and updating the forwarding table
+C. changing the source or destination address during NAT operations
+D. encapsulation and decapsulation of packets in a data-link frame
+
+16. Which two VPN technologies are recommended by Cisco for multiple branch offices and large-scale deployments? (Choose two.)
+A. site-to-site VPN
+*B. DMVPN
+*C. GETVPN
+D. IPsec remote access
+E. clientless VPN
+
+17. Which IPsec mode encapsulates the entire IP packet?
+*A. tunnel
+B. Q-in-Q
+C. SSL VPN
+D. transport
+
+18. An engineer observes high usage on the 2.4GHz channels and lower usage on the 5GHz channels. What must be configured to allow clients to preferentially use 5GHz access points?
+A. Re-Anchor Roamed Clients
+B. OEAP Split Tunnel
+C. 11ac MU-MIMO
+*D. Client Band Select
+
+19. How does IPsec provide secure networking for applications within an organization?
+A. It takes advantage of FTP to secure file transfers between nodes on the network.
+B. It provides GRE tunnels to transmit traffic securely between network nodes.
+*C. It enables sets of security associations between peers.
+D. It leverages TFTP providing secure file transfers among peers on the network.
+
+20. Which interface IP address serves as the tunnel source for CAPWAP packets from the WLC to an AP?
+A. service
+B. trunk
+*C. AP-manager
+D. virtual AP connection
+
+21. Which IPsec encryption mode is appropriate when the destination of a packet differs from the security termination point?
+A. tunnel
+*B. transport
+C. aggressive
+D. main
+
+22. Which IPsec transport mode encrypts the IP header and the payload?
+A. pipe
+B. control
+C. transport
+*D. tunnel
+
+23. Which interface enables communication between a program on the controller and a program on the networking devices?
+A. northbound interface
+*B. software virtual interface
+C. southbound interface
+D. tunnel Interface
+
+24. Which protocol is used in Software Defined Access (SDA) to provide a tunnel between two edge nodes in different fabrics?
+A. Generic Router Encapsulation (GRE)
+B. Virtual Local Area Network (VLAN)
+*C. Virtual Extensible LAN (VXLAN)
+D. Point-to-Point Protocol
+
+25. What are two protocols within the IPsec suite? (Choose two)
+A. AH
+B. 3DES
+C. ESP
+*D. TLS
+*E. AES
+
+26. Which mechanism carries multicast traffic between remote sites and supports encryption?
+*A. GRE over IPsec
+B. IPsec over ISATAP
+C. GRE
+D. ISATAP
+
+27. Why does an administrator choose to implement a remote access IPsec VPN?
+*A. to establish an encrypted tunnel between a remote user and a private network over the internet
+B. to allow access to an enterprise network using any internet-enabled location via a web browser using SSL
+C. to provide a secure link between an HTTPS server, authentication subsystem, and an end-user
+D. to use cryptography for authentication between a device and user over a negotiated VPN gateway
+
+28. Which default condition must be considered when an encrypted mobility tunnel is used between two Cisco WLCs?
+*A. TCP port 443 and UDP 21 are used.
+B. Control and data traffic encryption are enabled.
+C. The tunnel uses the IPsec protocol for encapsulation.
+D. The tunnel uses the EolP protocol to transmit data traffic.
+
+29. Which technology allows for logical Layer 3 separation on physical network equipment?
+*A. Virtual Route Forwarding
+B. Virtual Switch System
+C. IPsec Transport Mode
+D. Time Division Multiplexer
+

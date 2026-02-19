@@ -1,0 +1,214 @@
+{
+  "protocol": "network-architecture",
+  "groups": [
+    {
+      "group_id": "network-architecture_q1",
+      "concept": "What are two descriptions of three-tier network topologies? (Choose two)",
+      "question_ids": [
+        "network-architecture_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q2",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "network-architecture_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q3",
+      "concept": "in Which way does a spine and-leaf architecture allow for scalability in a netwo...",
+      "question_ids": [
+        "network-architecture_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q4",
+      "concept": "Which function is performed by the collapsed core layer in a two-tier architectu...",
+      "question_ids": [
+        "network-architecture_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q5",
+      "concept": "What are two characteristics of the distribution layer in a three-tier network a...",
+      "question_ids": [
+        "network-architecture_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q6",
+      "concept": "What is a characteristic of a SOHO network?",
+      "question_ids": [
+        "network-architecture_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q7",
+      "concept": "Which access layer threat-mitigation technique provides security based on identi...",
+      "question_ids": [
+        "network-architecture_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q8",
+      "concept": "What are two characteristics of the distribution layer in a three-tier network a...",
+      "question_ids": [
+        "network-architecture_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q9",
+      "concept": "How are the switches in a spine-and-leaf topology interconnected?",
+      "question_ids": [
+        "network-architecture_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q10",
+      "concept": "Which two WAN architecture options help a business scalability and reliability f...",
+      "question_ids": [
+        "network-architecture_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q11",
+      "concept": "What is a characteristic of a SOHO network?",
+      "question_ids": [
+        "network-architecture_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q12",
+      "concept": "Which two functions are performed by the core layer in a three-tier architecture...",
+      "question_ids": [
+        "network-architecture_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q13",
+      "concept": "in Which way does a spine and-leaf architecture allow for scalability in a netwo...",
+      "question_ids": [
+        "network-architecture_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q14",
+      "concept": "Which two WAN architecture options help a business improve scalability and relia...",
+      "question_ids": [
+        "network-architecture_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q15",
+      "concept": "Which function is performed by the collapsed core layer in a two-tier architectu...",
+      "question_ids": [
+        "network-architecture_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q16",
+      "concept": "What are two descriptions of three-tier network topologies? (Choose two)",
+      "question_ids": [
+        "network-architecture_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q17",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "network-architecture_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q18",
+      "concept": "What is a characteristic of spine-and-leaf architecture?",
+      "question_ids": [
+        "network-architecture_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q19",
+      "concept": "[Exhibit] Which plan must be Implemented to ensure optimal QoS marking practices...",
+      "question_ids": [
+        "network-architecture_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q20",
+      "concept": "What is the collapsed layer in collapsed core architectures?",
+      "question_ids": [
+        "network-architecture_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q21",
+      "concept": "What are two characteristics of a small office / home office connection environm...",
+      "question_ids": [
+        "network-architecture_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q22",
+      "concept": "What is a characteristics of a collapsed-core network topology?",
+      "question_ids": [
+        "network-architecture_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "network-architecture_q23",
+      "concept": "In which way does a spine-and-leaf architecture allow for scalability in a netwo...",
+      "question_ids": [
+        "network-architecture_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 23,
+  "total_questions": 23
+}

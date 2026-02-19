@@ -1,0 +1,38 @@
+{
+  "name": "Wireless (802.11)",
+  "slug": "wireless",
+  "category": "Wireless & Infrastructure",
+  "description": "Wireless networking based on IEEE 802.11 standards enables devices to connect to networks without physical cables. Key topics include SSIDs, security methods, and access point configuration.",
+  "key_topics": [
+    "802.11 standards: a, b, g, n, ac, ax (WiFi 6)",
+    "Frequency bands: 2.4 GHz and 5 GHz",
+    "SSID (Service Set Identifier) and broadcast settings",
+    "Wireless security: WEP (deprecated), WPA, WPA2, WPA3",
+    "Authentication methods: Open, Pre-shared Key (PSK), 802.1X/RADIUS",
+    "Wireless LAN Controller (WLC) and lightweight APs",
+    "CAPWAP (Control and Provisioning of Wireless Access Points)",
+    "Roaming and BSS/ESS concepts"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "wireless network configuration",
+      "ssid",
+      "authentication",
+      "encryption"
+    ],
+    "switch": [
+      "wireless management interface"
+    ]
+  },
+  "common_misconceptions": [
+    "Many training resources claim WEP is adequate for home networks. Cisco documentation emphasizes WEP is completely broken and should NEVER be used; minimum is WPA2 with AES",
+    "Third-party materials often confuse SSID broadcast disabling with security. Cisco guides clarify that hiding SSID provides no real security - it only prevents casual discovery but can be detected easily",
+    "Training books frequently oversimplify wireless security. Cisco emphasizes 802.1X with RADIUS (WPA2-Enterprise) is required for enterprise environments; PSK (WPA2-Personal) is acceptable only for small offices",
+    "Common error: assuming all 802.11n devices use 5 GHz. 802.11n works on both 2.4 GHz and 5 GHz bands, unlike 802.11a (5 GHz only) and 802.11b/g (2.4 GHz only)"
+  ],
+  "exam_weight": "Medium",
+  "related_protocols": [
+    "ethernet",
+    "tcp-ip"
+  ]
+}

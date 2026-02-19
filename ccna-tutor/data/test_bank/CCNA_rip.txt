@@ -1,0 +1,82 @@
+CCNA 200-301 - RIP - Routing Information Protocol
+==================================================
+
+1. Which network action occurs within the data plane?
+*A. compare the destination IP address to the IP routing table.
+B. run routing protocols (OSPF, EIGRP, RIP, BGP)
+C. make a configuration change from an incoming NETCONF RPC
+D. reply to an incoming ICMP echo request
+
+2. [Exhibit] A router reserved these five routes from different routing information sources. Which two routes does the router install in its routing table? (Choose two)
+A. RIP route 10.0.0.0/30
+B. iBGP route 10.0.0.0/30
+*C. OSPF route 10.0.0.0/30
+*D. EIGRP route 10.0.0.1/32
+E. OSPF route 10.0.0.0/16
+
+3. [Exhibit] How does the router manage traffic to 192.168.12.16?
+*A. It selects the RIP route because it has the longest prefix inclusive of the destination address.
+B. It chooses the OSPF route because it has the longest prefix inclusive of the destination address.
+C. it load-balances traffic between all three routes
+D. It chooses the EIGRP route because it has the lowest administrative distance
+
+4. R1 has learned route 192.168.12.0/24 via IS-IS. OSPF, RIP. and Internal EIGRP Under normal operating conditions, which routing protocol is installed in the routing table?
+A. IS-IS
+B. RIP
+*C. Internal EIGRP
+D. OSPF
+
+5. [Exhibit] How does router R1 handle traffic to 192.168.10.16?
+A. It selects the IS-IS route because it has the shortest prefix inclusive of the destination address.
+B. It selects the EIGRP route because it has the lowest administrative distance.
+C. It selects the OSPF route because it has the lowest cost.
+*D. It selects the RIP route because it has the longest prefix inclusive of the destination address.
+
+6. [Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing protocol. A network engineer must configure R1 with a floating static route to serve as a backup route to network 192.168.23.0. Which command must the engineer configure on R1?
+A. ip route 192.168.23.0 255.255.255.255 192.168.13.3 121
+B. ip route 192.168.23.0 255.255.255.0 192.168.13.3 100
+*C. ip route 192.168.23.0 265.255.255.0 192.168.13.3 121
+D. ip route 192.168.23.0 255.255.255.0 192.168.13.3
+
+7. [Exhibit] A network engineer executes the show ip route command on router D. What is the next hop to network 192.168 1 0/24 and why?
+A. The next hop is 10.0.2.1 because it uses distance vector routing
+*B. The next hop is 10.0.2.1 because it is a link-state routing protocol
+C. The next hop is 10.0.0.1 because it has a better administrative distance
+D. The next hop is 10.0.0.1 because it has a higher metric.
+
+8. R1 has learned route 192.168.12.0/24 via IS-IS, OSPF, RIP, and Internal EIGRP. Under normal operating conditions, which routing protocol's route will be installed in the routing table?
+A. IS-IS
+B. RIP
+C. OSPF
+*D. Internal EIGRP
+
+9. [Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing protocol. A network engineer must configure R1 with a floating static route to serve as a backup route to network 192.168.23. Which command must the engineer configure on R1?
+A. ip route 192.168.23.0 255.255.255.0 192.168.13.3 100
+*B. ip route 192.168.23.0 255.255.255.0 192.168.13.3 121
+C. ip route 192.168.23.0 255.255.255.255 192.168.13.3 121
+D. ip route 192.168.23.0 255.255.255.0 192.168.13.3
+
+10. [Exhibit] Of the routes learned with dynamic routing protocols, which has the least preferred metric?
+A. EIGRP
+B. OSPF
+C. Local
+*D. RIP
+
+11. [Exhibit] Which routes are configured with their default administrative distances?
+A. EIGRP
+*B. OSPF
+C. RIP
+D. Local
+
+12. [Exhibit] Of the routes learned with dynamic routing protocols, which has the least preferred metric?
+A. Local
+B. EIGRP
+C. OSPF
+*D. RIP
+
+13. [Exhibit] Which routes are configured with their default administrative distances?
+A. Local
+B. EIGRP
+C. RIP
+*D. OSPF
+

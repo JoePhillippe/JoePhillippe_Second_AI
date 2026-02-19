@@ -1,0 +1,10 @@
+{
+  "name": "FHRP",
+  "slug": "fhrp",
+  "category": "Infrastructure Services",
+  "description": "First Hop Redundancy Protocols (HSRP, VRRP, GLBP) provide default gateway redundancy for hosts.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

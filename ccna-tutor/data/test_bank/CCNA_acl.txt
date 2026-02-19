@@ -1,0 +1,198 @@
+CCNA 200-301 - ACLs - Access Control Lists
+==================================================
+
+1. While examining excessive traffic on the network, it is noted that all incoming packets on an interface appear to be allowed even though an IPv4 ACL is applied to the interface. Which two misconfigurations cause this behavior? (Choose two)
+A. The packets fail to match any permit statement
+*B. A matching permit statement is too high in the access test
+*C. A matching permit statement is too broadly defined
+D. The ACL is empty
+E. A matching deny statement is too high in the access list
+
+2. What is a characteristic of private IPv4 addressing?
+A. traverse the Internet when an outbound ACL is applied
+B. issued by IANA in conjunction with an autonomous system number
+C. composed of up to 65.536 available addresses
+*D. used without tracking or registration
+
+3. [Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-1 and allow access from all other hosts A Telnet attempt from PC-2 gives this message:\"% Connection refused by remote host\" Without allowing Telnet access from PC-1, which action must be taken to permit the traffic?
+*A. Add the access-list 10 permit any command to the configuration
+B. Remove the access-class 10 in command from line vty 0.4.
+C. Add the ip access-group 10 out command to interface g0/0.
+D. Remove the password command from line vty 0 4.
+
+4. [Exhibit] An access list is required to permit traffic from any host on interface G0/0 and deny traffic from interface G/0/1. Which access list must be applied?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+5. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+6. [Exhibit] A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?
+A. access-list 2699 permit udp 10.20.1.0 0.0.0.255
+B. no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22
+C. access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22
+*D. no access-list 2699 deny ip any 10.20.1.0 0.0.0.255
+
+7. [Exhibit] An extended ACL has been configured and applied to router R2 The configuration failed to work as intended Which two changes stop outbound traffic on TCP ports 25 and 80 to 10.0.20 0 26 from the 10.0.10 0/26 subnet while still allowing all other traffic? (Choose two )
+A. Add a "permit ip any any" statement to the begining of ACL 101 for allowed traffic.
+*B. Add a "permit ip any any" statement at the end of ACL 101 for allowed traffic
+*C. The source and destination IPs must be swapped in ACL 101
+D. The ACL must be configured the Gi0/2 interface inbound on R1
+E. The ACL must be moved to the Gi0/1 interface outbound on R2
+
+8. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+9. What is a practice that protects a network from VLAN hopping attacks?
+A. Enable dynamic ARP inspection
+B. Configure an ACL to prevent traffic from changing VLANs
+*C. Change native VLAN to an unused VLAN ID
+D. Implement port security on internet-facing VLANs
+
+10. [Exhibit] An access list is required to permit traffic from any host on interface G0/0 and deny traffic from interface G/0/1. Which access list must be applied?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+11. [Exhibit] A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?
+A. access-list 2699 permit udp 10.20.1.0 0.0.0.255
+B. no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22
+C. access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22
+*D. no access-list 2699 deny ip any 10.20.1.0 0.0.0.255
+
+12. [Exhibit] Which configuration on RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?
+A. access-list 100 deny tcp host 172.16.1.33 any eq 22 access-list 100 permit ip any anyinterface GigabitEthernet0/0 ip access-group 100 in
+*B. access-list 100 deny tcp host 172.16.1.33 any eq 22 access-list 100 permit ip any anyline vty 0 15 ip access-group 100 in
+C. access-list 100 deny tcp host 172.16.1.33 any eq 23 access-list 100 permit ip any anyinterface GigabitEthernet0/0 ip access-group 100 in
+D. access-list 100 deny tcp host 172.16.1.33 any eq 23 access-list 100 permit ip any anyline vty 0 15 ip access-group 100 in
+
+13. What is a characteristic of private IPv4 addressing?
+A. traverse the Internet when an outbound ACL is applied
+B. issued by IANA in conjunction with an autonomous system number
+C. composed of up to 65.536 available addresses
+*D. used without tracking or registration
+
+14. [Exhibit] A network administrator has been tasked with securing VTY access to a router. Which access-list entry accomplishes this task?
+*A. access-list 101 permit tcp 10.1.10 0.0.0.255 172.16.10 0.0.0.255 eq ssh
+B. access-list 101 permit tcp 10.11.0 0.0.0.255 172.16.10 0.0.0.255 eq scp
+C. access-list 101 permit tcp 10.11.0 0.0.0.255 172.16.10 0.0.0.255 eq telnet
+D. access-list 101 permit tcp 10.1.10 0.0.0.255 172.16.10 0.0.0.255 eq https
+
+15. [Exhibit] What is the effect of this configuration?
+*A. The switch port interface trust state becomes untrusted
+B. The switch port remains administratively down until the interface is connected to another switch
+C. Dynamic ARP inspection is disabled because the ARP ACL is missing
+D. The switch port remains down until it is configured to trust or untrust incoming packets
+
+16. While examining excessive traffic on the network, it is noted that all incoming packets on an interface appear to be allowed even though an IPv4 ACL is applied to the interface. Which two misconfigurations cause this behavior? (Choose two)
+A. The packets fail to match any permit statement
+*B. A matching permit statement is too high in the access test
+*C. A matching permit statement is too broadly defined
+D. The ACL is empty
+E. A matching deny statement is too high in the access list
+
+17. [Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-1 and allow access from all other hosts A Telnet attempt from PC-2 gives this message:"% Connection refused by remote host" Without allowing Telnet access from PC-1, which action must be taken to permit the traffic?
+*A. Add the access-list 10 permit any command to the configuration
+B. Remove the access-class 10 in command from line vty 0.4.
+C. Add the ip access-group 10 out command to interface g0/0.
+D. Remove the password command from line vty 0 4.
+
+18. [Exhibit] How should the configuration be updated to allow PC1 and PC2 access to the Internet?
+A. Modify the configured number of the second access list.
+*B. Add either the ip nat {inside|outside} command under both interfaces.
+C. Remove the overload keyword from the ip nat inside source command.
+D. Change the ip nat inside source command to use interface GigabitEthernet0/0.
+
+19. [Exhibit] Which configuration enables DHCP addressing for hosts connected to interface FastEthernetO/1 on router R4?
+A. interface FastEthernet0/0ip helper-address 10.0.1.1iaccess-list 100 permit udp host 10.0.1.1 eq bootps host 10.148.2.1
+*B. interface FastEthernot0/1ip helper-address 10.0.1.1!access-list 100 permit tcp host 10.0.1.1 eq 67 host 10.148.2.1
+C. interface FastEthernetO/0ip helper-address 10.0.1.1Iaccess-list 100 permit host 10.0.1.1 host 10.148.2.1 eq bootps
+D. interface FastEthernet0/1ip helper-address 10.0.1.1!access-list 100 permit udp host 10.0.1.1 eq bootps host 10.148.2.1
+
+20. [Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which action must the administrator take to establish connectivity to the Internet for users in VLAN 200?
+A. Define a NAT pool on the router.
+*B. Configure static NAT translations for VLAN 200.
+C. Configure the ip nat outside command on another interface for VLAN 200.
+D. Update the NAT INSIDF RANGFS ACL
+
+21. [Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subnet to the WAN on interlace Seria10. What is the effect of the configuration as the administrator applies the command?
+A. The permit command fails and returns an error code.
+B. The router accepts all incoming traffic to Seria10 with the last octet of the source IP set to 0.
+*C. The sourced traffic from IP range 10.0.0.0 -10.0.0.255 is allowed on Seria10.
+D. The router fails to apply the access list to the interface.
+
+22. [Exhibit] User traffic originating within site 0 is failing to reach an application hosted on IP address 192.168 0 10. Which is located within site A What is determined by the routing table?
+A. The default gateway for site B is configured incorrectly
+*B. The lack of a default route prevents delivery of the traffic
+C. The traffic is blocked by an implicit deny in an ACL on router2
+D. The traffic to 192 168 010 requires a static route to be configured in router 1.
+
+23. [Exhibit] A network engineer must configure NETCONF. After creating the configuration, the engineer gets output from the command show line but not from show running- config. Which command completes the configuration?
+A. Device(config)# netconf lock-time 500
+*B. Device(config)# netconf max-message 1000
+C. Device(config)# no netconf ssh acl 1
+D. Device(config)# netconf max-sessions 100
+
+24. [Exhibit] What is the next step to complete the implementation for the partial NAT configuration shown?
+A. Reconfigure the static NAT entries that overlap the NAT pool
+*B. Configure the NAT outside interface
+C. Modify the access list for the internal network on e0/1
+D. Apply the ACL to the pool configuration
+
+25. [Exhibit] How should the configuration be updated to allow PC1 and PC2 access to the Internet?
+*A. Change the ip nat inside source command to use interface GigabitEthernet0/0.
+B. Remove the overload keyword from the ip nat inside source command.
+C. Modify the configured number of the second access list.
+D. Add the ip nat inside and ip nat outside commands under both interfaces.
+
+26. [Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and DNS services via UDP. The new administrator wants to add TCP access to the DNS service. Which configuration updates the ACL efficiently?
+*A. ip access-list extended Services35 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+B. no ip access-list extended Servicesip access-list extended Services30 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+C. ip access-list extended Servicespermit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+D. no ip access-list extended Servicesip access-list extended Servicespermit udp 10.0.0.0 0.255.255.255 any eq 53permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domaindeny ip any any log
+
+27. A network engineer must configure an access list on a new Cisco IOS router. The access list must deny HTTP traffic to network 10.125.128.32/27 from the 192.168.240.0/20 network, but it must allow the 192.168.240.0/20 network to reach the rest of the 10.0.0.0/8 network. Which configuration must the engineer apply? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+28. Which solution is appropriate when mitigating password attacks where the attacker was able to sniff the clear-text password of the system administrator?
+*A. next-generation firewall to keep stateful packet inspection
+B. multifactor authentication using two separate authentication sources
+C. ACL to restrict incoming Telnet sessions "admin" accounts
+D. IPS with a block list of known attack vectors
+
+29. [Exhibit] Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?
+A. access-list 100 deny tcp host 172.16.1.33 any eq 23access-list 100 permit ip any anyinterface GigabitEthernet0/0ip access-group 100 in
+B. access-list 100 deny tcp host 172.16.1.33 any eq 22access-list 100 permit ip any anyinterface GigabitEthernet0/0ip access-group 100 in
+*C. access-list 100 deny tcp host 172.16.1.33 any eq 22access-list 100 permit ip any anyline vty 0 15access-class 100 in
+D. access-list 100 deny tcp host 172.16.1.33 any eq 23access-list 100 permit ip any anyline vty 0 15access-class 100 in
+
+30. What is a characteristic of private IPv4 addressing?
+A. traverses the Internet when an outbound ACL Is applied
+*B. used without allocation from a regional Internet authority
+C. shared address space between an ISP and subscriber
+D. reduces the need for isolated networks
+
+31. [Exhibit] After a recent internal security audit, the network administrator decided to block all P2P-capable devices from the selected SSID. Which configuration setting must the administrator apply?
+*A. Set the P2P Block Action to Drop.
+B. Select a correctly configured Layer 2 ACL.
+C. Set the Wi-Fi Direct Client Policy to Not-Allow.
+D. Set the MFP Client Protection to Required.
+
+32. Which action prevents debug messages from being sent via syslog while allowing other messages when an abnormally high number of syslog messages are generated by a device with the debug process turned on?
+A. Use an access list to filter out the syslog messages.
+B. Turn off the logging monitor in global configuration mode.
+C. Disable logging to the console.
+*D. Set the logging trap severity level to informational.
+

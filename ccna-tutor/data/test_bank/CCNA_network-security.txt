@@ -1,0 +1,825 @@
+CCNA 200-301 - Network Security - AAA, Port Security, 802.1X
+==================================================
+
+1. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+2. What causes a port to be placed in the err-disabled state?
+A. nothing plugged into the port
+*B. link flapping
+C. shutdown command issued on the port
+D. latency
+
+3. What is a function of a Next-Generation IPS?
+A. makes forwarding decisions based on learned MAC addresses
+B. serves as a controller within a controller-based network
+C. integrates with a RADIUS server to enforce Layer 2 device authentication rules
+*D. correlates user activity with network events
+
+4. What is the primary different between AAA authentication and authorization?
+A. Authentication verifies a username and password, and authorization handles the communication between the authentication agent and the user database.
+B. Authentication identifies a user who is attempting to access a system, and authorization validates the users password
+*C. Authentication identifies and verifies a user who is attempting to access a system, and authorization controls the tasks the user can perform.
+D. Authentication controls the system processes a user can access and authorization logs the activities the user initiates
+
+5. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+6. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+7. Which protocol prompts the Wireless LAN Controller to generate its own local web administration SSL certificate for GUI access?
+*A. HTTPS
+B. RADIUS
+C. TACACS+
+D. HTTP
+
+8. How do AAA operations compare regarding user identification, user services and access control?
+A. Authorization provides access control and authentication tracks user services
+*B. Authentication identifies users and accounting tracks user services
+C. Accounting tracks user services, and authentication provides access control
+D. Authorization identifies users and authentication provides access control
+
+9. An administrator must secure the WLC from receiving spoofed association requests. Which steps must be taken to configure the WLC to restrict the requests and force the user to wait 10 ms to retry an association request?
+A. Enable Security Association Teardown Protection and set the SA Query timeout to 10
+B. Enable MAC filtering and set the SA Query timeout to 10
+*C. Enable 802.1x Layer 2 security and set me Comeback timer to 10
+D. Enable the Protected Management Frame service and set the Comeback timer to 10
+
+10. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+11. What are network endpoints?
+A. act as routers to connect a user to the service prowler network
+*B. a threat to the network if they are compromised
+C. support inter-VLAN connectivity
+D. enforce policies for campus-wide traffic going to the internet
+
+12. What is a network appliance that checks the state of a packet to determine whether the packet is legitimate?
+A. Layer 2 switch
+B. load balancer
+*C. firewall
+D. LAN controller
+
+13. Which type of attack can be mitigated by dynamic ARP inspection?
+A. worm
+B. malware
+C. DDoS
+*D. man-in-the-middle
+
+14. Which command prevents passwords from being stored in the configuration as plain text on a router or switch?
+A. enable secret
+*B. service password-encryption
+C. username Cisco password encrypt
+D. enable password
+
+15. Which device performs stateful inspection of traffic?
+*A. firewall
+B. switch
+C. access point
+D. wireless controller
+
+16. [Exhibit] When PC-A sends traffic to PC-B, which network component is in charge of receiving the packet from PC-A verifying the IP addresses, and forwarding the packet to PC-B?
+A. Layer 2 switch
+*B. Router
+C. Load balancer
+D. firewall
+
+17. Which global command encrypt all passwords in the running configuration?
+A. password-encrypt
+*B. enable password-encryption
+C. enable secret
+D. service password-encryption
+
+18. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+19. What are two functions of an SDN controller? (Choose two)
+A. Layer 2 forwarding
+*B. coordinating VTNs
+C. tracking hosts
+*D. managing the topology
+E. protecting against DDoS attacks
+
+20. Which device tracks the state of active connections in order to make a decision to forward a packet through?
+A. wireless access point
+*B. firewall
+C. wireless LAN controller
+D. router
+
+21. Which type of security program is violated when a group of employees enters a building using the ID badge of only one person?
+A. intrusion detection
+B. user awareness
+*C. physical access control
+D. network authorization
+
+22. [Exhibit] An extended ACL has been configured and applied to router R2 The configuration failed to work as intended Which two changes stop outbound traffic on TCP ports 25 and 80 to 10.0.20 0 26 from the 10.0.10 0/26 subnet while still allowing all other traffic? (Choose two )
+A. Add a "permit ip any any" statement to the begining of ACL 101 for allowed traffic.
+*B. Add a "permit ip any any" statement at the end of ACL 101 for allowed traffic
+*C. The source and destination IPs must be swapped in ACL 101
+D. The ACL must be configured the Gi0/2 interface inbound on R1
+E. The ACL must be moved to the Gi0/1 interface outbound on R2
+
+23. Which type of security program is violated when a group of employees enters a building using the ID badge of only one person?
+A. intrusion detection
+B. user awareness
+*C. physical access control
+D. network authorization
+
+24. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+25. An email user has been lured into clicking a link in an email sent by their company's security organization. The webpage that opens reports that it was safe but the link could have contained malicious code. Which type of security program is in place?
+A. Physical access control
+B. Social engineering attack
+C. brute force attack
+*D. user awareness
+
+26. What is a practice that protects a network from VLAN hopping attacks?
+A. Enable dynamic ARP inspection
+B. Configure an ACL to prevent traffic from changing VLANs
+*C. Change native VLAN to an unused VLAN ID
+D. Implement port security on internet-facing VLANs
+
+27. Which access layer threat-mitigation technique provides security based on identity?
+A. Dynamic ARP Inspection
+B. using a non-default native VLAN
+*C. 802.1x
+D. DHCP snooping
+
+28. What are two functions of an SDN controller? (Choose two)
+A. Layer 2 forwarding
+*B. coordinating VTNs
+C. tracking hosts
+*D. managing the topology
+E. protecting against DDoS attacks
+
+29. Which global command encrypt all passwords in the running configuration?
+A. password-encrypt
+*B. enable password-encryption
+C. enable secret
+D. service password-encryption
+
+30. A network administrator must enable DHCP services between two sites. What must be configured for the router to pass DHCPDISCOVER messages on to the server?
+*A. a DHCP Relay Agent
+B. DHCP Binding
+C. a DHCP Pool
+D. DHCP Snooping
+
+31. What does physical access control regulate?
+A. access to spec fie networks based on business function
+B. access to servers to prevent malicious activity
+C. access to computer networks and file systems
+*D. access to networking equipment and facilities
+
+32. Which command prevents passwords from being stored in the configuration as plain text on a router or switch?
+A. enable secret
+*B. service password-encryption
+C. username Cisco password encrypt
+D. enable password
+
+33. What are network endpoints?
+A. act as routers to connect a user to the service prowler network
+*B. a threat to the network if they are compromised
+C. support inter-VLAN connectivity
+D. enforce policies for campus-wide traffic going to the internet
+
+34. After installing a new Cisco ISE server, which task must the engineer perform on the Cisco WLC to connect wireless clients on a specific VLAN based on their credentials?
+*A. Enable the allow AAA Override
+B. Enable the Even: Driven RRM.
+C. Disable the LAG Mode or Next Reboot.
+D. Enable the Authorized MIC APs against auth-list or AAA.
+
+35. What is an appropriate use for private IPv4 addressing?
+A. on the public-facing interface of a firewall
+B. to allow hosts inside to communicate in both directions with hosts outside the organization
+C. on internal hosts that stream data solely to external resources
+*D. on hosts that communicates only with other internal hosts
+
+36. Which device controls the forwarding of authentication requests for users when connecting to the network using a lightweight access point?
+A. TACACS server
+*B. wireless access point
+C. RADIUS server
+D. wireless LAN controller
+
+37. [Exhibit] When PC-A sends traffic to PC-B, which network component is in charge of receiving the packet from PC-A verifying the IP addresses, and forwarding the packet to PC-B?
+A. Layer 2 switch
+*B. Router
+C. Load balancer
+D. firewall
+
+38. Which type of attack can be mitigated by dynamic ARP inspection?
+A. worm
+B. malware
+C. DDoS
+*D. man-in-the-middle
+
+39. Which device tracks the state of active connections in order to make a decision to forward a packet through?
+A. wireless access point
+*B. firewall
+C. wireless LAN controller
+D. router
+
+40. In which two ways does a password manager reduce the chance of a hacker stealing a users password? (Choose two.)
+A. It automatically provides a second authentication factor that is unknown to the original user.
+B. It uses an internal firewall to protect the password repository from unauthorized access.
+*C. It protects against keystroke logging on a compromised device or web site.
+D. It stores the password repository on the local workstation with built-in antivirus and anti- malware functionality
+*E. It encourages users to create stronger passwords.
+
+41. What causes a port to be placed in the err-disabled state?
+A. latency
+*B. port security violation
+C. shutdown command issued on the port
+D. nothing plugged into the port
+
+42. What is a network appliance that checks the state of a packet to determine whether the packet is legitimate?
+A. Layer 2 switch
+B. load balancer
+*C. firewall
+D. LAN controller
+
+43. Which device performs stateful inspection of traffic?
+*A. firewall
+B. switch
+C. access point
+D. wireless controller
+
+44. Which security program element involves installing badge readers on data-center doors to allow workers to enter and exit based on their job roles?
+A. role-based access control
+B. biometrics
+C. multifactor authentication
+*D. physical access control
+
+45. What is the role of a firewall in an enterprise network?
+A. Forwards packets based on stateless packet inspection
+B. Processes unauthorized packets and allows passage to less secure segments of the network
+*C. determines which packets are allowed to cross from unsecured to secured networks
+D. explicitly denies all packets from entering an administrative domain
+
+46. Which two protocols are supported on service-port interfaces? (Choose two.)
+A. RADIUS
+B. TACACS+
+C. SCP
+*D. Telnet
+*E. SSH
+
+47. Which protocol prompts the Wireless LAN Controller to generate its own local web administration SSL certificate for GUI access?
+*A. HTTPS
+B. RADIUS
+C. TACACS+
+D. HTTP
+
+48. A network administrator must to configure SSH for remote access to router R1 The requirement is to use a public and private key pair to encrypt management traffic to and from the connecting client. Which configuration, when applied, meets the requirements?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+49. What is a role of access points in an enterprise network?
+*A. connect wireless devices to a wired network
+B. support secure user logins to devices or the network
+C. integrate with SNMP in preventing DDoS attacks
+D. serve as a first line of defense in an enterprise network
+
+50. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+51. A wireless administrator has configured a WLAN; however, the clients need access to a less congested 5-GHz network for their voice quality. What action must be taken to meet the requirement?
+A. enable AAA override
+B. enable RX-SOP
+C. enable DTIM
+*D. enable Band Select
+
+52. Which technology can prevent client devices from arbitrarily connecting to the network without state remediation?
+*A. 802.1x
+B. IP Source Guard
+C. MAC Authentication Bypass
+D. 802.11n
+
+53. What is a difference between RADIUS and TACACS+?
+A. RADIUS is most appropriate for dial authentication, but TACACS+ can be used for multiple types of authentication
+B. TACACS+ encrypts only password information and RADIUS encrypts the entire payload
+*C. TACACS+ separates authentication and authorization, and RADIUS merges them
+D. RADIUS logs all commands that are entered by the administrator, but TACACS+ logs only start, stop, and interim commands
+
+54. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+55. Which function does an SNMP agent perform?
+*A. it sends information about MIB variables in response to requests from the NMS
+B. it requests information from remote network nodes about catastrophic system events.
+C. it manages routing between Layer 3 devices in a network
+D. it coordinates user authentication between a network device and a TACACS+ or RADIUS server
+
+56. Refer to Exhibit. Which action do the switches take on the trunk link?
+A. The trunk does not form and the ports go into an err-disabled status.
+*B. The trunk forms but the mismatched native VLANs are merged into a single broadcast domain.
+C. The trunk does not form, but VLAN 99 and VLAN 999 are allowed to traverse the link.
+D. The trunk forms but VLAN 99 and VLAN 999 are in a shutdown state.
+
+57. An administrator must secure the WLC from receiving spoofed association requests. Which steps must be taken to configure the WLC to restrict the requests and force the user to wait 10 ms to retry an association request?
+A. Enable Security Association Teardown Protection and set the SA Query timeout to 10
+B. Enable MAC filtering and set the SA Query timeout to 10
+*C. Enable 802.1x Layer 2 security and set me Comeback timer to 10
+D. Enable the Protected Management Frame service and set the Comeback timer to 10
+
+58. How do AAA operations compare regarding user identification, user services and access control?
+A. Authorization provides access control and authentication tracks user services
+*B. Authentication identifies users and accounting tracks user services
+C. Accounting tracks user services, and authentication provides access control
+D. Authorization identifies users and authentication provides access control
+
+59. Where does a switch maintain DHCP snooping information?
+A. in the MAC address table
+B. in the CAM table
+*C. in the binding database
+D. in the frame forwarding database
+
+60. What is the primary different between AAA authentication and authorization?
+A. Authentication verifies a username and password, and authorization handles the communication between the authentication agent and the user database.
+B. Authentication identifies a user who is attempting to access a system, and authorization validates the users password
+*C. Authentication identifies and verifies a user who is attempting to access a system, and authorization controls the tasks the user can perform.
+D. Authentication controls the system processes a user can access and authorization logs the activities the user initiates
+
+61. [Exhibit] After the configuration is applied, the two routers fail to establish an OSPF neighbor relationship. what is the reason for the problem?
+A. The OSPF router IDs are mismatched.
+*B. Router2 is using the default hello timer.
+C. The network statement on Router1 is misconfigured.
+D. The OSPF process IDs are mismatched.
+
+62. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+63. A network administrator enabled port security on a switch interface connected to a printer. What is the next configuration action in order to allow the port to learn the MAC address of the printer and insert it into the table automatically?
+A. enable dynamic MAC address learning
+B. implement static MAC addressing.
+*C. enable sticky MAC addressing
+D. implement auto MAC address learning
+
+64. [Exhibit] Users need to connect to the wireless network with IEEE 802. 11r-compatible devices. The connection must be maintained as users travel between floors or to other areas in the building What must be the configuration of the connection?
+A. Select the WPA Policy option with the CCKM option.
+B. Disable AES encryption.
+C. Enable Fast Transition and select the FT 802.1x option.
+*D. Enable Fast Transition and select the FT PSK option.
+
+65. What is one reason to implement LAG on a Cisco WLC?
+A. to increase security and encrypt management frames
+*B. to provide link redundancy and load balancing
+C. to allow for stateful and link-state failover
+D. to enable connected switch ports to failover and use different VLANs
+
+66. Which WLC management connection type is vulnerable to man-in-the-middle attacks?
+A. SSH
+B. HTTPS
+*C. Telnet
+D. console
+
+67. What is a function of a Next-Generation IPS?
+A. makes forwarding decisions based on learned MAC addresses
+B. serves as a controller within a controller-based network
+C. integrates with a RADIUS server to enforce Layer 2 device authentication rules
+*D. correlates user activity with network events
+
+68. Which field within the access-request packet is encrypted by RADIUS?
+A. authorized services
+B. authenticator
+C. username
+*D. password
+
+69. What causes a port to be placed in the err-disabled state?
+A. nothing plugged into the port
+*B. link flapping
+C. shutdown command issued on the port
+D. latency
+
+70. Which action implements physical access control as part of the security program of an organization?
+*A. configuring a password for the console port
+B. backing up syslogs at a remote location
+C. configuring enable passwords on network devices
+D. setting up IP cameras to monitor key infrastructure
+
+71. What provides centralized control of authentication and roaming In an enterprise network?
+A. a lightweight access point
+B. a firewall
+*C. a wireless LAN controller
+D. a LAN switch
+
+72. Which type of network attack overwhelms the target server by sending multiple packets to a port until the half-open TCP resources of the target are exhausted?
+*A. SYIM flood
+B. reflection
+C. teardrop
+D. amplification
+
+73. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+74. [Exhibit] The network engineer is configuring a new WLAN and is told to use a static password for authentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to complete the configuration?
+A. Crable PSKEnable iod 1s
+*B. Select WPA2 PolicyDisable PMFEnable PSK
+C. Select WPA PolicyEnable PSK
+D. Select WPA PolicySelect WRAS Policy
+
+75. [Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow only specific clients to join. Which two actions must be taken to complete the process? (Choose two.)
+A. Enable the 802.1X option for Authentication Key Management
+*B. Enable the WPA2 Policy option
+C. Enable the CCKM option for Authentication Key Management
+*D. Enable the MAC Filtering option
+E. Enable the OSEN Policy option
+
+76. Which enhancement is implemented in WPA3?
+A. applies 802.1x authentication
+B. usesTKIP
+C. employs PKI to identify access points
+*D. protects against brute force attacks
+
+77. Refer to Itie exhibit A network engineer started to configure port security on a new switch. These requirements must be met: * MAC addresses must be learned dynamically * Log messages must be generated without disabling the interface when unwanted traffic is seen Which two commands must be configured to complete this task"? (Choose two)
+A. SW(ccnfig-if)=switchport port-security mac-address sticky
+B. SW(confKj-if)=switchport port-security violation restrict
+*C. SW(config.if)sswitchport port-security mac-address 0010.7B84.45E6
+D. SW(config-if)aswitchport port-security maximum 2
+E. SW(ccnfig-if)=switchport port-security violation shutdown
+
+78. [Exhibit] Clients on the WLAN are required to use 802.11r. What action must be taken to meet the requirement?
+*A. Set the Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management
+B. Set the Fast Transition option and the WPA gik-randomize State to disable
+C. Under Protected Management Frames, set the PMF option to Required
+D. Enable CCKM under Authentication Key Management
+
+79. [Exhibit] Company A wants to use a RADIUS server to service all user and device authentication attempts with a more secure and granular authentication approach. Not all client devices support dot1x authentication. Which two configuration changes must be made to accomplish the task? (Choose two.)
+A. Enable AutoConfig IPSK under the Layer 2 tab.
+*B. Select Authentication server under the AAA servers tab.
+*C. Configure Enterprise Security type under the Layer 2 tab.
+D. Set Authentication under the Layer 3 tab.
+E. Enable WPA2 Policy under the Layer 2 tab.
+
+80. [Exhibit] A network administrator is configuring a router for user access via SSH. The service-password encryption command has been issued. The configuration must meet these requirements: • Create the username as CCUser. • Create the password as NA!2Scc. • Encrypt the user password. What must be configured to meet the requirements?
+A. username CCUser privies 10 password NA!2Scc
+*B. username CCUser password NA!2Scc enable password level 5 NA!2$cc
+C. username CCUser secret NA!2Scc
+D. username CCUser privilege 15 password NA!2Scc enable secret 0 NA!2$cc
+
+81. Which selections must be used on the WLC when implementing a RADIUS server for wireless authentication?
+A. Client Exclusion and SSH
+*B. 802.1x and the MAC address of the server
+C. Network Access Control State and SSH
+D. AAA Override and the IP address of the server
+
+82. An engineer is configuring a switch port that is connected to a VoIP handset. Which command must the engineer configure to enable port security with a manually assigned MAC address of abod-bod on voice VLAN 4?
+*A. switchport port-security mac-address abcd.abcd.abcd
+B. switchport port-security mac-address abed.abed.abed vlan 4
+C. switchport port-security mac-address sticky abcd.abcd.abcd vlan 4
+D. switchport port-security mac-address abcd.abcd.abcd vlan voice
+
+83. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic Interface. What must be performed next to complete the basic configuration?
+A. Install the management interface and add the management IP.
+B. Configure high availability and redundancy tor the access points.
+C. Enable Telnet and RADIUS access on the management interface.
+*D. Create the new WLAN and bind the dynamic interface to It.
+
+84. What does WPA3 provide in wireless networking?
+*A. safeguards against brute force attacks with SAE
+B. optional Protected Management Frame negotiation
+C. backward compatibility with WPAand WPA2
+D. increased security and requirement of a complex configuration
+
+85. How does machine learning improve the detection of unauthorized network access?
+*A. It monitors for outdated software.
+B. It dictates security policy updates.
+C. It identifies patterns indicating intrusions.
+D. It assigns security clearance levels.
+
+86. A network engineer is configuring a new router at a branch office. The router is connected to an upstream WAN network that allows the branch to communicate with the head office. The central time server with IP address 172.24.54.8 is located behind a firewall at the head office. Which command must the engineer configure so that the software clock of the new router synchronizes with the time server?
+A. ntp master 172.24.54.8
+B. ntp client 172.24.54.8
+C. ntp peer 172.24.54.8
+*D. ntp server 172.24.54.8
+
+87. Which device separates networks by security domains?
+*A. firewall
+B. access point
+C. intrusion protection system
+D. wireless controller
+
+88. What is used as a solution for protecting an individual network endpoint from attack?
+A. Router
+B. Wireless controller
+*C. Anti software
+D. Cisco DNA Center
+
+89. [Exhibit] What is the issue with the interface GigabitEthernet0/0/1?
+A. Port security
+B. High throughput
+*C. Cable disconnect
+D. duplex mismatch
+
+90. What is a feature of WPA?
+*A. 802.1x authentication
+B. preshared key
+C. TKIP/MIC encryption
+D. small Wi-Fi application
+
+91. [Exhibit] A network engineer started to change default settings on SW1 to allow remote access and has entered the following in the configuration mode: SW1(config)#line vty 0 15 SW1(config-line)#password Labtest32! Which set of commands are needed to allow only SSH access and hide passwords in the running configuration?
+A. SW1(config-line)#exitSW1(config)#aaa new-model
+B. SW1(config-line)#login localSW1(config-line)#exitSW1(config)#enable secret test!2E
+*C. SW1(config-line)#transport input sshSW1(config-line)#exitSW1(config)#service password-encryption
+D. SW1(config-line)#login localSW1(config-line)#exitSW1(config)#crypto key generate rsa
+
+92. [Exhibit] What are the two steps an engineer must take to provide the highest encryption and authentication using domain credentials from LDAP?
+A. Select PSK under Authentication Key Management
+*B. Select WPA+WPA2 on Layer 2 Security
+C. Select Static-WEP + 802.1X on Layer 2 Security
+D. Select WPA Policy with TKIP Encryption
+*E. Select 802.1X from under Authentication Key Management
+
+93. What is the default port-security behavior on a trunk link?
+*A. It causes a network loop when a violation occurs.
+B. It disables the native VLAN configuration as soon as port security is enabled.
+C. It places the port in the err-disabled state if it learns more than one MAC address.
+D. It places the port in the err-disabled slate after 10 MAC addresses are statically configured.
+
+94. Which protocol should be used to transfer large files on a company intranet that allows TCP ports 20 and 21 through the firewall?
+A. REST API
+*B. FTP
+C. SMTP
+D. TFTP
+
+95. [Exhibit] Clients on the WLAN are required to use 802.11r. What action must be taken to meet the requirement?
+A. Under Protected Management Frames, set the PMF option to Required.
+B. Enable CCKM under Authentication Key Management.
+C. Set the Fast Transition option and the WPA gtk-randomize State to disable.
+*D. Set the Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management.
+
+96. After a recent security breach and a RADIUS failure, an engineer must secure the console port of each enterprise router with a local username and password. Which configuration must the engineer apply to accomplish this task?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+97. It work security team noticed that an increasing number of employees are becoming victims of phishing attacks. Which security program should be implemented to mitigate the problem?
+A. email system patches
+B. physical access control
+C. software firewall enabled on all PCs
+*D. user awareness training
+
+98. What is the purpose of the Cisco DNA Center controller?
+A. to secure physical access to a data center
+B. to scan a network and generate a Layer 2 network diagram
+*C. to securely manage and deploy network devices
+D. to provide Layer 3 services to autonomous access points
+
+99. To improve corporate security, an organization is planning to implement badge authentication to limit access to the data center. Which element of a security program is being deployed?
+A. user training
+B. user awareness
+C. vulnerability verification
+*D. physical access control
+
+100. [Exhibit] Which functionalities will this SSID have while being used by wireless clients?
+A. decreases network security against offline dictionary attacks and encourages easy access to the network
+B. increases network security against offline dictionary attacks and discourages time- consuming brute force attacks
+C. increases network security against man in the middle attacks and discourages denial of service attacks
+*D. decreases network security against air sniffing attacks and discourages the use of complex passwords
+
+101. [Exhibit] A network engineer must provide configured IP addressing details to investigate a firewall rule Issue. Which subnet and mask Identify what is configured on the en0 interface?
+A. 10.8.0.0/16
+B. 10.8.64.0/18
+C. 10.8.128.0/19
+*D. 10.8.138.0/24
+
+102. Which two protocols are used by an administrator for authentication and configuration on access points?
+A. Kerberos
+B. 802.1Q
+C. 802.1x
+*D. TACACS+
+*E. RADIUS
+
+103. Which action implements physical access control as part of the security program of an organization1?
+A. backing up syslogs at a remote location
+*B. configuring a password for the console port
+C. configuring enable passwords on network devices
+D. setting up IP cameras to monitor key infrastructure
+
+104. Which device segregates a network into separate zones that have their own security policies?
+A. IPS
+B. firewall
+*C. access point
+D. switch
+
+105. Which security method is used to prevent man-in-the-middle attack?
+A. authorization
+*B. authentication
+C. anti-replay
+D. accounting
+
+106. What is an enhancement implemented in WPA3?
+A. employs PKI and RADIUS to identify access points
+B. applies 802.1x authentication and AES-128 encryption
+C. uses TKIP and per-packet keying
+*D. defends against deauthentication and disassociation attacks
+
+107. Which protocol must be implemented to support separate authorization and authentication solutions for wireless APs?
+*A. RADIUS
+B. TACACS+
+C. 802.1X
+D. Kerberos
+
+108. What is the definition of backdoor malware?
+*A. malicious code that is installed onto a computer to allow access by an unauthorized user
+B. malicious code with the main purpose of downloading other malicious code
+C. malicious program that is used to launch other malicious programs
+D. malicious code that infects a user machine and then uses that machine to send spam
+
+109. [Exhibit] A network engineer configures the Cisco WLC to authenticate local wireless clients against a RADIUS server Which task must be performed to complete the process?
+A. Change the Server Status to Disabled
+B. Select Enable next to Management
+*C. Select Enable next to Network User
+D. Change the Support for CoA to Enabled.
+
+110. [Exhibit] An engineer configures interface fa0/1 on SW1 and SW2 to pass traffic from two different VLANs. For security reasons, company policy requires the native VLAN to be set to a nondefault value. Which configuration meets this requirement? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+111. Which solution is appropriate when mitigating password attacks where the attacker was able to sniff the clear-text password of the system administrator?
+*A. next-generation firewall to keep stateful packet inspection
+B. multifactor authentication using two separate authentication sources
+C. ACL to restrict incoming Telnet sessions "admin" accounts
+D. IPS with a block list of known attack vectors
+
+112. What is a function of Cisco Advanced Malware Protection for a Next-Generation IPS?
+A. authorizing potentially compromised wireless traffic
+*B. inspecting specific files and file types for malware
+C. authenticating end users
+D. URL filtering
+
+113. Which enhancements were implemented as part of WPA3?
+A. 802.1x authentication and AES-128 encryption
+B. TKIP encryption improving WEP and per-packet keying
+C. AES-64 m personal mode and AES-128 in enterprise mode
+*D. forward secrecy and SAE in personal mode for secure initial key exchange
+
+114. [Exhibit] What is the cause of the issue?
+A. STP
+B. port security
+*C. wrong cable type
+D. shutdown command
+
+115. [Exhibit] The network engineer is configuring a new WLAN and is told to use a setup password for authentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to complete the configuration?
+A. Disable PMF Enable PSK Enable 802.1x
+B. Select WPA Policy Enable CCKM Enable PSK
+C. Select WPA Policy Select WPA2 Policy Enable FT PSK
+*D. Select WPA2 Policy Disable PMF Enable PSK
+
+116. Why are API keys used to enforce rate limiting?
+*A. to uniquely identify clients to monitor their usage patterns
+B. to encrypt data to prevent excessive usage
+C. to contain embedded permissions that automatically expire
+D. to track the geographical location of each request
+
+117. [Exhibit] A network engineer is configuring a wireless LAN with Web Passthrough Layer 3 Web Policy. Which action must the engineer take to complete the configuration?
+A. Set the Layer 2 Security to 802.1X.
+B. Enable TKIP and CCMP256 WPA2 Encryption.
+*C. Set the Layer 2 Security to None.
+D. Enable the WPA Policy.
+
+118. How are API keys used to enforce rate limiting?
+A. To define the network path the API request should take
+*B. To uniquely identify each client application
+C. To specify the type of data format the client prefers to receive
+D. To encrypt data sent in the API request
+
+119. What is a characteristic of an SSID in wireless networks?
+A. provides protection against spyware
+B. eliminates network piggybacking
+*C. associates a name to a wireless network
+D. allows easy file sharing between endpoints
+
+120. A network security team noticed that an increasing number of employees are becoming victims of phishing attacks. Which security program should be implemented to mitigate the problem?
+A. Physical access control
+B. Software firewall enabled on all PCs
+C. Email system patches
+*D. User awareness training
+
+121. Which command must be configured to enable port security with a manually assigned MAC address of aabb.cc00.1234 for a VoIP handset on VLAN 4?
+A. switchport port-security mac-address aabb.cc00.1234
+*B. switchport port-security mac-address aabb.cc00.1234 vlan 4
+C. mac-address-table static aabb.cc00.1234 vlan 4 interface fa0/1
+D. switchport port-security mac-address sticky
+
+122. What is an advantage of using SDN versus traditional networking when it comes to security?
+A. SDN security is managed near the perimeter of the network with firewalls, VPNs, and IPS, and traditional networking security policies are created based on telemetry data.
+B. SDN exposes an API to configure locally per device for security policies, and traditional networking uses northbound API for network admin interface for configuring security policies.
+*C. SDN creates a unified control point making security policies consistent across all devices, and traditional networking must be configured device by device, leaving room for error.
+D. SDN devices communicate with each other to establish a security policy, and in traditional networking, devices communicate upstream to a central location to establish a security policy.
+
+123. What is a characteristic of private IPv4 addressing?
+A. Reduces the forwarding table on network routers
+B. Used on the external interface of a firewall
+C. Used by ISPs when only one IP is needed to connect to the internet
+*D. Address space which is isolated from the internet
+
+124. What is a function of a Next-Generation IPS?
+A. Integrates with a RADIUS server to enforce Layer 2 device authentication rules
+B. Serves as a controller within a controller-based network
+C. Makes forwarding decisions based on learned MAC addresses
+*D. Correlates user activity with network events
+
+125. [Exhibit] Users will be using a preconfigured secret key and SSID and must have a secured key hashing algorithm configured. The AAA server must not be used for the user authentication method. Which action completes the task?
+A. Enable AutoConfig iPSK.
+B. SetCCMP128(AES).
+C. Configure PSK Format HEX with key string.
+*D. Configure PSK-SHA2.
+
+126. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic interface. What must be performed next to complete the basic configuration?
+*A. Create the new WLAN and bind the dynamic interface to it.
+B. Install the management interface and add the management IP.
+C. Enable Telnet and RADIUS access on the management interface.
+D. Configure high availability and redundancy for the access points.
+
+127. Which action implements physical access control as part of the security program of an organization?
+A. configuring a password for the console port
+B. configuring enable passwords on network devices
+C. backing up syslogs at a remote location
+*D. setting up IP cameras to monitor key infrastructure
+
+128. [Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow only specific clients to join. Which two actions must be taken to complete the process? (Choose two)
+*A. Enable the MAC Filtering option
+B. Enable the OSEN Policy option
+C. Enable the CCKM option for Authentication Key Management
+*D. Enable the WPA2 Policy option
+E. Enable the 802.1X option for Authentication Key Management
+
+129. [Exhibit] A VTY password has been set to Labtest32! for remote access. Which commands are required to allow only SSH access and to hide passwords in the running configuration?
+A. SW1#(config-line)#login localSW1#(config-line)#exitSW1(config)#crypto key generate rsa
+B. SW1#(config-line)#login localSW1#(config-line)#exitSW1(config)#enable secret test!2E
+*C. SW1#(config-line)#transport input sshSW1#(config-line)#exitSW1(config)#service password-encryption
+D. SW1#(config-line)#exitSW1(config)#aaa new-model
+
+130. How are API keys used to enforce rate limiting?
+A. to specify the type of data format the client prefers to receive
+B. to define the network path the API request should take
+C. to encrypt data sent in the API request
+*D. to uniquely identify each client application
+
+131. Which protocol should be used to transfer large files on a company intranet that allows UDP 69 through the firewall?
+*A. FTP
+B. TFTP
+C. REST API
+D. SMTP
+
+132. What is an advantage of using SDN versus traditional networking when it comes to security?
+A. Security is managed near the perimeter of the network with firewalls, VPNs, and IPS.
+B. Devices communicate with each other to establish a security policy.
+*C. It creates a unified control point making security policies consistent across all devices.
+D. It exposes an API to configure locally per device for security policies.
+
+133. [Exhibit] An administrator is configuring a new WLAN for a wireless network that has these requirements: Dual-band clients that connect to the WLAN must be directed to the 5-GHz spectrum. Wireless clients on this WLAN must be able to apply VLAN settings from RADIUS attributes. Which two actions meet these requirements? (Choose two.)
+A. Enable the Aironet IE option.
+B. Enable the Coverage Hole Detection option.
+C. Set the MFP Client Protection option to Required
+*D. Enable the client band select option.
+*E. Enable the allow AAA Override option
+
+134. What is a characteristic of encryption in wireless networks?
+A. uses a unidirectional handshake for authentication
+B. Intercepts data threats before they attack a network
+C. uses integrity checks to identify forgery attacks
+*D. prevents intercepted data from being easily read
+
+135. An organization developed new security policies and decided to print the policies and distribute them to all personnel so that employees review and apply the policies. Which element of a security program is the organization implementing?
+A. Asset identification
+*B. User training
+C. Physical access control
+D. Vulnerability control
+

@@ -1,0 +1,169 @@
+{
+  "protocol": "nat",
+  "groups": [
+    {
+      "group_id": "nat_q1",
+      "concept": "An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to...",
+      "question_ids": [
+        "nat_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q2",
+      "concept": "[Exhibit] An engineer configured NAT translations and has verified that the conf...",
+      "question_ids": [
+        "nat_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q3",
+      "concept": "Why was the RFC 1918 address space defined?",
+      "question_ids": [
+        "nat_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q4",
+      "concept": "Which function does the range of private IPv4 addresses perform?",
+      "question_ids": [
+        "nat_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q5",
+      "concept": "Which type of address is the public IP address of a NAT device?",
+      "question_ids": [
+        "nat_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q6",
+      "concept": "[Exhibit] An engineer configured NAT translations and has verified that the conf...",
+      "question_ids": [
+        "nat_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q7",
+      "concept": "Refer to Exhibit. Which configuration must be applied to the router that configu...",
+      "question_ids": [
+        "nat_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q8",
+      "concept": "An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to...",
+      "question_ids": [
+        "nat_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q9",
+      "concept": "[Exhibit] How should the configuration be updated to allow PC1 and PC2 access to...",
+      "question_ids": [
+        "nat_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q10",
+      "concept": "[Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which acti...",
+      "question_ids": [
+        "nat_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q11",
+      "concept": "Which (unction generally performed by a traditional network device is replaced b...",
+      "question_ids": [
+        "nat_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q12",
+      "concept": "What is a benefit of using private IPv4 addressing?",
+      "question_ids": [
+        "nat_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q13",
+      "concept": "[Exhibit] What is the next step to complete the implementation for the partial N...",
+      "question_ids": [
+        "nat_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q14",
+      "concept": "[Exhibit] How should the configuration be updated to allow PC1 and PC2 access to...",
+      "question_ids": [
+        "nat_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q15",
+      "concept": "Which command creates a static NAT binding for a PC address of 10.1.1.1 to the p...",
+      "question_ids": [
+        "nat_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q16",
+      "concept": "[Exhibit] HQC needs to use a configuration that: \u2711 handles up to 150,000 concurr...",
+      "question_ids": [
+        "nat_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q17",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "nat_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "nat_q18",
+      "concept": "[Exhibit] HQC needs to use a configuration that: \u2711 Handles up to 150,000 concurr...",
+      "question_ids": [
+        "nat_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 18,
+  "total_questions": 18
+}

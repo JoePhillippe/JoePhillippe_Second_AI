@@ -1,0 +1,529 @@
+{
+  "protocol": "ipv6",
+  "groups": [
+    {
+      "group_id": "ipv6_q1",
+      "concept": "A network engineer is installing an IPv6-only capable device. The client has req...",
+      "question_ids": [
+        "ipv6_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q2",
+      "concept": "A network engineer must implement an IPv6 configuration on the vlan 2000 interfa...",
+      "question_ids": [
+        "ipv6_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q3",
+      "concept": "[Exhibit] Which IPv6 configuration is required for R17 to successfully ping the ...",
+      "question_ids": [
+        "ipv6_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q4",
+      "concept": "[Exhibit] The New York router is configured with static routes pointing to the A...",
+      "question_ids": [
+        "ipv6_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q5",
+      "concept": "[Exhibit] An engineer configured the New York router with state routes that poin...",
+      "question_ids": [
+        "ipv6_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q6",
+      "concept": "Which IPv6 address type provides communication between subnets and is unable to ...",
+      "question_ids": [
+        "ipv6_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q7",
+      "concept": "Which two minimum parameters must be configured on an active interface to enable...",
+      "question_ids": [
+        "ipv6_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q8",
+      "concept": "[Exhibit] Which two commands, when configured on router R1, fulfill these requir...",
+      "question_ids": [
+        "ipv6_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q9",
+      "concept": "Which command automatically generates an IPv6 address from a specified IPv6 pref...",
+      "question_ids": [
+        "ipv6_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q10",
+      "concept": "[Exhibit] Which two commands, when configured on router R1, fulfill these requir...",
+      "question_ids": [
+        "ipv6_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q11",
+      "concept": "Why was the RFC 1918 address space defined?",
+      "question_ids": [
+        "ipv6_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q12",
+      "concept": "Refer to Exhibit. The loopback1 interface of the Atlanta router must reach the l...",
+      "question_ids": [
+        "ipv6_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q13",
+      "concept": "An engineer must configure the IPv6 address 2001:0db8:0000:0000:0700:0003:400F:5...",
+      "question_ids": [
+        "ipv6_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q14",
+      "concept": "When configuring IPv6 on an interface, which two IPv6 multicast groups are joine...",
+      "question_ids": [
+        "ipv6_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q15",
+      "concept": "Which IPv6 address block sends packets to a group address rather than a single a...",
+      "question_ids": [
+        "ipv6_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q16",
+      "concept": "Which two minimum parameters must be configured on an active interface to enable...",
+      "question_ids": [
+        "ipv6_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q17",
+      "concept": "Which IPv6 address type provides communication between subnets and is unable to ...",
+      "question_ids": [
+        "ipv6_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q18",
+      "concept": "Refer to Exhibit. An engineer is configuring the NEW York router to reach the Lo...",
+      "question_ids": [
+        "ipv6_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q19",
+      "concept": "Which type of IPv6 address is publicly routable in the same way as IPv4 public a...",
+      "question_ids": [
+        "ipv6_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q20",
+      "concept": "[Exhibit] Which IPv6 configuration is required for R17 to successfully ping the ...",
+      "question_ids": [
+        "ipv6_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q21",
+      "concept": "A network engineer must configure the router R1 GigabitEthernet1/1 interface to ...",
+      "question_ids": [
+        "ipv6_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q22",
+      "concept": "What is the expected outcome when an EUI-64 address is generated?",
+      "question_ids": [
+        "ipv6_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q23",
+      "concept": "which IPv6 address block forwards packets to a multicast address rather than a u...",
+      "question_ids": [
+        "ipv6_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q24",
+      "concept": "Which action must be taken to assign a global unicast IPv6 address on an interfa...",
+      "question_ids": [
+        "ipv6_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q25",
+      "concept": "[Exhibit] The New York router is configured with static routes pointing to the A...",
+      "question_ids": [
+        "ipv6_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q26",
+      "concept": "[Exhibit] An engineer configured the New York router with state routes that poin...",
+      "question_ids": [
+        "ipv6_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q27",
+      "concept": "Which type of IPv6 address is similar to a unicast address but is assigned to mu...",
+      "question_ids": [
+        "ipv6_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q28",
+      "concept": "What is the difference between IPv6 unicast and anycast addressing?",
+      "question_ids": [
+        "ipv6_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q29",
+      "concept": "[Exhibit] An engineer is configuring the HO router. Which IPv6 address configura...",
+      "question_ids": [
+        "ipv6_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q30",
+      "concept": "A network engineer is installing an IPv6-only capable device. The client has req...",
+      "question_ids": [
+        "ipv6_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q31",
+      "concept": "A network administrator is setting up a new IPv6 network using the 64-bit addres...",
+      "question_ids": [
+        "ipv6_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q32",
+      "concept": "A network engineer must implement an IPv6 configuration on the vlan 2000 interfa...",
+      "question_ids": [
+        "ipv6_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q33",
+      "concept": "In which circumstance would a network architect decide to implement a global uni...",
+      "question_ids": [
+        "ipv6_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q34",
+      "concept": "What is a link-local all-nodes IPv6 multicast address?",
+      "question_ids": [
+        "ipv6_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q35",
+      "concept": "A network engineer must configure the router R1 GigabitEthernet1/1 interface to ...",
+      "question_ids": [
+        "ipv6_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q36",
+      "concept": "What is a function of the core and distribution layers in a collapsed-core archi...",
+      "question_ids": [
+        "ipv6_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q37",
+      "concept": "[Exhibit] The loopback1 interface of the Atlanta router must reach the lookback3...",
+      "question_ids": [
+        "ipv6_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q38",
+      "concept": "[Exhibit] An engineer configured the New York router with static routes that poi...",
+      "question_ids": [
+        "ipv6_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q39",
+      "concept": "[Exhibit] [Exhibit] The IPv6 address for the LAN segment on router R1 must be co...",
+      "question_ids": [
+        "ipv6_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q40",
+      "concept": "[Exhibit] Which format matches the Modified EUI-64 IPv6 interface address for th...",
+      "question_ids": [
+        "ipv6_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q41",
+      "concept": "[Exhibit] IPv6 must be implemented on R1 to the ISP The uplink between R1 and th...",
+      "question_ids": [
+        "ipv6_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q42",
+      "concept": "Which IPv6 address range is suitable for anycast addresses for distributed servi...",
+      "question_ids": [
+        "ipv6_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q43",
+      "concept": "[Exhibit] The New York router is configured with static routes pointing to the A...",
+      "question_ids": [
+        "ipv6_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q44",
+      "concept": "What is a valid IPv6 address record in DNS?",
+      "question_ids": [
+        "ipv6_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q45",
+      "concept": "[Exhibit] The administrator must configure a floating sialic default route that ...",
+      "question_ids": [
+        "ipv6_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q46",
+      "concept": "A network engineer must migrate a router loopback interface to the IPv6 address ...",
+      "question_ids": [
+        "ipv6_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q47",
+      "concept": "Refer to the exhibit An IPv6 address must be obtained automatically on the LAN i...",
+      "question_ids": [
+        "ipv6_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q48",
+      "concept": "What is the difference between an IPv6 link-local address and a unique local add...",
+      "question_ids": [
+        "ipv6_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q49",
+      "concept": "An engineer is configuring router R1 with an IPv6 static route for prefix 2019:C...",
+      "question_ids": [
+        "ipv6_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q50",
+      "concept": "[Exhibit] IPv6 is being Implemented within the enterprise. The command Ipv6 unlc...",
+      "question_ids": [
+        "ipv6_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q51",
+      "concept": "Which type of IPv4 address must be assigned to a server to protect it from exter...",
+      "question_ids": [
+        "ipv6_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q52",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10...",
+      "question_ids": [
+        "ipv6_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q53",
+      "concept": "Which two IPv6 addresses are used to provide connectivity between two routers on...",
+      "question_ids": [
+        "ipv6_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q54",
+      "concept": "What is a difference between an IPv6 multicast address and an IPv6 anycast addre...",
+      "question_ids": [
+        "ipv6_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q55",
+      "concept": "[Exhibit] The New York router must be configured so that traffic to 2000::1 is s...",
+      "question_ids": [
+        "ipv6_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q56",
+      "concept": "[Exhibit] Which two commands, when configured on router R1. fulfill these requir...",
+      "question_ids": [
+        "ipv6_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q57",
+      "concept": "What is a similarity between global and unique local IPv6 addresses?",
+      "question_ids": [
+        "ipv6_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ipv6_q58",
+      "concept": "[Exhibit] The routers R1-LAB and R2-LAB are configured with link-local addresses...",
+      "question_ids": [
+        "ipv6_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 58,
+  "total_questions": 58
+}

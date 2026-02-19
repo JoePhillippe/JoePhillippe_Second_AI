@@ -1,0 +1,1240 @@
+{
+  "protocol": "vlan",
+  "groups": [
+    {
+      "group_id": "vlan_q1",
+      "concept": "[Exhibit] The DHCP server and clients are connected to the same switch. What is ...",
+      "question_ids": [
+        "vlan_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q2",
+      "concept": "Which interface mode must be configured to connect the lightweight APs in a cent...",
+      "question_ids": [
+        "vlan_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q3",
+      "concept": "### A network engineer must configure two new subnets using the address block 10...",
+      "question_ids": [
+        "vlan_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q4",
+      "concept": "How does Rapid PVST+ create a fast loop-free network topology?",
+      "question_ids": [
+        "vlan_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q5",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "vlan_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q6",
+      "concept": "A network engineer must implement an IPv6 configuration on the vlan 2000 interfa...",
+      "question_ids": [
+        "vlan_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q7",
+      "concept": "Which function is performed by DHCP snooping?",
+      "question_ids": [
+        "vlan_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q8",
+      "concept": "[Exhibit] An administrator is tasked with configuring a voice VLAN. What is the ...",
+      "question_ids": [
+        "vlan_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q9",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "vlan_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q10",
+      "concept": "[Exhibit] Only four switches are participating in the VLAN spanning-tree process...",
+      "question_ids": [
+        "vlan_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q11",
+      "concept": "[Exhibit] A network administrator assumes a task to complete the connectivity be...",
+      "question_ids": [
+        "vlan_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q12",
+      "concept": "-   (Topic 2) Refer to Exhibit. How does SW2 interact with other switches in thi...",
+      "question_ids": [
+        "vlan_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q13",
+      "concept": "When using Rapid PVST+, which command guarantees the switch is always the root b...",
+      "question_ids": [
+        "vlan_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q14",
+      "concept": "Two switches are connected and using Cisco Dynamic Trunking Protocol SW1 is set ...",
+      "question_ids": [
+        "vlan_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q15",
+      "concept": "What are network endpoints?",
+      "question_ids": [
+        "vlan_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q16",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "vlan_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q17",
+      "concept": "Which command on a port enters the forwarding state immediately when a PC is con...",
+      "question_ids": [
+        "vlan_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q18",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "vlan_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q19",
+      "concept": "[Exhibit] A network engineer must configured communication between PC A and the ...",
+      "question_ids": [
+        "vlan_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q20",
+      "concept": "Which configuration ensures that the switch is always the root for VLAN 750?",
+      "question_ids": [
+        "vlan_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q21",
+      "concept": "Which command entered on a switch configured with Rapid PVST\\* listens and learn...",
+      "question_ids": [
+        "vlan_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q22",
+      "concept": "Where does the configuration reside when a helper address Is configured lo suppo...",
+      "question_ids": [
+        "vlan_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q23",
+      "concept": "[Exhibit] The network administrator wants VLAN 67 traffic to be untagged between...",
+      "question_ids": [
+        "vlan_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q24",
+      "concept": "Refer to the Exhibit. After the switch configuration the ping test fails between...",
+      "question_ids": [
+        "vlan_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q25",
+      "concept": "Which command on a port enters the forwarding state immediately when a PC is con...",
+      "question_ids": [
+        "vlan_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q26",
+      "concept": "What is a practice that protects a network from VLAN hopping attacks?",
+      "question_ids": [
+        "vlan_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q27",
+      "concept": "Which access layer threat-mitigation technique provides security based on identi...",
+      "question_ids": [
+        "vlan_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q28",
+      "concept": "An engineer must configure Interswitch VLAN communication between a Cisco switch...",
+      "question_ids": [
+        "vlan_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q29",
+      "concept": "What occurs to frames during the process of frame flooding?",
+      "question_ids": [
+        "vlan_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q30",
+      "concept": "How are VLAN hopping attacks mitigated?",
+      "question_ids": [
+        "vlan_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q31",
+      "concept": "What does a switch use to build its MAC address table?",
+      "question_ids": [
+        "vlan_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q32",
+      "concept": "[Exhibit] Which switch becomes the root of the spanning tree for VLAN 110?",
+      "question_ids": [
+        "vlan_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q33",
+      "concept": "What are network endpoints?",
+      "question_ids": [
+        "vlan_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q34",
+      "concept": "When using Rapid PVST+, which command guarantees the switch is always the root b...",
+      "question_ids": [
+        "vlan_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q35",
+      "concept": "After installing a new Cisco ISE server, which task must the engineer perform on...",
+      "question_ids": [
+        "vlan_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q36",
+      "concept": "Two switches are connected and using Cisco Dynamic Trunking Protocol SW1 is set ...",
+      "question_ids": [
+        "vlan_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q37",
+      "concept": "[Exhibit] What commands are needed to add a subinterface to Ethernet0/0 on R1 to...",
+      "question_ids": [
+        "vlan_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q38",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "vlan_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q39",
+      "concept": "What is the default behavior of a Layer 2 switch when a frame with an unknown de...",
+      "question_ids": [
+        "vlan_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q40",
+      "concept": "What are two functions of a Layer 2 switch? (Choose two)",
+      "question_ids": [
+        "vlan_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q41",
+      "concept": "Which two command sequences must you configure on switch to establish a Layer 3 ...",
+      "question_ids": [
+        "vlan_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q42",
+      "concept": "An engineer needs to add an old switch back into a network. To prevent the switc...",
+      "question_ids": [
+        "vlan_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q43",
+      "concept": "Which command entered on a switch configured with Rapid PVST* listens and learns...",
+      "question_ids": [
+        "vlan_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q44",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "vlan_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q45",
+      "concept": "Which two components are needed to create an Ansible script that configures a VL...",
+      "question_ids": [
+        "vlan_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q46",
+      "concept": "[Exhibit] A network engineer must configured communication between PC A and the ...",
+      "question_ids": [
+        "vlan_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q47",
+      "concept": "Which configuration ensures that the switch is always the root for VLAN 750?",
+      "question_ids": [
+        "vlan_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q48",
+      "concept": "A network administrator is asked to configure VLANS 2, 3 and 4 for a new impleme...",
+      "question_ids": [
+        "vlan_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q49",
+      "concept": "How is the native VLAN secured in a network?",
+      "question_ids": [
+        "vlan_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q50",
+      "concept": "Where does the configuration reside when a helper address Is configured lo suppo...",
+      "question_ids": [
+        "vlan_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q51",
+      "concept": "[Exhibit] A network administrator assumes a task to complete the connectivity be...",
+      "question_ids": [
+        "vlan_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q52",
+      "concept": "What is a function of a Layer 3 switch?",
+      "question_ids": [
+        "vlan_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q53",
+      "concept": "[Exhibit] Only four switches are participating in the VLAN spanning-tree process...",
+      "question_ids": [
+        "vlan_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q54",
+      "concept": "A Cisco IP phone receive untagged data traffic from an attached PC. Which action...",
+      "question_ids": [
+        "vlan_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q55",
+      "concept": "Which result occurs when PortFast is enabled on an interface that is connected t...",
+      "question_ids": [
+        "vlan_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q56",
+      "concept": "Which function is performed by DHCP snooping?",
+      "question_ids": [
+        "vlan_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q57",
+      "concept": "Refer to Exhibit. Which configuration must be applied to the router that configu...",
+      "question_ids": [
+        "vlan_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q58",
+      "concept": "What prevents a workstation from receiving a DHCP address?",
+      "question_ids": [
+        "vlan_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q59",
+      "concept": "Which port type supports the spanning-tree portfast command without additional c...",
+      "question_ids": [
+        "vlan_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q60",
+      "concept": "An engineer must configure traffic for a VLAN that is untagged by the switch as ...",
+      "question_ids": [
+        "vlan_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q61",
+      "concept": "[Exhibit] Which action is expected from SW1 when the untagged frame is received ...",
+      "question_ids": [
+        "vlan_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q62",
+      "concept": "[Exhibit] A network engineer must block access for all computers on VLAN 20 to t...",
+      "question_ids": [
+        "vlan_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q63",
+      "concept": "[Exhibit] An administrator must configure interfaces Gi1/1 and Gi1/3 on switch S...",
+      "question_ids": [
+        "vlan_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q64",
+      "concept": "[Exhibit] An administrator is tasked with configuring a voice VLAN. What is the ...",
+      "question_ids": [
+        "vlan_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q65",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "vlan_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q66",
+      "concept": "The service password-encryption command is entered on a router. What is the effe...",
+      "question_ids": [
+        "vlan_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q67",
+      "concept": "Refer to Exhibit. Which action do the switches take on the trunk link?",
+      "question_ids": [
+        "vlan_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q68",
+      "concept": "Which protocol requires authentication to transfer a backup configuration file f...",
+      "question_ids": [
+        "vlan_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q69",
+      "concept": "[Exhibit] Which command must be executed for Gi1.1 on SW1 to become a trunk port...",
+      "question_ids": [
+        "vlan_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q70",
+      "concept": "An engineer must establish a trunk link between two switches. The neighboring sw...",
+      "question_ids": [
+        "vlan_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q71",
+      "concept": "A network administrator needs to aggregate 4 ports into a single logical link wh...",
+      "question_ids": [
+        "vlan_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q72",
+      "concept": "An engineer requires a scratch interface to actively attempt to establish a trun...",
+      "question_ids": [
+        "vlan_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q73",
+      "concept": "Refer to Exhibit. How does SW2 interact with other switches in this VTP domain?",
+      "question_ids": [
+        "vlan_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q74",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "vlan_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q75",
+      "concept": "How does Rapid PVST+ create a fast loop-free network topology?",
+      "question_ids": [
+        "vlan_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q76",
+      "concept": "A network engineer must configure two new subnets using the address block 10 70 ...",
+      "question_ids": [
+        "vlan_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q77",
+      "concept": "[Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which acti...",
+      "question_ids": [
+        "vlan_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q78",
+      "concept": "[Exhibit] All VLANs are present in the VLAN database. Which command sequence mus...",
+      "question_ids": [
+        "vlan_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q79",
+      "concept": "[Exhibit] Switch A is newly configured. All VLANs are present in the VLAN databa...",
+      "question_ids": [
+        "vlan_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q80",
+      "concept": "Which Layer 2 switch function encapsulates packets for different VLANs so that t...",
+      "question_ids": [
+        "vlan_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q81",
+      "concept": "A Cisco engineer must configure a single switch interface to meet these requirem...",
+      "question_ids": [
+        "vlan_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q82",
+      "concept": "[Exhibit] Which switch becomes the root of a spanning tree for VLAN 20 if all li...",
+      "question_ids": [
+        "vlan_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q83",
+      "concept": "A network engineer must implement an IPv6 configuration on the vlan 2000 interfa...",
+      "question_ids": [
+        "vlan_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q84",
+      "concept": "[Exhibit] The DHCP server and clients are connected to the same switch. What is ...",
+      "question_ids": [
+        "vlan_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q85",
+      "concept": "Which interface mode must be configured to connect the lightweight APs in a cent...",
+      "question_ids": [
+        "vlan_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q86",
+      "concept": "[Exhibit] The following must be considered: \u2022 SW1 is fully configured for all tr...",
+      "question_ids": [
+        "vlan_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q87",
+      "concept": "[Exhibit] An engineer is asked to insert the new VLAN into the existing trunk wi...",
+      "question_ids": [
+        "vlan_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q88",
+      "concept": "Two switches have been implemented and all interfaces are at the default configu...",
+      "question_ids": [
+        "vlan_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q89",
+      "concept": "What is a specification for SSIDS?",
+      "question_ids": [
+        "vlan_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q90",
+      "concept": "[Exhibit] A new VLAN and switch are added to the network. A remote engineer conf...",
+      "question_ids": [
+        "vlan_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q91",
+      "concept": "How does frame switching function on a switch?",
+      "question_ids": [
+        "vlan_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q92",
+      "concept": "What is a function of MAC address learning?",
+      "question_ids": [
+        "vlan_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q93",
+      "concept": "[Exhibit] An engineer is updating the management access configuration of switch ...",
+      "question_ids": [
+        "vlan_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q94",
+      "concept": "An engineer is configuring a switch port that is connected to a VoIP handset. Wh...",
+      "question_ids": [
+        "vlan_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q95",
+      "concept": "What must be considered for a locally switched FlexConnect AP if the VLANs that ...",
+      "question_ids": [
+        "vlan_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q96",
+      "concept": "[Exhibit] Which configuration establishes a Layer 2 LACP EtherChannel when appli...",
+      "question_ids": [
+        "vlan_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q97",
+      "concept": "[Exhibit] PC A and the file server. Which commend must be configured on switch A...",
+      "question_ids": [
+        "vlan_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q98",
+      "concept": "Which type of port is used to connect lo the wired network when an autonomous AP...",
+      "question_ids": [
+        "vlan_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q99",
+      "concept": "What is a reason to configure a trunk port that connects to a WLC distribution p...",
+      "question_ids": [
+        "vlan_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q100",
+      "concept": "The address block 192.168.32.0/24 must be subnetted into smaller networks. The e...",
+      "question_ids": [
+        "vlan_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q101",
+      "concept": "[Exhibit] The SW1 and SW2 Gi0/0 ports have been preconfigured. An engineer is gi...",
+      "question_ids": [
+        "vlan_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q102",
+      "concept": "[Exhibit] SW_1 and SW_12 represent two companies that are merging. They use sepa...",
+      "question_ids": [
+        "vlan_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q103",
+      "concept": "A network engineer is upgrading a small data center to host several new applicat...",
+      "question_ids": [
+        "vlan_qb103"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q104",
+      "concept": "[Exhibit] The DHCP server is configured with a DHCP pool for each of the subnets...",
+      "question_ids": [
+        "vlan_qb104"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q105",
+      "concept": "What happens when a switch receives a frame with a destination MAC address that ...",
+      "question_ids": [
+        "vlan_qb105"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q106",
+      "concept": "[Exhibit] Rapid PVST+ mode is on the same VLAN on each switch. Which switch beco...",
+      "question_ids": [
+        "vlan_qb106"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q107",
+      "concept": "Which interface IP address serves as the tunnel source for CAPWAP packets from t...",
+      "question_ids": [
+        "vlan_qb107"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q108",
+      "concept": "What is a function of an endpoint?",
+      "question_ids": [
+        "vlan_qb108"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q109",
+      "concept": "PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not lis...",
+      "question_ids": [
+        "vlan_qb109"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q110",
+      "concept": "Which port type does a lightweight AP use to connect to the wired network when i...",
+      "question_ids": [
+        "vlan_qb110"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q111",
+      "concept": "[Exhibit] An engineer is configuring a new Cisco switch NewSW, to replace SW2 Th...",
+      "question_ids": [
+        "vlan_qb111"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q112",
+      "concept": "What is the default port-security behavior on a trunk link?",
+      "question_ids": [
+        "vlan_qb112"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q113",
+      "concept": "What is the operating mode and role of a backup port on a shared LAN segment in ...",
+      "question_ids": [
+        "vlan_qb113"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q114",
+      "concept": "Which protocol is used in Software Defined Access (SDA) to provide a tunnel betw...",
+      "question_ids": [
+        "vlan_qb114"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q115",
+      "concept": "[Exhibit] An engineer assigns IP addressing to the current VLAN with three PCs. ...",
+      "question_ids": [
+        "vlan_qb115"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q116",
+      "concept": "[Exhibit] An engineer is building a new Layer 2 LACP EtherChannel between SW1 an...",
+      "question_ids": [
+        "vlan_qb116"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q117",
+      "concept": "Which two protocols are used by an administrator for authentication and configur...",
+      "question_ids": [
+        "vlan_qb117"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q118",
+      "concept": "Which command do you enter so that a switch configured with Rapid PVST + listens...",
+      "question_ids": [
+        "vlan_qb118"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q119",
+      "concept": "[Exhibit] An engineer must configure the interface that connects to PC 1 and sec...",
+      "question_ids": [
+        "vlan_qb119"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q120",
+      "concept": "What provides connection redundancy increased bandwidth and load sharing between...",
+      "question_ids": [
+        "vlan_qb120"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q121",
+      "concept": "What does a switch do when it receives a frame whose destination MAC address is ...",
+      "question_ids": [
+        "vlan_qb121"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q122",
+      "concept": "The address block 192 168 32 0/24 must be subnetted into smaller networks The en...",
+      "question_ids": [
+        "vlan_qb122"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q123",
+      "concept": "[Exhibit] An engineer configures interface fa0/1 on SW1 and SW2 to pass traffic ...",
+      "question_ids": [
+        "vlan_qb123"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q124",
+      "concept": "[Exhibit] All interfaces are in the same VLAN. All switches are configured with ...",
+      "question_ids": [
+        "vlan_qb124"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q125",
+      "concept": "[Exhibit] Host A switch interface is configured in VLAN 2. Host D sends a unicas...",
+      "question_ids": [
+        "vlan_qb125"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q126",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10...",
+      "question_ids": [
+        "vlan_qb126"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q127",
+      "concept": "Which switch port configuration must be configured when connected to an AP runni...",
+      "question_ids": [
+        "vlan_qb127"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q128",
+      "concept": "[Exhibit] An administrator must connect SW_1 and the printer to the network. SW_...",
+      "question_ids": [
+        "vlan_qb128"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q129",
+      "concept": "Which type of wired port is required when an AP offers one unique SSID, passes c...",
+      "question_ids": [
+        "vlan_qb129"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q130",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "vlan_qb130"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q131",
+      "concept": "[Exhibit] VLAN 23 is being implemented between SW1 and SW2. The command show int...",
+      "question_ids": [
+        "vlan_qb131"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q132",
+      "concept": "Which type of wired port is required when an AP offers one unique SSID, passes c...",
+      "question_ids": [
+        "vlan_qb132"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q133",
+      "concept": "Which command must be configured to enable port security with a manually assigne...",
+      "question_ids": [
+        "vlan_qb133"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q134",
+      "concept": "[Exhibit] A network engineer is adding another physical interface as a new membe...",
+      "question_ids": [
+        "vlan_qb134"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q135",
+      "concept": "[Exhibit] Inter-VLAN routing is configured on SW1. Client A is running Linux as ...",
+      "question_ids": [
+        "vlan_qb135"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q136",
+      "concept": "[Exhibit] An administrator is configuring a new WLAN for a wireless network that...",
+      "question_ids": [
+        "vlan_qb136"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "vlan_q137",
+      "concept": "An engineer requires a switch interface to actively attempt to establish a trunk...",
+      "question_ids": [
+        "vlan_qb137"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 137,
+  "total_questions": 137
+}

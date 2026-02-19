@@ -1,0 +1,10 @@
+{
+  "name": "WAN Technologies",
+  "slug": "wan",
+  "category": "Infrastructure",
+  "description": "Wide Area Network technologies including MPLS, broadband, Metro Ethernet, PPP, and WAN architecture options.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

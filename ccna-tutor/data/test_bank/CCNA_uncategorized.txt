@@ -1,0 +1,994 @@
+CCNA 200-301 - Uncategorized - Mixed Topics
+==================================================
+
+1. [Exhibit] Which two configurations must the engineer apply on this network so that R1 becomes the DR? (Choose two.) A) B) C\) D) E\)
+A. Option A
+*B. Option B
+*C. Option C
+D. Option D
+E. Option E
+
+2. Which two components comprise part of a PKI? (Choose two.)
+A. preshared key that authenticates connections
+*B. RSA token
+*C. CA that grants certificates
+D. clear-text password that authenticates connections
+E. one or more CRLs
+
+3. Which characteristic differentiates the concept of authentication from authorization and accounting?
+A. user-activity logging
+B. service limitations
+C. consumption-based billing
+*D. identity verification
+
+4. [Exhibit] If R1 receives a packet destined to 172.161.1, to which IP address does it send the packet?
+A. 192.168.12.2
+B. 192.168.13.3
+*C. 192.168.14.4
+D. 192.168.15.5
+
+5. [Exhibit] An engineer must configure GigabitEthernet1/1 to accommodate voice and data traffic Which configuration accomplishes this task?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+6. What are two reasons for an engineer to configure a floating state route? (Choose two)
+*A. to automatically route traffic on a secondary path when the primary path goes down
+B. to route traffic differently based on the source IP of the packet
+*C. to enable fallback static routing when the dynamic routing protocol fails
+D. to support load balancing via static routing
+E. to control the return path of traffic that is sent from the router
+
+7. [Exhibit] Which route does R1 select for traffic that is destined to 192 168.16.2?
+A. 192.168.16.0/21
+B. 192.168.16.0/24
+C. 192.168 26.0/26
+*D. 192.168.16.0/27
+
+8. [Exhibit] A network engineer is in the process of establishing IP connectivity between two sites. Routers R1 and R2 are partially configured with IP addressing. Both routers have the ability to access devices on their respective LANs. Which command set configures the IP connectivity between devices located on both LANs in each site?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+9. [Exhibit] For security reasons, automatic neighbor discovery must be disabled on the R5 Gi0/1 interface. These tasks must be completed: -   Disable all neighbor discovery methods on R5 interface GiO/1. -   Permit neighbor discovery on R5 interface GiO/2. -   Verify there are no dynamically learned neighbors on R5 interface Gi0/1. -   Display the IP address of R6\*s interface Gi0/2. Which configuration must be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+10. The SW1 interface g0/1 is in the down/down state. Which two configurations are valid reasons for the interface conditions?(choose two)
+A. There is a duplex mismatch
+*B. There is a speed mismatch
+C. There is a protocol mismatch
+D. The interface is shut down
+*E. The interface is error-disabled
+
+11. What Is the path for traffic sent from one user workstation to another workstation on a separate switch In a Ihree-lter architecture model?
+A. access - core - distribution - access
+B. access - distribution - distribution - access
+C. access - core - access
+*D. access -distribution - core - distribution - access
+
+12. What is the function of a server?
+A. It transmits packets between hosts in the same broadcast domain.
+*B. It provides shared applications to end users.
+C. It routes traffic between Layer 3 devices.
+D. It Creates security zones between trusted and untrusted networks
+
+13. Which type of organization should use a collapsed-core architecture?
+A. large and requires a flexible, scalable network design
+B. large and must minimize downtime when hardware fails
+*C. small and needs to reduce networking costs currently
+D. small but is expected to grow dramatically in the near future
+
+14. An organization secures its network with multi-factor authentication using an authenticator app on employee smartphone. How is the application secured in the case of a user's smartphone being lost or stolen?
+A. The application requires an administrator password to reactivate after a configured Interval.
+*B. The application requires the user to enter a PIN before it provides the second factor.
+C. The application challenges a user by requiring an administrator password to reactivate when the smartphone is rebooted.
+D. The application verifies that the user is in a specific location before it provides the second factor.
+
+15. [Exhibit] What is the next hop address for traffic that is destined to host 10.0.1.5?
+A. 10.0.1.3
+*B. 10.0.1.50
+C. 10.0.1.4
+D. Loopback D
+
+16. Which level of severity must be set to get informational syslogs?
+A. alert
+B. critical
+*C. notice
+D. debug
+
+17. [Exhibit] which path is used by the router for internet traffic ?
+A. 209.165.200.0/27
+B. 10.10.10.0/28
+*C. 0.0.0.0/0
+D. 10.10.13.0/24
+
+18. -   (Topic 1) [Exhibit] All routers in the network are configured R2 must be the DR. After the engineer connected the devices, R1 was elected as the DR. Which command sequence must be configure on R2 to Be elected as the DR in the network?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+19. Which technology allows for multiple operating systems to be run on a single host computer?
+A. virtual routing and forwarding
+B. network port ID visualization
+C. virtual device contexts
+*D. server visualization
+
+20. [Exhibit] which path is used by the router for internet traffic ?
+A. 209.165.200.0/27
+B. 10.10.10.0/28
+*C. 0.0.0.0/0
+D. 10.10.13.0/24
+
+21. Which level of severity must be set to get informational syslogs?
+A. alert
+B. critical
+C. notice
+*D. debug
+
+22. [Exhibit] All routers in the network are configured R2 must be the DR. After the engineer connected the devices, R1 was elected as the DR. Which command sequence must be configure on R2 to Be elected as the DR in the network?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+23. In software-defined architecture, which place handles switching for traffic through a Cisco router?
+A. Control
+B. Management
+*C. Data
+D. application
+
+24. Refer to exhibit. Which statement explains the configuration error message that is received?
+*A. It is a broadcast IP address
+B. The router does not support /28 mask.
+C. It belongs to a private IP address range.
+D. IT is a network IP address.
+
+25. [Exhibit] What is the next hop address for traffic that is destined to host 10.0.1.5?
+A. 10.0.1.3
+*B. 10.0.1.50
+C. 10.0.1.4
+D. Loopback D
+
+26. Which network allows devices to communicate without the need to access the Internet?
+A. 1729.0.0/16
+*B. 172.28.0.0/16
+C. 192.0.0.0/8
+D. 209.165.201.0/24
+
+27. What is a recommended approach to avoid co-channel congestion while installing access points that use the 2.4 GHz frequency?
+*A. different nonoverlapping channels
+B. different overlapping channels
+C. one overlapping channel
+D. one nonoverlapping channel
+
+28. [Exhibit] Which prefix does Router 1 use for traffic to Host A?
+A. 10.10.10.0/28
+B. 10.10.13.0/25
+C. 10.10.13.144/28
+*D. 10.10.13.208/29
+
+29. A device detects two stations transmitting frames at the same time. This condition occurs after the first 64 bytes of the frame is received interface counter increments?
+A. collision
+B. CRC
+C. runt
+*D. late collision
+
+30. If a switch port receives a new frame while it is actively transmitting a previous frame, how does it process the frames?
+A. The new frame is delivered first, the previous frame is dropped, and a retransmission request is sent.
+*B. The previous frame is delivered, the new frame is dropped, and a retransmission request is sent.
+C. The new frame is placed in a queue for transmission after the previous frame.
+D. The two frames are processed and delivered at the same time.
+
+31. [Exhibit] With which metric was the route to host 172.16.0.202 learned?
+A. 0
+B. 110
+*C. 38443
+D. 3184439
+
+32. What are two reasons that cause late collisions to increment on an Ethernet interface? (Choose two)
+A. when the sending device waits 15 seconds before sending the frame again
+*B. when the cable length limits are exceeded
+*C. when one side of the connection is configured for half-duplex
+D. when Carrier Sense Multiple Access/Collision Detection is used
+E. when a collision occurs after the 32nd byte of a frame has been transmitted
+
+33. [Exhibit] An engineer must configure GigabitEthernet1/1 to accommodate voice and data traffic Which configuration accomplishes this task?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+34. The SW1 interface g0/1 is in the down/down state. Which two configurations are valid reasons for the interface conditions?(choose two)
+A. There is a duplex mismatch
+*B. There is a speed mismatch
+C. There is a protocol mismatch
+D. The interface is shut down
+*E. The interface is error-disabled
+
+35. [Exhibit] A packet is being sent across router R1 to host 172.16.0.14. What is the destination route for the packet?
+*A. 209.165.200.254 via Serial0/0/1
+B. 209.165.200.254 via Serial0/0/0
+C. 209.165.200.246 via Serial0/1/0
+D. 209.165.200.250 via Serial0/0/0
+
+36. Which set of action satisfy the requirement for multifactor authentication?
+A. The user swipes a key fob, then clicks through an email link
+*B. The user enters a user name and password, and then clicks a notification in an authentication app on a mobile device
+C. The user enters a PIN into an RSA token, and then enters the displayed RSA key on a login screen
+D. The user enters a user name and password and then re-enters the credentials on a second screen
+
+37. [Exhibit] Which route does R1 select for traffic that is destined to 192 168.16.2?
+A. 192.168.16.0/21
+B. 192.168.16.0/24
+C. 192.168 26.0/26
+*D. 192.168.16.0/27
+
+38. Refer to me exhibit. Which action is taken by the router when a packet is sourced from 10.10.10.2 and destined for 10.10.10.16?
+*A. It uses a route that is similar to the destination address
+B. It discards the packets.
+C. It floods packets to all learned next hops.
+D. It Queues the packets waiting for the route to be learned.
+
+39. An organization secures its network with multi-factor authentication using an authenticator app on employee smartphone. How is the application secured in the case of a user’s smartphone being lost or stolen?
+A. The application requires an administrator password to reactivate after a configured Interval.
+*B. The application requires the user to enter a PIN before it provides the second factor.
+C. The application challenges a user by requiring an administrator password to reactivate when the smartphone is rebooted.
+D. The application verifies that the user is in a specific location before it provides the second factor.
+
+40. [Exhibit] For security reasons, automatic neighbor discovery must be disabled on the R5 Gi0/1 interface. These tasks must be completed: • Disable all neighbor discovery methods on R5 interface GiO/1. • Permit neighbor discovery on R5 interface GiO/2. • Verify there are no dynamically learned neighbors on R5 interface Gi0/1. • Display the IP address of R6*s interface Gi0/2. Which configuration must be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+41. [Exhibit] To which device does Router1 send packets that are destined to host 10.10.13.165?
+A. Router2
+*B. Router3
+C. Router4
+D. Router5
+
+42. Which type of organization should use a collapsed-core architecture?
+A. large and requires a flexible, scalable network design
+B. large and must minimize downtime when hardware fails
+*C. small and needs to reduce networking costs currently
+D. small but is expected to grow dramatically in the near future
+
+43. [Exhibit] A packet is being sent across router R1 to host 172.163.3.14. To which destination does the router send the packet?
+*A. 207.165.200.246 via Serial0/1/0
+B. 207.165.200.254 via Serial0/0/1
+C. 207.165.200.254 via Serial0/0/0
+D. 207.165.200.250 via Serial/0/0/0
+
+44. [Exhibit] A network engineer is in the process of establishing IP connectivity between two sites. Routers R1 and R2 are partially configured with IP addressing. Both routers have the ability to access devices on their respective LANs. Which command set configures the IP connectivity between devices located on both LANs in each site?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+45. What are two reasons for an engineer to configure a floating state route? (Choose two)
+*A. to automatically route traffic on a secondary path when the primary path goes down
+B. to route traffic differently based on the source IP of the packet
+*C. to enable fallback static routing when the dynamic routing protocol fails
+D. to support load balancing via static routing
+E. to control the return path of traffic that is sent from the router
+
+46. [Exhibit] If R1 receives a packet destined to 172.161.1, to which IP address does it send the packet?
+A. 192.168.12.2
+B. 192.168.13.3
+*C. 192.168.14.4
+D. 192.168.15.5
+
+47. Using direct sequence spread spectrum, which three 2.4-GHz channels are used to limit collisions?
+*A. 1,6,11
+B. 1,5,10
+C. 1,2,3
+D. 5,6,7
+
+48. Which goal is achieved by the implementation of private IPv4 addressing on a network?
+*A. provides an added level of protection against Internet exposure
+B. provides a reduction in size of the forwarding table on network routers
+C. allows communication across the Internet to other private networks
+D. allows servers and workstations to communicate across public network boundaries
+
+49. What is the function of a server?
+A. It transmits packets between hosts in the same broadcast domain.
+*B. It provides shared applications to end users.
+C. It routes traffic between Layer 3 devices.
+D. It Creates security zones between trusted and untrusted networks
+
+50. What Is the path for traffic sent from one user workstation to another workstation on a separate switch In a Ihree-lter architecture model?
+A. access - core - distribution - access
+B. access - distribution - distribution - access
+C. access - core - access
+*D. access -distribution - core - distribution - access
+
+51. What is the function of the controller in a software-defined network?
+A. multicast replication at the hardware level
+B. fragmenting and reassembling packets
+*C. making routing decisions
+D. forwarding packets
+
+52. [Exhibit] An engineer has started to configure replacement switch SW1. To verify part of the configuration, the engineer issued the commands as shown and noticed that the entry for PC2 is missing. Which change must be applied to SW1 so that PC1 and PC2 communicate normally? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+53. Which characteristic differentiates the concept of authentication from authorization and accounting?
+A. user-activity logging
+B. service limitations
+C. consumption-based billing
+*D. identity verification
+
+54. [Exhibit] Which next-hop IP address does Routed use for packets destined to host 10 10.13.158?
+*A. 10.10.10.5
+B. 10.10.11.2
+C. 10.10.12.2
+D. 10.10.10.9
+
+55. [Exhibit] Which two configurations must the engineer apply on this network so that R1 becomes the DR? (Choose two.) A) B) C) D) E)
+A. Option A
+*B. Option B
+*C. Option C
+D. Option D
+E. Option E
+
+56. [Exhibit] Which minimum configuration items are needed to enable Secure Shell version 2 access to R15? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+57. [Exhibit] What is a reason for poor performance on the network interface?
+*A. The interface is receiving excessive broadcast traffic.
+B. The cable connection between the two devices is faulty.
+C. The interface is operating at a different speed than the connected device.
+D. The bandwidth setting of the interface is misconfigured
+
+58. An engineer must configure R1 for a new user account. The account must meet these requirements: * It must be configured in the local database. * The username is engineer. * It must use the strongest password configurable. Which command must the engineer configure on the router?
+A. R1 (config)# username engineer2 algorithm-type scrypt secret test2021
+*B. R1(config)# username engineer2 secret 5 password S1$b1Ju$kZbBS1Pyh4QzwXyZ
+C. R1(config)# username engineer2 privilege 1 password 7 test2021
+D. R1(config)# username englneer2 secret 4 S1Sb1Ju$kZbBS1Pyh4QzwXyZ
+
+59. Which two components comprise part of a PKI? (Choose two.)
+A. preshared key that authenticates connections
+*B. RSA token
+*C. CA that grants certificates
+D. clear-text password that authenticates connections
+E. one or more CRLs
+
+60. [Exhibit] When router R1 receives a packet with destination IP address 10.56.0 62. through which interface does it route the packet?
+A. Null0
+*B. VIan58
+C. Vlan60
+D. VIan59
+
+61. [Exhibit] Four load-balancing servers are reachable through this router; however, the company is removing all static and default routes on the router. Server 1 - 10.12.14.14 Server 2 - 192.168.4.4 Server 3 - 209.165.200.5 Server 4 - 209.165.201.26 Which server will handle all traffic after the policy changes take effect?
+A. Server 1 - 10.12.14.14
+*B. Server 2 - 192.168.4.4
+C. Server 3 - 209.165.200.5
+D. Server 4 - 209.165.201.26
+
+62. [Exhibit] A multivendor network exists and the company is implementing VoIP over the network for the first time. A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+63. [Exhibit] What is the next hop for traffic entering R1 with a destination of 10.1.2 126?
+A. 10.165 20.126
+B. 10.165.20.146
+C. 10.165.20.166
+*D. 10.165 20.226
+
+64. [Exhibit] With a reference bandwidth of 100 Gb on all routers, which path does router Y use to get to network 192.168.1.0/24?
+*A. router C > D > A > B > F
+B. router C > D > A > F
+C. router E > F
+D. router E > B > F
+
+65. What is the put method within HTTP?
+A. It is a read-only operation.
+B. It is a nonldempotent operation.
+C. It replaces data at the destination.
+*D. It displays a web site.
+
+66. [Exhibit] What is the prefix length for the route that Router1 will use to reach Host A?
+A. /25
+B. /27
+C. /28
+*D. /29
+
+67. When should an engineer implement a collapsed-core architecture?
+A. for small networks with minimal need for growth
+B. the access and distribution layers must be on the same device
+*C. for large networks that are connected to multiple remote sites
+D. only when using VSS technology
+
+68. Which type of encryption does WPA1 use for data protection?
+A. AES
+*B. TKIP
+C. PEAP
+D. EAP
+
+69. [Exhibit] A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+70. [Exhibit] Which entry is the longest prefix match for host IP address 192.168.10.5?
+A. 1
+*B. 2
+C. 3
+D. 4
+
+71. [Exhibit] Packets are flowing from 192.168 10.1 to the destination at IP address 192.168.20 75. Which next hop will the router select for the packet?
+A. 10.10101
+*B. 10.10.10.11
+C. 10.10.10.12
+D. 10.101014
+
+72. [Exhibit] Which action by the router when a packet is sourced from 10.10.10.2 and destined 10.10.10.16?
+A. It queues the packets waiting for the route to be learned.
+B. It floods packets to all learned next hops.
+C. It discards the packets.
+*D. It uses a route that is similar to the destination address.
+
+73. [Exhibit] What is the prefix length for the route that router1 will use to reach host A?
+A. /25
+B. /27
+C. /28
+*D. /29
+
+74. [Exhibit] The given Windows PC is requesting the IP address of the host at www.cisco.com. To which IP address is the request sent?
+A. 192.168.1.226
+B. 192.168.1.100
+C. 192.168.1.254
+*D. 192.168.1.253
+
+75. [Exhibit] A packet sourced from 172.18.33.2 is destined for 172.18.32.38. Where does the router forward the packet?
+*A. GigabitEthernet0/0
+B. Loopback0
+C. 10.1.1.1
+D. 10.1.1.3
+
+76. Which type of IPv4 address type helps to conserve the globally unique address classes?
+A. multicast
+*B. private
+C. loopback
+D. public
+
+77. What is the function of a controller in a software-defined network?
+A. multicast replication at the hardware level
+*B. forwarding packets
+C. fragmenting and reassembling packets
+D. setting packet-handling policies
+
+78. A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+79. [Exhibit] A network administrator configures the CPE to provide internet access to the company headquarters. Traffic must be load-balanced via ISP1 and ISP2 to ensure redundancy. Which two command sets must be configured on the CPE router? (Choose two.) A.
+B. B.
+*C. C.
+D. D.
+E. E.
+
+80. What is a reason why an administrator would choose to implement an automated network management approach?
+*A. Reduce inconsistencies in the network configuration.
+B. Enable "box by box" configuration and deployment.
+C. Decipher simple password policies.
+D. Increase recurrent management costs.
+
+81. What is a zero-day exploit?
+*A. It is when a new network vulnerability is discovered before a fix is available
+B. It is when the perpetrator inserts itself in a conversation between two parties and captures or alters data.
+C. It is when the network is saturated with malicious traffic that overloads resources and bandwidth
+D. It is when an attacker inserts malicious code into a SOL server.
+
+82. A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+83. Which plane is centralized in software-defined networking?
+A. application
+B. services
+*C. control
+D. data
+
+84. Which authentication method requires the user to provide a physical attribute to authenticate successfully?
+*A. password
+B. muftifactor
+C. biometric
+D. certificate
+
+85. [Exhibit] In which structure does the word "warning" directly reside?
+*A. array
+B. object
+C. Boolean
+D. string
+
+86. [Exhibit] Packets are flowing from 192.168.10.1 to the destination at IP address 192.168.20.75. Which next hop will the router select for the packet?
+A. 10.10.10.1
+*B. 10.10.10.11
+C. 10.10.10.12
+D. 10.10.10.14
+
+87. SW1 supports connectivity for a lobby conference room and must be secured. The engineer must limit the connectivity from PCI lo ma SW1 and SW2 network. The MAC addresses allowed must be Limited to two. Which configuration secures the conference room connectivity? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+88. What determines the sequence in which materials are planned during the material requirements planning (MRP) run?
+A. The control parameters of the MRP run
+B. The creation date of the materials
+*C. The low-level code of the materials
+D. The replenishment lead time of the materials
+
+89. A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+90. Which set of actions satisfies the requirement for multifactor authentication?
+*A. The user enters a user name and password, and then clicks a notification in an authentication app on a mobile device.
+B. The user swipes a key fob, then clicks through an email link.
+C. The user enters a PIN into an RSA token, and then enters the displayed RSA key on a login screen.
+D. The user enters a user name and password, and then re-enters the credentials on a second screen.
+
+91. [Exhibit] What is missing from this output for it to be executed?
+A. double quotes C") around the "Cisco Devices" string
+*B. curly brace ()) at the end
+C. exclamation point (!) at the beginning of each line
+D. square bracket ([) at the beginning
+
+92. Which two statements distinguish authentication from accounting? (Choose two.)
+A. Only authentication records the duration of a user's connection.
+B. Only authentication supports user-activity audits.
+C. Only authentication provides supporting information for billing users.
+*D. Only authentication challenges users for their credentials and returns a response.
+*E. Only authentication validates "who you are."
+
+93. What must be considered before deploying virtual machines?
+A. location of the virtual machines within the data center environment
+B. whether to leverage VSM to map multiple virtual processors to two or more virtual machines
+*C. resource limitations, such as the number of CPU cores and the amount of memory
+D. support for physical peripherals, such as monitors, keyboards, and mice
+
+94. [Exhibit] The primary route across Gi0/0 is configured on both routers. A secondary route must be configured to establish connectivity between the workstation networks. Which command set must be configured to complete this task? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+95. [Exhibit] An engineer must translate the PC1 IP address to 10.199.77.100 and permit PC1 to ping the loopback 0 on router R2. What command set must be used? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+96. What are two benefits for using private IPv4 addressing? (Choose two.)
+*A. They alleviate the shortage of public IPv4 addresses.
+B. They supply redundancy in the case of failure.
+C. They offer Internet connectivity to endpoints on private networks.
+D. They allow for Internet access from IoT devices.
+*E. They provide a layer of security from Internet threats.
+
+97. [Exhibit] Which route does R1 select for traffic that is destined to 192.168.16.2?
+A. 192.168.16.0/21
+B. 192.168.16.0/24
+C. 192.168.16.0/26
+*D. 192.168.16.0/27
+
+98. [Exhibit] Which next-hop IP address has the least desirable metric when sourced from R1?
+A. 10.10.10.5
+B. 10.10.10.3
+*C. 10.10.10.4
+D. 10.10.10.2
+
+99. [Exhibit] All routers in the network are configured conrectly, and the expected routes are being exchanged among the routers. Which set of routes are leamed from neighbors and installed on router 2?
+*A. 10.129.9.0/2310.139.2.0/3010.2.191.0/3010.129.9.0/25
+B. 10.129.9.0/2310.40.1.0/3010.2.191.0/3010.129.9.0/25
+C. 10.40.1.0/3010.139.2.0/3010.2.191.0/3010.129.9.0/25
+D. 10.129.9.0/2310.139.2.0/3010.129.9.0/2510.22.1.0/24
+
+100. What is a characteristic of RSA?
+A. It uses preshared keys for encryption
+B. It requires both sides to have identical keys
+C. It is a private-key encryption algorithm
+*D. It is a public-key cryptosystem
+
+101. [Exhibit] What is the next-hop P address for R2 so that PC2 reaches the application server via ElGRP?
+A. 192.168.30.1
+B. 10.10 105
+C. 10.10.10.6
+*D. 192.168.201
+
+102. Which two server types support dornas name to IP address resolution? (Choose two >
+*A. ESX host
+B. resolver
+*C. web
+D. file transfer
+E. authentication
+
+103. Which alternative to password authentication Is Implemented to allow enterprise devices to log in to the corporate network?
+A. magic links
+B. one-time passwords
+*C. digital certificates
+D. 90-day renewal policies
+
+104. Which two features introduced in SNMPv2 provides the ability to retrieve large amounts of data in one request
+*A. Get
+B. GetNext
+C. Set
+*D. GetBulk
+E. Inform
+
+105. [Exhibit] All routers in the network are configured correctly, and the expected routes are being exchanged among the routeis. Which set or routes are learned from neighbors and Installed on router 2? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+106. [Exhibit] A network administrator configures an interface control re switch so that it connects to interface Gi1/0/1 on switch Cat9300-1. Which configuration must be applied to the new interface? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+107. What is the temporary state that switch ports always enter immediately after the boot process when Rapid PVST+ is used?
+*A. discarding
+B. listening
+C. forwarding
+D. learning
+
+108. [Exhibit] What is represented beginning with line 1 and ending with line 5?
+A. value
+B. object
+C. key
+*D. array
+
+109. A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+110. [Exhibit] The switch cat9k acc.1 connects users to the campus LAN. Printing services are inaccessible through the network. Which interface issue is causing the connectivity problems?
+A. A large number of broadcast packets are resulting in a port reset
+B. Excessive collisions are causing dropped frames.
+C. The interface output queue cannot process the Ethernet frames.
+*D. A bad checksum is causing Ethernet frames to drop.
+
+111. Which two practices are recommended for an acceptable security posture in a network? (Choose two)
+A. Backup device configurations to encrypted USB drives for secure retrieval
+B. maintain network equipment in a secure location
+*C. Use a cryptographic keychain to authenticate to network devices
+D. Place internal email and file servers in a designated DMZ
+*E. Disable unused or unnecessary ports, interfaces and services
+
+112. By default, how long will the switch continue to know a workstation MAC address after the workstation stops sending traffic?
+A. 200 seconds
+*B. 300 seconds
+C. 600 seconds
+D. 900 seconds
+
+113. [Exhibit] A network engineer must configure the link with these requirements: • Consume as few IP addresses as possible. • Leave at least two additional useable IP addresses for future growth. Which set of configurations must be applied? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+114. What is the primary purpose of private address space?
+A. conserve globally unique address space
+B. simplify the addressing in the network
+C. limit the number of nodes reachable via the Internet
+*D. reduce network complexity
+
+115. [Exhibit] Rooter R1 is added to the network and configured with tie 10 0 0 64/26 and 10.0.20.0/24 subnets However traffic destined for the LAN on R3 is not access. Which command when executed on R1 defines a tunic route to reach the R3 LAN? A) B) C)
+A. Option
+B. Option
+*C. Option
+
+116. Which action must be taken when password protection is Implemented?
+A. Use less than eight characters in length when passwords are complex.
+B. Store passwords as contacts on a mobile device with single-factor authentication.
+C. Include special characters and make passwords as long as allowed.
+*D. Share passwords with senior IT management to ensure proper oversight.
+
+117. [Exhibit] Which interface does a packet take to reach the destination address of 10.10.10.147?
+A. FastEthemet 0/0
+*B. Senal0/0
+C. FastEthemet 0/1
+
+118. What is a reason to implement IPv4 private addressing?
+A. Reduce the risk of a network security breach
+B. Comply with PCI regulations
+C. Comply with local law
+*D. Reduce the size of the forwarding table on network routers
+
+119. [Exhibit] Which interface is chosen to forward traffic to the host at 192.168.0.55?
+A. GigabitEthernet0
+*B. GigabitEthernet0/1
+C. Null0
+D. GigabitEthernet0/3
+
+120. Which group of channels in the 802.1ib/g/n/ac/ax 2.4 GHz frequency Bands are nonoverlapping channels?
+A. channels 1, 5, and 10
+*B. channels 1,6, and 11
+C. channels 1,5, and 11
+D. channels 1,6, and 10
+
+121. Which signal frequency appears 60 times per minute?
+A. 1 Hz signal
+*B. 1 GHz signal
+C. 60 Hz signal
+D. 60 GHz signal
+
+122. [Exhibit] When router R1 is sending traffic to IP address 10.56.192 1, which interface or next hop address does it use to route the packet?
+A. 0.0.0.0.0/0
+*B. 10.56.0.1
+C. 10.56.128.19
+D. Vlan57
+
+123. Company has decided to require multifactor authentication for all systems. Which set of parameters meets the requirement?
+*A. personal 10-digit PIN and RSA certificate
+B. complex password and personal 10-digit PIN
+C. password of 8 to 15 characters and personal 12-digit PIN
+D. fingerprint scanning and facial recognition
+
+124. [Exhibit] After applying this configuration to router R1, a network engineer is verifying the implementation. If all links are operating normally, and the engineer sends a series of packets from PC1 to PC3. how are the packets routed?
+*A. They are routed to 172.16.20.2.
+B. They are routed to 192.168.100.2.
+C. They are distributed sent round robin to interfaces SO/0/0 and SO/0/1.
+D. They are routed to 10.0.0.2.
+
+125. What are two examples of multifactor authentication? (Choose two.)
+A. single sign-on
+*B. unique user knowledge
+C. passwords that expire
+*D. soft tokens
+E. shared password responsibility
+
+126. [Exhibit] PC A is communicating with another device at IP address 10.227.225.255. Through which router does router Y route the traffic?
+A. router A
+B. router B
+*C. router C
+D. router D
+
+127. Which group of channels in the 802.11b/g/n/ax 2.4 GHz frequency bands are non- overlapping channels?
+A. channels 1, 5, and 10
+B. channels 1, 5, and 11
+C. channels 1, 6, and 10
+*D. channels 1, 6, and 11
+
+128. What is a functionality of the control plane in the network?
+*A. It exchanges topology information with other routers.
+B. It forwards traffic to the next hop.
+C. It looks up an egress interface in the forwarding information base.
+D. It provides CLI access to the network device.
+
+129. What is a characteristic of a Layer 2 switch?
+A. Uses routers to create collision domains
+B. Responsible for sending data in a particular sequence
+C. Avoids MAC address storage for faster transmission
+*D. Uses the data link layer for communications
+
+130. [Exhibit] All routers In the network are configured. R2 must be the DR. After the engineer connected the devices, R1 was elected as the DR. Which command sequence must be configured on R2 to be elected as the DR in the network?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+131. How is AI used to identify issues within network traffic?
+A. It enhances data packet delivery speeds
+*B. It analyzes patterns for anomaly detection
+C. It exclusively predicts device malfunctions
+D. It guarantees zero packet loss in the network
+
+132. [Exhibit] Network services must be enabled on interface Gil/0734. Which configuration meets the needs for this implementation? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+133. Which feature of Digest Authentication prevents credentials from being sent in plaintext?
+A. SSL/TLS encryption
+*B. Challenge-response mechanism
+C. Token-based authorization
+D. Public key infrastructure
+
+134. What is a characteristic of a Layer 2 switch?
+A. Provides a single broadcast domain for all connected devices
+B. Performs packet fragmentation and reassembly
+C. Tracks the number of active TCP connections
+*D. Uses the data link layer for communications
+
+135. [Exhibit] What is the correct next hop for router R1 to reach IP addresses 192.168.2.86 and 10.20.1.50?
+A. 172.16.1.4
+B. 172.16.1.1
+C. 172.16.1.2
+*D. 172.16.1.3
+
+136. Which interface is used to send traffic to the destination network? O 10.76.170 161/26 |110/102] via FO/17 O 10.76.170 161/26[110/27e31] via FO/20 R 10.76.170.161/261120/15] via FO/8 R 10.76.170.161/26 [120/10] via FO/12
+A. F0/8
+*B. FO/20
+C. FO/12
+D. FO/17
+
+137. What is a characteristic of a Layer 2 switch?
+A. tracks the number of active TCP connections
+B. transmits exclusively at half duplex
+*C. offers link bundling to servers
+D. uses routers to create collision domains
+
+138. Which AP mode wirelessly connects two separate network segments each set up within a different campus building?
+A. mesh
+B. local
+*C. bridge
+D. point-to-point
+
+139. [Exhibit] The loopback IP of R3 has been learned via the two interfaces on R1. R1 is configured with a reference bandwidth of 10 Gbps. Based on the metric calculations, which next hop IP would be used for outgoing routing?
+A. 10.12.0.5
+B. 10.12.0.2
+C. 10.12.0.1
+*D. 10.12.0.6
+
+140. [Exhibit] The route for 10.220.100.96/27 has been very unstable. The same route has four backups to routers A, B, C, and D via the respective methods. The routing protocol defaults for router Y have not been changed. When the current route for 10.220.100.96/27 becomes unavailable, which router will router Y use to route traffic to 10.220.100.96/27?
+A. router D
+B. router B
+C. router C
+*D. router A
+
+141. [Exhibit] How does router R1 forward packets destined to 10.0.4.10?
+A. via 10.0.4.2
+*B. via 10.0.0.2
+C. via FastEthernet0/1
+D. via FastEthernet1/1
+
+142. What is a characteristic of a Layer 2 switch?
+A. performs packet fragmentation and reassembly
+B. tracks the number of active TCP connections
+C. provides a single broadcast domain for all connected devices
+*D. uses the data link layer for communications
+
+143. Which interface condition is occurring in this output?
+A. duplex mismatch
+B. bad NIC
+*C. high throughput
+D. broadcast storm
+
+144. [Exhibit] The static routes were implemented on the border router. What is the next hop IP address for a ping sent to 172.16.153.154 from the border router?
+*A. 10.56.65.56
+B. 10.56.65.65
+C. 10.65.56.56
+D. 10.65.65.65
+
+145. Which role do predictive Al models play in network load balancing?
+*A. They anticipate future traffic spikes.
+B. They assign IP addresses to devices.
+C. They select correct cabling types for deployment.
+D. They solely monitor historical traffic volumes.
+
+146. Which interface condition is occurring in this output?
+*A. duplex mismatch
+B. queueing
+C. bad NIC
+D. broadcast storm
+
+147. Which interface is used to send traffic to the destination network? * 10.174.208.210/28 [110/2708] via G0/21 * 10.174.208.210/28 [110/25445] via G0/20 * 10.174.208.210/28 [120/1] via G0/12 * 10.174.208.210/28 [120/4] via G0/16
+A. G0/12
+B. G0/20
+*C. G0/21
+D. G0/16
+
+148. Which interface is used to send traffic to the destination network? * 10.90.207.87/26 [110/1912] via F0/7 * 10.90.207.87/26 [110/28968] via F0/6 * 10.90.207.87/26 [120/14] via F0/4 * 10.90.207.87/26 [120/11] via F0/5
+*A. F0/7
+B. F0/5
+C. F0/4
+D. F0/6
+
+149. What is the function of generative AI in network operations?
+A. It disables unused services.
+B. It deploys network firmware updates.
+*C. It creates synthetic network configurations.
+D. It computes optimal data storage solutions.
+
+150. Which statement describes virtual machines?
+*A. They include a guest OS and the service.
+B. They enable the network to become agile and hardware-centric.
+C. They use a supervisor to provide management for services.
+D. They facilitate local management of infrastructure devices.
+
+151. [Exhibit] Which interface does a packet take to reach the destination address of 10.10.10.147?
+A. Serial 0/0
+B. FastEthernet 0/2
+*C. FastEthernet 0/0
+D. FastEthernet 0/1
+
+152. Which interface is used to send traffic to the destination network? O 10.18.75.113/27 [110/6906] via GO/6 O 10.18.75.113/27 [110/23018] via GO/3 R 10.18.75.113/27 [120/16] via GO/16 R 10.18.75.113/27 [120/14] via GO/23
+A. G0/23
+B. G0/3
+C. G0/16
+*D. G0/6
+
+153. How is Al used to identify issues within network traffic?
+A. II exclusively predicts device malfunctions.
+B. It enhances data packet delivery speeds.
+C. It simplifies traffic route mapping.
+*D. It analyzes patterns for anomaly detection.
+
+154. [Exhibit] To which device does Router1 send packets that are destined to host 10.10.13.165?
+A. Router2
+*B. Router3
+C. Router4
+D. Router5
+
+155. Which interface is used to send traffic to the destination network? * 10.249.210.56/25 [90/6144] via G0/15 * 10.249.210.56/25 [90/45053] via G0/13 * 10.249.210.56/25 [110/3693] via G0/16 * 10.249.210.56/25 [110/360] via G0/12
+A. G0/16
+*B. G0/15
+C. G0/13
+D. G0/12
+
+156. Why would a network administrator choose to implement RFC 1918 address space?
+A. to route traffic on the internet
+*B. to provide flexibility in the IP network design
+C. to provide overlapping address space with another network
+D. to limit the number of hosts on the network
+
+157. Which security element uses a combination of one-time passwords, a login name, and a personal smartphone?
+A. software-defined segmentation
+*B. multifactor authentication
+C. attribute-based access control
+D. rule-based access control
+
+158. What is a function of Layer 3 switches?
+A. They route traffic between devices in different VLANs.
+B. They forward Ethernet frames between VLANs using only MAC addresses.
+*C. They move frames between endpoints limited to IP addresses.
+D. They transmit broadcast traffic when operating in Layer 3 mode exclusively.
+
+159. [Exhibit] What is occurring on this switch?
+A. A high number of frames smaller than 64 bytes are received.
+*B. Frames are dropped after 16 failed transmission attempts.
+C. The internal transmit buffer is overloaded.
+D. An excessive number of frames greater than 1518 bytes are received.
+
+160. What is the total number of users permitted to simultaneously browse the controller management pages when using the AireOS GUI?
+A. 2
+B. 5
+*C. 8
+D. 9
+
+161. What is the main capability of multifactor authentication?
+A. Identifying permissions for end users using three authentication factors
+B. Authenticating and authorizing end users using two authentication factors
+*C. Confirming end-user identity using two or more authentication factors
+D. Verifying end-user access permissions using two authentication factors
+
+162. [Exhibit] What is the metric for the route to the 192.168.10.33 host?
+A. 84
+*B. 110
+C. 192
+D. 193
+
+163. Which combination of methods satisfies the minimum security requirements when a new multifactor authentication solution is deployed?
+A. password of 8 to 15 characters and personal 12-diglt PIN
+B. authorized USB dongle and mobile phone
+C. fingerprint scanning and facial recognition
+*D. complex password and time-based one-time password
+

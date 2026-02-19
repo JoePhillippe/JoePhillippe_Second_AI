@@ -1,0 +1,368 @@
+CCNA 200-301 - IPv6 - Internet Protocol Version 6
+==================================================
+
+1. A network engineer is installing an IPv6-only capable device. The client has requested that the device IP address be reachable only from the internal network. Which type of IPv6 address must the engineer assign?
+A. unique local address
+*B. link-local address
+C. aggregatable global address
+D. IPv4-compatible IPv6 address
+
+2. A network engineer must implement an IPv6 configuration on the vlan 2000 interface to create a routable locally-unique unicast address that is blocked from being advertised to the internet. Which configuration must the engineer apply?
+A. interface vlan 2000ipv6 address ffc0:0000:aaaa::1234:2343/64
+*B. interface vlan 2000Ipv6 address fc00:0000:aaaa:a15d:1234:2343:8aca/64
+C. interface vlan 2000ipv6 address fe80;0000:aaaa::1234:2343/64
+D. interface vlan 2000ipv6 address fd00::1234:2343/64
+
+3. [Exhibit] Which IPv6 configuration is required for R17 to successfully ping the WAN interface on R18? A) B) C\) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+4. [Exhibit] The New York router is configured with static routes pointing to the Atlanta and Washington sites. Which two tasks must be performed so that the Serial0/0/0 interfaces on the Atlanta and Washington routers can reach one another? (Choose two.)
+A. Configure the ipv6 route 2012::/126 2023::1 command on the Washington router.
+B. Configure the ipv6 route 2023::/126 2012::1 command on the Atlanta router.
+C. Configure the Ipv6 route 2012::/126 s0/0/0 command on the Atlanta router.
+*D. Configure the ipv6 route 2023::/126 2012::2 command on the Atlanta router.
+*E. Configure the ipv6 route 2012::/126 2023::2 command on the Washington router.
+
+5. [Exhibit] An engineer configured the New York router with state routes that point to the Atlanta and Washington sites. When command must be configured on the Atlanta and Washington routers so that both sites are able to reach the loopback2 interface on the New York router?
+A. ipv6 route ::/0 Serial 0/0/1
+B. ipv6 route 0/0 Serial 0/0/0
+*C. ipv6 route ::/0 Serial 0/0/0
+D. ip route 0.0.0.0.0.0.0.0 Serial 0/0/0
+E. ipv6 route ::/0 2000::2
+
+6. Which IPv6 address type provides communication between subnets and is unable to route on the Internet?
+A. global unicast
+*B. unique local
+C. link-local
+D. multicast
+
+7. Which two minimum parameters must be configured on an active interface to enable OSPFv2 to operate? (Choose two)
+*A. OSPF area
+B. OSPF MD5 authentication key
+C. iPv6 address
+*D. OSPf process ID
+E. OSPf stub flag
+
+8. [Exhibit] Which two commands, when configured on router R1, fulfill these requirements? (Choose two.) Packets towards the entire network 2001:db8:2::/64 must be forwarded through router R2. Packets toward host 2001:db8:23::14 preferably must be forwarded through R3.
+A. Ipv6 route 2001:db8:23::/128 fd00:12::2
+B. Ipv6 route 2001:db8:23::14/128 fd00:13::3
+C. Ipv6 route 2001:db8:23::14/64 fd00:12::2
+*D. Ipv6 route 2001:db8:23::/64 fd00:12::2
+*E. Ipv6 route 2001:db8:23::14/64 fd00:12::2 200
+
+9. Which command automatically generates an IPv6 address from a specified IPv6 prefix and MAC address of an interface?
+A. ipv6 address dhcp
+B. ipv6 address 2001:DB8:5:112::/64 eui-64
+*C. ipv6 address autoconfig
+D. ipv6 address 2001:DB8:5:112::2/64 link-local
+
+10. [Exhibit] Which two commands, when configured on router R1, fulfill these requirements? (Choose two.) Packets towards the entire network 2001:db8:2::/64 must be forwarded through router R2. Packets toward host 2001:db8:23::14 preferably must be forwarded through R3.
+A. Ipv6 route 2001:db8:23::/128 fd00:12::2
+B. Ipv6 route 2001:db8:23::14/128 fd00:13::3
+C. Ipv6 route 2001:db8:23::14/64 fd00:12::2
+*D. Ipv6 route 2001:db8:23::/64 fd00:12::2
+*E. Ipv6 route 2001:db8:23::14/64 fd00:12::2 200
+
+11. Why was the RFC 1918 address space defined?
+*A. conserve public IPv4 addressing
+B. preserve public IPv6 address space
+C. reduce instances of overlapping IP addresses
+D. support the NAT protocol
+
+12. Refer to Exhibit. The loopback1 interface of the Atlanta router must reach the loopback3 interface of the Washington router. Which two static host routes must be configured on the NEW York router? (Choose two)
+*A. ipv6 route 2000::1/128 2012::1
+*B. ipv6 route 2000::3/128 2023::3
+C. ipv6 route 2000::3/128 s0/0/0
+D. ipv6 route 2000::1/128 2012::2
+E. ipv6 route 2000::1/128 s0/0/1
+
+13. An engineer must configure the IPv6 address 2001:0db8:0000:0000:0700:0003:400F:572B on the serial0/0 interface of the HQ router and wants to compress it for easier configuration. Which command must be issued on the router interface?
+*A. ipv6 address 2001:db8::700:3:400F:572B
+B. ipv6 address 2001:db8:0::700:3:4F:572B
+C. ipv6 address 2001:Odb8::7:3:4F:572B
+D. ipv6 address 2001::db8:0000::700:3:400F:572B
+
+14. When configuring IPv6 on an interface, which two IPv6 multicast groups are joined? (Choose two)
+A. 2000::/3
+B. 2002::5
+C. FC00::/7
+*D. FF02::1
+*E. FF02::2
+
+15. Which IPv6 address block sends packets to a group address rather than a single address?
+A. 2000::/3
+B. FC00::/7
+C. FE80::/10
+*D. FF00::/8
+
+16. Which two minimum parameters must be configured on an active interface to enable OSPFv2 to operate? (Choose two)
+*A. OSPF area
+B. OSPF MD5 authentication key
+C. iPv6 address
+*D. OSPf process ID
+E. OSPf stub flag
+
+17. Which IPv6 address type provides communication between subnets and is unable to route on the Internet?
+A. global unicast
+*B. unique local
+C. link-local
+D. multicast
+
+18. Refer to Exhibit. An engineer is configuring the NEW York router to reach the Lo1 interface of the Atlanta router using interface Se0/0/0 as the primary path. Which two commands must be configured on the New York router so that it can reach the Lo1 interface of the Atlanta router via Washington when the link between New York and Atlanta goes down? (Choose two)
+*A. ipv6 router 2000::1/128 2012::1
+B. ipv6 router 2000::1/128 2012::1 5
+C. ipv6 router 2000::1/128 2012::2
+D. ipv6 router 2000::1/128 2023::2 5
+*E. ipv6 router 2000::1/128 2023::3 5
+
+19. Which type of IPv6 address is publicly routable in the same way as IPv4 public address?
+*A. global unicast
+B. link-local
+C. unique local
+D. multicast
+
+20. [Exhibit] Which IPv6 configuration is required for R17 to successfully ping the WAN interface on R18? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+21. A network engineer must configure the router R1 GigabitEthernet1/1 interface to connect to the router R2 GigabitEthernet1/1 interface. For the configuration to be applied the engineer must compress the address 2001:0db8:0000:0000:0500:000a:400F:583B. Which command must be issued on the interface?
+A. ipv6 address 2001:0db8::5: a: 4F 583B
+*B. ipv6 address 2001:db8::500:a:400F:583B
+C. ipv6 address 2001 db8:0::500:a:4F:583B
+D. ipv6 address 2001::db8:0000::500:a:400F:583B
+
+22. What is the expected outcome when an EUI-64 address is generated?
+*A. The seventh bit of the original MAC address of the interface is inverted
+B. The interface ID is configured as a random 64-bit value
+C. The characters FE80 are inserted at the beginning of the MAC address of the interface
+D. The MAC address of the interface is used as the interface ID without modification
+
+23. which IPv6 address block forwards packets to a multicast address rather than a unicast address?
+A. 2000::/3
+B. FC00::/7
+C. FE80::/10
+*D. FF00::/12
+
+24. Which action must be taken to assign a global unicast IPv6 address on an interface that is derived from the MAC address of that interface?
+*A. configure a stateful DHCPv6 server on the network
+B. enable SLAAC on an interface
+C. disable the EUI-64 bit process
+D. explicitly assign a link-local address
+
+25. [Exhibit] The New York router is configured with static routes pointing to the Atlanta and Washington sites. Which two tasks must be performed so that the Serial0/0/0 interfaces on the Atlanta and Washington routers can reach one another? (Choose two.)
+A. Configure the ipv6 route 2012::/126 2023::1 command on the Washington router.
+B. Configure the ipv6 route 2023::/126 2012::1 command on the Atlanta router.
+C. Configure the Ipv6 route 2012::/126 s0/0/0 command on the Atlanta router.
+*D. Configure the ipv6 route 2023::/126 2012::2 command on the Atlanta router.
+*E. Configure the ipv6 route 2012::/126 2023::2 command on the Washington router.
+
+26. [Exhibit] An engineer configured the New York router with state routes that point to the Atlanta and Washington sites. When command must be configured on the Atlanta and Washington routers so that both sites are able to reach the loopback2 interface on the New York router?
+A. ipv6 route ::/0 Serial 0/0/1
+B. ipv6 route 0/0 Serial 0/0/0
+*C. ipv6 route ::/0 Serial 0/0/0
+D. ip route 0.0.0.0.0.0.0.0 Serial 0/0/0
+E. ipv6 route ::/0 2000::2
+
+27. Which type of IPv6 address is similar to a unicast address but is assigned to multiple devices on the same network at the same time?
+A. global unicast address
+*B. anycast address
+C. multicast address
+D. link-local address
+
+28. What is the difference between IPv6 unicast and anycast addressing?
+A. IPv6 anycast nodes must be explicitly configured to recognize the anycast address, but IPv6 unicast nodes require no special configuration
+B. IPv6 unicast nodes must be explicitly configured to recognize the unicast address, but IPv6 anycast nodes require no special configuration
+*C. An individual IPv6 unicast address is supported on a single interface on one node but an IPv6 anycast address is assigned to a group of interfaces on multiple nodes.
+D. Unlike an IPv6 anycast address, an IPv6 unicast address is assigned to a group of interfaces on multiple nodes
+
+29. [Exhibit] An engineer is configuring the HO router. Which IPv6 address configuration must be applied to the router fa0'1 interface for the router to assign a unique 64-brt IPv6 address to Itself?
+*A. ipv6 address 2001:DB8:0:1:C601:42FF:FE0F:7/64
+B. ipv6 address 2001:DB8:0:1:C601:42FE:800F:7/64
+C. ipv6 address 2001 :DB8:0:1:FFFF:C601:420F:7/64
+D. iov6 address 2001 :DB8:0:1:FE80:C601:420F:7/64
+
+30. A network engineer is installing an IPv6-only capable device. The client has requested that the device IP address be reachable only from the internal network. Which type of IPv6 address must the engineer assign?
+A. unique local address
+*B. link-local address
+C. aggregatable global address
+D. IPv4-compatible IPv6 address
+
+31. A network administrator is setting up a new IPv6 network using the 64-bit address 2001 0EB8 00C1 2200:0001 0000 0000 0331/64 To simplify the configuration the administrator has decided to compress the address Which IP address must the administrator configure?
+A. ipv6 address 21:EB8:C1:2200:1::331/64
+B. ipv6 address 2001:EB8:C1:22:1::331/64
+*C. ipv6 address 2001 :EB8:C 1:2200.1 ::331-64
+D. ipv6 address 2001:EB8:C1:2200:1:0000:331/64
+
+32. A network engineer must implement an IPv6 configuration on the vlan 2000 interface to create a routable locally-unique unicast address that is blocked from being advertised to the internet. Which configuration must the engineer apply?
+A. interface vlan 2000ipv6 address ffc0:0000:aaaa::1234:2343/64
+*B. interface vlan 2000Ipv6 address fc00:0000:aaaa:a15d:1234:2343:8aca/64
+C. interface vlan 2000ipv6 address fe80;0000:aaaa::1234:2343/64
+D. interface vlan 2000ipv6 address fd00::1234:2343/64
+
+33. In which circumstance would a network architect decide to implement a global unicast subnet instead of a unique local unicast subnet?
+A. when the subnet must be available only within an organization
+B. when the subnet does not need to be routable
+C. when the addresses on the subnet must be equivalent to private IPv4 addresses
+*D. when the subnet must be routable over the internet
+
+34. What is a link-local all-nodes IPv6 multicast address?
+A. ff02:0:0:0:0:0:0:1
+B. 2004:31c:73d9:683e:255::
+C. fffe:034:0dd:45d6:789e::
+*D. fe80:4433:034:0dd::2
+
+35. A network engineer must configure the router R1 GigabitEthernet1/1 interface to connect to the router R2 GigabitEthernet1/1 interface. For the configuration to be applied, the engineer must compress the address 2001:0db8:0000:0000:0500:000a:400F:583B. Which command must be issued on the interface?
+*A. ipv6 address 2001:db8 :: 500:a:400F:583B
+B. ipv6 address 2001:0db8 :: 5:a:4F:583B
+C. ipv6 address 2001 :: db8:0000 :: 500:a:400F:583B
+D. ipv6 address 2001:db8:0 :: 500:a:4F:583B
+
+36. What is a function of the core and distribution layers in a collapsed-core architecture?
+A. The router must use IPv4 and IPv6 addresses at Layer 3.
+B. The core and distribution layers are deployed on two different devices to enable failover.
+C. The router can support HSRP for Layer 2 redundancy in an IPv6 network.
+*D. The router operates on a single device or a redundant pair.
+
+37. [Exhibit] The loopback1 interface of the Atlanta router must reach the lookback3 interface of the Washington router.
+A. ipv6 route 2000::1/128 2012::2
+*B. ipv6 route 2000::1/128 2012::1
+C. ipv6 route 2000:3 123 s0/0/0
+*D. ipv6 route 2000::3/128 2023::3
+E. ipv6 route 2000::1/128 s0/0/1
+
+38. [Exhibit] An engineer configured the New York router with static routes that point to the Atlanta and Washington sites. Which command must be configured on the Atlanta and Washington routers so that both sites are able to reach the Lo2 interface on the New York router?
+*A. ipv6 route ::/0 Serial 0/0/0
+B. ipv6 route 0.0.0.0 0.0.0.0 Serial 0/0/0
+C. ipv6 route ::/0 2000::2
+D. ipv6 route ::/0 Serial 0/0/1
+
+39. [Exhibit] [Exhibit] The IPv6 address for the LAN segment on router R1 must be configured using the EUI-64 format. When configured which ipv6 address is produced by the router?
+A. 2001:db8:1a44:41a4:C801:BEFF:FE4A:1
+*B. 2001:db8:1a44:41a4:C081:BFFF:FE4A:1
+C. 2001:db8:1a44:41a4:4562:098F:FE36:1
+D. 2001:db8:1a44:41a4:C800:BAFE:FF00:1
+
+40. [Exhibit] Which format matches the Modified EUI-64 IPv6 interface address for the network 2001:db8::/64?
+A. 2001 :db8::5000:0004:5678:0090/64
+B. 2001 :db8:4425:5400:77ft:fe07:/64
+*C. 2001 :db8::5000:00ff:fe04 0000/64
+D. 2001 :db8::5200:00ff:fe04:0000/64
+
+41. [Exhibit] IPv6 must be implemented on R1 to the ISP The uplink between R1 and the ISP must be configured with a manual assignment, and the LAN interface must be self-provisioned Both connections must use the applicable IPv6 networks Which two configurations must be applied to R1? (Choose two.)
+A. interface Gi0/1ipv6 address 2001:db8:0F1B:FCCB:ACCE:FCED:ABCD:FA02:/127
+B. interface Gi0/0ipv6 address 2001:db8:1:AFFF::/64 eui-64
+*C. interface Gi0/1ipv6 address 2001:db8:0F1B:FCCB:ACCE:FCED:ABCD:FA00:/127
+*D. interface Gi0/0ipv6 address 2001:db8:0:AFFF::/64 eui-64
+E. interface Gi0/0ipv6 address 2001:db8:0F1B:FCCB:ACCE:FCED:ABCD:FA03;/127
+
+42. Which IPv6 address range is suitable for anycast addresses for distributed services such DHCP or DNS?
+*A. FF00:1/12
+B. 2001:db8:0234:ca3e::1/128
+C. 2002:db84:3f37:ca98:be05:8/64
+D. FE80::1/10
+
+43. [Exhibit] The New York router is configured with static routes pointing to the Atlanta and Washington sites. Which two tasks must be performed so that the Se0/0/0 interfaces on the Atlanta and Washington routers reach one another? (Choose two.)
+*A. Configure the ipv6 route 2023::/126 2012::2 command on the Atlanta router.
+B. Configure the ipv6 route 2012::/126 2023::1 command on the Washington router.
+C. Configure the ipv6 route 2023::/126 2012::1 command on the Atlanta router.
+*D. Configure the ipv6 route 2012::/126 s0/0/0 command on the Atlanta router.
+E. Configure the ipv6 route 2012::/126 2023::2 command on the Washington router.
+
+44. What is a valid IPv6 address record in DNS?
+A. A
+B. MX
+*C. AAAA
+D. CNAME
+
+45. [Exhibit] The administrator must configure a floating sialic default route that points to 2001:db8:1234:2::1 and replaces the current default route only if it fails. Which command must the engineer configure on the CPE?
+A. ipv6 route ::/0 2001:db8:1234:2::1 3
+*B. ipv6 route ::/128 2001 :db8:1234:2::1 3
+C. ipv6 route ::/0 2001:db8:1234:2::1 1
+D. ipv6 route ::/0 2001:db8:1234:2::1 2
+
+46. A network engineer must migrate a router loopback interface to the IPv6 address space. If the current IPv4 address of the interface is 10.54.73.1/32, and the engineer configures IPv6 address 0.0.0.0.0:ffff:a36:4901, which prefix length must be used?
+A. /64
+B. /96
+C. /124
+*D. /128
+
+47. Refer to the exhibit An IPv6 address must be obtained automatically on the LAN interface on R1 Which command must be implemented to accomplish the task?
+A. Ipv6 address 2001:dbB:d8d2:1008:4343:61:0010::/64
+*B. Ipv6 address autoconfig
+C. Ipv6 address fe80::/10
+D. Ipv6 address dhcp
+
+48. What is the difference between an IPv6 link-local address and a unique local address?
+A. The scope of an IPv6 link-local address is limited to a loopback address, and an IPv6 unique local address is limited to a directly attached interface.
+*B. The scope of an IPv6 link-local address can be used throughout a company site or network, but an IPv6 unique local address is limited to a loopback address.
+C. The scope of an IPv6 link-local address is global, but the scope of an IPv6 unique local address is limited to a loopback address.
+D. The scope of an IPv6 link-local address is limited to a directly attached interface, but an IPv6 unique local address is used throughout a company site or network.
+
+49. An engineer is configuring router R1 with an IPv6 static route for prefix 2019:C15C:0CAF:E001::/64. The next hop must be 2019:C15C:0CAF:E002::1 The route must be reachable via the R1 Gigabit 0/0 interface. Which command configures the designated route?
+A. R1(config)#ipv6 route 2019:C15C:0CAF:E001::/64 2019:C15C:0CAF:E002::1
+B. R1(config-if)#ipv6 route 2019:C15C:0CAF:E001::/64 2019:C15C:0CAF:E002::1
+*C. R1(config-if)#ip route 2019:C15C:0CAF:E001::/64 GigabitEthernet0/0
+D. R1(config)#ip route 2019:C15C:0CAF:E001::/64 GigabitEthernet0/0
+
+50. [Exhibit] IPv6 is being Implemented within the enterprise. The command Ipv6 unlcast-routing is configure. Interlace GlgO/0 on R1 must be configured to provide a dynamic assignment using the assigned IPv6 block Which command accomplishes this task?
+A. ipv6 address 2001:DB8:FFFF:FCF3::1/64
+B. ipv6 address autoconfig 2001:DB8:FFFF:FCF2::/64
+*C. ipv6 address 2001:DB8:FFFF:FCF3::/64 eui-64
+D. ipv6 address 2001:DB8:FFFF:FCF3::/64 link-local
+
+51. Which type of IPv4 address must be assigned to a server to protect it from external access and allow only internal users access while restricting internet access?
+A. global unicast
+B. public
+*C. private
+D. multicast
+
+52. [Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10.0/24 network on VLAN 20. The engineer wants to limit the number of devices that connect to the WLAN on the USERWL SSID to 125. Which configuration must the engineer perform on the WLC?
+A. In the Management Software activation configuration, set the Clients value to 125.
+B. In the Controller IPv6 configuration, set the Throttle value to 125.
+*C. In the WLAN configuration, set the Maximum Allowed Clients value to 125.
+D. In the Advanced configuration, set the DTIM value to 125.
+
+53. Which two IPv6 addresses are used to provide connectivity between two routers on a shared link? (Choose two)
+A. ::ffif 1014 1011/96
+*B. 2001 7011046:1111:1/64
+C. ;jff06bb43cd4dd111bbff02 4545234d
+D. 2002 5121204b 1111:1/64
+E. FF02::0WlFF00:0l)00/104
+
+54. What is a difference between an IPv6 multicast address and an IPv6 anycast address?
+*A. A packet sent to an IPv6 multicast address is delivered to one or more destinations at once, but a packet sent to an IPv6 anycast address is routed to the closest interface with that address.
+B. An IPv6 multicast address uses the prefix 2002::/15 and forwards to one destination, and an IPv6 anycast address uses the prefix ff00::/8 and forwards to any destination in a group.
+C. IPv6 multicast addresses are used to transition from IPv4 to IPv6, and IPv6 anycast addresses are used for address aggregation in an IPv6-only environment.
+D. An IPv6 multicast address is assigned to numerous interfaces within a subnet, but an IPv6 anycast address is used for a predefined group of nodes in an all-IPv6 routers group.
+
+55. [Exhibit] The New York router must be configured so that traffic to 2000::1 is sent primarily via the Atlanta site, with a secondary path via Washington that has an administrative distance of 2. Which two commands must be configured on the New York router? (Choose two.)
+A. ipv6 route 2000::1/128 2012::1
+B. ipv6 route 2000::1/128 2023::2 5
+C. ipv6 route 2000::1/128 2012::1 5
+*D. ipv6 route 2000::1/128 2023::3 2
+*E. ipv6 route 2000::1/128 2012::2
+
+56. [Exhibit] Which two commands, when configured on router R1. fulfill these requirements? (Choose two.) ' Packets toward the entire network 2001:db8:23: :/64 must be forwarded through router R2. ' Packets toward host 2001: db8:23::14 preferably must be forwarded through R3.
+A. ipv6 route 2001:db8:23: :/128 fd00:12::2
+*B. Ipv6 route 2001:db8:23::14/128 fd00:13::3
+C. ipv6 route 2001:db8:23::14/64 fd00:12::2 200
+D. ipv6 route 2001:db8:23: l4/64 fd00:12::2
+*E. ipv6 route 2001:db8:23: :/64 fd00:12::2
+
+57. What is a similarity between global and unique local IPv6 addresses?
+A. They are allocated by the same organization.
+B. They are routable on the global internet.
+*C. They use the same process for subnetting.
+D. They are part of the multicast IPv6 group type.
+
+58. [Exhibit] The routers R1-LAB and R2-LAB are configured with link-local addresses. What command must be applied to interface Gi0/0 on R1-LAB for an automated address self-assignment on the IPv6 network?
+A. ipv6 address 2001:db8:1:0FFA:0::/64
+B. ipv6 address 2001:db8:0:0FFA::1/64
+*C. ipv6 address 2001:db8:0:0FFA::/64 eui-64
+D. ipv6 address 2001:db8:0:0FFA::/64 anycast
+

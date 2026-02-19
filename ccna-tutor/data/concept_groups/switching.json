@@ -1,0 +1,349 @@
+{
+  "protocol": "switching",
+  "groups": [
+    {
+      "group_id": "switching_q1",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "switching_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q2",
+      "concept": "Which action does the router take as rt forwards a packet through the network?",
+      "question_ids": [
+        "switching_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q3",
+      "concept": "[Exhibit] Which outcome is expected when PC_A sends data to PC_B?",
+      "question_ids": [
+        "switching_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q4",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "switching_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q5",
+      "concept": "When a switch receives a frame for a known destination MAC address, how is the f...",
+      "question_ids": [
+        "switching_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q6",
+      "concept": "How does a switch process a frame received on Fa0/1 with the destination MAC add...",
+      "question_ids": [
+        "switching_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q7",
+      "concept": "What occurs to frames during the process of frame flooding?",
+      "question_ids": [
+        "switching_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q8",
+      "concept": "When a switch receives a frame for a known destination MAC address, how is the f...",
+      "question_ids": [
+        "switching_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q9",
+      "concept": "What does a switch use to build its MAC address table?",
+      "question_ids": [
+        "switching_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q10",
+      "concept": "What is the default behavior of a Layer 2 switch when a frame with an unknown de...",
+      "question_ids": [
+        "switching_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q11",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "switching_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q12",
+      "concept": "A frame that enters a switch fails the Frame Check Sequence. Which two interface...",
+      "question_ids": [
+        "switching_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q13",
+      "concept": "Which action does the router take as it forwards a packet through the network?",
+      "question_ids": [
+        "switching_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q14",
+      "concept": "[Exhibit] Which outcome is expected when PC_A sends data to PC_B?",
+      "question_ids": [
+        "switching_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q15",
+      "concept": "[Exhibit] The entire contents of the MAC address table are shown. Sales-4 sends ...",
+      "question_ids": [
+        "switching_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q16",
+      "concept": "Which action does the router take as rt forwards a packet through the network?",
+      "question_ids": [
+        "switching_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q17",
+      "concept": "How does the dynamically-learned MAC address feature function?",
+      "question_ids": [
+        "switching_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q18",
+      "concept": "Why does a switch flood a frame to all ports?",
+      "question_ids": [
+        "switching_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q19",
+      "concept": "Where does a switch maintain DHCP snooping information?",
+      "question_ids": [
+        "switching_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q20",
+      "concept": "A network administrator enabled port security on a switch interface connected to...",
+      "question_ids": [
+        "switching_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q21",
+      "concept": "Which two network actions occur within the data plane? (Choose two.)",
+      "question_ids": [
+        "switching_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q22",
+      "concept": "[Exhibit] Host A sent a data frame destined for host D What does the switch do w...",
+      "question_ids": [
+        "switching_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q23",
+      "concept": "What are two reasons a switch experiences frame flooding? (Choose two.)",
+      "question_ids": [
+        "switching_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q24",
+      "concept": "What is a function of MAC address learning?",
+      "question_ids": [
+        "switching_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q25",
+      "concept": "What does a switch search for in the CAM table when forwarding a frame?",
+      "question_ids": [
+        "switching_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q26",
+      "concept": "What happens when a switch receives a frame with a destination MAC address that ...",
+      "question_ids": [
+        "switching_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q27",
+      "concept": "PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not lis...",
+      "question_ids": [
+        "switching_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q28",
+      "concept": "How does MAC learning function on a switch?",
+      "question_ids": [
+        "switching_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q29",
+      "concept": "A client experiences slow throughput from a server that is directly connected to...",
+      "question_ids": [
+        "switching_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q30",
+      "concept": "A switch is a forwarding a frame out of an interfaces except the interface that ...",
+      "question_ids": [
+        "switching_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q31",
+      "concept": "When a switch receives a frame for an unknown destination MAC address, how is th...",
+      "question_ids": [
+        "switching_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q32",
+      "concept": "What does a switch do when it receives a frame whose destination MAC address is ...",
+      "question_ids": [
+        "switching_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q33",
+      "concept": "A switch is forwarding a frame out of all interfaces except the interface that r...",
+      "question_ids": [
+        "switching_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q34",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "switching_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q35",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "switching_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q36",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "switching_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q37",
+      "concept": "Aswitch receives a frame with the destination MAC address 3C:5D: 7E:9F: 1A:2B. S...",
+      "question_ids": [
+        "switching_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "switching_q38",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "switching_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 38,
+  "total_questions": 38
+}

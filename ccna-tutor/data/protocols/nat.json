@@ -1,0 +1,10 @@
+{
+  "name": "NAT and PAT",
+  "slug": "nat",
+  "category": "IP Services",
+  "description": "Network Address Translation (NAT) and Port Address Translation (PAT) translate private IP addresses to public for internet access.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

@@ -1,0 +1,512 @@
+CCNA 200-301 - SSH and Remote Access
+==================================================
+
+1. A Cisco engineer is configuring a factory-default router with these three passwords: -   The user EXEC password for console access is p4ssw0rd1 -   The user EXEC password for Telnet access is s3cr3t2 -   The password for privileged EXEC mode is pnv4t3p4ss Which command sequence must the engineer configured A) B\) C) D\)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+2. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name on the router. Which additional command must the engineer configure before entering the command to generate the RSA key?
+A. password password
+B. crypto key generate rsa modulus 1024
+*C. ip domain-name domain
+D. ip ssh authentication-retries 2
+
+3. What is the primary different between AAA authentication and authorization?
+A. Authentication verifies a username and password, and authorization handles the communication between the authentication agent and the user database.
+B. Authentication identifies a user who is attempting to access a system, and authorization validates the users password
+*C. Authentication identifies and verifies a user who is attempting to access a system, and authorization controls the tasks the user can perform.
+D. Authentication controls the system processes a user can access and authorization logs the activities the user initiates
+
+4. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+5. [Exhibit] An administrator configures four switches for local authentication using passwords that are stored in a cryptographic hash. The four switches must also support SSH access for administrators to manage the network infrastructure. Which switch is configured correctly to meet these requirements?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+6. What is a function of TFTP in network operations?
+A. transfers a backup configuration file from a server to a switch using a username and password
+B. transfers files between file systems on a router
+C. transfers a configuration files from a server to a router on a congested link
+*D. transfers IOS images from a server to a router for firmware upgrades
+
+7. [Exhibit] An engineer booted a new switch and applied this configuration via the console port. Which additional configuration must be applied to allow administrators to authenticate directly to enable privilege mode via Telnet using a local username and password?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+8. Which configuration is needed to generate an RSA key for SSH on a router?
+A. Configure the version of SSH
+B. Configure VTY access.
+C. Create a user with a password.
+*D. Assign a DNS domain name
+
+9. [Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-1 and allow access from all other hosts A Telnet attempt from PC-2 gives this message:\"% Connection refused by remote host\" Without allowing Telnet access from PC-1, which action must be taken to permit the traffic?
+*A. Add the access-list 10 permit any command to the configuration
+B. Remove the access-class 10 in command from line vty 0.4.
+C. Add the ip access-group 10 out command to interface g0/0.
+D. Remove the password command from line vty 0 4.
+
+10. What are two characteristics of a controller-based network? (Choose two)
+A. The administrator can make configuration updates from the CLI
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+*C. It moves the control plane to a central point.
+D. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+E. It uses Telnet to report system issues.
+
+11. Which command prevents passwords from being stored in the configuration as plain text on a router or switch?
+A. enable secret
+*B. service password-encryption
+C. username Cisco password encrypt
+D. enable password
+
+12. Which global command encrypt all passwords in the running configuration?
+A. password-encrypt
+*B. enable password-encryption
+C. enable secret
+D. service password-encryption
+
+13. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+14. What protocol allows an engineer to back up 20 network router configurations globally while using the copy function?
+A. SMTP
+*B. SNMP
+C. TCP
+D. FTP
+
+15. [Exhibit] A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?
+A. access-list 2699 permit udp 10.20.1.0 0.0.0.255
+B. no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22
+C. access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22
+*D. no access-list 2699 deny ip any 10.20.1.0 0.0.0.255
+
+16. Which global command encrypt all passwords in the running configuration?
+A. password-encrypt
+*B. enable password-encryption
+C. enable secret
+D. service password-encryption
+
+17. What protocol allows an engineer to back up 20 network router configurations globally while using the copy function?
+A. SMTP
+*B. SNMP
+C. TCP
+D. FTP
+
+18. Which command prevents passwords from being stored in the configuration as plain text on a router or switch?
+A. enable secret
+*B. service password-encryption
+C. username Cisco password encrypt
+D. enable password
+
+19. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+20. [Exhibit] A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?
+A. access-list 2699 permit udp 10.20.1.0 0.0.0.255
+B. no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22
+C. access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22
+*D. no access-list 2699 deny ip any 10.20.1.0 0.0.0.255
+
+21. [Exhibit] Which password must an engineer use to enter the enable mode?
+A. adminadmin123
+B. default
+*C. testing 1234
+D. cisco123
+
+22. [Exhibit] Which configuration on RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?
+A. access-list 100 deny tcp host 172.16.1.33 any eq 22 access-list 100 permit ip any anyinterface GigabitEthernet0/0 ip access-group 100 in
+*B. access-list 100 deny tcp host 172.16.1.33 any eq 22 access-list 100 permit ip any anyline vty 0 15 ip access-group 100 in
+C. access-list 100 deny tcp host 172.16.1.33 any eq 23 access-list 100 permit ip any anyinterface GigabitEthernet0/0 ip access-group 100 in
+D. access-list 100 deny tcp host 172.16.1.33 any eq 23 access-list 100 permit ip any anyline vty 0 15 ip access-group 100 in
+
+23. Which two protocols are supported on service-port interfaces? (Choose two.)
+A. RADIUS
+B. TACACS+
+C. SCP
+*D. Telnet
+*E. SSH
+
+24. [Exhibit] An administrator configures four switches for local authentication using passwords that are stored in a cryptographic hash. The four switches must also support SSH access for administrators to manage the network infrastructure. Which switch is configured correctly to meet these requirements?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+25. [Exhibit] An engineer booted a new switch and applied this configuration via the console port. Which additional configuration must be applied to allow administrators to authenticate directly to enable privilege mode via Telnet using a local username and password?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+26. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+27. A network administrator must to configure SSH for remote access to router R1 The requirement is to use a public and private key pair to encrypt management traffic to and from the connecting client. Which configuration, when applied, meets the requirements?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+28. Which configuration is needed to generate an RSA key for SSH on a router?
+A. Configure the version of SSH
+B. Configure VTY access.
+C. Create a user with a password.
+*D. Assign a DNS domain name
+
+29. What is a capability of FTP in network management operations?
+A. encrypts data before sending between data resources
+B. devices are directly connected and use UDP to pass file information
+*C. uses separate control and data connections to move files between server and client
+D. offers proprietary support at the session layer when transferring data
+
+30. [Exhibit] A network administrator has been tasked with securing VTY access to a router. Which access-list entry accomplishes this task?
+*A. access-list 101 permit tcp 10.1.10 0.0.0.255 172.16.10 0.0.0.255 eq ssh
+B. access-list 101 permit tcp 10.11.0 0.0.0.255 172.16.10 0.0.0.255 eq scp
+C. access-list 101 permit tcp 10.11.0 0.0.0.255 172.16.10 0.0.0.255 eq telnet
+D. access-list 101 permit tcp 10.1.10 0.0.0.255 172.16.10 0.0.0.255 eq https
+
+31. What is a function of TFTP in network operations?
+A. transfers a backup configuration file from a server to a switch using a username and password
+B. transfers files between file systems on a router
+C. transfers a configuration files from a server to a router on a congested link
+*D. transfers IOS images from a server to a router for firmware upgrades
+
+32. Which two protocols must be disabled to increase security for management connections to a Wireless LAN Controller? (Choose two.)
+*A. Telnet
+B. SSH
+*C. HTTP
+D. HTTPS
+E. TFTP
+
+33. What are two characteristics of a controller-based network? (Choose two)
+A. The administrator can make configuration updates from the CLI
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+*C. It moves the control plane to a central point.
+D. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+E. It uses Telnet to report system issues.
+
+34. Which protocol requires authentication to transfer a backup configuration file from a router to a remote server?
+A. DTP
+*B. FTP
+C. SMTP
+D. TFTP
+
+35. Which two must be met before SSH can operate normally on a Cisco IOS switch? (Choose two)
+*A. The switch must be running a k9 (crypto) IOS image
+*B. The Ip domain-name command must be configured on the switch
+C. IP routing must be enabled on the switch
+D. A console password must be configured on the switch
+E. Telnet must be disabled on the switch
+
+36. [Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-1 and allow access from all other hosts A Telnet attempt from PC-2 gives this message:"% Connection refused by remote host" Without allowing Telnet access from PC-1, which action must be taken to permit the traffic?
+*A. Add the access-list 10 permit any command to the configuration
+B. Remove the access-class 10 in command from line vty 0.4.
+C. Add the ip access-group 10 out command to interface g0/0.
+D. Remove the password command from line vty 0 4.
+
+37. Which WLC management connection type is vulnerable to man-in-the-middle attacks?
+A. SSH
+B. HTTPS
+*C. Telnet
+D. console
+
+38. A Cisco engineer is configuring a factory-default router with these three passwords: • The user EXEC password for console access is p4ssw0rd1 • The user EXEC password for Telnet access is s3cr3t2 • The password for privileged EXEC mode is pnv4t3p4ss Which command sequence must the engineer configured A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+39. An engineer is configuring remote access to a router from IP subnet 10.139.58.0/28. The domain name, crypto keys, and SSH have been configured. Which configuration enables the traffic on the destination router? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+40. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name on the router. Which additional command must the engineer configure before entering the command to generate the RSA key?
+A. password password
+B. crypto key generate rsa modulus 1024
+*C. ip domain-name domain
+D. ip ssh authentication-retries 2
+
+41. [Exhibit] Traffic sourced from the loopback0 Interface is trying to connect via ssh to the host at 10.0.1.15. What Is the next hop to the destination address?
+A. 192.168.0.7
+*B. 192.168.0.4
+C. 192.168.0.40
+D. 192.168.3.5
+
+42. [Exhibit] Which two commands must be configured on router R1 to enable the router to accept secure remote-access connections? (Choose two)
+A. transport input telnet
+*B. crypto key generate rsa
+C. ip ssh pubkey-chain
+D. login console
+*E. username cisco password 0 Cisco
+
+43. Which protocol uses the SSL?
+A. HTTP
+B. SSH
+*C. HTTPS
+D. Telnet
+
+44. Which protocol is used for secure remote CLI access?
+A. HTTPS
+B. HTTP
+C. Telnet
+*D. SSH
+
+45. [Exhibit] Which two commands must be added to update the configuration of router R1 so that it accepts only encrypted connections? (Choose two )
+A. username CNAC secret R!41!4319115@
+B. ip ssh version 2
+C. line vty 0 4
+*D. crypto key generate rsa 1024
+*E. transport input ssh
+
+46. [Exhibit] Which configuration for RTR-1 deniess SSH access from PC-1 to any RTR-1 interface and allows all other traffic? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+47. Which protocol does a REST API use to communicate?
+A. SSH
+B. SNMP
+*C. HTTP
+D. STP
+
+48. [Exhibit] An engineer executed the script and added commands that were not necessary for SSH and now must remove the commands.
+A. metric
+B. cost
+C. longest prefix
+*D. administrative distance
+
+49. [Exhibit] A network administrator is configuring a router for user access via SSH. The service-password encryption command has been issued. The configuration must meet these requirements: • Create the username as CCUser. • Create the password as NA!2Scc. • Encrypt the user password. What must be configured to meet the requirements?
+A. username CCUser privies 10 password NA!2Scc
+*B. username CCUser password NA!2Scc enable password level 5 NA!2$cc
+C. username CCUser secret NA!2Scc
+D. username CCUser privilege 15 password NA!2Scc enable secret 0 NA!2$cc
+
+50. [Exhibit] An engineer is updating the management access configuration of switch SW1 to allow secured, encrypted remote configuration. Which two commands or command sequences must the engineer apply to the switch? (Choose two.)
+*A. SW1(config)#enable secret ccnaTest123
+B. SW1(config)#username NEW secret R3mote123
+*C. SW1(config)#line vty 0 15 SW1(config-line)#transport input ssh
+D. SW1(config)# crypto key generate rsa
+E. SW1(config)# interface f0/1 SW1(confif-if)# switchport mode trunk
+
+51. Which selections must be used on the WLC when implementing a RADIUS server for wireless authentication?
+A. Client Exclusion and SSH
+*B. 802.1x and the MAC address of the server
+C. Network Access Control State and SSH
+D. AAA Override and the IP address of the server
+
+52. A network engineer is configuring a switch so that it is remotely reachable via SSH. The engineer has already configured the host name. Which additional command must the engineer configure before entering the command to generate the RSA key?
+*A. ip domain-name domain
+B. password password
+C. crypto key generate rsa modulus 1024
+D. ip ssh authentication-retries 2
+
+53. [Exhibit] A network engineer must configure NETCONF. After creating the configuration, the engineer gets output from the command show line but not from show running- config. Which command completes the configuration?
+A. Device(config)# netconf lock-time 500
+*B. Device(config)# netconf max-message 1000
+C. Device(config)# no netconf ssh acl 1
+D. Device(config)# netconf max-sessions 100
+
+54. What is the role of SNMP in the network?
+A. to monitor network devices and functions using a TCP underlay that operates on the presentation layer
+B. to collect data directly from network devices using an SSL underlay that operates on the transport layer
+*C. to monitor and manage network devices using a UDP underlay that operates on the application layer
+D. to collect telemetry and critical information from network devices using an SSH underlay that operates on the network layer
+
+55. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic Interface. What must be performed next to complete the basic configuration?
+A. Install the management interface and add the management IP.
+B. Configure high availability and redundancy tor the access points.
+C. Enable Telnet and RADIUS access on the management interface.
+*D. Create the new WLAN and bind the dynamic interface to It.
+
+56. Which protocol does Ansible use to push modules to nodes in a network?
+*A. SSH
+B. SNMP
+C. Kerberos
+D. Telnet
+
+57. Which protocol is implemented when an organization must verify network performance, troubleshoot issues, and use an agent to communicate between monitoring tools and end devices?
+A. SNMP
+B. FTP
+C. NTP
+*D. NFS
+
+58. Which command enables HTTP access to the Cisco WLC?
+A. config network secureweb enable
+B. config certificate generate web admin
+*C. config network webmode enable
+D. config network telnet enable
+
+59. [Exhibit] Local access for R4 must be established and these requirements must be met: • Only Telnet access is allowed. • The enable password must be stored securely. • The enable password must be applied in plain text. • Full access to R4 must be permitted upon successful login. Which configuration script meets the requirements? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+60. An administrator must use the password complexity not manufacturer-name command to prevent users from adding “cisco” as a password. Which command must be issued before this command?
+*A. Password complexity enable
+B. confreg 0x2142
+C. Login authentication my-auth-list
+D. service password-encryption
+
+61. How does IPsec provide secure networking for applications within an organization?
+A. It takes advantage of FTP to secure file transfers between nodes on the network.
+B. It provides GRE tunnels to transmit traffic securely between network nodes.
+*C. It enables sets of security associations between peers.
+D. It leverages TFTP providing secure file transfers among peers on the network.
+
+62. What are two characteristics of a controller-based network? (Choose two.)
+A. It uses Telnet to report system issues
+*B. It uses northbound and southbound APIs to communicate between architectural layers
+C. It decentralizes the control plane, which allows each device to make its own forwarding decisions
+*D. It moves the control plane to a central point
+E. The administrator can make configuration updates from the CLI
+
+63. Why choose Cisco DNA Center for automated lifecycle management?
+A. To perform upgrades without service interruption
+*B. To provide fast and accurate deployment of patches and updates
+C. To allow SSH access to all nodes in the network.
+D. To provide software redundancy in the network.
+
+64. What is a function performed by a web server?
+*A. provide an application that is transmitted over HTTP
+B. send and retrieve email from client devices
+C. authenticate and authorize a user's identity
+D. securely store flies for FTP access
+
+65. Which is a fact related to FTP?
+A. It uses block numbers to identify and mitigate data-transfer errors
+B. It always operates without user authentication
+C. It relies on the well-known UDP port 69.
+*D. It uses two separate connections for control and data traffic
+
+66. How is a configuration change made to a wireless AP in lightweight mode?
+A. SSH connection to the management IP of the AP
+B. EolP connection via the parent WLC
+*C. CAPWAP/LWAPP connection via the parent WLC
+D. HTTPS connection directly to the out-of-band address of the AP
+
+67. Which benefit does Cisco ONA Center provide over traditional campus management?
+A. Cisco DNA Center leverages SNMPv3 tor encrypted management, and traditional campus management uses SNMPv2.
+*B. Cisco DNA Center automates HTTPS for secure web access, and traditional campus management uses HTTP.
+C. Cisco DNA Center leverages APIs, and traditional campus management requires manual data gathering.
+D. Cisco DNA Center automates SSH access for encrypted entry, and SSH Is absent from traditional campus management.
+
+68. [Exhibit] A network engineer started to change default settings on SW1 to allow remote access and has entered the following in the configuration mode: SW1(config)#line vty 0 15 SW1(config-line)#password Labtest32! Which set of commands are needed to allow only SSH access and hide passwords in the running configuration?
+A. SW1(config-line)#exitSW1(config)#aaa new-model
+B. SW1(config-line)#login localSW1(config-line)#exitSW1(config)#enable secret test!2E
+*C. SW1(config-line)#transport input sshSW1(config-line)#exitSW1(config)#service password-encryption
+D. SW1(config-line)#login localSW1(config-line)#exitSW1(config)#crypto key generate rsa
+
+69. Which protocol should be used to transfer large files on a company intranet that allows TCP ports 20 and 21 through the firewall?
+A. REST API
+*B. FTP
+C. SMTP
+D. TFTP
+
+70. [Exhibit] An engineer executed the script and added commands that were not necessary for SSH and must now remove the commands. Which two commands must be executed to correct the configuration? (Choose two.)
+A. no ip domain name ccna.cisco.com
+B. no login local
+*C. no service password-encryption
+*D. no ip name-server 198.51.100.210
+E. no hostname CPE
+
+71. Which WLC management connection type is vulnerable to man-in-the-middIe attacks?
+*A. Telnet
+B. console
+C. HTTPS
+D. SSH
+
+72. An engineer is configuring SSH version 2 exclusively on the R1 router. What is the minimum configuration required to permit remote management using the cryptographic protocol?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+73. Which capability does TFTP provide?
+*A. loads configuration files on systems without data storage devices
+B. provides authentication for data communications over a private data network
+C. provides encryption mechanisms for file transfer across a WAN
+D. provides secure file access within the LAN
+
+74. A network engineer is replacing the switches that belong to a managed-services client with new Cisco Catalyst switches. The new switches will be configured for updated security standards, including replacing Telnet services with encrypted connections and doubling the modulus size from 1024. Which two commands must the engineer configure on the new switches? (Choose two.)
+*A. crypto key generate rsa general-keys modulus 1024
+B. transport input all
+C. crypto key generate rsa usage-keys
+D. crypto key generate rsa modulus 2048
+*E. transport Input ssh
+
+75. Which remote access protocol provides unsecured remote CLI access?
+A. console
+*B. Telnet
+C. Bash
+D. SSH
+
+76. Which solution is appropriate when mitigating password attacks where the attacker was able to sniff the clear-text password of the system administrator?
+*A. next-generation firewall to keep stateful packet inspection
+B. multifactor authentication using two separate authentication sources
+C. ACL to restrict incoming Telnet sessions "admin" accounts
+D. IPS with a block list of known attack vectors
+
+77. How does a network administrator securely manage an AP in lightweight mode?
+A. using the CLI via an out-of-band connection
+*B. using the WLC GUI via HTTPS
+C. using the AP GUI via an in-band SSH connection
+D. using the CLI via a virtual interface with SSH
+
+78. [Exhibit] Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?
+A. access-list 100 deny tcp host 172.16.1.33 any eq 23access-list 100 permit ip any anyinterface GigabitEthernet0/0ip access-group 100 in
+B. access-list 100 deny tcp host 172.16.1.33 any eq 22access-list 100 permit ip any anyinterface GigabitEthernet0/0ip access-group 100 in
+*C. access-list 100 deny tcp host 172.16.1.33 any eq 22access-list 100 permit ip any anyline vty 0 15access-class 100 in
+D. access-list 100 deny tcp host 172.16.1.33 any eq 23access-list 100 permit ip any anyline vty 0 15access-class 100 in
+
+79. [Exhibit] Which tasks must be performed on the Download File tab to install new software using TCP port 22?)
+A. Set the File Type to Code, set the Transfer Mode to SFTP, and specify the IP address of the WLC.
+B. Set the File Type to Configuration, set the Transfer Mode to FTP, and specify the IP address of the file server.
+*C. Set the File Type to Code, set the Transfer Mode to SFTP, and specify the IP address of the file server.
+D. Set the File Type to Configuration, set the Transfer Mode to SFTP, and specify the IP address of the WLC.
+
+80. What is the main purpose of SSH management access?
+A. To support DES 56-bit and 3DES (168-bit) ciphers
+*B. To enable secured access to the inbound management interface
+C. To validate management access with username and domain name only
+D. To allow passwords protected with HTTPS encryption to be sent
+
+81. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic interface. What must be performed next to complete the basic configuration?
+*A. Create the new WLAN and bind the dynamic interface to it.
+B. Install the management interface and add the management IP.
+C. Enable Telnet and RADIUS access on the management interface.
+D. Configure high availability and redundancy for the access points.
+
+82. [Exhibit] A VTY password has been set to Labtest32! for remote access. Which commands are required to allow only SSH access and to hide passwords in the running configuration?
+A. SW1#(config-line)#login localSW1#(config-line)#exitSW1(config)#crypto key generate rsa
+B. SW1#(config-line)#login localSW1#(config-line)#exitSW1(config)#enable secret test!2E
+*C. SW1#(config-line)#transport input sshSW1#(config-line)#exitSW1(config)#service password-encryption
+D. SW1#(config-line)#exitSW1(config)#aaa new-model
+
+83. Which protocol should be used to transfer large files on a company intranet that allows UDP 69 through the firewall?
+*A. FTP
+B. TFTP
+C. REST API
+D. SMTP
+

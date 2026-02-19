@@ -1,0 +1,223 @@
+{
+  "protocol": "physical-layer",
+  "groups": [
+    {
+      "group_id": "physical-layer_q1",
+      "concept": "[Exhibit] Site A was recently connected to site B over a new single-mode fiber p...",
+      "question_ids": [
+        "physical-layer_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q2",
+      "concept": "[Exhibit] The link between PC1 and the switch is up. but it is performing poorly...",
+      "question_ids": [
+        "physical-layer_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q3",
+      "concept": "What are two differences between optical-fiber cabling and copper cabling? (Choo...",
+      "question_ids": [
+        "physical-layer_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q4",
+      "concept": "What is the same for both copper and fiber interfaces when using SFP modules?",
+      "question_ids": [
+        "physical-layer_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q5",
+      "concept": "What is a similarity between OM3 and OM4 fiber optic cable?",
+      "question_ids": [
+        "physical-layer_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q6",
+      "concept": "What are two similarities between UTP Cat 5e and Cat 6a cabling? (Choose two.)",
+      "question_ids": [
+        "physical-layer_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q7",
+      "concept": "What is a similarly between 1000BASE-LX and 1000BASE-T standards?",
+      "question_ids": [
+        "physical-layer_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q8",
+      "concept": "How does CAPWAP communicate between an access point in local mode and a WLC?",
+      "question_ids": [
+        "physical-layer_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q9",
+      "concept": "What are two differences between optical-fiber cabling and copper cabling? (Choo...",
+      "question_ids": [
+        "physical-layer_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q10",
+      "concept": "[Exhibit] Shortly after SiteA was connected to SiteB over a new single-mode fibe...",
+      "question_ids": [
+        "physical-layer_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q11",
+      "concept": "What is the same for both copper and fiber interfaces when using SFP modules?",
+      "question_ids": [
+        "physical-layer_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q12",
+      "concept": "[Exhibit] Site A was recently connected to site B over a new single-mode fiber p...",
+      "question_ids": [
+        "physical-layer_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q13",
+      "concept": "[Exhibit] The link between PC1 and the switch is up. but it is performing poorly...",
+      "question_ids": [
+        "physical-layer_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q14",
+      "concept": "Refer the exhibit. What is the cause of poor performance on router R19?",
+      "question_ids": [
+        "physical-layer_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q15",
+      "concept": "What is the difference between 1000BASE-LX/LH and 1000BASE-ZX interfaces?",
+      "question_ids": [
+        "physical-layer_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q16",
+      "concept": "Which cable type must be used when connecting a router and switch together using...",
+      "question_ids": [
+        "physical-layer_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q17",
+      "concept": "What are two lacts that differentiate optical-fiber cabling from copper cabling?...",
+      "question_ids": [
+        "physical-layer_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q18",
+      "concept": "What is a similarity OM3 and OM4 fiber optical cable?",
+      "question_ids": [
+        "physical-layer_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q19",
+      "concept": "What are two facts that differentiate optical fiber cabling from copper cabling?...",
+      "question_ids": [
+        "physical-layer_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q20",
+      "concept": "Which properly is shared by 10GBase-SR and 10GBase-LR interfaces?",
+      "question_ids": [
+        "physical-layer_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q21",
+      "concept": "A Cisco engineer notices thai two OSPF neighbors are connected using a crossover...",
+      "question_ids": [
+        "physical-layer_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q22",
+      "concept": "Which cable type must be used to interconnect one switch using 1000 BASE-SX GBiC...",
+      "question_ids": [
+        "physical-layer_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q23",
+      "concept": "How do UTP and STP cables compare?",
+      "question_ids": [
+        "physical-layer_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "physical-layer_q24",
+      "concept": "[Exhibit] The EtherChannel is configured with a speed of 1000 and duplex as full...",
+      "question_ids": [
+        "physical-layer_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 24,
+  "total_questions": 24
+}

@@ -1,0 +1,133 @@
+{
+  "protocol": "ntp",
+  "groups": [
+    {
+      "group_id": "ntp_q1",
+      "concept": "R1 as an NTP server must have: -   NTP authentication enabled -   NTP packets so...",
+      "question_ids": [
+        "ntp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q2",
+      "concept": "Which command must be entered when a device is configured as an NTP server?",
+      "question_ids": [
+        "ntp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q3",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "ntp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q4",
+      "concept": "A network analyst is tasked with configured the date and time on a router using ...",
+      "question_ids": [
+        "ntp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q5",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "ntp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q6",
+      "concept": "Which command must be entered when a device is configured as an NTP server?",
+      "question_ids": [
+        "ntp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q7",
+      "concept": "Which two tasks must be performed to configure NTP to a trusted server in client...",
+      "question_ids": [
+        "ntp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q8",
+      "concept": "[Exhibit] The nip server 192.168.0.3 command has been configured on router 1 to ...",
+      "question_ids": [
+        "ntp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q9",
+      "concept": "R1 as an NTP server must have: \u2022 NTP authentication enabled \u2022 NTP packets source...",
+      "question_ids": [
+        "ntp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q10",
+      "concept": "A network analyst is tasked with configuring the date and time on a router using...",
+      "question_ids": [
+        "ntp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q11",
+      "concept": "Which protocol is implemented when an organization must verify network performan...",
+      "question_ids": [
+        "ntp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q12",
+      "concept": "A network engineer is configuring a new router at a branch office. The router is...",
+      "question_ids": [
+        "ntp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q13",
+      "concept": "An engineer is configuring switch SW1 to act an NTP server when all upstream NTP...",
+      "question_ids": [
+        "ntp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ntp_q14",
+      "concept": "[Exhibit] A network engineer must replicate the AccessSw1 NTP configuration on a...",
+      "question_ids": [
+        "ntp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 14,
+  "total_questions": 14
+}

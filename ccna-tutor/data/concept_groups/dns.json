@@ -1,0 +1,367 @@
+{
+  "protocol": "dns",
+  "groups": [
+    {
+      "group_id": "dns_q1",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "dns_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q2",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "dns_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q3",
+      "concept": "Which configuration is needed to generate an RSA key for SSH on a router?",
+      "question_ids": [
+        "dns_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q4",
+      "concept": "What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose tw...",
+      "question_ids": [
+        "dns_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q5",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "dns_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q6",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "dns_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q7",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dns_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q8",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dns_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q9",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "dns_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q10",
+      "concept": "What is a DNS lookup operation?",
+      "question_ids": [
+        "dns_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q11",
+      "concept": "When DHCP is configured on a router, which command must be entered so the defaul...",
+      "question_ids": [
+        "dns_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q12",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "dns_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q13",
+      "concept": "What are two roles of Domain Name Services (DNS)? (Choose Two)",
+      "question_ids": [
+        "dns_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q14",
+      "concept": "What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose tw...",
+      "question_ids": [
+        "dns_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q15",
+      "concept": "What does a router do when configured with the default DNS lookup settings, and ...",
+      "question_ids": [
+        "dns_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q16",
+      "concept": "Which protocol does an IPv4 host use to obtain a dynamically assigned IP address...",
+      "question_ids": [
+        "dns_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q17",
+      "concept": "Which configuration is needed to generate an RSA key for SSH on a router?",
+      "question_ids": [
+        "dns_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q18",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "dns_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q19",
+      "concept": "Which two must be met before SSH can operate normally on a Cisco IOS switch? (Ch...",
+      "question_ids": [
+        "dns_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q20",
+      "concept": "An engineer is configuring remote access to a router from IP subnet 10.139.58.0/...",
+      "question_ids": [
+        "dns_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q21",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "dns_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q22",
+      "concept": "An on-site service desk technician must verify the IP address and DNS server inf...",
+      "question_ids": [
+        "dns_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q23",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dns_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q24",
+      "concept": "[Exhibit] The user has connectivity to devices on network 192.168.3 0/24 but can...",
+      "question_ids": [
+        "dns_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q25",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "dns_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q26",
+      "concept": "An engineer has configured the domain name, user name, and password on the local...",
+      "question_ids": [
+        "dns_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q27",
+      "concept": "When is the PUT method used within HTTP?",
+      "question_ids": [
+        "dns_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q28",
+      "concept": "[Exhibit] Which configuration parameter is preventing host C from reaching the i...",
+      "question_ids": [
+        "dns_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q29",
+      "concept": "[Exhibit] A newly configured PC fails to connect to the internet using TCP port ...",
+      "question_ids": [
+        "dns_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q30",
+      "concept": "Which IPv6 address range is suitable for anycast addresses for distributed servi...",
+      "question_ids": [
+        "dns_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q31",
+      "concept": "What are two features of the DHCP relay agent? (Choose two.)",
+      "question_ids": [
+        "dns_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q32",
+      "concept": "What is a valid IPv6 address record in DNS?",
+      "question_ids": [
+        "dns_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q33",
+      "concept": "[Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and...",
+      "question_ids": [
+        "dns_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q34",
+      "concept": "[Exhibit] An engineer executed the script and added commands that were not neces...",
+      "question_ids": [
+        "dns_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q35",
+      "concept": "[Exhibit] What does the host do when using the IPv4 Preferred function?",
+      "question_ids": [
+        "dns_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q36",
+      "concept": "Which type of DNS record is used to specify the mail server responsible for acce...",
+      "question_ids": [
+        "dns_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q37",
+      "concept": "[Exhibit] What is preventing host A from reaching the internet?",
+      "question_ids": [
+        "dns_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q38",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "dns_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q39",
+      "concept": "What is the main purpose of SSH management access?",
+      "question_ids": [
+        "dns_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dns_q40",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "dns_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 40,
+  "total_questions": 40
+}

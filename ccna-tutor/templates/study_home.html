@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Study - CCNA Tutor{% endblock %}
+{% block content %}
+
+<!-- Header -->
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-cisco-blue">Study Practice</h1>
+    <p class="lead text-muted">Choose a topic and jump straight into practice questions</p>
+</div>
+
+<!-- Study All Card -->
+<div class="row mb-4">
+    <div class="col-12">
+        <a href="/practice/all" class="text-decoration-none">
+            <div class="card shadow-sm" style="border-left: 4px solid var(--cisco-teal);">
+                <div class="card-body d-flex justify-content-between align-items-center py-4">
+                    <div>
+                        <h4 class="text-cisco-teal mb-1">Study All Protocols</h4>
+                        <p class="text-muted mb-0">Random questions across all {{ total_questions }} questions from every topic</p>
+                    </div>
+                    <span class="btn btn-cisco-teal btn-lg">Start</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Protocol Cards by Category -->
+{% for category, protocols in protocols_by_category.items() %}
+<div class="mb-4">
+    <h3 class="text-cisco-teal mb-3">{{ category }}</h3>
+    <div class="row g-3">
+        {% for protocol in protocols %}
+        <div class="col-md-6 col-lg-4">
+            <a href="/practice/{{ protocol.slug }}" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="card-title text-cisco-blue mb-0">{{ protocol.name }}</h5>
+                            <span class="badge bg-cisco-blue rounded-pill">{{ question_counts.get(protocol.slug, 0) }}</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            {{ protocol.description[:100] }}{% if protocol.description|length > 100 %}...{% endif %}
+                        </p>
+                        <div class="text-end mt-2">
+                            <span class="text-cisco-teal small">Practice &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}

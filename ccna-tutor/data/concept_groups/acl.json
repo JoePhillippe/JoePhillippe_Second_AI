@@ -1,0 +1,295 @@
+{
+  "protocol": "acl",
+  "groups": [
+    {
+      "group_id": "acl_q1",
+      "concept": "While examining excessive traffic on the network, it is noted that all incoming ...",
+      "question_ids": [
+        "acl_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q2",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "acl_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q3",
+      "concept": "[Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-...",
+      "question_ids": [
+        "acl_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q4",
+      "concept": "[Exhibit] An access list is required to permit traffic from any host on interfac...",
+      "question_ids": [
+        "acl_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q5",
+      "concept": "Which feature on the Cisco Wireless LAN Controller when enabled restricts manage...",
+      "question_ids": [
+        "acl_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q6",
+      "concept": "[Exhibit] A network administrator must permit SSH access to remotely manage rout...",
+      "question_ids": [
+        "acl_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q7",
+      "concept": "[Exhibit] An extended ACL has been configured and applied to router R2 The confi...",
+      "question_ids": [
+        "acl_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q8",
+      "concept": "Which feature on the Cisco Wireless LAN Controller when enabled restricts manage...",
+      "question_ids": [
+        "acl_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q9",
+      "concept": "What is a practice that protects a network from VLAN hopping attacks?",
+      "question_ids": [
+        "acl_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q10",
+      "concept": "[Exhibit] An access list is required to permit traffic from any host on interfac...",
+      "question_ids": [
+        "acl_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q11",
+      "concept": "[Exhibit] A network administrator must permit SSH access to remotely manage rout...",
+      "question_ids": [
+        "acl_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q12",
+      "concept": "[Exhibit] Which configuration on RTR-1 denies SSH access from PC-1 to any RTR-1 ...",
+      "question_ids": [
+        "acl_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q13",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "acl_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q14",
+      "concept": "[Exhibit] A network administrator has been tasked with securing VTY access to a ...",
+      "question_ids": [
+        "acl_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q15",
+      "concept": "[Exhibit] What is the effect of this configuration?",
+      "question_ids": [
+        "acl_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q16",
+      "concept": "While examining excessive traffic on the network, it is noted that all incoming ...",
+      "question_ids": [
+        "acl_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q17",
+      "concept": "[Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-...",
+      "question_ids": [
+        "acl_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q18",
+      "concept": "[Exhibit] How should the configuration be updated to allow PC1 and PC2 access to...",
+      "question_ids": [
+        "acl_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q19",
+      "concept": "[Exhibit] Which configuration enables DHCP addressing for hosts connected to int...",
+      "question_ids": [
+        "acl_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q20",
+      "concept": "[Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which acti...",
+      "question_ids": [
+        "acl_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q21",
+      "concept": "[Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subn...",
+      "question_ids": [
+        "acl_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q22",
+      "concept": "[Exhibit] User traffic originating within site 0 is failing to reach an applicat...",
+      "question_ids": [
+        "acl_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q23",
+      "concept": "[Exhibit] A network engineer must configure NETCONF. After creating the configur...",
+      "question_ids": [
+        "acl_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q24",
+      "concept": "[Exhibit] What is the next step to complete the implementation for the partial N...",
+      "question_ids": [
+        "acl_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q25",
+      "concept": "[Exhibit] How should the configuration be updated to allow PC1 and PC2 access to...",
+      "question_ids": [
+        "acl_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q26",
+      "concept": "[Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and...",
+      "question_ids": [
+        "acl_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q27",
+      "concept": "A network engineer must configure an access list on a new Cisco IOS router. The ...",
+      "question_ids": [
+        "acl_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q28",
+      "concept": "Which solution is appropriate when mitigating password attacks where the attacke...",
+      "question_ids": [
+        "acl_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q29",
+      "concept": "[Exhibit] Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1...",
+      "question_ids": [
+        "acl_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q30",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "acl_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q31",
+      "concept": "[Exhibit] After a recent internal security audit, the network administrator deci...",
+      "question_ids": [
+        "acl_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "acl_q32",
+      "concept": "Which action prevents debug messages from being sent via syslog while allowing o...",
+      "question_ids": [
+        "acl_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 32,
+  "total_questions": 32
+}

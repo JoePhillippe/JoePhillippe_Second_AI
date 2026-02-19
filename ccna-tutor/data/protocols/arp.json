@@ -1,0 +1,10 @@
+{
+  "name": "ARP",
+  "slug": "arp",
+  "category": "Layer 2 Technologies",
+  "description": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses on local network segments.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

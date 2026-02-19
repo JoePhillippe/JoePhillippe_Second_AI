@@ -1,0 +1,41 @@
+{
+  "name": "OSPF",
+  "slug": "ospf",
+  "category": "Routing Protocols",
+  "description": "Open Shortest Path First (OSPF) is a link-state routing protocol that uses Dijkstra's SPF algorithm to calculate the shortest path. It's an IGP (Interior Gateway Protocol) commonly used in enterprise networks.",
+  "key_topics": [
+    "OSPF areas and Area 0 (backbone area)",
+    "DR and BDR election process",
+    "OSPF neighbor states (Down, Init, 2-Way, ExStart, Exchange, Loading, Full)",
+    "LSA types (Type 1, 2, 3, 4, 5)",
+    "OSPF metric calculation (cost based on bandwidth)",
+    "Default administrative distance: 110",
+    "OSPF network types (broadcast, point-to-point, NBMA)",
+    "Authentication (plain text and MD5)"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "router ospf",
+      "network area",
+      "ip ospf cost",
+      "ip ospf priority",
+      "ip ospf hello-interval",
+      "ip ospf dead-interval"
+    ],
+    "switch": [
+      "ip routing",
+      "router ospf"
+    ]
+  },
+  "common_misconceptions": [
+    "Many training resources incorrectly state that OSPF always elects a DR/BDR. Cisco documentation clarifies this only happens on broadcast and NBMA networks, NOT on point-to-point links",
+    "Third-party materials often oversimplify LSA types. Cisco's config guide shows that understanding when Type 3 Summary LSAs are generated at ABRs is critical for CCNA",
+    "Training books frequently confuse OSPF cost calculation. Cisco IOS uses: cost = reference bandwidth / interface bandwidth, where reference bandwidth defaults to 100 Mbps",
+    "Common error: stating that lowest Router ID becomes DR. Actually, highest OSPF priority wins; Router ID is the tiebreaker only when priorities are equal"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "eigrp",
+    "bgp"
+  ]
+}

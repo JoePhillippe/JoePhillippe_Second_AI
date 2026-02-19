@@ -1,0 +1,313 @@
+{
+  "protocol": "cloud",
+  "groups": [
+    {
+      "group_id": "cloud_q1",
+      "concept": "What are two characteristics of a public cloud Implementation? (Choose two.)",
+      "question_ids": [
+        "cloud_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q2",
+      "concept": "Which statement identifies the functionality of virtual machines?",
+      "question_ids": [
+        "cloud_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q3",
+      "concept": "What are two functions of a server on a network? (Choose two)",
+      "question_ids": [
+        "cloud_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q4",
+      "concept": "An organization has decided to start using cloud-provided services. Which cloud ...",
+      "question_ids": [
+        "cloud_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q5",
+      "concept": "What describes the operation of virtual machines?",
+      "question_ids": [
+        "cloud_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q6",
+      "concept": "Which resource is able to be shared among virtual machines deployed on the same ...",
+      "question_ids": [
+        "cloud_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q7",
+      "concept": "What are two fundamentals of virtualization? (choose two)",
+      "question_ids": [
+        "cloud_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q8",
+      "concept": "Which technology allows for multiple operating systems to be run on a single hos...",
+      "question_ids": [
+        "cloud_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q9",
+      "concept": "Which statement identifies the functionality of virtual machines?",
+      "question_ids": [
+        "cloud_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q10",
+      "concept": "What is a characteristic of cloud-based network topology?",
+      "question_ids": [
+        "cloud_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q11",
+      "concept": "An organization has decided to start using cloud-provided services. Which cloud ...",
+      "question_ids": [
+        "cloud_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q12",
+      "concept": "What are two functions of a server on a network? (Choose two)",
+      "question_ids": [
+        "cloud_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q13",
+      "concept": "A manager asks a network engineer to advise which cloud service models are used ...",
+      "question_ids": [
+        "cloud_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q14",
+      "concept": "How do servers connect to the network in a virtual environment?",
+      "question_ids": [
+        "cloud_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q15",
+      "concept": "What role does a hypervisor provide for each virtual machine in server virtualiz...",
+      "question_ids": [
+        "cloud_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q16",
+      "concept": "An implementer is preparing hardware for virtualization to create virtual machin...",
+      "question_ids": [
+        "cloud_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q17",
+      "concept": "What are two characteristics of a public cloud Implementation? (Choose two.)",
+      "question_ids": [
+        "cloud_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q18",
+      "concept": "What is a benefit for external users who consume public cloud resources?",
+      "question_ids": [
+        "cloud_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q19",
+      "concept": "Which physical component is distributed among multiple virtual machines running ...",
+      "question_ids": [
+        "cloud_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q20",
+      "concept": "What is a function of a southbound API?",
+      "question_ids": [
+        "cloud_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q21",
+      "concept": "Which type of hypervisor operates without an underlying OS to host virtual machi...",
+      "question_ids": [
+        "cloud_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q22",
+      "concept": "What must a network administrator consider when deciding whether to configure a ...",
+      "question_ids": [
+        "cloud_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q23",
+      "concept": "Which component controls and distributes physical resources for each virtual mac...",
+      "question_ids": [
+        "cloud_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q24",
+      "concept": "A manager asks a network engineer to recommend a cloud service model so that emp...",
+      "question_ids": [
+        "cloud_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q25",
+      "concept": "A wireless access point is needed and must meet these requirements: \u2022 \"zero-touc...",
+      "question_ids": [
+        "cloud_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q26",
+      "concept": "Which components are contained within a virtual machine?",
+      "question_ids": [
+        "cloud_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q27",
+      "concept": "Which architecture is best for small offices with minimal wireless needs and no ...",
+      "question_ids": [
+        "cloud_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q28",
+      "concept": "A network architect planning a new Wi-Fi network must decide between autonomous,...",
+      "question_ids": [
+        "cloud_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q29",
+      "concept": "In a cloud-computing environment what is rapid elasticity?",
+      "question_ids": [
+        "cloud_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q30",
+      "concept": "Which technology allows multiple operating systems to run a single physical serv...",
+      "question_ids": [
+        "cloud_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q31",
+      "concept": "Where are the real-time control functions processed in a split MAC architecture?",
+      "question_ids": [
+        "cloud_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q32",
+      "concept": "Which cloud-provided service allows an organization to install its own operating...",
+      "question_ids": [
+        "cloud_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q33",
+      "concept": "Which statement describes virtualization on containers?",
+      "question_ids": [
+        "cloud_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cloud_q34",
+      "concept": "Which technology allows multiple operating systems lo run a single physical serv...",
+      "question_ids": [
+        "cloud_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 34,
+  "total_questions": 34
+}

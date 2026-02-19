@@ -1,0 +1,10 @@
+{
+  "name": "RIP",
+  "slug": "rip",
+  "category": "Routing Protocols",
+  "description": "Routing Information Protocol (RIP) is a distance-vector routing protocol using hop count as its metric.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Low",
+  "related_protocols": []
+}

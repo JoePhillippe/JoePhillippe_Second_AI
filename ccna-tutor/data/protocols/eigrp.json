@@ -1,0 +1,39 @@
+{
+  "name": "EIGRP",
+  "slug": "eigrp",
+  "category": "Routing Protocols",
+  "description": "Enhanced Interior Gateway Routing Protocol (EIGRP) is Cisco's advanced distance vector routing protocol that uses the DUAL (Diffusing Update Algorithm) for loop-free routing and fast convergence.",
+  "key_topics": [
+    "DUAL (Diffusing Update Algorithm)",
+    "Feasible successor and successor routes",
+    "EIGRP metric calculation (bandwidth, delay, load, reliability, MTU)",
+    "Default administrative distance: 90 (internal), 170 (external)",
+    "EIGRP neighbor requirements (AS number, K-values, authentication)",
+    "Split horizon and route poisoning",
+    "EIGRP packets (Hello, Update, Query, Reply, ACK)",
+    "Variance for unequal-cost load balancing"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "router eigrp",
+      "network",
+      "variance",
+      "eigrp router-id",
+      "passive-interface"
+    ],
+    "switch": [
+      "router eigrp"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often call EIGRP a 'hybrid' protocol. Cisco documentation clarifies it's an advanced distance vector protocol, not a hybrid",
+    "Many resources incorrectly state EIGRP uses only bandwidth and delay by default. Cisco config guides show that while K1 (bandwidth) and K3 (delay) are enabled by default, understanding all K-values is important",
+    "Third-party books oversimplify feasible successors. Cisco's documentation explains that a route qualifies as a feasible successor only if its advertised distance is less than the current feasible distance",
+    "Common error: confusing administrative distance with EIGRP metric. AD (90) determines protocol preference; EIGRP's composite metric determines best path within EIGRP"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "ospf",
+    "bgp"
+  ]
+}

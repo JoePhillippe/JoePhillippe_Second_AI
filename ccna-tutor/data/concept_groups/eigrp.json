@@ -1,0 +1,232 @@
+{
+  "protocol": "eigrp",
+  "groups": [
+    {
+      "group_id": "eigrp_q1",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "eigrp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q2",
+      "concept": "Which type of traffic is sent with pure iPsec?",
+      "question_ids": [
+        "eigrp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q3",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "eigrp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q4",
+      "concept": "By default, how Does EIGRP determine the metric of a route for the routing table...",
+      "question_ids": [
+        "eigrp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q5",
+      "concept": "By default, how Does EIGRP determine the metric of a route for the routing table...",
+      "question_ids": [
+        "eigrp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q6",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "eigrp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q7",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "eigrp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q8",
+      "concept": "[Exhibit] A router reserved these five routes from different routing information...",
+      "question_ids": [
+        "eigrp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q9",
+      "concept": "[Exhibit] How does the router manage traffic to 192.168.12.16?",
+      "question_ids": [
+        "eigrp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q10",
+      "concept": "[Exhibit] Which route type does the routing protocol Code D represent in the out...",
+      "question_ids": [
+        "eigrp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q11",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS. OSPF, RIP. and Internal EIGRP Un...",
+      "question_ids": [
+        "eigrp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q12",
+      "concept": "[Exhibit] How does router R1 handle traffic to 192.168.10.16?",
+      "question_ids": [
+        "eigrp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q13",
+      "concept": "Which two actions influence the EIGRP route selection process? (Choose two)",
+      "question_ids": [
+        "eigrp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q14",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "eigrp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q15",
+      "concept": "A router running EIGRP has learned the same route from two different paths. Whic...",
+      "question_ids": [
+        "eigrp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q16",
+      "concept": "Router A learns the same route from two different neighbors, one of the neighbor...",
+      "question_ids": [
+        "eigrp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q17",
+      "concept": "[Exhibit] Which network prefix was learned via EIGRP?",
+      "question_ids": [
+        "eigrp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q18",
+      "concept": "[Exhibit] An engineer must configure a floating static route on an external EIGR...",
+      "question_ids": [
+        "eigrp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q19",
+      "concept": "[Exhibit] Which prefix did router R1 learn from internal EIGRP?",
+      "question_ids": [
+        "eigrp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q20",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS, OSPF, RIP, and Internal EIGRP. U...",
+      "question_ids": [
+        "eigrp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q21",
+      "concept": "[Exhibit] What is the next-hop IP address for R2 so that PC2 reaches the applica...",
+      "question_ids": [
+        "eigrp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q22",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "eigrp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q23",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "eigrp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q24",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "eigrp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "eigrp_q25",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "eigrp_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 25,
+  "total_questions": 25
+}

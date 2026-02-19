@@ -1,0 +1,10 @@
+{
+  "name": "Mixed Topics",
+  "slug": "uncategorized",
+  "category": "General",
+  "description": "General CCNA questions covering multiple topics and cross-domain concepts.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

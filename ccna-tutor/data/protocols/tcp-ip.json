@@ -1,0 +1,38 @@
+{
+  "name": "TCP/IP",
+  "slug": "tcp-ip",
+  "category": "Transport & Internet Layer",
+  "description": "The Transmission Control Protocol (TCP) and Internet Protocol (IP) form the fundamental protocol suite for network communication. TCP provides reliable, connection-oriented data transport at Layer 4, while IP handles logical addressing and routing at Layer 3.",
+  "key_topics": [
+    "Three-way handshake (SYN, SYN-ACK, ACK)",
+    "TCP vs UDP characteristics and use cases",
+    "Port numbers and well-known service ports",
+    "TCP window sizing and flow control",
+    "IP addressing and subnetting",
+    "IPv4 packet structure and header fields",
+    "TCP connection termination (four-way handshake)",
+    "Maximum Segment Size (MSS) and Path MTU Discovery"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "ip routing configuration",
+      "tcp parameters",
+      "ip tcp adjust-mss",
+      "ip tcp window-size"
+    ],
+    "switch": [
+      "ip routing"
+    ]
+  },
+  "common_misconceptions": [
+    "Many training materials oversimplify TCP window sizing — the Cisco IOS configuration guide shows how window scaling actually works and how the tcp window-size command affects performance",
+    "Third-party resources often confuse the MSS (Maximum Segment Size) with MTU (Maximum Transmission Unit). Cisco documentation clarifies that MSS = MTU - IP header - TCP header",
+    "Training books sometimes state TCP always uses a three-way handshake, but Cisco's config guides document TCP Fast Open and other optimizations that modify this behavior",
+    "Common misconception: UDP is 'unreliable' and should be avoided. Cisco documentation shows UDP is preferred for real-time applications like VoIP where speed matters more than guaranteed delivery"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "dns",
+    "dhcp"
+  ]
+}

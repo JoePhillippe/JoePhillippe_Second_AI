@@ -1,0 +1,10 @@
+{
+  "name": "Cloud and Virtualization",
+  "slug": "cloud",
+  "category": "Architecture",
+  "description": "Cloud computing models (IaaS, PaaS, SaaS), virtualization technologies, hypervisors, and virtual machines in network environments.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

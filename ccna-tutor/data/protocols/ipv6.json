@@ -1,0 +1,42 @@
+{
+  "name": "IPv6",
+  "slug": "ipv6",
+  "category": "Routing Protocols",
+  "description": "Internet Protocol version 6 (IPv6) is the successor to IPv4, providing a vastly larger address space (128-bit addresses) and improved features like simplified headers, built-in IPSec, and stateless autoconfiguration.",
+  "key_topics": [
+    "IPv6 address format and notation (hexadecimal, double colon compression)",
+    "IPv6 address types: Unicast (Global, Link-local, Unique local), Multicast, Anycast",
+    "SLAAC (Stateless Address Autoconfiguration)",
+    "NDP (Neighbor Discovery Protocol) replaces ARP",
+    "ICMPv6 and its role in IPv6",
+    "DHCPv6 (stateful and stateless)",
+    "IPv6 routing protocols: OSPFv3, EIGRPv6",
+    "Dual-stack, tunneling, and translation transition mechanisms"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "ipv6 unicast-routing",
+      "ipv6 address",
+      "ipv6 address autoconfig",
+      "ipv6 route",
+      "ipv6 router ospf",
+      "show ipv6 interface",
+      "show ipv6 neighbors"
+    ],
+    "switch": [
+      "ipv6 address",
+      "ipv6 enable"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often state IPv6 eliminates broadcasts. Cisco documentation clarifies IPv6 uses multicast instead, with specific addresses like FF02::1 (all nodes) and FF02::2 (all routers)",
+    "Many resources claim SLAAC makes DHCP unnecessary. Cisco config guides explain DHCPv6 is still needed for DNS server info and other options not provided by SLAAC",
+    "Third-party books frequently confuse link-local (FE80::/10) with unique local (FC00::/7) addresses. Link-local are non-routable and mandatory on all IPv6 interfaces; unique local are routable within an organization",
+    "Common error: forgetting ipv6 unicast-routing command. Without this global command, the router will not forward IPv6 packets or advertise itself as a router via NDP"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "tcp-ip",
+    "ospf"
+  ]
+}

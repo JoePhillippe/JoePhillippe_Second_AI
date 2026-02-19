@@ -1,0 +1,10 @@
+{
+  "name": "Physical Layer and Cabling",
+  "slug": "physical-layer",
+  "category": "Infrastructure",
+  "description": "Physical layer concepts including copper and fiber cabling types, connectors, standards, and specifications.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

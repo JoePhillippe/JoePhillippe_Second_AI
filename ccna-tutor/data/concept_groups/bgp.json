@@ -1,0 +1,142 @@
+{
+  "protocol": "bgp",
+  "groups": [
+    {
+      "group_id": "bgp_q1",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "bgp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q2",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "bgp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q3",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "bgp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q4",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "bgp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q5",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "bgp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q6",
+      "concept": "[Exhibit] A router reserved these five routes from different routing information...",
+      "question_ids": [
+        "bgp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q7",
+      "concept": "What is a characteristic of private IPv4 addressing?",
+      "question_ids": [
+        "bgp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q8",
+      "concept": "[Exhibit] Which route type does the routing protocol Code D represent in the out...",
+      "question_ids": [
+        "bgp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q9",
+      "concept": "[Exhibit] An engineer is bringing up a new circuit to the MPLS provider on the G...",
+      "question_ids": [
+        "bgp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q10",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "bgp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q11",
+      "concept": "[Exhibit] Packets received by the router from BGP enter via a serial interface a...",
+      "question_ids": [
+        "bgp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q12",
+      "concept": "[Exhibit] Packets received by the router from BGP enter via a serial interface a...",
+      "question_ids": [
+        "bgp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q13",
+      "concept": "What does the implementation of a first-hop redundancy protocol protect against ...",
+      "question_ids": [
+        "bgp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q14",
+      "concept": "[Exhibit] After configuring a new static route on the CPE. the engineer entered ...",
+      "question_ids": [
+        "bgp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "bgp_q15",
+      "concept": "What are two disadvantages of a full-mesh topology? (Choose two.)",
+      "question_ids": [
+        "bgp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 15,
+  "total_questions": 15
+}

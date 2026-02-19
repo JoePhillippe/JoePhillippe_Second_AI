@@ -1,0 +1,88 @@
+CCNA 200-301 - NTP - Network Time Protocol
+==================================================
+
+1. R1 as an NTP server must have: -   NTP authentication enabled -   NTP packets sourced from Interface loopback 0 -   NTP stratum 2 -   NTP packets only permitted to client IP 209.165 200 225 How should R1 be configured? A\) B) C\) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+2. Which command must be entered when a device is configured as an NTP server?
+A. ntp authenticate
+B. ntp server
+C. ntp peer
+*D. ntp master
+
+3. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+4. A network analyst is tasked with configured the date and time on a router using EXEC mode. The date must be set to 12:00am. Which command should be used?
+A. Clock timezone
+B. Clock summer-time-recurring
+C. Clock summer-time date
+*D. Clock set
+
+5. What facilitates a Telnet connection between devices by entering the device name?
+A. SNMP
+*B. DNS lookup
+C. syslog
+D. NTP
+
+6. Which command must be entered when a device is configured as an NTP server?
+A. ntp authenticate
+B. ntp server
+C. ntp peer
+*D. ntp master
+
+7. Which two tasks must be performed to configure NTP to a trusted server in client mode on a single network device? (Choose two)
+*A. Enable NTP authentication.
+B. Verify the time zone.
+C. Disable NTP broadcasts
+*D. Specify the IP address of the NTP server
+E. Set the NTP server private key
+
+8. [Exhibit] The nip server 192.168.0.3 command has been configured on router 1 to make it an NTP client of router 2. Which command must be configured on router 2 so that it operates in server-only mode and relies only on its internal clock?
+A. Router2(config)#ntp passive
+*B. Router2(config)#ntp server 172.17.0.1
+C. Router2(config)#ntp master 4
+D. Router2(config)#ntp server 192.168.0.2
+
+9. R1 as an NTP server must have: • NTP authentication enabled • NTP packets sourced from Interface loopback 0 • NTP stratum 2 • NTP packets only permitted to client IP 209.165 200 225 How should R1 be configured? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+10. A network analyst is tasked with configuring the date and time on a router using EXEC mode. The date must be set to January 1. 2020 and the time must be set to 12:00 am. Which command should be used?
+A. clock summer-time recurring
+B. clock timezone
+C. clock summer-time date
+*D. clock set
+
+11. Which protocol is implemented when an organization must verify network performance, troubleshoot issues, and use an agent to communicate between monitoring tools and end devices?
+A. SNMP
+B. FTP
+C. NTP
+*D. NFS
+
+12. A network engineer is configuring a new router at a branch office. The router is connected to an upstream WAN network that allows the branch to communicate with the head office. The central time server with IP address 172.24.54.8 is located behind a firewall at the head office. Which command must the engineer configure so that the software clock of the new router synchronizes with the time server?
+A. ntp master 172.24.54.8
+B. ntp client 172.24.54.8
+C. ntp peer 172.24.54.8
+*D. ntp server 172.24.54.8
+
+13. An engineer is configuring switch SW1 to act an NTP server when all upstream NTP server connectivity fails. Which configuration must be used? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+14. [Exhibit] A network engineer must replicate the AccessSw1 NTP configuration on a new switch. The engineer could not access privileged mode on AccessSw1 to view its configuration. Which command must be applied to the new switch to replicate the configuration?
+A. ntp master
+B. ntp master 3
+*C. ntp server 2001:db8:12::1
+D. ntp server 127.127.1.1
+

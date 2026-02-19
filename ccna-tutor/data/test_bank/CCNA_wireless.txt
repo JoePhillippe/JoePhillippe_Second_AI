@@ -1,0 +1,1132 @@
+CCNA 200-301 - Wireless and WLAN
+==================================================
+
+1. Which interface mode must be configured to connect the lightweight APs in a centralized architecture?
+A. WLAN dynamic
+B. management
+C. trunk
+*D. access
+
+2. Which value is the unique identifier that an access point uses to establish and maintain wireless connectivity to wireless network devices?
+A. VLANID
+*B. SSID
+C. RFID
+D. WLANID
+
+3. What is a requirement for nonoverlapping Wi-Fi channels?
+A. different security settings
+*B. discontinuous frequency ranges
+C. different transmission speeds
+D. unique SSIDs
+
+4. What is a function of an endpoint on a network?
+A. forwards traffic between VLANs on a network
+B. connects server and client devices to a network
+*C. allows users to record data and transmit to a tile server
+D. provides wireless services to users in a building
+
+5. Which protocol does an access point use to draw power from a connected switch?
+A. Internet Group Management Protocol
+B. Adaptive Wireless Path Protocol
+*C. Cisco Discovery Protocol
+D. Neighbor Discovery Protocol
+
+6. Which statement about Link Aggregation when implemented on a Cisco Wireless LAN Controller is true?
+A. To pass client traffic two or more ports must be configured.
+B. The EtherChannel must be configured in \"mode active\"
+C. When enabled the WLC bandwidth drops to 500 Mbps
+*D. One functional physical port is needed to pass client traffic
+
+7. Which two values or settings must be entered when configuring a new WLAN in the Cisco Wireless LAN Controller GUI? (Choose two)
+A. management interface settings
+B. QoS settings
+C. Ip address of one or more access points
+*D. SSID
+*E. Profile name
+
+8. Which protocol prompts the Wireless LAN Controller to generate its own local web administration SSL certificate for GUI access?
+*A. HTTPS
+B. RADIUS
+C. TACACS+
+D. HTTP
+
+9. Which mode must be set for APs to communicate to a Wireless LAN Controller using the Control and Provisioning of Wireless Access Points (CAPWAP) protocol?
+A. bridge
+B. route
+C. autonomous
+*D. lightweight
+
+10. An engineer must configure a WLAN using the strongest encryption type for WPA2- PSK. Which cipher fulfills the configuration requirement?
+A. WEP
+B. RC4
+*C. AES
+D. TKIP
+
+11. When a WPA2-PSK WLAN is configured in the wireless LAN Controller, what is the minimum number of characters that in ASCll format?
+A. 6
+*B. 8
+C. 12
+D. 18
+
+12. What are two characteristics of an SSID? (Choose Two)
+A. It can be hidden or broadcast in a WLAN
+*B. It uniquely identifies an access point in a WLAN
+C. It uniquely identifies a client in a WLAN
+D. It is at most 32 characters long.
+*E. IT provides secured access to a WLAN
+
+13. An administrator must secure the WLC from receiving spoofed association requests. Which steps must be taken to configure the WLC to restrict the requests and force the user to wait 10 ms to retry an association request?
+A. Enable Security Association Teardown Protection and set the SA Query timeout to 10
+B. Enable MAC filtering and set the SA Query timeout to 10
+*C. Enable 802.1x Layer 2 security and set me Comeback timer to 10
+D. Enable the Protected Management Frame service and set the Comeback timer to 10
+
+14. Which 802.11 frame type is indicated by a probe response after a client sends a probe request?
+A. action
+*B. management
+C. control
+D. data
+
+15. What is the purpose of an SSID?
+A. It provides network security
+B. It differentiates traffic entering access posits
+C. It identities an individual access point on a WLAN
+*D. It identifies a WLAN
+
+16. Which implementation provides the strongest encryption combination for the wireless environment?
+*A. WPA2 + AES
+B. WPA + AES
+C. WEP
+D. WPA + TKIP
+
+17. [Exhibit] If the network environment is operating normally, which type of device must be connected to interface FastEthernet 0/1?
+A. DHCP client
+B. access point
+*C. router
+D. PC
+
+18. Which device performs stateful inspection of traffic?
+*A. firewall
+B. switch
+C. access point
+D. wireless controller
+
+19. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+20. Which WLC port connects to a switch to pass normal access-point traffic?
+A. redundancy
+B. console
+*C. distribution system
+D. service
+
+21. Which device tracks the state of active connections in order to make a decision to forward a packet through?
+A. wireless access point
+*B. firewall
+C. wireless LAN controller
+D. router
+
+22. Which QoS Profile is selected in the GUI when configuring a voice over WLAN deployment?
+A. Bronze
+*B. Platinum
+C. Silver
+D. Gold
+
+23. Which QoS Profile is selected in the GUI when configuring a voice over WLAN deployment?
+A. Bronze
+*B. Platinum
+C. Silver
+D. Gold
+
+24. Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?
+*A. CPU ACL
+B. TACACS
+C. Flex ACL
+D. RADIUS
+
+25. Which type of wireless encryption is used for WPA2 in preshared key mode?
+A. TKIP with RC4
+B. RC4
+C. AES-128
+*D. AES-256
+
+26. Which mode allows access points to be managed by Cisco Wireless LAN Controllers?
+A. autonomous
+*B. lightweight
+C. bridge
+D. mobility express
+
+27. How will Link Aggregation be Implemented on a Cisco Wireless LAN Controller?
+*A. One functional physical port is needed to pass client traffic.
+B. The EthernetChannel must be configured in "mode active".
+C. When enabled, the WLC bandwidth drops to 500 Mbps.
+D. To pass client traffic, two or more ports must be configured.
+
+28. Which implementation provides the strongest encryption combination for the wireless environment?
+*A. WPA2 + AES
+B. WPA + AES
+C. WEP
+D. WPA + TKIP
+
+29. What is a function of the Cisco DNA Center Overall Health Dashboard?
+*A. It provides a summary of the top 10 global issues.
+B. It provides detailed activity logging for the 10 devices and users on the network.
+C. It summarizes the operational status of each wireless devise on the network.
+D. It summarizes daily and weekly CPU usage for servers and workstations in the network.
+
+30. What is a difference between local AP mode and FiexConnet AP mode?
+*A. Local AP mode creates two CAPWAP tunnels per AP to the WLC
+B. FiexConnect AP mode fails to function if the AP loses connectivity with the WLC
+C. FlexConnect AP mode bridges the traffic from the AP to the WLC when local switching is configured
+D. Local AP mode causes the AP to behave as if it were an autonomous AP
+
+31. Several new coverage cells are required to improve the Wi-Fi network of an organization. Which two standard designs are recommended? (choose two.)
+A. 5GHz provides increased network capacity with up to 23 nonoveriapping channels.
+*B. For maximum throughput, the WLC is configured to dynamically set adjacent access points to the same channel.
+C. 5GHz channel selection requires an autonomous access point.
+D. Adjacent cells with overlapping channels use a repeater access point.
+*E. Cells that overlap one another are configured to use nonoveriapping channels.
+
+32. After installing a new Cisco ISE server, which task must the engineer perform on the Cisco WLC to connect wireless clients on a specific VLAN based on their credentials?
+*A. Enable the allow AAA Override
+B. Enable the Even: Driven RRM.
+C. Disable the LAG Mode or Next Reboot.
+D. Enable the Authorized MIC APs against auth-list or AAA.
+
+33. What is recommended for the wireless infrastructure design of an organization?
+A. group access points together to increase throughput on a given channel
+*B. configure the first three access points are configured to use Channels 1, 6, and 11
+C. include a least two access points on nonoverlapping channels to support load balancing
+D. assign physically adjacent access points to the same Wi-Fi channel
+
+34. Which WLC port connects to a switch to pass normal access-point traffic?
+A. redundancy
+B. console
+*C. distribution system
+D. service
+
+35. [Exhibit] If the network environment is operating normally, which type of device must be connected to interface FastEthernet 0/1?
+A. DHCP client
+B. access point
+*C. router
+D. PC
+
+36. What is a role of wireless controllers in an enterprise network?
+*A. centralize the management of access points in an enterprise network
+B. support standalone or controller-based architectures
+C. serve as the first line of defense in an enterprise network
+D. provide secure user logins to devices on the network.
+
+37. Which device controls the forwarding of authentication requests for users when connecting to the network using a lightweight access point?
+A. TACACS server
+*B. wireless access point
+C. RADIUS server
+D. wireless LAN controller
+
+38. Which 802.11 management frame type is sent when a client roams between access points on the same SSID?
+*A. Reassociation Request
+B. Probe Request
+C. Authentication Request
+D. Association Request
+
+39. What must be considered when using 802:11 ta?
+*A. It is compatible with 802 lib- and 802 11-compliant wireless devices
+B. It is used in place of 802 11b/g when many nonoverlapping channels are required
+C. It is susceptible to interference from 2 4 GHz devices such as microwave ovens.
+D. It is chosen over 802 11b/g when a lower-cost solution is necessary
+
+40. What is a characteristic of cloud-based network topology?
+*A. wireless connections provide the sole access method to services
+B. onsite network services are provided with physical Layer 2 and Layer 3 components
+C. services are provided by a public, private, or hybrid deployment
+D. physical workstations are configured to share resources
+
+41. Which device tracks the state of active connections in order to make a decision to forward a packet through?
+A. wireless access point
+*B. firewall
+C. wireless LAN controller
+D. router
+
+42. When configuring a WLAN with WPA2 PSK in the Cisco Wireless LAN Controller GUI, which two formats are available to select? (Choose two)
+*A. ASCII
+B. base64
+C. binary
+D. decimal
+*E. hexadecimal
+
+43. What is a benefit of using a Cisco Wireless LAN Controller?
+A. Central AP management requires more complex configurations
+B. Unique SSIDs cannot use the same authentication method
+C. It supports autonomous and lightweight APs
+*D. It eliminates the need to configure each access point individually
+
+44. Which device performs stateful inspection of traffic?
+*A. firewall
+B. switch
+C. access point
+D. wireless controller
+
+45. What is a function of Wireless LAN Controller?
+A. register with a single access point that controls traffic between wired and wireless endpoints.
+B. use SSIDs to distinguish between wireless clients.
+*C. send LWAPP packets to access points.
+D. monitor activity on wireless and wired LANs
+
+46. How do servers connect to the network in a virtual environment?
+A. wireless to an access point that is physically connected to the network
+B. a cable connected to a physical switch on the network
+C. a virtual switch that links to an access point that is physically connected to the network
+*D. a software switch on a hypervisor that is physically connected to the network
+
+47. What occurs when overlapping Wi-Fi channels are implemented?
+A. The wireless network becomes vulnerable to unauthorized access.
+B. Wireless devices are unable to distinguish between different SSIDs
+*C. Users experience poor wireless network performance.
+D. Network communications are open to eavesdropping.
+
+48. Which two values or settings must be entered when configuring a new WLAN in the Cisco Wireless LAN Controller GUI? (Choose two)
+A. management interface settings
+B. QoS settings
+C. Ip address of one or more access points
+*D. SSID
+*E. Profile name
+
+49. Which protocol prompts the Wireless LAN Controller to generate its own local web administration SSL certificate for GUI access?
+*A. HTTPS
+B. RADIUS
+C. TACACS+
+D. HTTP
+
+50. What is a role of access points in an enterprise network?
+*A. connect wireless devices to a wired network
+B. support secure user logins to devices or the network
+C. integrate with SNMP in preventing DDoS attacks
+D. serve as a first line of defense in an enterprise network
+
+51. Which 802.11 frame type is indicated by a probe response after a client sends a probe request?
+A. action
+*B. management
+C. control
+D. data
+
+52. A wireless administrator has configured a WLAN; however, the clients need access to a less congested 5-GHz network for their voice quality. What action must be taken to meet the requirement?
+A. enable AAA override
+B. enable RX-SOP
+C. enable DTIM
+*D. enable Band Select
+
+53. Which mode must be set for APs to communicate to a Wireless LAN Controller using the Control and Provisioning of Wireless Access Points (CAPWAP) protocol?
+A. bridge
+B. route
+C. autonomous
+*D. lightweight
+
+54. How does WPA3 improve security?
+*A. It uses SAE for authentication.
+B. It uses a 4-way handshake for authentication.
+C. It uses RC4 for encryption.
+D. It uses TKIP for encryption.
+
+55. When a WLAN with WPA2 PSK is configured in the Wireless LAN Controller GUI which format is supported?
+A. Unicode
+B. base64
+C. decimal
+*D. ASCII
+
+56. Which WPA3 enhancement protects against hackers viewing traffic on the Wi-Fi network?
+A. TKiP encryption
+B. AES encryption
+C. scrambled encryption key
+*D. SAE encryption
+
+57. Which design element is a best practice when deploying an 802.11b wireless infrastructure?
+A. disabling TPC so that access points can negotiate signal levels with their attached wireless devices.
+B. setting the maximum data rate to 54 Mbps on the Cisco Wireless LAN Controller
+*C. allocating nonoverlapping channels to access points that are in close physical proximity to one another
+D. configuring access points to provide clients with a maximum of 5 Mbps
+
+58. Which statement about Link Aggregation when implemented on a Cisco Wireless LAN Controller is true?
+A. To pass client traffic two or more ports must be configured.
+B. The EtherChannel must be configured in "mode active"
+C. When enabled the WLC bandwidth drops to 500 Mbps
+*D. One functional physical port is needed to pass client traffic
+
+59. What are two characteristics of an SSID? (Choose Two)
+A. It can be hidden or broadcast in a WLAN
+*B. It uniquely identifies an access point in a WLAN
+C. It uniquely identifies a client in a WLAN
+D. It is at most 32 characters long.
+*E. IT provides secured access to a WLAN
+
+60. Which two protocols must be disabled to increase security for management connections to a Wireless LAN Controller? (Choose two.)
+*A. Telnet
+B. SSH
+*C. HTTP
+D. HTTPS
+E. TFTP
+
+61. An engineer must configure a WLAN using the strongest encryption type for WPA2- PSK. Which cipher fulfills the configuration requirement?
+A. WEP
+B. RC4
+*C. AES
+D. TKIP
+
+62. How does CAPWAP communicate between an access point in local mode and a WLC?
+A. The access point must directly connect to the WLC using a copper cable
+B. The access point must not be connected to the wired network, as it would create a loop
+C. The access point must be connected to the same switch as the WLC
+*D. The access point has the ability to link to any switch in the network, assuming connectivity to the WLC
+
+63. What is the purpose of an SSID?
+A. It provides network security
+B. It differentiates traffic entering access posits
+C. It identities an individual access point on a WLAN
+*D. It identifies a WLAN
+
+64. What is the primary function of a Layer 3 device?
+A. to analyze traffic and drop unauthorized traffic from the Internet
+B. to transmit wireless traffic between hosts
+*C. to pass traffic between different networks
+D. forward traffic within the same broadcast domain
+
+65. Which protocol does an access point use to draw power from a connected switch?
+A. Internet Group Management Protocol
+B. Adaptive Wireless Path Protocol
+*C. Cisco Discovery Protocol
+D. Neighbor Discovery Protocol
+
+66. When a WPA2-PSK WLAN is configured in the wireless LAN Controller, what is the minimum number of characters that in ASCll format?
+A. 6
+*B. 8
+C. 12
+D. 18
+
+67. [Exhibit] Between which zones do wireless users expect to experience intermittent connectivity?
+A. between zones 1 and 2
+B. between zones 2 and 5
+C. between zones 3 and 4
+*D. between zones 3 and 6
+
+68. How does a Cisco Unified Wireless network respond to Wi-Fi channel overlap?
+*A. It alternates automatically between 2.4 GHz and 5 GHz on adjacent access points
+B. It allows the administrator to assign channels on a per-device or per-interface basis.
+C. It segregates devices from different manufacturers onto different channels.
+D. It analyzes client load and background noise and dynamically assigns a channel.
+
+69. Where does wireless authentication happen?
+A. SSID
+B. radio
+C. band
+*D. Layer 2
+
+70. An administrator must secure the WLC from receiving spoofed association requests. Which steps must be taken to configure the WLC to restrict the requests and force the user to wait 10 ms to retry an association request?
+A. Enable Security Association Teardown Protection and set the SA Query timeout to 10
+B. Enable MAC filtering and set the SA Query timeout to 10
+*C. Enable 802.1x Layer 2 security and set me Comeback timer to 10
+D. Enable the Protected Management Frame service and set the Comeback timer to 10
+
+71. Which value is the unique identifier that an access point uses to establish and maintain wireless connectivity to wireless network devices?
+A. VLANID
+*B. SSID
+C. RFID
+D. WLANID
+
+72. [Exhibit] Users need to connect to the wireless network with IEEE 802. 11r-compatible devices. The connection must be maintained as users travel between floors or to other areas in the building What must be the configuration of the connection?
+A. Select the WPA Policy option with the CCKM option.
+B. Disable AES encryption.
+C. Enable Fast Transition and select the FT 802.1x option.
+*D. Enable Fast Transition and select the FT PSK option.
+
+73. What is a requirement for nonoverlapping Wi-Fi channels?
+A. different security settings
+*B. discontinuous frequency ranges
+C. different transmission speeds
+D. unique SSIDs
+
+74. What is a requirement when configuring or removing LAG on a WLC?
+A. The Incoming and outgoing ports for traffic flow must be specified If LAG Is enabled.
+B. The controller must be rebooted after enabling or reconfiguring LAG.
+*C. The management interface must be reassigned if LAG disabled.
+D. Multiple untagged interfaces on the same port must be supported.
+
+75. Which wireless security protocol relies on Perfect Forward Secrecy?
+A. WPA3
+B. WPA
+*C. WEP
+D. WPA2
+
+76. What is one reason to implement LAG on a Cisco WLC?
+A. to increase security and encrypt management frames
+*B. to provide link redundancy and load balancing
+C. to allow for stateful and link-state failover
+D. to enable connected switch ports to failover and use different VLANs
+
+77. Which WLC management connection type is vulnerable to man-in-the-middle attacks?
+A. SSH
+B. HTTPS
+*C. Telnet
+D. console
+
+78. What provides centralized control of authentication and roaming In an enterprise network?
+A. a lightweight access point
+B. a firewall
+*C. a wireless LAN controller
+D. a LAN switch
+
+79. Which interface mode must be configured to connect the lightweight APs in a centralized architecture?
+A. WLAN dynamic
+B. management
+C. trunk
+*D. access
+
+80. What is a function of Opportunistic Wireless Encryption in an environment?
+A. offer compression
+B. increase security by using a WEP connection
+C. provide authentication
+*D. protect traffic on open networks
+
+81. What is a function of an endpoint on a network?
+A. forwards traffic between VLANs on a network
+B. connects server and client devices to a network
+*C. allows users to record data and transmit to a tile server
+D. provides wireless services to users in a building
+
+82. [Exhibit] The network engineer is configuring a new WLAN and is told to use a static password for authentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to complete the configuration?
+A. Crable PSKEnable iod 1s
+*B. Select WPA2 PolicyDisable PMFEnable PSK
+C. Select WPA PolicyEnable PSK
+D. Select WPA PolicySelect WRAS Policy
+
+83. [Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow only specific clients to join. Which two actions must be taken to complete the process? (Choose two.)
+A. Enable the 802.1X option for Authentication Key Management
+*B. Enable the WPA2 Policy option
+C. Enable the CCKM option for Authentication Key Management
+*D. Enable the MAC Filtering option
+E. Enable the OSEN Policy option
+
+84. Which enhancement is implemented in WPA3?
+A. applies 802.1x authentication
+B. usesTKIP
+C. employs PKI to identify access points
+*D. protects against brute force attacks
+
+85. [Exhibit] Clients on the WLAN are required to use 802.11r. What action must be taken to meet the requirement?
+*A. Set the Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management
+B. Set the Fast Transition option and the WPA gik-randomize State to disable
+C. Under Protected Management Frames, set the PMF option to Required
+D. Enable CCKM under Authentication Key Management
+
+86. [Exhibit] Company A wants to use a RADIUS server to service all user and device authentication attempts with a more secure and granular authentication approach. Not all client devices support dot1x authentication. Which two configuration changes must be made to accomplish the task? (Choose two.)
+A. Enable AutoConfig IPSK under the Layer 2 tab.
+*B. Select Authentication server under the AAA servers tab.
+*C. Configure Enterprise Security type under the Layer 2 tab.
+D. Set Authentication under the Layer 3 tab.
+E. Enable WPA2 Policy under the Layer 2 tab.
+
+87. What are two differences between WPA2 and WPA3 wireless security? (Choose two.)
+A. WPA3 um AES for stronger protection than WPA2 which uses SAE
+B. WPA2 uses 1 M-bit key encryption and WPA3 requires 256-brt key encryption
+*C. WPA3 uses AES for stronger protection than WPA2 which uses TKIP WPA3 uses
+D. SAE tor stronger protection than WPA2 which uses AES
+*E. WPA2 uses 12B-M key encryption and WPA3 supports 128 bit and 192 bit key encryption
+
+88. Which EtherChannel mode must be configured when using LAG on a WLC?
+*A. on
+B. active
+C. auto
+D. passive
+
+89. [Exhibit] A Cisco engineer creates a new WLAN called lantest. Which two actions must be performed so that only high-speed 2.4-Ghz clients connect? (Choose two.)
+*A. Enable the Broadcast SSID option
+*B. Enable the Status option.
+C. Set the Radio Policy option to 802 11g Only.
+D. Set the Radio Policy option to 802.11a Only.
+E. Set the Interface/Interface Group(G) to an interface other than guest
+
+90. Which cipher is supported for wireless encryption only with the WPA2 standard?
+A. AES256
+*B. AES
+C. RC4
+D. SHA
+
+91. Which WLC interface provides out-of-band management in the Cisco Unified Wireless Network Architecture?
+*A. service port
+B. virtual
+C. AP-Manager
+D. dynamic
+
+92. Which mechanism allows WPA3 to provide a higher degree of security than its predecessors?
+A. special-character support in preshared Keys
+*B. SAE password-based key exchange
+C. automatic device pairing
+D. certificate-based authentication
+
+93. What is the primary purpose of a console port on a Cisco WLC?
+A. In-band management via an asynchronous transport
+B. out-of-band management via an IP transport
+C. in-band management via an IP transport
+*D. out-of-band management via an asynchronous transport
+
+94. Which selections must be used on the WLC when implementing a RADIUS server for wireless authentication?
+A. Client Exclusion and SSH
+*B. 802.1x and the MAC address of the server
+C. Network Access Control State and SSH
+D. AAA Override and the IP address of the server
+
+95. What does the term "spirt MAC” refer to in a wireless architecture?
+*A. divides data link layer functions between the AP and WLC
+B. combines the management and control functions from the data-forwarding functions
+C. uses different MAC addresses for 2.4 GHz and 5 GHz bands on the same AP
+D. leverages two APs to handle control and data traffic
+
+96. What is a reason to implement LAG on a Cisco WLC?
+*A. Increase the available throughput on the link.
+B. Increase security by encrypting management frames
+C. Allow for stateful failover between WLCs
+D. Enable the connected switch ports to use different Layer 2 configurations
+
+97. What must be considered for a locally switched FlexConnect AP if the VLANs that are used by the AP and client access are different?
+A. The APs must be connected to the switch with multiple links in LAG mode
+B. The switch port mode must be set to trunk
+*C. The native VLAN must match the management VLAN of the AP
+D. IEEE 802.10 trunking must be disabled on the switch port.
+
+98. Which type of port is used to connect lo the wired network when an autonomous AP maps two VLANs to its WLANs?
+A. LAG
+B. EtherChannel
+C. trunk
+*D. access
+
+99. [Exhibit] The My_WLAN wireless LAN was configured with WPA2 Layer 2 PSK security. Which additional configuration must the administrator perform to allow users to connect to this WKAN on a different subnet called Data?
+A. Enable Broadcast SSID and select data from the Interface/Interface Group drop-down list.
+*B. Enable Status and select data from the Interface/Interface Group drop-down list.
+C. Enable Status and set the NAS-ID to data.
+D. Enable Status and enable Broadcast SSID.
+
+100. What is a reason to configure a trunk port that connects to a WLC distribution port?
+A. Eliminate redundancy with a link failure in the data path.
+B. Allow multiple VLAN to be used in the data path.
+C. Provide redundancy if there is a link failure for out-of-band management.
+*D. Permit multiple VLANs to provide out-of-band management.
+
+101. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic Interface. What must be performed next to complete the basic configuration?
+A. Install the management interface and add the management IP.
+B. Configure high availability and redundancy tor the access points.
+C. Enable Telnet and RADIUS access on the management interface.
+*D. Create the new WLAN and bind the dynamic interface to It.
+
+102. Which command enables HTTP access to the Cisco WLC?
+A. config network secureweb enable
+B. config certificate generate web admin
+*C. config network webmode enable
+D. config network telnet enable
+
+103. What does WPA3 provide in wireless networking?
+*A. safeguards against brute force attacks with SAE
+B. optional Protected Management Frame negotiation
+C. backward compatibility with WPAand WPA2
+D. increased security and requirement of a complex configuration
+
+104. What must a network administrator consider when deciding whether to configure a new wireless network with APs in autonomous mode or APs running in cloud-based mode? Autonomous mode APs are less dependent on an underlay but more complex to maintain than APs in cloud-based mode. Cloud-based mode APs relay on underlays and are more complex to maintain than APs in autonomous mode.
+*A. Cloud-based mode APs are easy to deploy but harder to automate than APs in autonomous mode.
+B. Autonomous mode APs are easy to deploy and automate than APs in cloud-based mode.
+
+105. An engineer is installing a new wireless printer with a static IP address on the Wi-Fi network. Which feature must be enabled and configured to prevent connection issues with the printer?
+A. client exclusion
+B. passive client
+*C. DHCP address assignment
+D. static IP tunneling
+
+106. [Exhibit] Wireless LAN access must be set up to force all clients from the NA WLAN to authenticate against the local database. The WLAN is configured for local EAP authentication. The time that users access the network must not be limited. Which action completes this configuration?
+A. Uncheck the Guest User check box
+B. Check the Guest User Role check box
+*C. Set the Lifetime (seconds) value to 0
+D. Clear the Lifetime (seconds) value
+
+107. [Exhibit] The P2P blocking action option is disabled on the WLC.
+*A. Enable the Static IP Tunneling option.
+B. Disable the Coverage Hole Detection option.
+C. Check the DHCP Addr. Assignment check box.
+D. Set the P2P Blocking Action option to Forward-UpStream.
+
+108. Which set of 2.4 GHz nonoverlapping wireless channels is standard in the United States?
+A. channels 2, 7, 9, and 11
+B. channels 1, 6, 11, and 14
+C. channels 2, 7, and 11
+*D. channels 1, 6, and 11
+
+109. [Exhibit] What must be configured to enable 802.11w on the WLAN?
+*A. Set PMF to Required.
+B. Enable MAC Filtering.
+C. Enable WPA Policy.
+D. Set Fast Transition to Enabled
+
+110. Which encryption method is used by WPA3?
+A. PSK
+B. TKIP
+C. SAE
+*D. AES
+
+111. Which interface IP address serves as the tunnel source for CAPWAP packets from the WLC to an AP?
+A. service
+B. trunk
+*C. AP-manager
+D. virtual AP connection
+
+112. Which WPA mode uses PSK authentication?
+A. Local
+B. Client
+C. Enterprise
+*D. Personal
+
+113. Which device separates networks by security domains?
+*A. firewall
+B. access point
+C. intrusion protection system
+D. wireless controller
+
+114. What is used as a solution for protecting an individual network endpoint from attack?
+A. Router
+B. Wireless controller
+*C. Anti software
+D. Cisco DNA Center
+
+115. Which access point mode relies on a centralized controller for management, roaming, and SSID configuration?
+A. repeater mode
+B. autonomous mode
+C. bridge mode
+*D. lightweight mode
+
+116. Which port type does a lightweight AP use to connect to the wired network when it is configured in local mode?
+A. EtherChannel
+B. LAG
+*C. trunk
+D. access
+
+117. Which functionality is provided by the console connection on a Cisco WLC?
+*A. out-of-band management
+B. secure in-band connectivity for device administration
+C. unencrypted in-band connectivity for file transfers
+D. HTTP-based GUI connectivity
+
+118. What differentiates the Cisco OfficeExtend AP mode from FlexConnect AP mode?
+A. FlexConnect allows a personal SSID to be configured on the AP, and personal SSIDs are not supported with OfficeExtend.
+B. OfficeExtend does not support DTLS tunneling of traffic to the WLC, and FlexConnect tunnels traffic to the WLC with DTLS.
+*C. OfficeExtend tunnels all traffic through the WLC, and FlexConnect terminates client traffic at the AP switch port.
+D. FlexConnect must be deployed behind a router that NATs the client traffic, and OfficeExtend uses public IP sources.
+
+119. What is a feature of WPA?
+*A. 802.1x authentication
+B. preshared key
+C. TKIP/MIC encryption
+D. small Wi-Fi application
+
+120. How is a configuration change made to a wireless AP in lightweight mode?
+A. SSH connection to the management IP of the AP
+B. EolP connection via the parent WLC
+*C. CAPWAP/LWAPP connection via the parent WLC
+D. HTTPS connection directly to the out-of-band address of the AP
+
+121. [Exhibit] An engineer is using the Cisco WLC GUI to configure a WLAN for WPA2 encryption with AES and preshared key Cisc0123456. After the engineer selects the WPA + WPA2 option from the Layer 2 Security drop-down list, which two tasks must they perform to complete the process? (Choose two.)
+A. Select the WPA2 Policy, AES, and TKIP check boxes.
+B. Select ASCII from the PSK Format drop-down list, enter the key, and leave the Auth Key Mgmt setting blank.
+*C. Select PSK from the Auth Key Mgmt drop-down list, set the PSK Format to ASCII, and enter the key.
+*D. Select the WPA2 Policy and AES check boxes.
+
+122. SIP-based Call Admission Control must be configured in the Cisco WLC GUI. SIP call- snooping ports are configured. Which two actions must be completed next? (Choose two.)
+A. Set the QoS level to silver or greater for voice traffic.
+B. Set the QoS level to platinum for voice traffic.
+C. Enable Media Session Snooping on re WLAN.
+*D. Enable traffic shaping for the LAN interlace of the WLC.
+*E. Configure two different QoS rotes tor data and voice traffic.
+
+123. What is the role of nonoverlapping channels in a wireless environment?
+*A. to reduce interference
+B. to allow for channel bonding
+C. to stabilize the RF environment
+D. to increase bandwidth
+
+124. Which AP mode serves as the primary hub in a point-to-multipoint network topology.
+A. FlexConnect
+B. SE-Connect
+*C. bridge
+D. local
+
+125. Which interface is used for out-of-band management on a WLC?
+A. dynamic
+*B. service port
+C. virtual
+D. management
+
+126. When an access point is seeking to join wireless LAN controller, which message is sent to the AP- Manager interface?
+A. Discovery response
+B. DHCP request
+C. DHCP discover
+*D. Discovery request
+
+127. Which interface or port on the WLC is the default for in-band device administration and communications between the controller and access points?
+A. virtual interface
+*B. management interface
+C. console port
+D. service port
+
+128. Which command configures the Cisco WLC to prevent a serial session with the WLC CLI from being automatical togged out?
+A. config sessions maxsessions 0
+*B. config sessions timeout 0
+C. config serial timeout 0
+D. config serial timeout 9600
+
+129. A wireless access point is needed and must meet these requirements: • "zero-touch" deployed and managed by a WLC • process only real-time MAC functionality • used in a split-MAC architecture. Which access point type must be used?
+A. autonomous
+*B. lightweight
+C. mesh
+D. cloud-based
+
+130. A Cisco engineer at a new branch office is configuring a wireless network with access points that connect to a controller that is based at corporate headquarters Wireless client traffic must terminate at the branch office and access-point survivability is required in the event of a WAN outage Which access point mode must be selected?
+A. Lightweight with local switching disabled
+B. Local with AP fallback enabled
+C. OfficeExtend with high availability disabled
+*D. FlexConnect with local switching enabled
+
+131. [Exhibit] What are the two steps an engineer must take to provide the highest encryption and authentication using domain credentials from LDAP?
+A. Select PSK under Authentication Key Management
+*B. Select WPA+WPA2 on Layer 2 Security
+C. Select Static-WEP + 802.1X on Layer 2 Security
+D. Select WPA Policy with TKIP Encryption
+*E. Select 802.1X from under Authentication Key Management
+
+132. [Exhibit] Clients on the WLAN are required to use 802.11r. What action must be taken to meet the requirement?
+A. Under Protected Management Frames, set the PMF option to Required.
+B. Enable CCKM under Authentication Key Management.
+C. Set the Fast Transition option and the WPA gtk-randomize State to disable.
+*D. Set the Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management.
+
+133. Which architecture is best for small offices with minimal wireless needs and no central management?
+A. cloud-based AP
+B. split MAC
+*C. autonomous AP
+D. mesh network
+
+134. Which channel-group mode must be configured when multiple distribution interfaces connected to a WLC are bundled?
+A. Channel-group mode passive.
+*B. Channel-group mode on.
+C. Channel-group mode desirable.
+D. Channel-group mode active.
+
+135. Which WLC management connection type is vulnerable to man-in-the-middIe attacks?
+*A. Telnet
+B. console
+C. HTTPS
+D. SSH
+
+136. How is noise defined in Wi-Fi?
+*A. ratio of signal-to-noise rating supplied by the wireless device
+B. signals from other Wi-Fi networks that interfere with the local signal
+C. measured difference between the desired Wi-Fi signal and an interfering Wi-Fi signal
+D. any interference that is not Wi-Fi traffic that degrades the desired signal
+
+137. A network architect planning a new Wi-Fi network must decide between autonomous, cloud-based, and split MAC architectures. Which two facts should the architect consider? (Choose two.)
+*A. Lightweight access points are solely used by split MAC architectures.
+B. Cloud-based architectures uniquely use the CAPWAP protocol to communicate between access points and clients.
+C. Each of the three architectures must use WLCs to manage their access points.
+D. All three architectures use access points to manage the wireless devices connected to the wired infrastructure.
+*E. Autonomous architectures exclusively use tunneling protocols to manage access points remotely.
+
+138. What is an advantage of using auto mode versus static mode for power allocation when an access point is connected to a PoE switch port?
+A. All four pairs of the cable are used
+B. It detects the device is a powered device
+C. The default level is used for the access point
+*D. Power policing is enabled at the same time
+
+139. [Exhibit] Which functionalities will this SSID have while being used by wireless clients?
+A. decreases network security against offline dictionary attacks and encourages easy access to the network
+B. increases network security against offline dictionary attacks and discourages time- consuming brute force attacks
+C. increases network security against man in the middle attacks and discourages denial of service attacks
+*D. decreases network security against air sniffing attacks and discourages the use of complex passwords
+
+140. What is a characteristics of a collapsed-core network topology?
+A. It allows the core and distribution layers to run as a single combined layer.
+*B. It enables the core and access layers to connect to one logical distribution device over an EtherChannel.
+C. It enables all workstations in a SOHO environment to connect on a single switch with internet access.
+D. It allows wireless devices to connect directly to the core layer, which enables faster data transmission.
+
+141. Which device segregates a network into separate zones that have their own security policies?
+A. IPS
+B. firewall
+*C. access point
+D. switch
+
+142. A WLC sends alarms about a rogue AP, and the network administrator verifies that the alarms are caused by a legitimate autonomous AP.
+A. Place the AP into manual containment.
+*B. Remove the AP from WLC management.
+C. Manually remove the AP from Pending state.
+D. Set the AP Class Type to Friendly.
+
+143. [Exhibit] An engineer is creating a secure preshared key based SSID using WPA2 for a wireless network running on 2.4 GHz and 5 GHz. Which two tasks must the engineer perform to complete the process? (Choose two.)
+A. Select the 802.1 x option for Auth Key Management.
+B. Select the WPA Policy option.
+C. Select the PSK option for Auth Key Management.
+*D. Select the AES option for Auth Key Management.
+*E. Select the AES (CCMP128) option for WPA2/WPA3 Encryption.
+
+144. When the LAG configuration is updated on a Cisco WLC which additional task must be performed when changes are complete?
+A. Flush all MAC addresses from the WLC
+B. Re-associate the WLC with the access point.
+*C. Re-enable the WLC interfaces
+D. Reboot the WLC
+
+145. A network engineer is implementing a corporate SSID for WPA3-Personal security with a PSK. Which encryption cipher must be configured?
+A. GCMP2S6
+B. GCMP128
+C. CCMP256
+*D. CCMP128
+
+146. Which two wireless security stewards use Counter Mode Cipher Block Chaining Message Authentication Code Protocol for encryption and data integrity'? (Choose two.)
+A. WPA2
+*B. WPA3
+C. Wi-Fi 6
+*D. WEP
+E. WPA
+
+147. What is an enhancement implemented in WPA3?
+A. employs PKI and RADIUS to identify access points
+B. applies 802.1x authentication and AES-128 encryption
+C. uses TKIP and per-packet keying
+*D. defends against deauthentication and disassociation attacks
+
+148. When a WPA2-PSK WLAN is configured in the Wireless LAN Controller, what is the minimum number of characters that is required in ASCII format?
+A. 6
+*B. 8
+C. 12
+D. 18
+
+149. [Exhibit] An architect is managing a wireless network with APs from several branch offices connecting to the WLC in the data center. There is a new requirement for a single WLAN to process the client data traffic without sending it to the WLC. Which action must be taken to complete the request?
+A. Enable local HTTP profiling.
+B. Enable Disassociation Imminent.
+*C. Enable FlexConnect Local Switching.
+D. Enable local DHCP Profiling.
+
+150. Which protocol must be implemented to support separate authorization and authentication solutions for wireless APs?
+*A. RADIUS
+B. TACACS+
+C. 802.1X
+D. Kerberos
+
+151. What provides connection redundancy increased bandwidth and load sharing between a wireless LAN controller and a Layer 2 switch?
+A. VLAN trunking
+B. tunneling
+C. first hop redundancy
+*D. link aggregation
+
+152. [Exhibit] A network engineer configures the Cisco WLC to authenticate local wireless clients against a RADIUS server Which task must be performed to complete the process?
+A. Change the Server Status to Disabled
+B. Select Enable next to Management
+*C. Select Enable next to Network User
+D. Change the Support for CoA to Enabled.
+
+153. A network architect is deciding whether to implement Cisco autonomous access points or lightweight access points. Which fact about firmware updates must the architect consider? Unlike lightweight access points, which require
+A. Unlike lightweight access points, which require redundant WLCs to support firmware upgrades, autonomous access points require only one WLC.
+B. Unlike autonomous access points, lightweight access points store a complete copy of the current firmware for backup.
+C. Unlike lightweight access points, autonomous access points can recover automatically from a corrupt firmware update.
+*D. Unlike autonomous access points, lightweight access points require a WLC to implement remote firmware updates.
+
+154. [Exhibit] A network engineer configures the CCNA WLAN so that clients must authenticate hourly and to limit the number of simultaneous connections to the WLAN to Which two actions complete this configuration? (Choose two.)
+*A. Enable the Enable Session Timeout option and set the value to 3600.
+*B. Set the Maximum Allowed Clients value to 10.
+C. Enable the Client Exclusion option and set the value to 3600.
+D. Enable the Wi-Fi Direct Clients Policy option.
+E. Set the Maximum Allowed Clients Per AP Radio value to 10.
+
+155. What is a function of Cisco Advanced Malware Protection for a Next-Generation IPS?
+A. authorizing potentially compromised wireless traffic
+*B. inspecting specific files and file types for malware
+C. authenticating end users
+D. URL filtering
+
+156. Which enhancements were implemented as part of WPA3?
+A. 802.1x authentication and AES-128 encryption
+B. TKIP encryption improving WEP and per-packet keying
+C. AES-64 m personal mode and AES-128 in enterprise mode
+*D. forward secrecy and SAE in personal mode for secure initial key exchange
+
+157. How does encryption project the wireless network?
+A. via integrity checks to identify wireless forgery attacks in the frame
+B. via specific ciphers to detect and prevent zero-day network attacks
+*C. via an algorithm to change wireless data so that only the access point and client understand it
+D. via a policy to prevent unauthorized users from communicating on the wireless network
+
+158. [Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10.0/24 network on VLAN 20. The engineer wants to limit the number of devices that connect to the WLAN on the USERWL SSID to 125. Which configuration must the engineer perform on the WLC?
+A. In the Management Software activation configuration, set the Clients value to 125.
+B. In the Controller IPv6 configuration, set the Throttle value to 125.
+*C. In the WLAN configuration, set the Maximum Allowed Clients value to 125.
+D. In the Advanced configuration, set the DTIM value to 125.
+
+159. [Exhibit] The network engineer is configuring a new WLAN and is told to use a setup password for authentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to complete the configuration?
+A. Disable PMF Enable PSK Enable 802.1x
+B. Select WPA Policy Enable CCKM Enable PSK
+C. Select WPA Policy Select WPA2 Policy Enable FT PSK
+*D. Select WPA2 Policy Disable PMF Enable PSK
+
+160. Which switch port configuration must be configured when connected to an AP running in FlexConnect mode, and the WLANs use flex local switching?
+A. access port with one VLAN
+*B. trunk port with pruned VLANs
+C. Layer 3 port with an IP address
+D. tagged port with MAC Filtering enabled
+
+161. [Exhibit] A network engineer is configuring a wireless LAN with Web Passthrough Layer 3 Web Policy. Which action must the engineer take to complete the configuration?
+A. Set the Layer 2 Security to 802.1X.
+B. Enable TKIP and CCMP256 WPA2 Encryption.
+*C. Set the Layer 2 Security to None.
+D. Enable the WPA Policy.
+
+162. Where are the real-time control functions processed in a split MAC architecture?
+A. Centralized cloud management platform
+B. Central WLC
+*C. Individual AP
+D. Client device
+
+163. Which IP address is used when an administrator must open a web-based management session with a lightweight AP?
+*A. WLCIP
+B. gateway IP
+C. autonomous AP IP
+D. ACS IP
+
+164. [Exhibit] An engineer is using the Cisco WLC GUI to configure a WLAN for WPA2 encryption with AES and preshared key Cisc0123456. After the engineer selects the WPA + WPA2 option from the Layer 2 Security drop-down, which two tasks must they perform to complete the process? (Choose two)
+*A. Select the WPA2 Policy and AES check boxes
+B. Select ASCII from the PSK Format drop-down list, enter the key, and leave the Auth Key Mgmt setting blank
+C. Select the WPA2 Policy, AES, and TKIP check boxes
+D. Select CCKM for the Auth Key Mgmt drop-down list, set the PSK Format to Hex, and enter the key
+*E. Select PSK from the Auth Key Mgmt drop-down list, set the PSK Format to ASCII, and enter the key
+
+165. How does a network administrator securely manage an AP in lightweight mode?
+A. using the CLI via an out-of-band connection
+*B. using the WLC GUI via HTTPS
+C. using the AP GUI via an in-band SSH connection
+D. using the CLI via a virtual interface with SSH
+
+166. What is the purpose of the service-set identifier?
+A. It identifies the wired network to which a network device is connected.
+*B. It identifies a wireless network for a mobile device to connect.
+C. It identifies the wireless network to which an application must connect.
+D. It identifies the wired network to which a user device is connected.
+
+167. Which type of wired port is required when an AP offers one unique SSID, passes client data and management traffic, and is in autonomous mode?
+A. Default
+*B. Access
+C. Trunk
+D. LAG
+
+168. What is the default interface for in-band wireless network management on a WLC?
+A. Redundant port
+B. Out-of-band
+C. Service port
+*D. Wireless management
+
+169. What is a characteristic of an SSID in wireless networks?
+A. provides protection against spyware
+B. eliminates network piggybacking
+*C. associates a name to a wireless network
+D. allows easy file sharing between endpoints
+
+170. Which interface on the WLC is used exclusively as a DHCP relay?
+A. distribution
+*B. service
+C. AP-manager
+D. virtual
+
+171. Which feature Is mandatory when configuring a new SSID for a wireless network running WPA3-Personal mode?
+A. Opportunistic Wireless Encryption
+*B. Protected Management Frame
+C. Enhanced Open
+D. Fast Transition
+
+172. [Exhibit] Which tasks must be performed on the Download File tab to install new software using TCP port 22?)
+A. Set the File Type to Code, set the Transfer Mode to SFTP, and specify the IP address of the WLC.
+B. Set the File Type to Configuration, set the Transfer Mode to FTP, and specify the IP address of the file server.
+*C. Set the File Type to Code, set the Transfer Mode to SFTP, and specify the IP address of the file server.
+D. Set the File Type to Configuration, set the Transfer Mode to SFTP, and specify the IP address of the WLC.
+
+173. [Exhibit] After a recent internal security audit, the network administrator decided to block all P2P-capable devices from the selected SSID. Which configuration setting must the administrator apply?
+*A. Set the P2P Block Action to Drop.
+B. Select a correctly configured Layer 2 ACL.
+C. Set the Wi-Fi Direct Client Policy to Not-Allow.
+D. Set the MFP Client Protection to Required.
+
+174. Which type of wired port is required when an AP offers one unique SSID, passes client data and management traffic, and is in autonomous mode?
+A. LAG
+*B. default
+C. trunk
+D. Bopess
+
+175. [Exhibit] The Wi-Fi SSID "Office_WLAN" has Layer 2 Security configured with MAC filtering enabled. What additional security is provided by this specific feature?
+A. There is an extra layer of security that ensures only authorized devices with known MAC addresses connect to the network
+*B. There is strong mutual authentication used between NAC and the network devices using X.509 standard
+C. All data frames exchanged between the client and the access point are encrypted
+D. There is a Galcis cache algorithm configured that provides strong encryption and authentication
+
+176. [Exhibit] Users will be using a preconfigured secret key and SSID and must have a secured key hashing algorithm configured. The AAA server must not be used for the user authentication method. Which action completes the task?
+A. Enable AutoConfig iPSK.
+B. SetCCMP128(AES).
+C. Configure PSK Format HEX with key string.
+*D. Configure PSK-SHA2.
+
+177. [Exhibit] An engineer must document all Wi-Fi services on a new wireless LAN controller. The Wi-Fi SSID "Office_WLan" has Layer 2 Security. What is determined by this configuration?
+A. There is a strong mutual authentication used between NAC and the network devices using x.509 standard.
+B. There is an extra layer of security that ensures only authorized devices with known MAC addresses connect to the network.
+*C. There is a robust security mechanism configured to protect against various Layer 2 and Layer 3 attacks.
+D. There is Galois cache algorithm configured that provides strong encryption and authentication.
+
+178. A network engineer starts to implement a new wireless LAN by configuring the authentication server and creating the dynamic interface. What must be performed next to complete the basic configuration?
+*A. Create the new WLAN and bind the dynamic interface to it.
+B. Install the management interface and add the management IP.
+C. Enable Telnet and RADIUS access on the management interface.
+D. Configure high availability and redundancy for the access points.
+
+179. [Exhibit] A network engineer is configuring a WLAN to use a WPA2 PSK and allow only specific clients to join. Which two actions must be taken to complete the process? (Choose two)
+*A. Enable the MAC Filtering option
+B. Enable the OSEN Policy option
+C. Enable the CCKM option for Authentication Key Management
+*D. Enable the WPA2 Policy option
+E. Enable the 802.1X option for Authentication Key Management
+
+180. What is the maximum length of characters used in an SSID?
+A. 16
+*B. 32
+C. 48
+D. 64
+
+181. [Exhibit] A guest WLAN must be created that prompts the client for a username and password on the local web page of the WLC. Which two actions must be performed on the Layer 2 tab before enabling the Authentication option on the Layer 3 tab? (Choose two.)
+*A. Uncheck the WPA Policy option check box, and check the WPA2 Policy option check box.
+B. Uncheck the MAC Filtering option check box.
+C. Change the WPA Encryption option from TKIP to CCMP(128AES).
+*D. Set the Security Type option to Personal.
+E. Set the Layer 2 Security option to None.
+
+182. [Exhibit] Which configuration is needed to configure a WLAN with WPA2 only and with a password that is 63 characters long?
+*A. Disable WPA Policy and WPA Encryption and then enable PSK using ASCII.
+B. Enable PSK and FT PSK and then disable WPA Policy.
+C. Disable WPA Encryption and then enable FT PSK.
+D. Enable PSK using Hex format and then disable WPA Policy.
+
+183. [Exhibit] An administrator is configuring a new WLAN for a wireless network that has these requirements: Dual-band clients that connect to the WLAN must be directed to the 5-GHz spectrum. Wireless clients on this WLAN must be able to apply VLAN settings from RADIUS attributes. Which two actions meet these requirements? (Choose two.)
+A. Enable the Aironet IE option.
+B. Enable the Coverage Hole Detection option.
+C. Set the MFP Client Protection option to Required
+*D. Enable the client band select option.
+*E. Enable the allow AAA Override option
+
+184. Which feature, when used on a WLC, allows it to bundle its distribution system ports into one 802.3ad group?
+A. QinQ
+B. ISL
+C. PAgP
+*D. LAG
+
+185. What is a characteristic of encryption in wireless networks?
+A. uses a unidirectional handshake for authentication
+B. Intercepts data threats before they attack a network
+C. uses integrity checks to identify forgery attacks
+*D. prevents intercepted data from being easily read
+

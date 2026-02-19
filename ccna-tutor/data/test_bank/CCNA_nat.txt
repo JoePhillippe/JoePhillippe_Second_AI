@@ -1,0 +1,113 @@
+CCNA 200-301 - NAT and PAT - Network Address Translation
+==================================================
+
+1. An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to any of three addresses 192.168.30.1, 192.168.3.2, 192.168.3.3 Which configuration should be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+2. [Exhibit] An engineer configured NAT translations and has verified that the configuration is correct. Which IP address is the source IP?
+A. 10.4.4.4
+B. 10.4.4.5
+C. 172.23.103.10
+*D. 172.23.104.4
+
+3. Why was the RFC 1918 address space defined?
+*A. conserve public IPv4 addressing
+B. preserve public IPv6 address space
+C. reduce instances of overlapping IP addresses
+D. support the NAT protocol
+
+4. Which function does the range of private IPv4 addresses perform?
+*A. allows multiple companies to each use the same addresses without conflicts
+B. provides a direct connection for hosts from outside of the enterprise network
+C. ensures that NAT is not required to reach the internet with private range addressing
+D. enables secure communications to the internet for all external hosts
+
+5. Which type of address is the public IP address of a NAT device?
+A. outside global
+B. outsdwde local
+*C. inside global
+D. insride local
+E. outside public
+F. inside public
+
+6. [Exhibit] An engineer configured NAT translations and has verified that the configuration is correct. Which IP address is the source IP?
+A. 10.4.4.4
+B. 10.4.4.5
+C. 172.23.103.10
+*D. 172.23.104.4
+
+7. Refer to Exhibit. Which configuration must be applied to the router that configures PAT to translate all addresses in VLAN 200 while allowing devices on VLAN 100 to use their own IP addresses?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+8. An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to any of three addresses 192.168.30.1, 192.168.3.2, 192.168.3.3 Which configuration should be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+9. [Exhibit] How should the configuration be updated to allow PC1 and PC2 access to the Internet?
+A. Modify the configured number of the second access list.
+*B. Add either the ip nat {inside|outside} command under both interfaces.
+C. Remove the overload keyword from the ip nat inside source command.
+D. Change the ip nat inside source command to use interface GigabitEthernet0/0.
+
+10. [Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which action must the administrator take to establish connectivity to the Internet for users in VLAN 200?
+A. Define a NAT pool on the router.
+*B. Configure static NAT translations for VLAN 200.
+C. Configure the ip nat outside command on another interface for VLAN 200.
+D. Update the NAT INSIDF RANGFS ACL
+
+11. Which (unction generally performed by a traditional network device is replaced by a software-defined controller?
+A. encryption and decryption for VPN link processing
+*B. building route tables and updating the forwarding table
+C. changing the source or destination address during NAT operations
+D. encapsulation and decapsulation of packets in a data-link frame
+
+12. What is a benefit of using private IPv4 addressing?
+*A. Multiple companies can use the same addresses without conflicts.
+B. Direct connectivity is provided to internal hosts from outside an enterprise network.
+C. Communication to the internet Is reachable without the use of NAT.
+D. All external hosts are provided with secure communication to the Internet.
+
+13. [Exhibit] What is the next step to complete the implementation for the partial NAT configuration shown?
+A. Reconfigure the static NAT entries that overlap the NAT pool
+*B. Configure the NAT outside interface
+C. Modify the access list for the internal network on e0/1
+D. Apply the ACL to the pool configuration
+
+14. [Exhibit] How should the configuration be updated to allow PC1 and PC2 access to the Internet?
+*A. Change the ip nat inside source command to use interface GigabitEthernet0/0.
+B. Remove the overload keyword from the ip nat inside source command.
+C. Modify the configured number of the second access list.
+D. Add the ip nat inside and ip nat outside commands under both interfaces.
+
+15. Which command creates a static NAT binding for a PC address of 10.1.1.1 to the public routable address 209.165.200.225 assigned to the PC?
+*A. R1(config)#ip nat inside source static 10.1.1.1 209.165.200.225
+B. R1(config)#ip nat inside source static 209.165.200.225 10.1.1.1
+C. R1(config)#ip nat outside source static 10.1.1.1 209.165.200.225
+D. R1(config)#ip nat outside source static 209.165.200.225 10.1.1.1
+
+16. [Exhibit] HQC needs to use a configuration that: ✑ handles up to 150,000 concurrent connections ✑ minimizes consumption of public IP addresses
+A. ip nat pool NATPOOL 209.165.201.1 209.165.201.3 netmask 255.255.255.248ip nat inside source list HQC pool NATPOOL overload
+B. ip nat pool NATPOOL 209.165.201.1 209.165.201.248 netmask 255.255.255.248ip nat outside source list HQC pool NATPOOL overload
+C. ip nat pool NATPOOL 209.165.200.225 209.165.200.226 netmask 255.255.255.252ip nat outside source list HQC pool NATPOOL overload
+*D. ip nat pool NATPOOL 209.165.201.1 209.165.201.5 netmask 255.255.255.248ip nat inside source list HQC interface gigabitEthernet0/0 overload
+
+17. What is a characteristic of private IPv4 addressing?
+A. alleviates the shortage of IPv4 addresses
+B. reduces the forwarding table on network routers
+*C. enables secure connectivity over the internet
+D. used as the NAT outside global IP address
+
+18. [Exhibit] HQC needs to use a configuration that: ✑ Handles up to 150,000 concurrent connections ✑ Minimizes consumption of public IP addresses Which configuration meets the requirements?
+*A. ip nat pool NATPOOL 209.165.201.1 209.165.201.5 netmask 255.255.255.248ip nat inside source list HQC interface gigabitEthernet0/0 overload
+B. ip nat pool NATPOOL 209.165.200.225 209.165.200.226 netmask 255.255.255.252ip nat outside source list HQC pool NATPOOL overload
+C. ip nat pool NATPOOL 209.165.201.1 209.165.201.3 netmask 255.255.255.248ip nat inside source list HQC pool NATPOOL overload
+D. ip nat pool NATPOOL 209.165.201.1 209.165.201.248 netmask 255.255.255.248ip nat outside source list HQC pool NATPOOL overload
+

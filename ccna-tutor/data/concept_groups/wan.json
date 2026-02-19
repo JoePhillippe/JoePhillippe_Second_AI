@@ -1,0 +1,376 @@
+{
+  "protocol": "wan",
+  "groups": [
+    {
+      "group_id": "wan_q1",
+      "concept": "[Exhibit] Web traffic is coming in from the WAN interface. Which route takes pre...",
+      "question_ids": [
+        "wan_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q2",
+      "concept": "[Exhibit] Which IPv6 configuration is required for R17 to successfully ping the ...",
+      "question_ids": [
+        "wan_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q3",
+      "concept": "A user configured OSPF in a single area between two routers A serial interface c...",
+      "question_ids": [
+        "wan_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q4",
+      "concept": "A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF By ...",
+      "question_ids": [
+        "wan_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q5",
+      "concept": "Which WAN access technology is preferred for a small office / home office archit...",
+      "question_ids": [
+        "wan_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q6",
+      "concept": "in Which way does a spine and-leaf architecture allow for scalability in a netwo...",
+      "question_ids": [
+        "wan_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q7",
+      "concept": "Which WAN topology provides a combination of simplicity quality, and availabilit...",
+      "question_ids": [
+        "wan_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q8",
+      "concept": "What is a characteristic of a SOHO network?",
+      "question_ids": [
+        "wan_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q9",
+      "concept": "-   (Topic 1) Refer to the exhibit Routers R1 and R2 have been configured with t...",
+      "question_ids": [
+        "wan_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q10",
+      "concept": "Which two WAN architecture options help a business scalability and reliability f...",
+      "question_ids": [
+        "wan_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q11",
+      "concept": "Which WAN topology provides a combination of simplicity quality, and availabilit...",
+      "question_ids": [
+        "wan_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q12",
+      "concept": "What is the function of a hub-and-spoke WAN topology?",
+      "question_ids": [
+        "wan_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q13",
+      "concept": "Which two WAN architecture options help a business scalability and reliability f...",
+      "question_ids": [
+        "wan_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q14",
+      "concept": "What is a characteristic of a SOHO network?",
+      "question_ids": [
+        "wan_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q15",
+      "concept": "What are two functions of a Layer 2 switch? (Choose two)",
+      "question_ids": [
+        "wan_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q16",
+      "concept": "Which WAN access technology is preferred for a small office / home office archit...",
+      "question_ids": [
+        "wan_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q17",
+      "concept": "What are two roles of Domain Name Services (DNS)? (Choose Two)",
+      "question_ids": [
+        "wan_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q18",
+      "concept": "What is the maximum bandwidth of a T1 point-to-point connection?",
+      "question_ids": [
+        "wan_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q19",
+      "concept": "Which two WAN architecture options help a business improve scalability and relia...",
+      "question_ids": [
+        "wan_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q20",
+      "concept": "Refer to the exhibit Routers R1 and R2 have been configured with their respectiv...",
+      "question_ids": [
+        "wan_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q21",
+      "concept": "[Exhibit] Which IPv6 configuration is required for R17 to successfully ping the ...",
+      "question_ids": [
+        "wan_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q22",
+      "concept": "[Exhibit] An engineer is bringing up a new circuit to the MPLS provider on the G...",
+      "question_ids": [
+        "wan_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q23",
+      "concept": "A user configured OSPF in a single area between two routers A serial interface c...",
+      "question_ids": [
+        "wan_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q24",
+      "concept": "[Exhibit] Web traffic is coming in from the WAN interface. Which route takes pre...",
+      "question_ids": [
+        "wan_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q25",
+      "concept": "[Exhibit] All traffic enters the CPE router from interface Serial0/3 with an IP ...",
+      "question_ids": [
+        "wan_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q26",
+      "concept": "[Exhibit] Load-balanced traffic is coming in from the WAN destined to a host at ...",
+      "question_ids": [
+        "wan_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q27",
+      "concept": "What is a benefit for external users who consume public cloud resources?",
+      "question_ids": [
+        "wan_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q28",
+      "concept": "[Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subn...",
+      "question_ids": [
+        "wan_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q29",
+      "concept": "What is the collapsed layer in collapsed core architectures?",
+      "question_ids": [
+        "wan_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q30",
+      "concept": "What are two characteristics of a small office / home office connection environm...",
+      "question_ids": [
+        "wan_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q31",
+      "concept": "A network engineer is upgrading a small data center to host several new applicat...",
+      "question_ids": [
+        "wan_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q32",
+      "concept": "A network engineer is configuring a new router at a branch office. The router is...",
+      "question_ids": [
+        "wan_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q33",
+      "concept": "Which WAN topology has the highest degree of reliability?",
+      "question_ids": [
+        "wan_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q34",
+      "concept": "A Cisco engineer at a new branch office is configuring a wireless network with a...",
+      "question_ids": [
+        "wan_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q35",
+      "concept": "Which capability does TFTP provide?",
+      "question_ids": [
+        "wan_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q36",
+      "concept": "What is a benefit of a point-to-point leased line?",
+      "question_ids": [
+        "wan_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q37",
+      "concept": "[Exhibit] Routers R1 and R2 have been configured with their respective LAN inter...",
+      "question_ids": [
+        "wan_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q38",
+      "concept": "What are two benefits of private IPv4 addressing? (Choose two.)",
+      "question_ids": [
+        "wan_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q39",
+      "concept": "[Exhibit] What is preventing host A from reaching the internet?",
+      "question_ids": [
+        "wan_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q40",
+      "concept": "What are two behaviors of a point-to-point WAN topology? (Choose two.)",
+      "question_ids": [
+        "wan_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "wan_q41",
+      "concept": "A default route must be configured to temporarily use a local broadband modem wi...",
+      "question_ids": [
+        "wan_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 41,
+  "total_questions": 41
+}

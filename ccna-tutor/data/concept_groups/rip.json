@@ -1,0 +1,124 @@
+{
+  "protocol": "rip",
+  "groups": [
+    {
+      "group_id": "rip_q1",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "rip_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q2",
+      "concept": "[Exhibit] A router reserved these five routes from different routing information...",
+      "question_ids": [
+        "rip_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q3",
+      "concept": "[Exhibit] How does the router manage traffic to 192.168.12.16?",
+      "question_ids": [
+        "rip_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q4",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS. OSPF, RIP. and Internal EIGRP Un...",
+      "question_ids": [
+        "rip_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q5",
+      "concept": "[Exhibit] How does router R1 handle traffic to 192.168.10.16?",
+      "question_ids": [
+        "rip_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q6",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "rip_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q7",
+      "concept": "[Exhibit] A network engineer executes the show ip route command on router D. Wha...",
+      "question_ids": [
+        "rip_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q8",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS, OSPF, RIP, and Internal EIGRP. U...",
+      "question_ids": [
+        "rip_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q9",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "rip_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q10",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "rip_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q11",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "rip_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q12",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "rip_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "rip_q13",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "rip_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 13,
+  "total_questions": 13
+}

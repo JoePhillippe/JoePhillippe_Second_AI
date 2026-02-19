@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}{{ protocol.name }} - CCNA Tutor{% endblock %}
+
+{% block content %}
+<!-- Protocol Header -->
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="display-5 fw-bold text-cisco-blue">{{ protocol.name }}</h1>
+        <div class="d-flex align-items-center gap-3 mb-3">
+            <span class="badge bg-secondary fs-6">{{ protocol.category }}</span>
+            {% if protocol.exam_weight == 'High' %}
+                <span class="badge bg-danger fs-6">High Exam Weight</span>
+            {% elif protocol.exam_weight == 'Medium' %}
+                <span class="badge bg-warning text-dark fs-6">Medium Exam Weight</span>
+            {% else %}
+                <span class="badge bg-success fs-6">Low Exam Weight</span>
+            {% endif %}
+        </div>
+        <p class="lead">{{ protocol.description }}</p>
+    </div>
+</div>
+
+<!-- Related Protocols -->
+{% if related_protocols %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="alert alert-info">
+            <h5 class="alert-heading">Related Protocols</h5>
+            <div class="d-flex flex-wrap gap-2">
+                {% for related in related_protocols %}
+                <a href="/protocol/{{ related.slug }}" class="btn btn-sm btn-outline-primary">
+                    {{ related.name }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Key Topics -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title text-cisco-teal">Key Topics</h3>
+                <ul class="list-group list-group-flush">
+                    {% for topic in protocol.key_topics %}
+                    <li class="list-group-item">{{ topic }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Common Misconceptions -->
+{% if protocol.common_misconceptions %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card shadow-sm border-warning">
+            <div class="card-body">
+                <h3 class="card-title text-warning">
+                    <i class="bi bi-exclamation-triangle-fill"></i> Common Misconceptions
+                </h3>
+                <p class="mb-3"><strong>Warning:</strong> Many third-party CCNA training resources contain inaccurate information. These are common misconceptions from non-Cisco sources:</p>
+                <ul class="list-group list-group-flush">
+                    {% for misconception in protocol.common_misconceptions %}
+                    <li class="list-group-item bg-light">{{ misconception }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Configuration Guide References -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title text-cisco-teal">Cisco Configuration Guide References</h3>
+                <p class="text-muted">The following sections from official Cisco documentation are relevant for this protocol:</p>
+                
+                {% if protocol.config_guide_refs.router %}
+                <h5 class="mt-3">Router Configuration</h5>
+                <ul class="list-group list-group-flush">
+                    {% for ref in protocol.config_guide_refs.router %}
+                    <li class="list-group-item"><code>{{ ref }}</code></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                
+                {% if protocol.config_guide_refs.switch %}
+                <h5 class="mt-3">Switch Configuration</h5>
+                <ul class="list-group list-group-flush">
+                    {% for ref in protocol.config_guide_refs.switch %}
+                    <li class="list-group-item"><code>{{ ref }}</code></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ask the Tutor Section -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card shadow-sm border-primary">
+            <div class="card-body">
+                <h3 class="card-title text-cisco-blue">
+                    <i class="bi bi-chat-dots-fill"></i> Ask the Tutor
+                </h3>
+                <p class="text-muted">Ask questions about {{ protocol.name }}. The AI tutor will reference Cisco configuration guides in its answers.</p>
+                
+                <div id="chat-container" class="mb-3">
+                    <!-- Chat messages will appear here -->
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" id="chat-input" class="form-control" placeholder="Ask a question about {{ protocol.name }}..." aria-label="Ask question">
+                    <button class="btn btn-cisco-blue" type="button" id="chat-submit">
+                        <span id="chat-submit-text">Ask</span>
+                        <span id="chat-loading" class="spinner-border spinner-border-sm d-none" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Practice Exam Questions Button -->
+<div class="row">
+    <div class="col-12 text-center">
+        <a href="/quiz?protocol={{ protocol.slug }}" class="btn btn-cisco-teal btn-lg">
+            <i class="bi bi-question-circle"></i> Practice Exam Questions for {{ protocol.name }}
+        </a>
+    </div>
+</div>
+
+<script>
+    // Store protocol slug for use in chat
+    window.protocolSlug = "{{ protocol.slug }}";
+    window.protocolName = "{{ protocol.name }}";
+</script>
+<script src="{{ url_for('static', filename='js/protocol.js') }}"></script>
+{% endblock %}

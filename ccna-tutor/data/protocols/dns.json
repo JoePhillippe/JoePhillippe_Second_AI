@@ -1,0 +1,39 @@
+{
+  "name": "DNS",
+  "slug": "dns",
+  "category": "Network Services",
+  "description": "Domain Name System (DNS) translates human-readable domain names into IP addresses. It operates primarily over UDP port 53, switching to TCP for zone transfers and large responses.",
+  "key_topics": [
+    "DNS query types: Recursive and Iterative",
+    "DNS record types: A, AAAA, CNAME, MX, NS, PTR, SOA",
+    "DNS hierarchy: Root servers, TLD servers, authoritative servers",
+    "Forward lookup vs Reverse lookup",
+    "DNS caching and TTL (Time To Live)",
+    "Configuring Cisco router for DNS lookups",
+    "DNS security concerns (cache poisoning, DNS hijacking)",
+    "Split DNS and split-horizon DNS"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "ip domain-lookup",
+      "ip name-server",
+      "ip domain-name",
+      "ip host"
+    ],
+    "switch": [
+      "ip domain-lookup",
+      "ip name-server"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often state DNS always uses UDP. Cisco documentation clarifies DNS uses TCP for zone transfers (AXFR/IXFR) and when response size exceeds 512 bytes",
+    "Many resources oversimplify recursive vs iterative queries. Cisco config guides explain that client-to-resolver is typically recursive, while resolver-to-nameserver is typically iterative",
+    "Third-party books frequently confuse A records with PTR records. A records map names to IPv4 addresses (forward lookup), while PTR records map IP addresses back to names (reverse lookup)",
+    "Common error: disabling 'ip domain-lookup' globally when only wanting to disable domain lookup for typos in CLI. This breaks legitimate DNS functionality"
+  ],
+  "exam_weight": "Medium",
+  "related_protocols": [
+    "dhcp",
+    "tcp-ip"
+  ]
+}

@@ -1,0 +1,95 @@
+CCNA 200-301 - BGP - Border Gateway Protocol
+==================================================
+
+1. What is a characteristic of private IPv4 addressing?
+A. traverse the Internet when an outbound ACL is applied
+B. issued by IANA in conjunction with an autonomous system number
+C. composed of up to 65.536 available addresses
+*D. used without tracking or registration
+
+2. [Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0/24 from router R1. What protocol is chosen by router R2 to reach the destination network 10.1 1 0/24?
+A. eBGP
+*B. static
+C. OSPF
+D. EIGRP
+
+3. [Exhibit] Router R4 is dynamically learning the path to the server. If R4 is connected to R1 via OSPF Area 20, to R2 v2ia R2 BGP, and to R3 via EIGRP 777, which path is installed in the routing table of R4?
+A. the path through R1, because the OSPF administrative distance is 110
+B. the path through R2. because the IBGP administrative distance is 200
+*C. the path through R2 because the EBGP administrative distance is 20
+D. the path through R3. because the EIGRP administrative distance is lower than OSPF and BGP
+
+4. [Exhibit] Router R4 is dynamically learning the path to the server. If R4 is connected to R1 via OSPF Area 20, to R2 v2ia R2 BGP, and to R3 via EIGRP 777, which path is installed in the routing table of R4?
+A. the path through R1, because the OSPF administrative distance is 110
+B. the path through R2. because the IBGP administrative distance is 200
+*C. the path through R2 because the EBGP administrative distance is 20
+D. the path through R3. because the EIGRP administrative distance is lower than OSPF and BGP
+
+5. Which network action occurs within the data plane?
+*A. compare the destination IP address to the IP routing table.
+B. run routing protocols (OSPF, EIGRP, RIP, BGP)
+C. make a configuration change from an incoming NETCONF RPC
+D. reply to an incoming ICMP echo request
+
+6. [Exhibit] A router reserved these five routes from different routing information sources. Which two routes does the router install in its routing table? (Choose two)
+A. RIP route 10.0.0.0/30
+B. iBGP route 10.0.0.0/30
+*C. OSPF route 10.0.0.0/30
+*D. EIGRP route 10.0.0.1/32
+E. OSPF route 10.0.0.0/16
+
+7. What is a characteristic of private IPv4 addressing?
+A. traverse the Internet when an outbound ACL is applied
+B. issued by IANA in conjunction with an autonomous system number
+C. composed of up to 65.536 available addresses
+*D. used without tracking or registration
+
+8. [Exhibit] Which route type does the routing protocol Code D represent in the output?
+A. internal BGP route
+B. /24 route of a locally configured IP
+C. statically assigned route
+*D. route learned through EIGRP
+
+9. [Exhibit] An engineer is bringing up a new circuit to the MPLS provider on the Gi0/1 interface of Router1 The new circuit uses eBGP and teams the route to VLAN25 from the BGP path What s the expected behavior for the traffic flow for route 10.10.13.0/25?
+A. Traffic to 10.10.13.0.25 is load balanced out of multiple interfaces
+B. Route 10.10.13.0/25 is updated in the routing table as being learned from interface Gi0/1.
+C. Traffic to 10.10.13.0/25 is asymmeteical
+*D. Route 10.10.13.0/25 learned via the GiO/0 interface remains in the routing table
+
+10. [Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0/24 from router R1. What protocol is chosen by router R2 to reach the destination network 10.1 1 0/24?
+A. eBGP
+*B. static
+C. OSPF
+D. EIGRP
+
+11. [Exhibit] Packets received by the router from BGP enter via a serial interface at 209.165.201.10. Each route is present within the routing table. Which interface is used to forward traffic with a destination IP of 10.10.10.24?
+A. F0/10
+*B. F0/11
+C. F0/12
+D. F0/13
+
+12. [Exhibit] Packets received by the router from BGP enter via a serial interface at 209 165 201 1 Each route is present within the routing table Which interface is used to forward traffic with a destination IP of 10.1.1.19?
+A. F0/4
+*B. F0/0
+C. F0/1
+D. F0/3
+
+13. What does the implementation of a first-hop redundancy protocol protect against on a network?
+A. root-bridge loss
+B. spanning-tree loops
+*C. default gateway failure
+D. BGP neighbor flapping
+
+14. [Exhibit] After configuring a new static route on the CPE. the engineer entered this series of commands to verify that the new configuration is operating normally When is the static default route installed into the routing table?
+*A. when 203 0 113.1 is no longer reachable as a next hop
+B. when the default route learned over external BGP becomes invalid
+C. when a route to 203.0 113 1 is learned via BGP
+D. when the default route over external BGP changes its next hop
+
+15. What are two disadvantages of a full-mesh topology? (Choose two.)
+A. It needs a high MTU between sites.
+*B. It has a high implementation cost.
+C. It must have point-to-point communication.
+*D. It requires complex configuration.
+E. It works only with BGP between sites.
+

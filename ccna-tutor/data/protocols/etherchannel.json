@@ -1,0 +1,10 @@
+{
+  "name": "EtherChannel",
+  "slug": "etherchannel",
+  "category": "Layer 2 Technologies",
+  "description": "EtherChannel bundles multiple physical links into one logical link for increased bandwidth and redundancy using LACP or PAgP.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

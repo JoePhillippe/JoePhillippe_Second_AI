@@ -1,0 +1,10 @@
+{
+  "name": "PoE",
+  "slug": "poe",
+  "category": "Infrastructure",
+  "description": "Power over Ethernet (PoE) delivers electrical power over network cables to devices like APs, IP phones, and cameras.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Low",
+  "related_protocols": []
+}

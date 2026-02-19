@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCNA Drag and Drop Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        body.popup-mode {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .popup-mode h1 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .question-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .popup-mode .question-container {
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-number {
+            background: #007bff;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .topic-badge {
+            background: #6c757d;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .instructions {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .drag-drop-area {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .draggable-section, .droppable-section {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .draggable-items {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-height: 150px;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 8px;
+        }
+
+        .draggable-item {
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: grab;
+            transition: all 0.2s;
+            user-select: none;
+            font-size: 0.95em;
+        }
+
+        .draggable-item:hover {
+            background: #0056b3;
+            transform: translateX(5px);
+        }
+
+        .draggable-item.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        .draggable-item.correct {
+            background: #28a745;
+        }
+
+        .draggable-item.incorrect {
+            background: #dc3545;
+        }
+
+        .drop-targets {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .drop-target {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .target-label {
+            min-width: 180px;
+            padding: 10px;
+            background: #343a40;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .drop-zone {
+            flex: 1;
+            min-height: 45px;
+            padding: 10px;
+            border: 2px dashed #adb5bd;
+            border-radius: 5px;
+            background: #f8f9fa;
+            transition: all 0.2s;
+        }
+
+        .drop-zone.drag-over {
+            border-color: #007bff;
+            background: #e7f1ff;
+        }
+
+        .drop-zone .draggable-item {
+            margin: 0;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.2s;
+        }
+
+        .check-btn {
+            background: #28a745;
+            color: white;
+        }
+
+        .check-btn:hover {
+            background: #1e7e34;
+        }
+
+        .reset-btn {
+            background: #6c757d;
+            color: white;
+        }
+
+        .reset-btn:hover {
+            background: #545b62;
+        }
+
+        .show-answer-btn {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .show-answer-btn:hover {
+            background: #e0a800;
+        }
+
+        .close-btn {
+            background: #dc3545;
+            color: white;
+            margin-left: auto;
+        }
+
+        .close-btn:hover {
+            background: #c82333;
+        }
+
+        .explanation {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: #d4edda;
+            border-radius: 5px;
+            border-left: 4px solid #28a745;
+        }
+
+        .explanation.show {
+            display: block;
+        }
+
+        .result-message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .result-message.success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .result-message.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            background: #e9ecef;
+            color: #333;
+            min-width: 40px;
+        }
+
+        .nav-btn:hover {
+            background: #dee2e6;
+        }
+
+        .nav-btn.active {
+            background: #007bff;
+            color: white;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #007bff;
+            transition: width 0.3s;
+        }
+
+        .score-display {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .popup-mode .nav-buttons,
+        .popup-mode .progress-bar,
+        .popup-mode .score-display {
+            display: none;
+        }
+
+        .success-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(40, 167, 69, 0.95);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+            animation: fadeIn 0.3s;
+        }
+
+        .success-overlay.show {
+            display: flex;
+        }
+
+        .success-overlay h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .success-overlay p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .countdown {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .countdown {
+            animation: pulse 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="pageTitle">CCNA 200-301 Drag and Drop Practice</h1>
+
+    <div class="score-display">
+        Score: <span id="score">0</span> / <span id="total">0</span>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress-fill" id="progress"></div>
+    </div>
+
+    <div class="nav-buttons" id="navButtons"></div>
+
+    <div id="questionsContainer"></div>
+
+    <div class="success-overlay" id="successOverlay">
+        <h2>Correct!</h2>
+        <p>All items matched correctly.</p>
+        <div class="countdown" id="countdown">3</div>
+        <p>Closing in...</p>
+    </div>
+
+    <script>
+        let questionsData = null;
+        let currentQuestion = 0;
+        let score = 0;
+        let answered = [];
+        let isPopupMode = false;
+        let targetQuestionId = null;
+        let parentOrigin = '*';
+
+        // Parse URL parameters
+        function getUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                questionId: params.get('q') ? parseInt(params.get('q')) : null,
+                popup: params.get('popup') === 'true',
+                origin: params.get('origin') || '*'
+            };
+        }
+
+        // Load questions from JSON file or inline data
+        async function loadQuestions() {
+            const params = getUrlParams();
+            isPopupMode = params.popup;
+            targetQuestionId = params.questionId;
+            parentOrigin = params.origin;
+
+            if (isPopupMode) {
+                document.body.classList.add('popup-mode');
+                document.getElementById('pageTitle').textContent = 'Drag and Drop Question';
+            }
+
+            try {
+                // Try to load from same directory first
+                let response = await fetch('200-301_7-1_drag_drop.json');
+                if (!response.ok) {
+                    // Try relative path from static directory
+                    response = await fetch('/static/data/200-301_7-1_drag_drop.json');
+                }
+                if (!response.ok) {
+                    // Try API endpoint
+                    response = await fetch('/api/drag-drop-questions');
+                }
+                questionsData = await response.json();
+
+                // Handle if data is wrapped in a questions array
+                if (questionsData.questions) {
+                    // Already in correct format
+                } else if (Array.isArray(questionsData)) {
+                    questionsData = { questions: questionsData };
+                }
+
+                initializeQuiz();
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                document.getElementById('questionsContainer').innerHTML =
+                    '<p style="color: red;">Error loading questions. Make sure the JSON file is accessible.</p>';
+            }
+        }
+
+        function initializeQuiz() {
+            const total = questionsData.questions.length;
+            document.getElementById('total').textContent = total;
+            answered = new Array(total).fill(false);
+
+            if (isPopupMode && targetQuestionId !== null) {
+                // Find the question with matching ID
+                const questionIndex = questionsData.questions.findIndex(q => q.id === targetQuestionId);
+                if (questionIndex !== -1) {
+                    showQuestion(questionIndex);
+                } else {
+                    document.getElementById('questionsContainer').innerHTML =
+                        '<p style="color: red;">Question not found.</p>';
+                }
+                return;
+            }
+
+            // Create navigation buttons for full mode
+            const navContainer = document.getElementById('navButtons');
+            navContainer.innerHTML = '';
+            questionsData.questions.forEach((_, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'nav-btn' + (index === 0 ? ' active' : '');
+                btn.textContent = index + 1;
+                btn.onclick = () => showQuestion(index);
+                navContainer.appendChild(btn);
+            });
+
+            showQuestion(0);
+        }
+
+        function showQuestion(index) {
+            currentQuestion = index;
+            const question = questionsData.questions[index];
+
+            // Update nav buttons
+            document.querySelectorAll('.nav-btn').forEach((btn, i) => {
+                btn.className = 'nav-btn' + (i === index ? ' active' : '');
+            });
+
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = renderQuestion(question, index);
+
+            // Initialize drag and drop
+            initDragAndDrop(index);
+        }
+
+        function renderQuestion(question, index) {
+            // Shuffle draggable items for variety
+            const shuffledItems = [...question.draggable_items].sort(() => Math.random() - 0.5);
+
+            const draggableItems = shuffledItems
+                .map(item => `<div class="draggable-item" draggable="true" data-id="${item.id}">${item.text}</div>`)
+                .join('');
+
+            const dropTargets = question.drop_targets
+                .map(target => `
+                    <div class="drop-target">
+                        <div class="target-label">${target.text}</div>
+                        <div class="drop-zone" data-target="${target.id}"></div>
+                    </div>
+                `).join('');
+
+            const closeButton = isPopupMode ?
+                '<button class="close-btn" onclick="closePopup(false)">Close</button>' : '';
+
+            return `
+                <div class="question-container" data-question="${index}">
+                    <div class="question-header">
+                        <span class="question-number">Question ${question.id || index + 1}</span>
+                        <span class="topic-badge">${question.topic}</span>
+                    </div>
+                    <div class="question-text">${question.question}</div>
+                    <div class="instructions">${question.instructions}</div>
+
+                    <div class="drag-drop-area">
+                        <div class="draggable-section">
+                            <div class="section-title">Drag items from here:</div>
+                            <div class="draggable-items" id="sourceItems${index}">
+                                ${draggableItems}
+                            </div>
+                        </div>
+                        <div class="droppable-section">
+                            <div class="section-title">Drop items here:</div>
+                            <div class="drop-targets" id="dropTargets${index}">
+                                ${dropTargets}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <button class="check-btn" onclick="checkAnswer(${index})">Check Answer</button>
+                        <button class="reset-btn" onclick="resetQuestion(${index})">Reset</button>
+                        <button class="show-answer-btn" onclick="showAnswer(${index})">Show Answer</button>
+                        ${closeButton}
+                    </div>
+
+                    <div id="result${index}" class="result-message"></div>
+                    <div id="explanation${index}" class="explanation">
+                        <strong>Explanation:</strong> ${question.explanation}
+                    </div>
+                </div>
+            `;
+        }
+
+        function initDragAndDrop(questionIndex) {
+            const container = document.querySelector(`[data-question="${questionIndex}"]`);
+            const draggables = container.querySelectorAll('.draggable-item');
+            const dropZones = container.querySelectorAll('.drop-zone');
+            const sourceContainer = container.querySelector('.draggable-items');
+
+            draggables.forEach(draggable => {
+                draggable.addEventListener('dragstart', (e) => {
+                    draggable.classList.add('dragging');
+                    e.dataTransfer.setData('text/plain', draggable.dataset.id);
+                });
+
+                draggable.addEventListener('dragend', () => {
+                    draggable.classList.remove('dragging');
+                });
+
+                // Touch support
+                draggable.addEventListener('touchstart', handleTouchStart, { passive: false });
+                draggable.addEventListener('touchmove', handleTouchMove, { passive: false });
+                draggable.addEventListener('touchend', handleTouchEnd, { passive: false });
+            });
+
+            dropZones.forEach(zone => {
+                zone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    zone.classList.add('drag-over');
+                });
+
+                zone.addEventListener('dragleave', () => {
+                    zone.classList.remove('drag-over');
+                });
+
+                zone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    zone.classList.remove('drag-over');
+
+                    const itemId = e.dataTransfer.getData('text/plain');
+                    const item = container.querySelector(`[data-id="${itemId}"]`);
+
+                    // If zone already has an item, move it back to source
+                    const existingItem = zone.querySelector('.draggable-item');
+                    if (existingItem) {
+                        sourceContainer.appendChild(existingItem);
+                    }
+
+                    zone.appendChild(item);
+                });
+            });
+
+            // Allow dropping back to source
+            sourceContainer.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+
+            sourceContainer.addEventListener('drop', (e) => {
+                e.preventDefault();
+                const itemId = e.dataTransfer.getData('text/plain');
+                const item = container.querySelector(`[data-id="${itemId}"]`);
+                sourceContainer.appendChild(item);
+            });
+        }
+
+        // Touch event handlers for mobile support
+        let touchedElement = null;
+        let touchClone = null;
+
+        function handleTouchStart(e) {
+            touchedElement = e.target.closest('.draggable-item');
+            if (!touchedElement) return;
+
+            e.preventDefault();
+            touchedElement.classList.add('dragging');
+
+            // Create visual clone
+            touchClone = touchedElement.cloneNode(true);
+            touchClone.style.position = 'fixed';
+            touchClone.style.pointerEvents = 'none';
+            touchClone.style.opacity = '0.8';
+            touchClone.style.zIndex = '1000';
+            document.body.appendChild(touchClone);
+
+            updateTouchClonePosition(e.touches[0]);
+        }
+
+        function handleTouchMove(e) {
+            if (!touchedElement) return;
+            e.preventDefault();
+            updateTouchClonePosition(e.touches[0]);
+
+            // Highlight drop zones
+            const touch = e.touches[0];
+            const dropZone = document.elementFromPoint(touch.clientX, touch.clientY);
+            document.querySelectorAll('.drop-zone').forEach(zone => {
+                zone.classList.remove('drag-over');
+            });
+            if (dropZone && dropZone.classList.contains('drop-zone')) {
+                dropZone.classList.add('drag-over');
+            }
+        }
+
+        function handleTouchEnd(e) {
+            if (!touchedElement) return;
+
+            const touch = e.changedTouches[0];
+            const dropTarget = document.elementFromPoint(touch.clientX, touch.clientY);
+
+            if (dropTarget) {
+                const dropZone = dropTarget.closest('.drop-zone');
+                const sourceContainer = document.querySelector('.draggable-items');
+
+                if (dropZone) {
+                    const existingItem = dropZone.querySelector('.draggable-item');
+                    if (existingItem) {
+                        sourceContainer.appendChild(existingItem);
+                    }
+                    dropZone.appendChild(touchedElement);
+                } else if (dropTarget.closest('.draggable-items')) {
+                    sourceContainer.appendChild(touchedElement);
+                }
+            }
+
+            // Cleanup
+            touchedElement.classList.remove('dragging');
+            if (touchClone) {
+                touchClone.remove();
+                touchClone = null;
+            }
+            touchedElement = null;
+
+            document.querySelectorAll('.drop-zone').forEach(zone => {
+                zone.classList.remove('drag-over');
+            });
+        }
+
+        function updateTouchClonePosition(touch) {
+            if (touchClone) {
+                touchClone.style.left = (touch.clientX - 50) + 'px';
+                touchClone.style.top = (touch.clientY - 20) + 'px';
+            }
+        }
+
+        function checkAnswer(questionIndex) {
+            const question = questionsData.questions[questionIndex];
+            const container = document.querySelector(`[data-question="${questionIndex}"]`);
+            const dropZones = container.querySelectorAll('.drop-zone');
+
+            let correct = 0;
+            let total = Object.keys(question.correct_matches).length;
+
+            dropZones.forEach(zone => {
+                const targetId = zone.dataset.target;
+                const item = zone.querySelector('.draggable-item');
+
+                if (item) {
+                    const itemId = item.dataset.id;
+                    if (question.correct_matches[itemId] === targetId) {
+                        item.classList.add('correct');
+                        item.classList.remove('incorrect');
+                        correct++;
+                    } else {
+                        item.classList.add('incorrect');
+                        item.classList.remove('correct');
+                    }
+                }
+            });
+
+            const resultDiv = document.getElementById(`result${questionIndex}`);
+            if (correct === total) {
+                resultDiv.className = 'result-message success';
+                resultDiv.textContent = `Correct! All ${total} items matched correctly.`;
+
+                if (!answered[questionIndex]) {
+                    answered[questionIndex] = true;
+                    score++;
+                    updateScore();
+                }
+
+                document.getElementById(`explanation${questionIndex}`).classList.add('show');
+
+                // Notify parent window and close if in popup mode
+                if (isPopupMode) {
+                    notifyParentAndClose(question.id, true);
+                }
+            } else {
+                resultDiv.className = 'result-message error';
+                resultDiv.textContent = `${correct} out of ${total} correct. Try again!`;
+            }
+        }
+
+        function notifyParentAndClose(questionId, isCorrect) {
+            // Show success overlay
+            const overlay = document.getElementById('successOverlay');
+            overlay.classList.add('show');
+
+            // Countdown and close
+            let count = 3;
+            const countdownEl = document.getElementById('countdown');
+
+            const countdownInterval = setInterval(() => {
+                count--;
+                countdownEl.textContent = count;
+
+                if (count <= 0) {
+                    clearInterval(countdownInterval);
+                    closePopup(true, questionId);
+                }
+            }, 1000);
+        }
+
+        function closePopup(isCorrect, questionId = null) {
+            // Send message to parent window
+            if (window.opener) {
+                window.opener.postMessage({
+                    type: 'dragDropComplete',
+                    questionId: questionId || targetQuestionId,
+                    correct: isCorrect
+                }, parentOrigin);
+                window.close();
+            } else if (window.parent !== window) {
+                window.parent.postMessage({
+                    type: 'dragDropComplete',
+                    questionId: questionId || targetQuestionId,
+                    correct: isCorrect
+                }, parentOrigin);
+            } else {
+                // Not in popup, just show message
+                console.log('Question completed:', { questionId, isCorrect });
+            }
+        }
+
+        function resetQuestion(questionIndex) {
+            const container = document.querySelector(`[data-question="${questionIndex}"]`);
+            const sourceContainer = container.querySelector('.draggable-items');
+            const items = container.querySelectorAll('.draggable-item');
+
+            items.forEach(item => {
+                item.classList.remove('correct', 'incorrect');
+                sourceContainer.appendChild(item);
+            });
+
+            document.getElementById(`result${questionIndex}`).className = 'result-message';
+            document.getElementById(`result${questionIndex}`).textContent = '';
+            document.getElementById(`explanation${questionIndex}`).classList.remove('show');
+        }
+
+        function showAnswer(questionIndex) {
+            const question = questionsData.questions[questionIndex];
+            const container = document.querySelector(`[data-question="${questionIndex}"]`);
+            const dropZones = container.querySelectorAll('.drop-zone');
+            const sourceContainer = container.querySelector('.draggable-items');
+
+            // Clear all drop zones first
+            dropZones.forEach(zone => {
+                const item = zone.querySelector('.draggable-item');
+                if (item) {
+                    sourceContainer.appendChild(item);
+                }
+            });
+
+            // Place items in correct positions
+            Object.entries(question.correct_matches).forEach(([itemId, targetId]) => {
+                const item = container.querySelector(`[data-id="${itemId}"]`);
+                const zone = container.querySelector(`[data-target="${targetId}"]`);
+
+                if (item && zone) {
+                    const existingItem = zone.querySelector('.draggable-item');
+                    if (existingItem) {
+                        sourceContainer.appendChild(existingItem);
+                    }
+                    zone.appendChild(item);
+                    item.classList.add('correct');
+                    item.classList.remove('incorrect');
+                }
+            });
+
+            document.getElementById(`explanation${questionIndex}`).classList.add('show');
+
+            const resultDiv = document.getElementById(`result${questionIndex}`);
+            resultDiv.className = 'result-message success';
+            resultDiv.textContent = 'Showing correct answer.';
+
+            // In popup mode, showing answer counts as skipping
+            if (isPopupMode) {
+                setTimeout(() => {
+                    closePopup(false, question.id);
+                }, 2000);
+            }
+        }
+
+        function updateScore() {
+            document.getElementById('score').textContent = score;
+            const progress = (score / questionsData.questions.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+        }
+
+        // Load questions when page loads
+        window.onload = loadQuestions;
+    </script>
+</body>
+</html>

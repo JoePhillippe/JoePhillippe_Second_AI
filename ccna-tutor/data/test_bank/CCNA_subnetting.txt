@@ -1,0 +1,621 @@
+CCNA 200-301 - Subnetting and IP Addressing
+==================================================
+
+1. ### A network engineer must configure two new subnets using the address block 10 70 128 0/19 to meet these requirements: -   The first subnet must support 24 hosts -   The second subnet must support 472 hosts -   Both subnets must use the longest subnet mask possible from the address block Which two configurations must be used to configure the new subnets and meet a requirement to use the first available address in each subnet for the router interfaces? (Choose two )
+A. interface vlan 1234ip address 10.70.159.1 255.255.254.0
+*B. interface vlan 1148ip address 10.70.148.1 255.255.254.0
+C. interface vlan 4722ip address 10.70.133.17 255.255.255.192
+*D. interface vlan 3002ip address 10.70.147.17 255.255.255.224
+E. interface vlan 155ip address 10.70.155.65 255.255.255.224
+
+2. [Exhibit] A static route must be configured on R14 to forward traffic for the 172 21 34 0/25 network that resides on R86 Which command must be used to fulfill the request?
+A. ip route 172.21.34.0 255.255.255.192 10.73.65.65
+B. ip route 172.21.34.0 255.255.255.0 10.73.65.65
+C. ip route 172.21.34.0 255.255.128.0 10.73.65.64
+*D. ip route 172.21.34.0 255.255.255.128 10.73.65.66
+
+3. [Exhibit] Which route must be configured on R1 so that OSPF routing is used when OSPF is up. but the server is still reachable when OSPF goes down?
+A. ip route 10.1.1.10 255.255.255.255 172.16.2.2 100
+B. ip route 10.1.1.0 255.255.255.0 gi0/1 125
+C. ip route 10.1.1.0 255.255.255.0 172.16.2.2 100
+*D. ip route 10.1.1.10 255.255.255.255 gi0/0 125
+
+4. An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to any of three addresses 192.168.30.1, 192.168.3.2, 192.168.3.3 Which configuration should be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+5. [Exhibit] Which command configures a floating static route to provide a backup to the primary link?
+A. ip route 0.0.0.0 0.0.0.0 209.165.202.131
+B. ip route 209.165.201.0 255.255.255.224 209.165.202.130
+C. ip route 0.0.0.0 0.0.0.0 209.165.200.224
+*D. ip route 209.165.200.224 255.255.255.224 209.165.202.129 254
+
+6. A corporate office uses four floors in a building -   Floor 1 has 24 users -   Floor 2 has 29 users -   Floor 3 has 28 users •Floor 4 has 22 users Which subnet summarizes and gives the most efficient distribution of IP addresses for the router configuration?
+A. 192.168.0.0/26 as summary and 192.168.0.0/29 for each floor
+B. 192.168.0.0.24 as summary and 192.168.0.0/28 for each floor
+C. 192.168.0.0/23 as summary and 192.168.0.0/25 for each floor
+*D. l92.168.0.0/25 as summary and 192.168.0.0/27 for each floor
+
+7. [Exhibit] Which IPv6 configuration is required for R17 to successfully ping the WAN interface on R18? A) B) C\) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+8. [Exhibit] A network administrator assumes a task to complete the connectivity between PC A and the File Server. Switch A and Switch B have been partially configured with VLAN 10, 11, 12, and 13. What is the next step in the configuration?
+A. Add PC A to VLAN 10 and the File Server to VLAN 11 fa VLAN segmentation
+*B. Add VLAN 13 to the trunk links on Switch A and Switch B for VLAN propagation
+C. Add a router on a stick between Switch A and Switch B allowing for Inter-VLAN routing.
+D. Add PC A to the same subnet as the Fie Server allowing for intra-VLAN communication.
+
+9. Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0\'1. Which action must be taken in router R1 to help resolve the configuration issue?
+A. set the default network as 20.20.20.0/24
+B. set the default gateway as 20.20.20.2
+C. configure a static route with Fa0/1 as the egress interface to reach the 20.20.20.0/24 network
+*D. configure a static route with 10.10.10.2 as the next hop to reach the 20.20.20.0/24 network
+
+10. [Exhibit] If OSPF is running on this network, how does Router 2 handle traffic from Site B to 10.10.13/25 at Site A?
+A. It sends packets out of interface Fa0/2 only.
+B. It sends packets out of interface Fa0/1 only.
+*C. It cannot send packets to 10.10.13 128/25
+D. It load-balances traffic out of Fa0/1 and Fa0/2
+
+11. [Exhibit] An administrator must turn off the Cisco Discovery Protocol on the port configured with address last usable address in the 10.0.0.0/30 subnet. Which command set meets the requirement?
+A. interface gi0/1 no cdp enable
+B. interface gi0/1 clear cdp table
+C. interface gi0/0no cdp advertise-v2
+*D. interface gi0/0 no cdp run
+
+12. [Exhibit] When PC-A sends traffic to PC-B, which network component is in charge of receiving the packet from PC-A verifying the IP addresses, and forwarding the packet to PC-B?
+A. Layer 2 switch
+*B. Router
+C. Load balancer
+D. firewall
+
+13. [Exhibit] An extended ACL has been configured and applied to router R2 The configuration failed to work as intended Which two changes stop outbound traffic on TCP ports 25 and 80 to 10.0.20 0 26 from the 10.0.10 0/26 subnet while still allowing all other traffic? (Choose two )
+A. Add a "permit ip any any" statement to the begining of ACL 101 for allowed traffic.
+*B. Add a "permit ip any any" statement at the end of ACL 101 for allowed traffic
+*C. The source and destination IPs must be swapped in ACL 101
+D. The ACL must be configured the Gi0/2 interface inbound on R1
+E. The ACL must be moved to the Gi0/1 interface outbound on R2
+
+14. [Exhibit] What is the metric of the route to the 192.168.10.33/28 subnet?
+A. 84
+B. 110
+C. 128
+D. 192
+*E. 193
+
+15. [Exhibit] An administrator must turn off the Cisco Discovery Protocol on the port configured with address last usable address in the 10.0.0.0/30 subnet. Which command set meets the requirement?
+A. interface gi0/1no cdp enable
+B. interface gi0/1clear cdp table
+C. interface gi0/0no cdp advertise-v2
+*D. interface gi0/0no cdp run
+
+16. In which situation is private IPv4 addressing appropriate for a new subnet on the network of an organization?
+*A. There is limited unique address space, and traffic on the new subnet will stay local within the organization.
+B. The network has multiple endpoint listeners, and it is desired to limit the number of broadcasts.
+C. Traffic on the subnet must traverse a site-to-site VPN to an outside organization.
+D. The ISP requires the new subnet to be advertised to the internet for web services.
+
+17. An engineer must configure a/30 subnet between two routers. Which usable IP address and subnet mask combination meets this criteria?
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+18. [Exhibit] What commands are needed to add a subinterface to Ethernet0/0 on R1 to allow for VLAN 20, with IP address 10.20.20.1/24?
+A. R1(config)#interface ethernet0/0R1(config)#encapsulation dot1q 20R1(config)#ip address 10.20.20.1 255.255.255.0
+*B. R1(config)#interface ethernet0/0.20R1(config)#encapsulation dot1q 20R1(config)#ip address 10.20.20.1 255.255.255.0
+C. R1(config)#interface ethernet0/0.20R1(config)#ip address 10.20.20.1 255.255.255.0
+D. R1(config)#interface ethernet0/0R1(config)#ip address 10.20.20.1 255.255.255.0
+
+19. [Exhibit] A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?
+A. access-list 2699 permit udp 10.20.1.0 0.0.0.255
+B. no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22
+C. access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22
+*D. no access-list 2699 deny ip any 10.20.1.0 0.0.0.255
+
+20. Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0'1. Which action must be taken in router R1 to help resolve the configuration issue?
+A. set the default network as 20.20.20.0/24
+B. set the default gateway as 20.20.20.2
+C. configure a static route with Fa0/1 as the egress interface to reach the 20.20.20.0/24 network
+*D. configure a static route with 10.10.10.2 as the next hop to reach the 20.20.20.0/24 network
+
+21. Which two command sequences must you configure on switch to establish a Layer 3 EtherChannel with an open-standard protocol? (Choose two )
+A. interface GigabitEthernet0/0/1channel-group 10 mode on
+*B. interface GigabitEthernet0/0/1channel-group 10 mode active
+C. interface GigabitEthernet0/0/1channel-group 10 mode auto
+D. interface port-channel 10switchportswitchport mode trunk
+*E. interface port-channel 10no switchportip address 172.16.0.1.255.255.255.0
+
+22. What is the purpose of using First Hop Redundancy Protocol in a specific subnet?
+A. Filter traffic based on destination IP addressing
+B. Sends the default route to the hosts on a network
+C. ensures a loop-free physical topology
+*D. forwards multicast hello messages between routers
+
+23. [Exhibit] A network administrator assumes a task to complete the connectivity between PC A and the File Server. Switch A and Switch B have been partially configured with VLAN 10, 11, 12, and 13. What is the next step in the configuration?
+A. Add PC A to VLAN 10 and the File Server to VLAN 11 fa VLAN segmentation
+*B. Add VLAN 13 to the trunk links on Switch A and Switch B for VLAN propagation
+C. Add a router on a stick between Switch A and Switch B allowing for Inter-VLAN routing.
+D. Add PC A to the same subnet as the Fie Server allowing for intra-VLAN communication.
+
+24. [Exhibit] An engineer must add a subnet for a new office that will add 20 users to the network. Which IPv4 network and subnet mask combination does the engineer assign to minimize wasting addresses?
+A. 10.10.225.48 255.255.255.240
+B. 10.10.225.32 255.255.255.240
+C. 10.10.225.48 255.255.255.224
+*D. 10.10.225.32 255.255.255.224
+
+25. A corporate office uses four floors in a building • Floor 1 has 24 users • Floor 2 has 29 users • Floor 3 has 28 users •Floor 4 has 22 users Which subnet summarizes and gives the most efficient distribution of IP addresses for the router configuration?
+A. 192.168.0.0/26 as summary and 192.168.0.0/29 for each floor
+B. 192.168.0.0.24 as summary and 192.168.0.0/28 for each floor
+C. 192.168.0.0/23 as summary and 192.168.0.0/25 for each floor
+*D. l92.168.0.0/25 as summary and 192.168.0.0/27 for each floor
+
+26. [Exhibit] Which command configures a floating static route to provide a backup to the primary link?
+A. ip route 0.0.0.0 0.0.0.0 209.165.202.131
+B. ip route 209.165.201.0 255.255.255.224 209.165.202.130
+C. ip route 0.0.0.0 0.0.0.0 209.165.200.224
+*D. ip route 209.165.200.224 255.255.255.224 209.165.202.129 254
+
+27. An office has 8 floors with approximately 30-40 users per floor What command must be configured on the router Switched Virtual Interface to use address space efficiently?
+*A. ip address 192.168.0.0 255.255.0.0
+B. ip address 192.168.0.0 255.255.254.0
+C. ip address 192.168.0.0 255.255.255.128
+D. ip address 192.168.0.0 255.255.255.224
+
+28. [Exhibit] Router R1 Fa0/0 is unable ping router R3 Fa0/1. Which action must be taken in router R1 to help resolve the configuration issue?
+A. set the default network as 20.20.20.0/24
+B. set the default gateway as 20.20.20.2
+C. configure a static route with Fa0/1 as the egress interface to reach the 20.20.20.0/24 network
+*D. configure a static route with 10.10.10.2 as the next hop to reach the 20.20.20.0/24 network
+
+29. An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to any of three addresses 192.168.30.1, 192.168.3.2, 192.168.3.3 Which configuration should be used?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+30. A packet is destined for 10.10.1.22. Which static route does the router choose to forward the packet?
+A. ip route 10.10.1.0 255.255.255.240 10.10.255.1
+B. ip route 10.10.1.16 255.255.255.252 10.10.255.1
+*C. ip route 10.10.1.20 255.255.255.252 10.10.255.1
+D. ip route 10.10.1.20 255.255.255.254 10.10.255.1
+
+31. A network engineer must configure two new subnets using the address block 10 70 128 0/19 to meet these requirements: • The first subnet must support 24 hosts • The second subnet must support 472 hosts • Both subnets must use the longest subnet mask possible from the address block Which two configurations must be used to configure the new subnets and meet a requirement to use the first available address in each subnet for the router interfaces? (Choose two )
+A. interface vlan 1234ip address 10.70.159.1 255.255.254.0
+*B. interface vlan 1148ip address 10.70.148.1 255.255.254.0
+C. interface vlan 4722ip address 10.70.133.17 255.255.255.192
+*D. interface vlan 3002ip address 10.70.147.17 255.255.255.224
+E. interface vlan 155ip address 10.70.155.65 255.255.255.224
+
+32. [Exhibit] An IP subnet must be configured on each router that provides enough addresses for the number of assigned hosts and anticipates no more than 10% growth for now hosts. Which configuration script must be used? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+33. [Exhibit] A static route must be configured on R14 to forward traffic for the 172 21 34 0/25 network that resides on R86 Which command must be used to fulfill the request?
+A. ip route 172.21.34.0 255.255.255.192 10.73.65.65
+B. ip route 172.21.34.0 255.255.255.0 10.73.65.65
+C. ip route 172.21.34.0 255.255.128.0 10.73.65.64
+*D. ip route 172.21.34.0 255.255.255.128 10.73.65.66
+
+34. An engineer is configuring remote access to a router from IP subnet 10.139.58.0/28. The domain name, crypto keys, and SSH have been configured. Which configuration enables the traffic on the destination router? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+35. [Exhibit] Routers R1 and R3 have the default configuration The router R2 priority is set to 99 Which commands on R3 configure it as the DR in the 10.0 4.0/24 network?
+A. R3(config)#interface Gig0/1 R3(config-if)#ip ospf priority 100
+*B. R3(config)#interface Gig0/0 R3(config-if)#ip ospf priority 100
+C. R3(config)#interface Gig0/0 R3(config-if)i=ip ospf priority 1
+D. R3(config)#interface Gig0/1 R3(config-if)#ip ospf priority 0
+
+36. [Exhibit] The router has been configured with a supernet to accommodate the requirement for 380 users on a subnet The requirement already considers 30% future growth. Which configuration verifies the IP subnet on router R4? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+37. [Exhibit] An engineer is updating the R1 configuration to connect a new server to the management network. The PCs on the management network must be blocked from pinging the default gateway of the new server. Which command must be configured on R1 to complete the task?
+A. R1(config)#lp route 172.16.2.2 255.255.255.248 gi0/1
+B. R1(config)#jp route 172.16.2.2 255.255.255.255 gi0/0
+*C. R1(config>#ip route 172.16.2.0 255.255.255.0 192.168.1.15
+D. R1(conflg)#ip route 172.16.2.0 255.255.255.0 192.168.1.5
+
+38. OSPF must be configured between routers R1 and R2. Which OSPF configuration must be applied to router R1 to avoid a DR/BDR election?
+A. router ospf 1network 192.168.1.1 0.0.0.0 area 0interface e1/1ip address 192.168.1.1 255.255.255.252ip ospf network broadcast
+*B. router ospf 1network 192.168.1.1 0.0.0.0 area 0interface e1/1ip address 192.168.1.1 255.255.255.252ip ospf network point-to-point
+C. router ospf 1network 192.168.1.1 0.0.0.0 area 0interface e1/1ip address 192.168.1.1 255.255.255.252ip ospf cost 0
+D. router ospf 1network 192.168.1.1 0.0.0.0 area 0hello interval 15interface e1/1Ip address 192.168.1.1 255.255.255.252
+
+39. [Exhibit] R1 learns all routes via OSPF Which command configures a backup static route on R1 to reach the 192 168.20.0/24 network via R3?
+A. R1(config)#ip route 192.168.20.0 255.255.0.0 192.168.30.2
+B. R1(config)#ip route 192.168.20.0 255.255.255.0 192.168.30.2 90
+*C. R1(config)#ip route 192.168.20.0 255.255.255.0 192.168.30.2 111
+D. R1(config)#ip route 192.168.20.0 255.255.255.0 192.168.30.2
+
+40. [Exhibit] Which route must be configured on R1 so that OSPF routing is used when OSPF is up. but the server is still reachable when OSPF goes down?
+A. ip route 10.1.1.10 255.255.255.255 172.16.2.2 100
+B. ip route 10.1.1.0 255.255.255.0 gi0/1 125
+C. ip route 10.1.1.0 255.255.255.0 172.16.2.2 100
+*D. ip route 10.1.1.10 255.255.255.255 gi0/0 125
+
+41. [Exhibit] An engineer just installed network 10.120.10.0/24. Which configuration must be applied to the R14 router to add the new network to its OSPF routing table?
+A. router ospf 100network 10.120.10.0 255.255.255.0 area 0
+*B. router ospf 120network 10.120.10.0 255.255.255.0 area 0ip route 10.120.10.0 255.255.255.0 fa0/1
+C. router ospf 100 area 0network 10.120.10.0 0.0.0.255
+
+42. [Exhibit] An engineer must configure a floating static route on an external EIGRP network. The destination subnet is the /29 on the LAN Interface of R86. Which command must be executed on R14?
+A. ip route 10.80.65.0.255.255.248.0.10.73.65.66.1
+B. ip route 10.80.65.0.255.255.255..240 fa0/1 89
+*C. ip route 10.80.65.0.255.255.248.0.10.73.65.66.171
+D. ip route 10.80.65.0.0.0.224.10.80.65.0. 255
+
+43. [Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subnet to the WAN on interlace Seria10. What is the effect of the configuration as the administrator applies the command?
+A. The permit command fails and returns an error code.
+B. The router accepts all incoming traffic to Seria10 with the last octet of the source IP set to 0.
+*C. The sourced traffic from IP range 10.0.0.0 -10.0.0.255 is allowed on Seria10.
+D. The router fails to apply the access list to the interface.
+
+44. [Exhibit] A network engineer is updating the configuration on router R1 to connect a new branch office to the company network R2 has been configured correctly. Which command must the engineer configure so that devices at the new site communicate with the main office?
+A. ip route 172.25.25 0 255 255 255.0 192.168.2.1
+B. ip route 172.25.25 1 255 255 255 255 g0/1
+*C. ip route 172.25.25.0.255.255.255.0.192.168.2.2
+
+45. In which circumstance would a network architect decide to implement a global unicast subnet instead of a unique local unicast subnet?
+A. when the subnet must be available only within an organization
+B. when the subnet does not need to be routable
+C. when the addresses on the subnet must be equivalent to private IPv4 addresses
+*D. when the subnet must be routable over the internet
+
+46. [Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing protocol. A network engineer must configure R1 with a floating static route to serve as a backup route to network 192.168.23.0. Which command must the engineer configure on R1?
+A. ip route 192.168.23.0 255.255.255.255 192.168.13.3 121
+B. ip route 192.168.23.0 255.255.255.0 192.168.13.3 100
+*C. ip route 192.168.23.0 265.255.255.0 192.168.13.3 121
+D. ip route 192.168.23.0 255.255.255.0 192.168.13.3
+
+47. [Exhibit] How does router R1 handle traffic to the 172.16.1.4/30 subnet?
+A. It sends all traffic over the path via 172.16.9.5 using 172.16.4.4 as a backup.
+B. It sends all traffic over the path via 10.0.1.100.
+*C. It load-balances traffic over 172.16.9.5 and 172.16.4.4.
+D. It sends all traffic over the path via 172.16.4.4.
+
+48. [Exhibit] What is the subnet mask for route 172.16.4.0?
+*A. 255.255.248.0
+B. 255.255.254.0
+C. 255.255.255.192
+D. 255.255.240.0
+
+49. [Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its next hop. An network engineer wants to update the R1 configuration so that traffic with destination 10.10.2.1 passes through router R3, and all other traffic to the 10.10.20/24 subnet passes through r2. Which command must be used?
+A. Ip route 10.10.2.1 255.255.255.255 192.168.1.4 115
+B. Ip route 10.10.2.0 255.255.255.0 192.168.1.4 100
+C. Ip route 10.10.2.0 255.255.255.0 192.168.1.4 115
+*D. Ip route 10.10.2.1 255.255.255.255 192.168.1.4 100
+
+50. A HCP pool has been created with the name CONTROL. The pool uses the next to last usable IP address as the default gateway for the DHCP clients. The server is located at 172.16 32.15. What is the step in the process for clients on the 192.168.52.0/24 subnet to reach the DHCP server?
+A. ip forward-protocol udp 137
+B. ip default-network 192.168.52.253
+*C. ip helper-address 172.16.32.15
+D. ip default-gateway 192.168.52.253
+
+51. [Exhibit] The My_WLAN wireless LAN was configured with WPA2 Layer 2 PSK security. Which additional configuration must the administrator perform to allow users to connect to this WKAN on a different subnet called Data?
+A. Enable Broadcast SSID and select data from the Interface/Interface Group drop-down list.
+*B. Enable Status and select data from the Interface/Interface Group drop-down list.
+C. Enable Status and set the NAS-ID to data.
+D. Enable Status and enable Broadcast SSID.
+
+52. [Exhibit] What is the subnet mask of the route to the 10.10.13.160 prefix?
+A. 255.255.255.240
+B. 255.255.255.128
+C. 255.255.248.
+*D. 255.255.255.248
+
+53. [Exhibit] A packet sourced from 172.16.32 254 is destined for 172.16.32.8. What is the subnet mask of the preferred destination route?
+A. 255.255.224.0
+B. 255.255.255.0
+*C. 255.255.255.192
+D. 255.255.255.252
+
+54. The address block 192.168.32.0/24 must be subnetted into smaller networks. The engineer must meet these requirements: Create 8 new subnets Each subnet must accommodate 30 hosts Interface VLAN 10 must use the last usable IP in the first new subnet. A Layer 3 interface is used. Which configuration must be applied to the interface?
+*A. no switchportip address 192.168.32.30 255.255.255.224
+B. no switchport mode trunkip address 192.168.32.97 255.255.255.224
+C. no switchport mode accessip address 192.168.32.62 255.255.255.240
+D. switchportip address 192.168.32.65 255.255.255.240
+
+55. An engineer is installing a new wireless printer with a static IP address on the Wi-Fi network. Which feature must be enabled and configured to prevent connection issues with the printer?
+A. client exclusion
+B. passive client
+*C. DHCP address assignment
+D. static IP tunneling
+
+56. [Exhibit] A newly configured PC fails to connect to the internet using TCP port 80 to www cisco com Which setting must be modified for the connection to work?
+A. Subnet Mask
+*B. DNS Servers
+C. Default Gateway
+D. DHCP Server
+
+57. What is the purpose of using First Hop Redundancy Protocol on a specific subnet?
+A. ensures a loop-free physical topology
+B. filters traffic based on destination IP addressing
+C. sends the default route to the hosts on a network
+*D. forwards multicast hello messages between routers
+
+58. [Exhibit] Router R14 is in the process of being configured. Which configuration must be used to establish a host route to PC 10?
+A. ip route 10.80.65.10 255.255.255.254 10.80.65.1
+*B. ip route 10.8065.10 255.255.255.255 10.73.65.66
+C. ip route 1073.65.65 255.0.0.0 10.80.65.10
+D. ip route 10.73.65.66 0.0.0.255 10.80.65.10
+
+59. [Exhibit] Which IP route command created the best path for a packet destined for 10.10.10.3?
+A. ip route 10.10.0.0 255.255.252.0 g0/0
+B. ip route 10.0.0.0 255.0.0.0 g0/0
+C. ip route 10.10.10.1 255.255.255.255 g0/0
+*D. ip route 10.10.10.0 255.255.255.240 g0/0
+
+60. [Exhibit] A packet sourced from 10.10.10.1 is destined for 10.10.8.14. What is the subnet mask of the destination route?
+A. 255.255.254.0
+*B. 255.255.255.240
+C. 255.255.255.248
+D. 255.255.255.252
+
+61. What are two features of the DHCP relay agent? (Choose two.)
+A. assigns DNS locally and then forwards request to DHCP server
+*B. permits one IP helper command under an individual Layer 3 interface
+C. allows only MAC-to-IP reservations to determine the local subnet of a client
+D. minimizes the necessary number of DHCP servers
+*E. configured under the Layer 3 interface of a router on the client subnet
+
+62. [Exhibit] A packet sourced from 172.16.32.254 is destined for 172.16.32.8. What is the subnet mask of the preferred destination route?
+A. 255.255.224.0
+B. 255.255.255.0
+*C. 255.255.255.192
+D. 255.255.255.252
+
+63. [Exhibit] What does route 10.0.1.3/32 represent in the routing table?
+*A. the 10.0.0.0 network
+B. a single destination address
+C. the source 10.0.1.100
+D. all hosts in the 10.0.1.0 subnet
+
+64. [Exhibit] How does router R1 handle traffic to the 172.16.1.4/30 subnet?
+A. It sends all traffic over the path via 172.16.9.5 using 172.16.4.4 as a backup.
+B. It sends all traffic over the path via 172.16.4.4.
+*C. It load-balances traffic over 172.16.9.5 and 172.16.4.4.
+D. It sends all traffic over the path via 10.0.1.100
+
+65. [Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing protocol. A network engineer must configure R1 with a floating static route to serve as a backup route to network 192.168.23. Which command must the engineer configure on R1?
+A. ip route 192.168.23.0 255.255.255.0 192.168.13.3 100
+*B. ip route 192.168.23.0 255.255.255.0 192.168.13.3 121
+C. ip route 192.168.23.0 255.255.255.255 192.168.13.3 121
+D. ip route 192.168.23.0 255.255.255.0 192.168.13.3
+
+66. Which type of address is shared by routers in a HSRP implementation and used by hosts on the subnet as their default gateway address?
+A. multicast address
+B. loopback IP address
+*C. virtual IP address
+D. broadcast address
+
+67. [Exhibit] Router R1 is added to the network and configured with the 10.0.0.64/26 and 10.0.20.0/24 subnets. However, traffic destined for the LAN on R3 is not accessible. Which command when executed on R1 defines a static route to reach the R3 LAN?
+*A. ip route 10.0.15.0 255.255.255.0 10.0.20.3
+B. ip route 10.0.15.0 255.255.255.0 10.0.20.1
+C. ip route 10.0.0.64 255.255.255.192 10.0.20.3
+D. ip route 10.0.15.0 255.255.255.192 10.0.20.1
+
+68. [Exhibit] The image server and client A are running an application that transfers an extremely high volume of data between the two. An engineer is configuring a dedicated circuit between R1 and R2. Which set of commands must the engineer apply to the routers so that only traffic between the image server and client A is forces to use the new circuit?
+A. R1(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.6R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.5
+B. R1(config)#ip route 10.10.13.10 255.255.255.128 10.10.10.6R2(config)#lp route 192.168.0.100 255.255.255.0 10.10.10.5
+C. R1(config)#ip route 10.10.13.10 255.255.255.252 10.10.10.6R2(config)#tp route 192.168.0.100 255.255.255.252 10.10.10.5
+*D. R1(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.2R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.1
+
+69. [Exhibit] The router R1 is in the process of being configured. Routers R2 and R3 are configured correctly for the new environment. Which two commands must be configured on R1 for PC1 to communicate to all PCs on the 10.10.10.0/24 network? (Choose two.)
+*A. ip route 10.10.10.0 255.255.255.0 192.168.2.3
+B. ip route 10.10.10.10 255.255.255.255 192.168.2.2
+C. ip route 10.10.10.10 255.255.255.255 g0/1
+D. ip route 10.10.10.8 255.255.255.248 g0/1
+*E. ip route 10.10.10.0 255.255.255.248 192.168.2.2
+
+70. [Exhibit] A network engineer must configure router R1 with a host route to the server. Which command must the engineer configure?
+A. R1(conftg)#lp route 10.10.10.0 255.255.255.0 192.168.0.2
+*B. R1(Config)#lp route 10.10.10.10 265.255.255.255 192 168.0.2
+C. R1(config)#ip route 192.168.0.2 255.255.255.255 10.10.10.10
+D. R1(config)3|p route 0.0.0.0 0.0 0.0 192 168.0.2
+
+71. [Exhibit] An engineer assigns IP addressing to the current VLAN with three PCs. The configuration must also account for the expansion of 30 additional VLANS using the same Class C subnet for subnetting and host count. Which command set fulfills the request while reserving address space for the expected growth?
+A. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 265 255.255.252
+*B. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255 255.255.248
+C. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255 255.255.0
+D. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255.255.255.128
+
+72. [Exhibit] What is the subnet mask of the route to the 10.10.13.160 prefix?
+A. 255.255.255.240
+B. 255.255.255.128
+*C. 255.255.255.248
+D. 255.255.248.0
+
+73. A network engineer must configure an access list on a new Cisco IOS router. The access list must deny HTTP traffic to network 10.125.128.32/27 from the 192.168.240.0/20 network, but it must allow the 192.168.240.0/20 network to reach the rest of the 10.0.0.0/8 network. Which configuration must the engineer apply? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+74. [Exhibit] A network engineer must configure R1 so that it sends all packets destined to the 10.0.0.0/24 network to R3, and all packets destined to PCI to R2. Which configuration must the engineer implement? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+75. [Exhibit] Each router must be configured with the last usable IP address in the subnet. Which configuration fulfills this requirement?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+76. The clients and OHCP server reside on different subnets. Which command must be used to forward requests and replies between clients on the 10.10.0.1/24 subnet and the DHCP server at 192.168.10.1?
+A. ip route 192.168.10.1
+B. ip default-gateway 192.168.10.1
+*C. ip helper-address 192.168.10.1
+D. ip dhcp address 192.168.10.1
+
+77. [Exhibit] Router R1 must be configured to reach the 10.0.3.0/24 network from the 10.0.1.0/24 segment. Which command must be used to configure the route?
+A. ip route 10.0.3.0 0.255255.255 10.0.4.2
+B. route add 10.0.3.0 mask 255.255.255.0 10.0.4.3
+*C. Ip route 10.0.3.0 255.255.255.0 10.0.4.3
+D. route add 10.0.3.0 0.255.255.255 10.0.4.2
+
+78. [Exhibit] A network engineer must provide configured IP addressing details to investigate a firewall rule Issue. Which subnet and mask Identify what is configured on the en0 interface?
+A. 10.8.0.0/16
+B. 10.8.64.0/18
+C. 10.8.128.0/19
+*D. 10.8.138.0/24
+
+79. A network engineer must configure an interface with IP address 10.10.10.145 and a subnet mask equivalent to 11111111.11111111.11111111.11111000. Which subnet mask must the engineer use?
+*A. /29
+B. /30
+C. /27
+D. /28
+
+80. [Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its next hop. A network engineer wants to update the R1 configuration so that traffic with destination 10.10.2.1 passes through router R3, and all other traffic to the 10.10.2.0/24 subnet passes through R2. Which command must be used?
+A. ip route 10.10.2.0 255.255.255.0 192.168.1.4 100
+B. ip route 10.10.2.0 255.255.255.0 192.168.1.4 115
+C. ip route 10.10.2.1 255.255.255.255 192.168.1.4 100
+*D. ip route 10.10.2.1 255.255.255.255 192.168.1.4 115
+
+81. [Exhibit] What does route 10.0.1.3/32 represent in the routing table?
+*A. a single destination address
+B. the source 10.0.1.100
+C. all hosts in the 10.0.1.0 subnet
+D. the 10.0.0.0 network
+
+82. [Exhibit] What is the subnet mask for route 172.16.4.0?
+A. 255.255.255.192
+B. 255.255.254.0
+C. 255.255.240.0
+*D. 255.255.248.0
+
+83. A DHCP pool has been created with the name NOCC. The pool is using 192.168.20.0/24 and must use the next to last usable IP address as the default gateway for the DHCP clients. What is the next step in the process?
+*A. default-router192.168.20.253
+B. network 192.168.20.254 255.255.255.0 secondary
+C. ip default-gateway 0.0.0.0 0.0.0.0 192.168.20.253
+D. next-server 192.168.20.254
+
+84. [Exhibit] The router has been configured with a subnet to accommodate the requirement for 380 users on a subnet. The requirement already considers 30% future growth. Which configuration verifies the IP subnet on router R4?
+A. Subnet: 10.7.54.0Subnet mask: 255.255.254.0Broadcast address: 10.7.54.255Usable IP address range: 10.7.54.1 - 10.7.55.254
+B. Subnet: 10.7.54.0Subnet mask: 255.255.128.0Broadcast address: 10.7.55.255Usable IP address range: 10.7.54.1 - 10.7.55.254
+C. Subnet: 10.7.54.0Subnet mask: 255.255.255.0Broadcast address: 10.7.54.255Usable IP address range: 10.7.54.1 - 10.7.55.254
+*D. Subnet: 10.7.54.0Subnet mask: 255.255.254.0Broadcast address: 10.7.55.255Usable IP address range: 10.7.54.1 - 10.7.55.254
+
+85. What are two reasons to implement DHCP in a network? (Choose two.)
+A. reduce administration time in managing IP address ranges for clients
+B. control the length of time an IP address is used by a network device
+C. manually control and configure IP addresses on network devices
+*D. dynamic control over the best path to reach an IP address
+*E. access a website by name instead of by IP address
+
+86. The address block 192 168 32 0/24 must be subnetted into smaller networks The engineer must meet these requirements • Create 8 new subnets • Each subnet must accommodate 30 hosts • Interface VLAN 10 must use the last usable IP in the first new subnet • A Layer 3 interface is used Which configuration must be applied to the interface? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+87. Why would VRRP be implemented when configuring a new subnet in a multivendor environment?
+*A. when a gateway protocol is required that support more than two Cisco devices for redundancy
+B. to enable normal operations to continue after a member failure without requiring a change In a host ARP cache
+C. to ensure that the spanning-tree forwarding path to the gateway is loop-free
+D. to interoperate normally with all vendors and provide additional security features for Cisco devices
+
+88. [Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10.0/24 network on VLAN 20. The engineer wants to limit the number of devices that connect to the WLAN on the USERWL SSID to 125. Which configuration must the engineer perform on the WLC?
+A. In the Management Software activation configuration, set the Clients value to 125.
+B. In the Controller IPv6 configuration, set the Throttle value to 125.
+*C. In the WLAN configuration, set the Maximum Allowed Clients value to 125.
+D. In the Advanced configuration, set the DTIM value to 125.
+
+89. What is a difference between an IPv6 multicast address and an IPv6 anycast address?
+*A. A packet sent to an IPv6 multicast address is delivered to one or more destinations at once, but a packet sent to an IPv6 anycast address is routed to the closest interface with that address.
+B. An IPv6 multicast address uses the prefix 2002::/15 and forwards to one destination, and an IPv6 anycast address uses the prefix ff00::/8 and forwards to any destination in a group.
+C. IPv6 multicast addresses are used to transition from IPv4 to IPv6, and IPv6 anycast addresses are used for address aggregation in an IPv6-only environment.
+D. An IPv6 multicast address is assigned to numerous interfaces within a subnet, but an IPv6 anycast address is used for a predefined group of nodes in an all-IPv6 routers group.
+
+90. [Exhibit] Routers R1 and R2 have been configured with their respective LAN interfaces. The two circuits are operational and reachable across the WAN. Which command set establishes failover redundancy if the primary circuit goes down?
+*A. Ri(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.62R2(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.5 2
+B. Ri(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.6R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.5
+C. Ri(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.6R2(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.5
+D. Ri(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.2R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.1
+
+91. [Exhibit] A network engineer must configure the CPE router to allow computers in the 172.20.1.0/24 network to obtain their IP configurations from the central DHCP server. Which configuration must the engineer apply to the CPE?
+*A. interface GigabitEthernet0/1ip helper-address 172.20.254.1
+B. interface GigabitEthernet0/0ip helper-address 172.20.1.1
+C. interface GigabitEthernet0/0ip helper-address 172.20.255.1
+D. interface GigabitEthernet0/ip helper-address 172.20.255.11
+
+92. [Exhibit] During initial configuration testing, the Windows workstation PC1 cannot connect with the 172.16.2.0/24 network. Which set of actions corrects the configuration?
+A. Change the IP address to 172.16.1.6 and change the subnet mask to 255.255.255.248.
+*B. Change the IP address to 172.16.1.9 and change the default gateway to 172.16.1.7.
+C. Change the IP address to 172.16.1.9 and change the DNS server to 172.16.1.12 only.
+D. Change the IP address to 172.16.1.6 and change the DNS servers to 172.18.1.12 and 172.16.1.13.
+
+93. [Exhibit] A packet sourced from 10.10.10.1 is destined for 172.16.3.254. What is the subnet mask of the destination route?
+*A. 0.0.0.0
+B. 255.255.254.0
+C. 255.255.255.0
+D. 255.255.255.255
+
+94. An engineer must update the configuration on two PCs in two different subnets to communicate locally with each other. One PC is configured with IP address 192.168.25.128/25 and the other with 192.168.25.100/25. Which network mask must the engineer configure on both PCs to enable the communication?
+A. 255.255.255.224
+B. 255.255.255.248
+*C. 255.255.255.0
+D. 255.255.255.252
+
+95. What is a similarity between global and unique local IPv6 addresses?
+A. They are allocated by the same organization.
+B. They are routable on the global internet.
+*C. They use the same process for subnetting.
+D. They are part of the multicast IPv6 group type.
+
+96. [Exhibit] A static route must be configured on R14 to forward traffic for the 172.21.34.0/25 network that resides on R86. Which command must be used to fulfill the request?
+A. ip route 172.21.34.0 255.255.255.192 10.73.65.65
+B. ip route 172.21.34.0 255.255.255.0 10.73.65.65
+*C. ip route 172.21.34.0 255.255.255.128 10.73.65.66
+D. ip route 172.21.34.0 255.255.128.0 10.73.65.64
+
+97. [Exhibit] Inter-VLAN routing is configured on SW1. Client A is running Linux as an OS in VLAN 10 with a default gateway IP 10.0.0.1 but cannot ping client B in VLAN 20 running Windows. What action must be taken to verify that client A has the correct IP settings?
+A. Run the ipconfig command on client A and ensure that the IP address is within the host range of 10.0.0.1 - 10.0.255.254.
+*B. Run the ifconfig command on client A to confirm that its IP and subnet mask fall within 255.254.0.0.
+C. Run the ipconfig command on client A to confirm that the correct 10.0.0.1 default gateway is used.
+D. Run the ifconfig command on client A to confirm that the subnet mask is set to 255.255.128.0.
+
+98. [Exhibit] Which interface does a packet take to reach the host address of 192.168.18.16?
+*A. GigabitEthernet1/0
+B. GigabitEthernet0/0
+C. GigabitEthernet2/0
+D. Null0
+
+99. [Exhibit] Configurations for the switch and PCs are complete. Which configuration must be applied so that VLANs 2 and 3 communicate back and forth?
+A. interface GigabitEthernet0/0 ip address 10.10.2.10 255.255.252.0
+*B. interface GigabitEthernet0/0.3 encapsulation dot1Q 3 native ip address 10.10.2.10 255.255.252.0
+C. interface GigabitEthernet0/0.10 encapsulation dot1Q 3
+D. interface GigabitEthernet0/0.3 encapsulation dot1Q 10 ip address 10.10.2.10 255.255.252.0
+
+100. [Exhibit] During initial configuration testing, the Windows workstation PC1 cannot connect with the 172.16.2.0/24 network. Which set of actions corrects the configuration?
+*A. Change the IP address to 172.16.1.6 and change the subnet mask to 255.255.255.248.
+B. Change the IP address to 172.16.1.6 and change the DNS servers to 172.16.1.12 and 172.16.1.13.
+C. Change the IP address to 172.16.1.9 and change the default gateway to 172.16.1.7.
+D. Change the IP address to 172.16.1.9 and change the DNS server to 172.16.1.12 only.
+
+101. [Exhibit] A secondary route is required on router R1 to pass traffic to the LAN network on R2 if the primary link fails. Which command must be entered to configure the router?
+A. ip route 10.0.2.0 255.255.255.240 10.0.0.6 91
+*B. ip route 10.0.2.0 255.255.255.248 10.0.0.6 91
+C. ip route 10.0.2.0 255.255.255.248 null0 93
+D. ip route 10.0.2.0 255.255.255.240 10.0.0.7 92
+
+102. [Exhibit] A secondary route is required on router R1 to pass traffic to the LAN network on R2 if the primary link fails. Which command must be entered to configure the router?
+A. ip route 10.0.2.0 255.255.255.240 10.0.0.7 92
+*B. ip route 10.0.2.0 255.255.255.248 10.0.0.6 91
+C. ip route 10.0.2.0 256.255.255.240 10.0.0.6 91
+D. ip route 10.0.2.0 255.255.255.248 null0 93
+

@@ -1,0 +1,583 @@
+{
+  "protocol": "stp",
+  "groups": [
+    {
+      "group_id": "stp_q1",
+      "concept": "How does Rapid PVST+ create a fast loop-free network topology?",
+      "question_ids": [
+        "stp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q2",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "stp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q3",
+      "concept": "Which type of traffic is sent with pure iPsec?",
+      "question_ids": [
+        "stp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q4",
+      "concept": "[Exhibit] Only four switches are participating in the VLAN spanning-tree process...",
+      "question_ids": [
+        "stp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q5",
+      "concept": "What are two recommendations for protecting network ports from being exploited w...",
+      "question_ids": [
+        "stp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q6",
+      "concept": "When using Rapid PVST+, which command guarantees the switch is always the root b...",
+      "question_ids": [
+        "stp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q7",
+      "concept": "[Exhibit] After the election process what is the root bridge in the HQ LAN?",
+      "question_ids": [
+        "stp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q8",
+      "concept": "Which command on a port enters the forwarding state immediately when a PC is con...",
+      "question_ids": [
+        "stp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q9",
+      "concept": "[Exhibit] What two conclusions should be made about this configuration? (Choose ...",
+      "question_ids": [
+        "stp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q10",
+      "concept": "[Exhibit] Which switch in this configuration will be elected as the root bridge?",
+      "question_ids": [
+        "stp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q11",
+      "concept": "Which configuration ensures that the switch is always the root for VLAN 750?",
+      "question_ids": [
+        "stp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q12",
+      "concept": "Aside from discarding, which two states does the switch port transition through ...",
+      "question_ids": [
+        "stp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q13",
+      "concept": "Which command entered on a switch configured with Rapid PVST\\* listens and learn...",
+      "question_ids": [
+        "stp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q14",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "stp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q15",
+      "concept": "Which command on a port enters the forwarding state immediately when a PC is con...",
+      "question_ids": [
+        "stp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q16",
+      "concept": "[Exhibit] Which switch becomes the root of the spanning tree for VLAN 110?",
+      "question_ids": [
+        "stp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q17",
+      "concept": "What is a benefit of VRRP?",
+      "question_ids": [
+        "stp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q18",
+      "concept": "Which switch technology establishes a network connection immediately when it is ...",
+      "question_ids": [
+        "stp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q19",
+      "concept": "Aside from discarding, which two states does the switch port transition through ...",
+      "question_ids": [
+        "stp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q20",
+      "concept": "Which spanning-tree enhancement avoids the learning and listening states and imm...",
+      "question_ids": [
+        "stp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q21",
+      "concept": "When using Rapid PVST+, which command guarantees the switch is always the root b...",
+      "question_ids": [
+        "stp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q22",
+      "concept": "[Exhibit] What is the result if Gig1/11 receives an STP BPDU?",
+      "question_ids": [
+        "stp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q23",
+      "concept": "What is the primary effect of the spanning-tree portfast command?",
+      "question_ids": [
+        "stp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q24",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "stp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q25",
+      "concept": "[Exhibit] What two conclusions should be made about this configuration? (Choose ...",
+      "question_ids": [
+        "stp_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q26",
+      "concept": "Which command entered on a switch configured with Rapid PVST* listens and learns...",
+      "question_ids": [
+        "stp_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q27",
+      "concept": "[Exhibit] Which switch in this configuration will be elected as the root bridge?",
+      "question_ids": [
+        "stp_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q28",
+      "concept": "Which configuration ensures that the switch is always the root for VLAN 750?",
+      "question_ids": [
+        "stp_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q29",
+      "concept": "What criteria is used first during the root port selection process?",
+      "question_ids": [
+        "stp_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q30",
+      "concept": "What criteria is used first during me root port selection process?",
+      "question_ids": [
+        "stp_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q31",
+      "concept": "[Exhibit] Which switch becomes the root bridge?",
+      "question_ids": [
+        "stp_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q32",
+      "concept": "[Exhibit] After the election process what is the root bridge in the HQ LAN?",
+      "question_ids": [
+        "stp_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q33",
+      "concept": "What are two recommendations for protecting network ports from being exploited w...",
+      "question_ids": [
+        "stp_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q34",
+      "concept": "[Exhibit] Only four switches are participating in the VLAN spanning-tree process...",
+      "question_ids": [
+        "stp_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q35",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "stp_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q36",
+      "concept": "Which result occurs when PortFast is enabled on an interface that is connected t...",
+      "question_ids": [
+        "stp_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q37",
+      "concept": "Which type of traffic is sent with pure iPsec?",
+      "question_ids": [
+        "stp_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q38",
+      "concept": "What is the benefit of configuring PortFast on an interface?",
+      "question_ids": [
+        "stp_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q39",
+      "concept": "What prevents a workstation from receiving a DHCP address?",
+      "question_ids": [
+        "stp_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q40",
+      "concept": "Which port type supports the spanning-tree portfast command without additional c...",
+      "question_ids": [
+        "stp_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q41",
+      "concept": "What are two benefits of using the PortFast feature? (Choose two )",
+      "question_ids": [
+        "stp_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q42",
+      "concept": "What is a characteristic of spine-and-leaf architecture?",
+      "question_ids": [
+        "stp_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q43",
+      "concept": "How does Rapid PVST+ create a fast loop-free network topology?",
+      "question_ids": [
+        "stp_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q44",
+      "concept": "[Exhibit] Which switch becomes the root of a spanning tree for VLAN 20 if all li...",
+      "question_ids": [
+        "stp_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q45",
+      "concept": "Which two spanning-tree states are bypassed on an interface running PortFast? (C...",
+      "question_ids": [
+        "stp_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q46",
+      "concept": "What are two reasons a switch experiences frame flooding? (Choose two.)",
+      "question_ids": [
+        "stp_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q47",
+      "concept": "Which protocol does a REST API use to communicate?",
+      "question_ids": [
+        "stp_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q48",
+      "concept": "What does the implementation of a first-hop redundancy protocol protect against ...",
+      "question_ids": [
+        "stp_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q49",
+      "concept": "What is the role of the root port in a switched network?",
+      "question_ids": [
+        "stp_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q50",
+      "concept": "Exhibit. The switches are connected via a Cat5 Ethernet cable that was successfu...",
+      "question_ids": [
+        "stp_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q51",
+      "concept": "[Exhibit] Rapid PVST+ mode is on the same VLAN on each switch. Which switch beco...",
+      "question_ids": [
+        "stp_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q52",
+      "concept": "What are two reasons lo configure PortFast on a switch port attached to an end h...",
+      "question_ids": [
+        "stp_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q53",
+      "concept": "Which Rapid PVST+ feature should be configured on a switch port to immediately s...",
+      "question_ids": [
+        "stp_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q54",
+      "concept": "PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not lis...",
+      "question_ids": [
+        "stp_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q55",
+      "concept": "[Exhibit] Given the following switch MAC addresses, which switch will be elected...",
+      "question_ids": [
+        "stp_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q56",
+      "concept": "[Exhibit] Which action must be taken so that neighbofing devices rapidly discove...",
+      "question_ids": [
+        "stp_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q57",
+      "concept": "What is the operating mode and role of a backup port on a shared LAN segment in ...",
+      "question_ids": [
+        "stp_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q58",
+      "concept": "[Exhibit] Which switch becomes the root bridge? A) B) C) D)",
+      "question_ids": [
+        "stp_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q59",
+      "concept": "How do UTP and STP cables compare?",
+      "question_ids": [
+        "stp_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q60",
+      "concept": "Which command do you enter so that a switch configured with Rapid PVST + listens...",
+      "question_ids": [
+        "stp_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q61",
+      "concept": "[Exhibit] What are two conclusions about this configuration? {Choose two.)",
+      "question_ids": [
+        "stp_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q62",
+      "concept": "[Exhibit] All interfaces are in the same VLAN. All switches are configured with ...",
+      "question_ids": [
+        "stp_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q63",
+      "concept": "Why would VRRP be implemented when configuring a new subnet in a multivendor env...",
+      "question_ids": [
+        "stp_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "stp_q64",
+      "concept": "[Exhibit] What is the cause of the issue?",
+      "question_ids": [
+        "stp_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 64,
+  "total_questions": 64
+}

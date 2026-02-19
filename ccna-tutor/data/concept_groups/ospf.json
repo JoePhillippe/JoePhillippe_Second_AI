@@ -1,0 +1,718 @@
+{
+  "protocol": "ospf",
+  "groups": [
+    {
+      "group_id": "ospf_q1",
+      "concept": "[Exhibit] An engineer assumes a configuration task from a peer Router A must est...",
+      "question_ids": [
+        "ospf_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q2",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "ospf_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q3",
+      "concept": "[Exhibit] Which configuration allows routers R14 and R86 to form an OSPFv2 adjac...",
+      "question_ids": [
+        "ospf_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q4",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "ospf_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q5",
+      "concept": "A user configured OSPF in a single area between two routers A serial interface c...",
+      "question_ids": [
+        "ospf_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q6",
+      "concept": "An engineer must configure an OSPF neighbor relationship between router R1 and R...",
+      "question_ids": [
+        "ospf_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q7",
+      "concept": "When OSPF learns multiple paths to a network, how does it select a route?",
+      "question_ids": [
+        "ospf_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q8",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "ospf_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q9",
+      "concept": "A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF By ...",
+      "question_ids": [
+        "ospf_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q10",
+      "concept": "What is the effect when loopback interfaces and the configured router ID are abs...",
+      "question_ids": [
+        "ospf_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q11",
+      "concept": "[Exhibit] The show ip ospf interface command has been executed on R1 How is OSPF...",
+      "question_ids": [
+        "ospf_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q12",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "ospf_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q13",
+      "concept": "[Exhibit] Which configuration issue is preventing the OSPF neighbor relationship...",
+      "question_ids": [
+        "ospf_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q14",
+      "concept": "[Exhibit] What action establishes the OSPF neighbor relationship without forming...",
+      "question_ids": [
+        "ospf_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q15",
+      "concept": "[Exhibit] What does router R1 use as its OSPF router-ID?",
+      "question_ids": [
+        "ospf_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q16",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "ospf_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q17",
+      "concept": "Which two minimum parameters must be configured on an active interface to enable...",
+      "question_ids": [
+        "ospf_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q18",
+      "concept": "[Exhibit] If OSPF is running on this network, how does Router 2 handle traffic f...",
+      "question_ids": [
+        "ospf_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q19",
+      "concept": "[Exhibit] Router R4 is dynamically learning the path to the server. If R4 is con...",
+      "question_ids": [
+        "ospf_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q20",
+      "concept": "[Exhibit] If OSPF Is running on this network, how does Router2 handle traffic fr...",
+      "question_ids": [
+        "ospf_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q21",
+      "concept": "Which network action occurs within the data plane?",
+      "question_ids": [
+        "ospf_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q22",
+      "concept": "[Exhibit] R5 is the current DR on the network, and R4 is the BDR. Their interfac...",
+      "question_ids": [
+        "ospf_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q23",
+      "concept": "[Exhibit] A router reserved these five routes from different routing information...",
+      "question_ids": [
+        "ospf_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q24",
+      "concept": "[Exhibit] How does the router manage traffic to 192.168.12.16?",
+      "question_ids": [
+        "ospf_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q25",
+      "concept": "Which two minimum parameters must be configured on an active interface to enable...",
+      "question_ids": [
+        "ospf_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q26",
+      "concept": "What is the primary purpose of a First Hop Redundancy Protocol?",
+      "question_ids": [
+        "ospf_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q27",
+      "concept": "When OSPF learns multiple paths to a network, how does it select a route?",
+      "question_ids": [
+        "ospf_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q28",
+      "concept": "[Exhibit] What does router R1 use as its OSPF router-ID?",
+      "question_ids": [
+        "ospf_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q29",
+      "concept": "An engineer must configure an OSPF neighbor relationship between router R1 and R...",
+      "question_ids": [
+        "ospf_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q30",
+      "concept": "An engineer configured an OSPF neighbor as a designated router. Which state veri...",
+      "question_ids": [
+        "ospf_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q31",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "ospf_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q32",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS. OSPF, RIP. and Internal EIGRP Un...",
+      "question_ids": [
+        "ospf_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q33",
+      "concept": "[Exhibit] How does router R1 handle traffic to 192.168.10.16?",
+      "question_ids": [
+        "ospf_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q34",
+      "concept": "[Exhibit] If configuring a static default route on the router with the ip route ...",
+      "question_ids": [
+        "ospf_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q35",
+      "concept": "[Exhibit] The default-information originate command is configured under the R1 O...",
+      "question_ids": [
+        "ospf_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q36",
+      "concept": "[Exhibit] What action establishes the OSPF neighbor relationship without forming...",
+      "question_ids": [
+        "ospf_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q37",
+      "concept": "What is the effect when loopback interfaces and the configured router ID are abs...",
+      "question_ids": [
+        "ospf_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q38",
+      "concept": "[Exhibit] Router R2 is configured with multiple routes to reach network 10 1.1 0...",
+      "question_ids": [
+        "ospf_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q39",
+      "concept": "A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF By ...",
+      "question_ids": [
+        "ospf_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q40",
+      "concept": "[Exhibit] Which configuration issue is preventing the OSPF neighbor relationship...",
+      "question_ids": [
+        "ospf_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q41",
+      "concept": "Router A learns the same route from two different neighbors, one of the neighbor...",
+      "question_ids": [
+        "ospf_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q42",
+      "concept": "A user configured OSPF in a single area between two routers A serial interface c...",
+      "question_ids": [
+        "ospf_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q43",
+      "concept": "[Exhibit] The show ip ospf interface command has been executed on R1 How is OSPF...",
+      "question_ids": [
+        "ospf_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q44",
+      "concept": "[Exhibit] After the configuration is applied, the two routers fail to establish ...",
+      "question_ids": [
+        "ospf_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q45",
+      "concept": "[Exhibit] Which configuration allows routers R14 and R86 to form an OSPFv2 adjac...",
+      "question_ids": [
+        "ospf_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q46",
+      "concept": "[Exhibit] Which action must be taken to ensure that router A is elected as the D...",
+      "question_ids": [
+        "ospf_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q47",
+      "concept": "What is one reason to implement LAG on a Cisco WLC?",
+      "question_ids": [
+        "ospf_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q48",
+      "concept": "[Exhibit] Router R1 resides in OSPF Area 0. After updating the R1 configuration ...",
+      "question_ids": [
+        "ospf_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q49",
+      "concept": "[Exhibit] An engineer assumes a configuration task from a peer Router A must est...",
+      "question_ids": [
+        "ospf_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q50",
+      "concept": "[Exhibit] Routers R1 and R3 have the default configuration The router R2 priorit...",
+      "question_ids": [
+        "ospf_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q51",
+      "concept": "OSPF must be configured between routers R1 and R2. Which OSPF configuration must...",
+      "question_ids": [
+        "ospf_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q52",
+      "concept": "[Exhibit] R1 learns all routes via OSPF Which command configures a backup static...",
+      "question_ids": [
+        "ospf_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q53",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "ospf_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q54",
+      "concept": "[Exhibit] Which command configures OSPF on the point-to-point link between route...",
+      "question_ids": [
+        "ospf_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q55",
+      "concept": "[Exhibit] An OSPF neighbor relationship must be configured using these guideline...",
+      "question_ids": [
+        "ospf_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q56",
+      "concept": "[Exhibit] An engineer just installed network 10.120.10.0/24. Which configuration...",
+      "question_ids": [
+        "ospf_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q57",
+      "concept": "A router has two static routes to the same destination network under the same OS...",
+      "question_ids": [
+        "ospf_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q58",
+      "concept": "[Exhibit] How must OSPF be configured on the GigabitEthernet0/0 interface of the...",
+      "question_ids": [
+        "ospf_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q59",
+      "concept": "[Exhibit] R1 has taken the DROTHER role in the OSPF DR/BDR election process. Whi...",
+      "question_ids": [
+        "ospf_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q60",
+      "concept": "[Exhibit] An engineer is asked to conf\u00e8re router R1 so that it forms an OSPF sin...",
+      "question_ids": [
+        "ospf_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q61",
+      "concept": "[Exhibit] Router OldR is replacing another router on the network with the intent...",
+      "question_ids": [
+        "ospf_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q62",
+      "concept": "[Exhibit] Router R1 receives static routing updates from routers A. B, C, and D....",
+      "question_ids": [
+        "ospf_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q63",
+      "concept": "[Exhibit] R1 has taken the DROTHER role in the OSPF DR/BDR election process. Whi...",
+      "question_ids": [
+        "ospf_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q64",
+      "concept": "A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF. By...",
+      "question_ids": [
+        "ospf_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q65",
+      "concept": "[Exhibit] The network engineer is configuring router R2 as a replacement router ...",
+      "question_ids": [
+        "ospf_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q66",
+      "concept": "[Exhibit] A network engineer executes the show ip route command on router D. Wha...",
+      "question_ids": [
+        "ospf_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q67",
+      "concept": "R1 has learned route 192.168.12.0/24 via IS-IS, OSPF, RIP, and Internal EIGRP. U...",
+      "question_ids": [
+        "ospf_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q68",
+      "concept": "[Exhibit] All interfaces are configured with duplex auto and ip ospf network bro...",
+      "question_ids": [
+        "ospf_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q69",
+      "concept": "[Exhibit] A network engineer started to configure two directly-connected routers...",
+      "question_ids": [
+        "ospf_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q70",
+      "concept": "[Exhibit] Which action must be taken to ensure that router A is elected as the D...",
+      "question_ids": [
+        "ospf_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q71",
+      "concept": "A Cisco engineer notices thai two OSPF neighbors are connected using a crossover...",
+      "question_ids": [
+        "ospf_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q72",
+      "concept": "[Exhibit] The show ip ospf interface command has been executed on R1. How is OSP...",
+      "question_ids": [
+        "ospf_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q73",
+      "concept": "[Exhibit] OSPF neighbors routers A, B, C, and D are sending a route for 10.227.1...",
+      "question_ids": [
+        "ospf_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q74",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "ospf_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q75",
+      "concept": "[Exhibit] How must OSPF be configured on the GigabitEthernet0/0 interface of the...",
+      "question_ids": [
+        "ospf_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q76",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "ospf_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q77",
+      "concept": "[Exhibit] Of the routes learned with dynamic routing protocols, which has the le...",
+      "question_ids": [
+        "ospf_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q78",
+      "concept": "[Exhibit] Which routes are configured with their default administrative distance...",
+      "question_ids": [
+        "ospf_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ospf_q79",
+      "concept": "[Exhibit] OSPF neighbors routers A, B, C, and D are sending a route for 10.227.1...",
+      "question_ids": [
+        "ospf_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 79,
+  "total_questions": 79
+}

@@ -1,0 +1,295 @@
+{
+  "protocol": "etherchannel",
+  "groups": [
+    {
+      "group_id": "etherchannel_q1",
+      "concept": "[Exhibit] An engineer is configuring an EtherChannel using LACP between Switches...",
+      "question_ids": [
+        "etherchannel_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q2",
+      "concept": "[Exhibit] Which two commands when used together create port channel 10? (Choose ...",
+      "question_ids": [
+        "etherchannel_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q3",
+      "concept": "Which statement about Link Aggregation when implemented on a Cisco Wireless LAN ...",
+      "question_ids": [
+        "etherchannel_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q4",
+      "concept": "Which mode must be used to configure EtherChannel between two switches without u...",
+      "question_ids": [
+        "etherchannel_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q5",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "etherchannel_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q6",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "etherchannel_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q7",
+      "concept": "Which two command sequences must you configure on switch to establish a Layer 3 ...",
+      "question_ids": [
+        "etherchannel_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q8",
+      "concept": "Which mode must be used to configure EtherChannel between two switches without u...",
+      "question_ids": [
+        "etherchannel_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q9",
+      "concept": "[Exhibit] Which change to the configuration on Switch? allows the two switches t...",
+      "question_ids": [
+        "etherchannel_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q10",
+      "concept": "[Exhibit] Based on the LACP neighbor status, in which mode is the SW1 port chann...",
+      "question_ids": [
+        "etherchannel_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q11",
+      "concept": "Which statement about Link Aggregation when implemented on a Cisco Wireless LAN ...",
+      "question_ids": [
+        "etherchannel_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q12",
+      "concept": "[Exhibit] Which two commands were used to create port channel 10? (Choose two )",
+      "question_ids": [
+        "etherchannel_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q13",
+      "concept": "A network administrator needs to aggregate 4 ports into a single logical link wh...",
+      "question_ids": [
+        "etherchannel_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q14",
+      "concept": "[Exhibit] An engineer built a new L2 LACP EtherChannel between SW1 and SW2 and e...",
+      "question_ids": [
+        "etherchannel_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q15",
+      "concept": "[Exhibit] Which two commands when used together create port channel 10? (Choose ...",
+      "question_ids": [
+        "etherchannel_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q16",
+      "concept": "[Exhibit] An engineer is configuring an EtherChannel using LACP between Switches...",
+      "question_ids": [
+        "etherchannel_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q17",
+      "concept": "Which EtherChannel mode must be configured when using LAG on a WLC?",
+      "question_ids": [
+        "etherchannel_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q18",
+      "concept": "[Exhibit] Which configuration establishes a Layer 2 LACP EtherChannel when appli...",
+      "question_ids": [
+        "etherchannel_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q19",
+      "concept": "Which type of port is used to connect lo the wired network when an autonomous AP...",
+      "question_ids": [
+        "etherchannel_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q20",
+      "concept": "[Exhibit] An engineer is configuring a Layer 3 port-channel interface with LACP....",
+      "question_ids": [
+        "etherchannel_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q21",
+      "concept": "Which port type does a lightweight AP use to connect to the wired network when i...",
+      "question_ids": [
+        "etherchannel_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q22",
+      "concept": "[Exhibit] PC1 regularly sends 1800 Mbps of traffic to the server. A network engi...",
+      "question_ids": [
+        "etherchannel_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q23",
+      "concept": "[Exhibit] A network engineer updates the existing configuration on interface fas...",
+      "question_ids": [
+        "etherchannel_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q24",
+      "concept": "Which channel-group mode must be configured when multiple distribution interface...",
+      "question_ids": [
+        "etherchannel_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q25",
+      "concept": "[Exhibit] An engineer is building a new Layer 2 LACP EtherChannel between SW1 an...",
+      "question_ids": [
+        "etherchannel_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q26",
+      "concept": "What is a characteristics of a collapsed-core network topology?",
+      "question_ids": [
+        "etherchannel_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q27",
+      "concept": "[Exhibit] Which set of commands must be applied to the two switches to configure...",
+      "question_ids": [
+        "etherchannel_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q28",
+      "concept": "[Exhibit] The EtherChannel is configured with a speed of 1000 and duplex as full...",
+      "question_ids": [
+        "etherchannel_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q29",
+      "concept": "[Exhibit] A network engineer is adding another physical interface as a new membe...",
+      "question_ids": [
+        "etherchannel_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q30",
+      "concept": "[Exhibit] The LACP EtherChannel is configured, and the last change is to modify ...",
+      "question_ids": [
+        "etherchannel_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q31",
+      "concept": "[Exhibit] An LACP EtherChannel between two directly connected switches is in the...",
+      "question_ids": [
+        "etherchannel_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "etherchannel_q32",
+      "concept": "Which feature, when used on a WLC, allows it to bundle its distribution system p...",
+      "question_ids": [
+        "etherchannel_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 32,
+  "total_questions": 32
+}

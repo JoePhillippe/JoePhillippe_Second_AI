@@ -1,0 +1,235 @@
+CCNA 200-301 - Switching Fundamentals
+==================================================
+
+1. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+2. Which action does the router take as rt forwards a packet through the network?
+A. The router replaces the source and desinaoon labels wth the sending router uterface label as a source and the next hop router label as a desbnabon
+B. The router encapsulates the source and destination IP addresses with the sending router P address as the source and the neighbor IP address as the destination
+*C. The router replaces the original source and destination MAC addresses with the sending router MAC address as the source and neighbor MAC address as the destination
+D. The router encapsulates the original packet and then includes a tag that identifies the source router MAC address and transmit transparently to the destination
+
+3. [Exhibit] Which outcome is expected when PC_A sends data to PC_B?
+A. The switch rewrites the source and destination MAC addresses with its own.
+B. The source MAC address is changed.
+*C. The source and destination MAC addresses remain the same.
+D. The destination MAC address is replaced with ffff.ffff.ffff.
+
+4. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+5. When a switch receives a frame for a known destination MAC address, how is the frame handed?
+*A. sent to the port identified for the known MAC address
+B. broadcast to all ports
+C. forwarded to the first available port
+D. flooded to all ports except the one from which it originated
+
+6. How does a switch process a frame received on Fa0/1 with the destination MAC address of 0e38.7363.657b when the table is missing the address?
+A. lt drops the frame immediately.
+B. It forwards the frame back out of interface Fa0/1.
+*C. It floods the frame to all interfaces except Fa0/1.
+D. It holds the frame until the MAC address timer expires and then drops the frame.
+
+7. What occurs to frames during the process of frame flooding?
+*A. Frames are sent to every port on the switch in the same VLAN except from the originating port
+B. Frames are sent to every port on the switch that has a matching entry in the MAC address table.
+C. Frames are sent to all ports, including those that are assigned to other VLANs.
+D. Frames are sent to every port on the switch in the same VLAN.
+
+8. When a switch receives a frame for a known destination MAC address, how is the frame handed?
+*A. sent to the port identified for the known MAC address
+B. broadcast to all ports
+C. forwarded to the first available port
+D. flooded to all ports except the one from which it originated
+
+9. What does a switch use to build its MAC address table?
+A. VTP
+B. DTP
+C. egress traffic
+*D. ingress traffic
+
+10. What is the default behavior of a Layer 2 switch when a frame with an unknown destination MAC address is received?
+A. The Layer 2 switch drops the received frame
+*B. The Layer 2 switch floods packets to all ports except the receiving port in the given VLAN.
+C. The Layer 2 switch sends a copy of a packet to CPU for destination MAC address learning.
+D. The Layer 2 switch forwards the packet and adds the destination MAC address to its MAC address table
+
+11. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+12. A frame that enters a switch fails the Frame Check Sequence. Which two interface counters are incremented? (Choose two)
+A. runts
+B. giants
+C. frame
+*D. CRC
+*E. input errors
+
+13. Which action does the router take as it forwards a packet through the network?
+*A. The router replaces the original source and destination MAC addresses with the sending router MAC address as the source and neighbor MAC address as the destination
+B. The router encapsulates the original packet and then includes a tag that identifies the source router MAC address and transmits it transparently to the destination
+C. The router encapsulates the source and destination IP addresses with the sending router IP address as the source and the neighbor IP address as the destination
+D. The router replaces the source and destination labels with the sending router interface label as a source and the next hop router label as a destination
+
+14. [Exhibit] Which outcome is expected when PC_A sends data to PC_B?
+A. The switch rewrites the source and destination MAC addresses with its own.
+B. The source MAC address is changed.
+*C. The source and destination MAC addresses remain the same.
+D. The destination MAC address is replaced with ffff.ffff.ffff.
+
+15. [Exhibit] The entire contents of the MAC address table are shown. Sales-4 sends a data frame to Sales-1. What does the switch do as it receives the frame from Sales-4?
+A. Perform a lookup in the MAC address table and discard the frame due to a missing entry.
+*B. Insert the source MAC address and port into the forwarding table and forward the frame to Sales-1.
+C. Map the Layer 2 MAC address to the Layer 3 IP address and forward the frame.
+D. Flood the frame out of all ports except on the port where Sales-1 is connected.
+
+16. Which action does the router take as rt forwards a packet through the network?
+A. The router replaces the source and desinaoon labels wth the sending router uterface label as a source and the next hop router label as a desbnabon
+B. The router encapsulates the source and destination IP addresses with the sending router P address as the source and the neighbor IP address as the destination
+*C. The router replaces the original source and destination MAC addresses with the sending router MAC address as the source and neighbor MAC address as the destination
+D. The router encapsulates the original packet and then includes a tag that identifies the source router MAC address and transmit transparently to the destination
+
+17. How does the dynamically-learned MAC address feature function?
+*A. The CAM table is empty until ingress traffic arrives at each port
+B. Switches dynamically learn MAC addresses of each connecting CAM table.
+C. The ports are restricted and learn up to a maximum of 10 dynamically-learned addresses
+D. It requires a minimum number of secure MAC addresses to be filled dynamically
+
+18. Why does a switch flood a frame to all ports?
+A. The frame has zero destination MAC addresses.
+*B. The source MAC address of the frame is unknown
+C. The source and destination MAC addresses of the frame are the same
+D. The destination MAC address of the frame is unknown.
+
+19. Where does a switch maintain DHCP snooping information?
+A. in the MAC address table
+B. in the CAM table
+*C. in the binding database
+D. in the frame forwarding database
+
+20. A network administrator enabled port security on a switch interface connected to a printer. What is the next configuration action in order to allow the port to learn the MAC address of the printer and insert it into the table automatically?
+A. enable dynamic MAC address learning
+B. implement static MAC addressing.
+*C. enable sticky MAC addressing
+D. implement auto MAC address learning
+
+21. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+22. [Exhibit] Host A sent a data frame destined for host D What does the switch do when it receives the frame from host A?
+A. It drops the frame from the switch CAM table.
+*B. It floods the frame out of all ports except port Fa0/1.
+C. It shuts down the port Fa0/1 and places it in err-disable mode.
+D. It experiences a broadcast storm.
+
+23. What are two reasons a switch experiences frame flooding? (Choose two.)
+*A. A defective patch cable is connected to the switch port
+*B. Topology changes are occurring within spanning-tree
+C. An aged MAC (able entry is causing excessive updates
+D. Port-security is configured globally
+E. The forwarding table has overflowed
+
+24. What is a function of MAC address learning?
+*A. It is enabled by default on all VLANs and interfaces
+B. It increases the potential for MAC address flooding.
+C. It is disabled by default on all interfaces connected to trunks
+D. lt increases security on the management VLAN
+
+25. What does a switch search for in the CAM table when forwarding a frame?
+A. source MAC address and aging time
+B. destination MAC address and flush time
+C. source MAC address and source port
+*D. destination MAC address and destination port
+
+26. What happens when a switch receives a frame with a destination MAC address that recently aged out?
+A. The switch references the MAC address aging table for historical addresses on the port that received the frame.
+B. The switch floods the frame to all ports in all VLANs except the port that received the frame
+C. The switch drops the frame and learns the destination MAC address again from the port that received the frame
+*D. The switch floods the frame to all ports in the VLAN except the port that received the frame.
+
+27. PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not listed in the MAC address table of the switch, so the switch sends the packet to all ports in the same VLAN Which switching concept does this describe?
+*A. MAC address aging
+B. MAC address table
+C. frame flooding
+D. spanning-tree protocol
+
+28. How does MAC learning function on a switch?
+A. broadcasts frames to all ports without queueing
+*B. adds unknown source MAC addresses to the address table
+C. sends a retransmission request when a new frame is received
+D. sends frames with unknown destinations to a multicast group
+
+29. A client experiences slow throughput from a server that is directly connected to the core switch in a data center. A network engineer finds minimal latency on connections to the server, but data transfers are unreliable, and the output of the show Interfaces counters errors command shows a high FCS-Err count on the interface that is connected to the server. What is the cause of the throughput issue?
+A. high bandwidth usage
+*B. a physical cable fault
+C. a speed mismatch
+D. a cable that is too long
+
+30. A switch is a forwarding a frame out of an interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. CDP
+*C. flooding
+D. multicast
+
+31. When a switch receives a frame for an unknown destination MAC address, how is the frame handled?
+A. broadcast to all ports on the switch
+*B. flooded to all ports except the origination port
+C. forwarded to the first available port
+D. inspected and dropped by the switch
+
+32. What does a switch do when it receives a frame whose destination MAC address is missing from the MAC address table?
+*A. It floods the frame unchanged across all remaining ports in the incoming VLAN.
+B. It appends the table with a static entry for the MAC and shuts down the port.
+C. It updates the CAM table with the destination MAC address of the frame.
+D. It changes the checksum of the frame to a value that indicates an invalid frame.
+
+33. A switch is forwarding a frame out of all interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. Multicast
+C. CDP
+*D. Flooding
+
+34. How does MAC learning function?
+*A. Enabled by default on all VLANs and interfaces
+B. Forwards frames to a neighbor port using CDP
+C. Overwrites the known source MAC address in the address table
+D. Protects against denial of service attacks
+
+35. How does MAC learning function?
+*A. inserts MAC addresses dynamically into the CAM table
+B. restricts ports to a maximum of 10 dynamically-learned addresses
+C. protects against denial of service attacks
+D. rewrites the source and destination MAC address
+
+36. How does MAC learning function?
+A. rewrites the source and destination MAC address
+*B. adds unknown source MAC addresses to the CAM table
+C. sends the frame back to the source to verify availability
+D. drops received MAC addresses not listed in the address table
+
+37. Aswitch receives a frame with the destination MAC address 3C:5D: 7E:9F: 1A:2B. Switch# show ethernet-frame-and-mac-address-table How does the switch handle the frame?
+A. It ages out the frame until the MAC address becomes known.
+B. It drops the frame to avoid unnecessary network congestion.
+C. It switches the frame to a predetermined port based on settings.
+*D. It floods the frame to all ports except the incoming port.
+
+38. How does MAC learning function?
+A. Sends frames with unknown destinations to a multicast group.
+B. Increases security on the management VLAN.
+C. Rewrites the source and destination MAC address.
+*D. Associates the MAC address with the port on which it is received.
+

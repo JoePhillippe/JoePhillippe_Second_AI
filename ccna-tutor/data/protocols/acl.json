@@ -1,0 +1,42 @@
+{
+  "name": "ACL",
+  "slug": "acl",
+  "category": "Security",
+  "description": "Access Control Lists (ACLs) filter network traffic based on criteria like source/destination IP, protocol, and port numbers. ACLs are fundamental for network security and traffic management.",
+  "key_topics": [
+    "Standard ACLs (1-99, 1300-1999): filter by source IP only",
+    "Extended ACLs (100-199, 2000-2699): filter by source, destination, protocol, port",
+    "Named ACLs for easier management",
+    "Wildcard masks vs subnet masks",
+    "Implicit deny all at end of every ACL",
+    "ACL placement: standard ACLs close to destination, extended close to source",
+    "Inbound vs Outbound ACL application",
+    "ACL processing: top-down, stops at first match"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "access-list standard",
+      "access-list extended",
+      "ip access-list",
+      "ip access-group",
+      "permit",
+      "deny",
+      "show ip access-lists"
+    ],
+    "switch": [
+      "ip access-list",
+      "ip access-group"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often confuse wildcard masks with subnet masks. Cisco documentation emphasizes: wildcard 0 = must match, wildcard 1 = don't care (opposite of subnet masks)",
+    "Many resources state to place all ACLs close to source. Cisco config guides clarify: standard ACLs near destination (they only filter source), extended ACLs near source (to drop traffic early)",
+    "Third-party books frequently forget the implicit 'deny any' at the end of every ACL. Cisco emphasizes if you don't explicitly permit traffic, the implicit deny will block it",
+    "Common error: modifying an ACL by adding lines. In numbered ACLs, you cannot insert lines - you must delete and recreate. Use named ACLs with sequence numbers for editing"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "tcp-ip",
+    "nat-pat"
+  ]
+}

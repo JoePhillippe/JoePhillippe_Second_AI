@@ -1,0 +1,837 @@
+CCNA 200-301 - VLANs and Trunking
+==================================================
+
+1. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+2. Which interface mode must be configured to connect the lightweight APs in a centralized architecture?
+A. WLAN dynamic
+B. management
+C. trunk
+*D. access
+
+3. ### A network engineer must configure two new subnets using the address block 10 70 128 0/19 to meet these requirements: -   The first subnet must support 24 hosts -   The second subnet must support 472 hosts -   Both subnets must use the longest subnet mask possible from the address block Which two configurations must be used to configure the new subnets and meet a requirement to use the first available address in each subnet for the router interfaces? (Choose two )
+A. interface vlan 1234ip address 10.70.159.1 255.255.254.0
+*B. interface vlan 1148ip address 10.70.148.1 255.255.254.0
+C. interface vlan 4722ip address 10.70.133.17 255.255.255.192
+*D. interface vlan 3002ip address 10.70.147.17 255.255.255.224
+E. interface vlan 155ip address 10.70.155.65 255.255.255.224
+
+4. How does Rapid PVST+ create a fast loop-free network topology?
+*A. lt requires multiple links between core switches
+B. It generates one spanning-tree instance for each VLAN
+C. It maps multiple VLANs into the same spanning-tree instance
+D. It uses multiple active paths between end stations.
+
+5. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+6. A network engineer must implement an IPv6 configuration on the vlan 2000 interface to create a routable locally-unique unicast address that is blocked from being advertised to the internet. Which configuration must the engineer apply?
+A. interface vlan 2000ipv6 address ffc0:0000:aaaa::1234:2343/64
+*B. interface vlan 2000Ipv6 address fc00:0000:aaaa:a15d:1234:2343:8aca/64
+C. interface vlan 2000ipv6 address fe80;0000:aaaa::1234:2343/64
+D. interface vlan 2000ipv6 address fd00::1234:2343/64
+
+7. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+8. [Exhibit] An administrator is tasked with configuring a voice VLAN. What is the expected outcome when a Cisco phone is connected to the GigabitEfriemet3/1/4 port on a switch?
+A. The phone and a workstation that is connected to the phone do not have VLAN connectivity
+B. The phone and a workstation that is connected to the phone send and receive data in VLAN 50.
+C. The phone sends and receives data in VLAN 50, but a workstation connected to the phone has no VLAN connectivity
+*D. The phone sends and receives data in VLAN 50, but a workstation connected to the phone sends and receives data in VLAN 1
+
+9. [Exhibit] The default-information originate command is configured under the R1 OSPF configuration After testing workstations on VLAN 20 at Site B cannot reach a DNS server on the Internet Which action corrects the configuration issue?
+A. Add the default-information originate command onR2
+*B. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.18 command on R1
+C. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.2 command on R2
+D. Add the always keyword to the default-information originate command on R1
+
+10. [Exhibit] Only four switches are participating in the VLAN spanning-tree process. Branch-1 priority 614440 Branch-2: priority 39082416 Branch-3: priority 0 Branch-4: root primary Which switch becomes the permanent root bridge for VLAN 5?
+A. Branch-1
+B. Branch-2
+*C. Branch-3
+D. Branch-4
+
+11. [Exhibit] A network administrator assumes a task to complete the connectivity between PC A and the File Server. Switch A and Switch B have been partially configured with VLAN 10, 11, 12, and 13. What is the next step in the configuration?
+A. Add PC A to VLAN 10 and the File Server to VLAN 11 fa VLAN segmentation
+*B. Add VLAN 13 to the trunk links on Switch A and Switch B for VLAN propagation
+C. Add a router on a stick between Switch A and Switch B allowing for Inter-VLAN routing.
+D. Add PC A to the same subnet as the Fie Server allowing for intra-VLAN communication.
+
+12. -   (Topic 2) Refer to Exhibit. How does SW2 interact with other switches in this VTP domain?
+A. It processes VTP updates from any VTP clients on the network on its access ports.
+B. It receives updates from all VTP servers and forwards all locally configured VLANs out all trunk ports
+*C. It forwards only the VTP advertisements that it receives on its trunk ports.
+D. It transmits and processes VTP updates from any VTP Clients on the network on its trunk ports
+
+13. When using Rapid PVST+, which command guarantees the switch is always the root bridge for VLAN 200?
+A. spanning -tree vlan 200 priority 614440
+B. spanning -tree vlan 200 priority 38572422
+*C. spanning -tree vlan 200 priority 0
+D. spanning -tree vlan 200 root primary
+
+14. Two switches are connected and using Cisco Dynamic Trunking Protocol SW1 is set to Dynamic Desirable What is the result of this configuration?
+A. The link is in a down state.
+B. The link is in an error disables state
+C. The link is becomes an access port.
+*D. The link becomes a trunk port.
+
+15. What are network endpoints?
+A. act as routers to connect a user to the service prowler network
+*B. a threat to the network if they are compromised
+C. support inter-VLAN connectivity
+D. enforce policies for campus-wide traffic going to the internet
+
+16. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+17. Which command on a port enters the forwarding state immediately when a PC is connected to it?
+A. switch(config)#spanning-tree portfast default
+B. switch(config)#spanning-tree portfast bpduguard default
+*C. switch(config-if)#spanning-tree portfast trunk
+D. switch(config-if)#no spanning-tree portfast
+
+18. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+19. [Exhibit] A network engineer must configured communication between PC A and the File Server. To prevent interruption for any other communications, which command must be configured?
+A. Switch trunk allowed vlan 12
+B. Switchport trunk allowed vlan none
+*C. Switchport trunk allowed vlan add 13
+D. Switchport trunk allowed vlan remove 10-11
+
+20. Which configuration ensures that the switch is always the root for VLAN 750?
+A. Switch(config)#spanning-tree vlan 750 priority 38003685
+B. Switch(config)#spanning-tree vlan 750 root primary
+C. Switch(config)#spanning-tree vlan 750 priority 614440
+*D. Switch(config)#spanning-tree vlan 750 priority 0
+
+21. Which command entered on a switch configured with Rapid PVST\* listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+22. Where does the configuration reside when a helper address Is configured lo support DHCP?
+A. on the router closest to the server
+*B. on the router closest to the client
+C. on every router along the path
+D. on the switch trunk interface
+
+23. [Exhibit] The network administrator wants VLAN 67 traffic to be untagged between Switch 1 and Switch 2 while all other VLANs are to remain tagged. Which command accomplishes this task?
+A. switchport access vlan 67
+B. switchport trunk allowed vlan 67
+C. switchport private-vlan association host 67
+*D. switchport trunk native vlan 67
+
+24. Refer to the Exhibit. After the switch configuration the ping test fails between PC A and PC B Based on the output for switch 1. which error must be corrected?
+*A. There is a native VLAN mismatch
+B. Access mode is configured on the switch ports.
+C. The PCs are m the incorrect VLAN
+D. All VLANs are not enabled on the trunk
+
+25. Which command on a port enters the forwarding state immediately when a PC is connected to it?
+A. switch(config)#spanning-tree portfast default
+B. switch(config)#spanning-tree portfast bpduguard default
+*C. switch(config-if)#spanning-tree portfast trunk
+D. switch(config-if)#no spanning-tree portfast
+
+26. What is a practice that protects a network from VLAN hopping attacks?
+A. Enable dynamic ARP inspection
+B. Configure an ACL to prevent traffic from changing VLANs
+*C. Change native VLAN to an unused VLAN ID
+D. Implement port security on internet-facing VLANs
+
+27. Which access layer threat-mitigation technique provides security based on identity?
+A. Dynamic ARP Inspection
+B. using a non-default native VLAN
+*C. 802.1x
+D. DHCP snooping
+
+28. An engineer must configure Interswitch VLAN communication between a Cisco switch and a third-party switch. Which action should be taken?
+A. configure IEEE 802.1p
+*B. configure IEEE 802.1q
+C. configure ISL
+D. configure DSCP
+
+29. What occurs to frames during the process of frame flooding?
+*A. Frames are sent to every port on the switch in the same VLAN except from the originating port
+B. Frames are sent to every port on the switch that has a matching entry in the MAC address table.
+C. Frames are sent to all ports, including those that are assigned to other VLANs.
+D. Frames are sent to every port on the switch in the same VLAN.
+
+30. How are VLAN hopping attacks mitigated?
+A. enable dynamic ARP inspection
+*B. manually implement trunk ports and disable DTP
+C. activate all ports and place in the default VLAN
+D. configure extended VLANs
+
+31. What does a switch use to build its MAC address table?
+A. VTP
+B. DTP
+C. egress traffic
+*D. ingress traffic
+
+32. [Exhibit] Which switch becomes the root of the spanning tree for VLAN 110?
+A. Switch 1
+*B. Switch 2
+C. Switch 3
+D. Switch 4
+
+33. What are network endpoints?
+A. act as routers to connect a user to the service prowler network
+*B. a threat to the network if they are compromised
+C. support inter-VLAN connectivity
+D. enforce policies for campus-wide traffic going to the internet
+
+34. When using Rapid PVST+, which command guarantees the switch is always the root bridge for VLAN 200?
+A. spanning -tree vlan 200 priority 614440
+B. spanning -tree vlan 200 priority 38572422
+*C. spanning -tree vlan 200 priority 0
+D. spanning -tree vlan 200 root primary
+
+35. After installing a new Cisco ISE server, which task must the engineer perform on the Cisco WLC to connect wireless clients on a specific VLAN based on their credentials?
+*A. Enable the allow AAA Override
+B. Enable the Even: Driven RRM.
+C. Disable the LAG Mode or Next Reboot.
+D. Enable the Authorized MIC APs against auth-list or AAA.
+
+36. Two switches are connected and using Cisco Dynamic Trunking Protocol SW1 is set to Dynamic Desirable What is the result of this configuration?
+A. The link is in a down state.
+B. The link is in an error disables state
+C. The link is becomes an access port.
+*D. The link becomes a trunk port.
+
+37. [Exhibit] What commands are needed to add a subinterface to Ethernet0/0 on R1 to allow for VLAN 20, with IP address 10.20.20.1/24?
+A. R1(config)#interface ethernet0/0R1(config)#encapsulation dot1q 20R1(config)#ip address 10.20.20.1 255.255.255.0
+*B. R1(config)#interface ethernet0/0.20R1(config)#encapsulation dot1q 20R1(config)#ip address 10.20.20.1 255.255.255.0
+C. R1(config)#interface ethernet0/0.20R1(config)#ip address 10.20.20.1 255.255.255.0
+D. R1(config)#interface ethernet0/0R1(config)#ip address 10.20.20.1 255.255.255.0
+
+38. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+39. What is the default behavior of a Layer 2 switch when a frame with an unknown destination MAC address is received?
+A. The Layer 2 switch drops the received frame
+*B. The Layer 2 switch floods packets to all ports except the receiving port in the given VLAN.
+C. The Layer 2 switch sends a copy of a packet to CPU for destination MAC address learning.
+D. The Layer 2 switch forwards the packet and adds the destination MAC address to its MAC address table
+
+40. What are two functions of a Layer 2 switch? (Choose two)
+*A. acts as a central point for association and authentication servers
+B. selects the best route between networks on a WAN
+C. moves packets within a VLAN
+D. moves packets between different VLANs
+*E. makes forwarding decisions based on the MAC address of a packet
+
+41. Which two command sequences must you configure on switch to establish a Layer 3 EtherChannel with an open-standard protocol? (Choose two )
+A. interface GigabitEthernet0/0/1channel-group 10 mode on
+*B. interface GigabitEthernet0/0/1channel-group 10 mode active
+C. interface GigabitEthernet0/0/1channel-group 10 mode auto
+D. interface port-channel 10switchportswitchport mode trunk
+*E. interface port-channel 10no switchportip address 172.16.0.1.255.255.255.0
+
+42. An engineer needs to add an old switch back into a network. To prevent the switch from corrupting the VLAN database which action must be taken?
+*A. Add the switch in the VTP domain with a lower revision number
+B. Add the switch with DTP set to dynamic desirable
+C. Add the switch in the VTP domain with a higher revision number
+D. Add the switch with DTP set to desirable
+
+43. Which command entered on a switch configured with Rapid PVST* listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+44. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+45. Which two components are needed to create an Ansible script that configures a VLAN on a switch? (Choose two.)
+A. cookbook
+B. task
+*C. playbook
+*D. model
+E. recipe
+
+46. [Exhibit] A network engineer must configured communication between PC A and the File Server. To prevent interruption for any other communications, which command must be configured?
+A. Switch trunk allowed vlan 12
+B. Switchport trunk allowed vlan none
+*C. Switchport trunk allowed vlan add 13
+D. Switchport trunk allowed vlan remove 10-11
+
+47. Which configuration ensures that the switch is always the root for VLAN 750?
+A. Switch(config)#spanning-tree vlan 750 priority 38003685
+B. Switch(config)#spanning-tree vlan 750 root primary
+C. Switch(config)#spanning-tree vlan 750 priority 614440
+*D. Switch(config)#spanning-tree vlan 750 priority 0
+
+48. A network administrator is asked to configure VLANS 2, 3 and 4 for a new implementation. Some ports must be assigned to the new VLANS with unused remaining. Which action should be taken for the unused ports?
+A. configure port in the native VLAN
+*B. configure ports in a black hole VLAN
+C. configure in a nondefault native VLAN
+D. configure ports as access ports
+
+49. How is the native VLAN secured in a network?
+*A. separate from other VLANs within the administrative domain
+B. give it a value in the private VLAN range
+C. assign it as VLAN 1
+D. configure it as a different VLAN ID on each end of the link
+
+50. Where does the configuration reside when a helper address Is configured lo support DHCP?
+A. on the router closest to the server
+*B. on the router closest to the client
+C. on every router along the path
+D. on the switch trunk interface
+
+51. [Exhibit] A network administrator assumes a task to complete the connectivity between PC A and the File Server. Switch A and Switch B have been partially configured with VLAN 10, 11, 12, and 13. What is the next step in the configuration?
+A. Add PC A to VLAN 10 and the File Server to VLAN 11 fa VLAN segmentation
+*B. Add VLAN 13 to the trunk links on Switch A and Switch B for VLAN propagation
+C. Add a router on a stick between Switch A and Switch B allowing for Inter-VLAN routing.
+D. Add PC A to the same subnet as the Fie Server allowing for intra-VLAN communication.
+
+52. What is a function of a Layer 3 switch?
+*A. move frames between endpoints limited to IP addresses
+B. transmit broadcast traffic when operating in Layer 3 mode exclusively
+C. forward Ethernet frames between VLANs using only MAC addresses
+D. flood broadcast traffic within a VLAN
+
+53. [Exhibit] Only four switches are participating in the VLAN spanning-tree process. Branch-1 priority 614440 Branch-2: priority 39082416 Branch-3: priority 0 Branch-4: root primary Which switch becomes the permanent root bridge for VLAN 5?
+A. Branch-1
+B. Branch-2
+*C. Branch-3
+D. Branch-4
+
+54. A Cisco IP phone receive untagged data traffic from an attached PC. Which action is taken by the phone?
+*A. It allows the traffic to pass through unchanged
+B. It drops the traffic
+C. It tags the traffic with the default VLAN
+D. It tags the traffic with the native VLAN
+
+55. Which result occurs when PortFast is enabled on an interface that is connected to another switch?
+*A. Spanning tree may fail to detect a switching loop in the network that causes broadcast storms
+B. VTP is allowed to propagate VLAN configuration information from switch to switch automatically.
+C. Root port choice and spanning tree recalculation are accelerated when a switch link goes down
+D. After spanning tree converges PortFast shuts down any port that receives BPDUs.
+
+56. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+57. Refer to Exhibit. Which configuration must be applied to the router that configures PAT to translate all addresses in VLAN 200 while allowing devices on VLAN 100 to use their own IP addresses?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+58. What prevents a workstation from receiving a DHCP address?
+A. DTP
+*B. STP
+C. VTP
+D. 802.10
+
+59. Which port type supports the spanning-tree portfast command without additional configuration?
+*A. access ports
+B. Layer 3 main Interfaces
+C. Layer 3 suninterfaces
+D. trunk ports
+
+60. An engineer must configure traffic for a VLAN that is untagged by the switch as it crosses a trunk link. Which command should be used?
+A. switchport trunk allowed vlan 10
+*B. switchport trunk native vlan 10
+C. switchport mode trunk
+D. switchport trunk encapsulation dot1q
+
+61. [Exhibit] Which action is expected from SW1 when the untagged frame is received on the GigabitEthernet0/1 interface?
+*A. The frame is processed in VLAN 5.
+B. The frame is processed in VLAN 11
+C. The frame is processed in VLAN 1
+D. The frame is dropped
+
+62. [Exhibit] A network engineer must block access for all computers on VLAN 20 to the web server via HTTP All other computers must be able to access the web server Which configuration when applied to switch A accomplishes this task?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+63. [Exhibit] An administrator must configure interfaces Gi1/1 and Gi1/3 on switch SW11 PC-1 and PC- 2 must be placed in the Data VLAN and Phone-1 must be placed in the Voice VLAN Which configuration meets these requirements?
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+64. [Exhibit] An administrator is tasked with configuring a voice VLAN. What is the expected outcome when a Cisco phone is connected to the GigabitEfriemet3/1/4 port on a switch?
+A. The phone and a workstation that is connected to the phone do not have VLAN connectivity
+B. The phone and a workstation that is connected to the phone send and receive data in VLAN 50.
+C. The phone sends and receives data in VLAN 50, but a workstation connected to the phone has no VLAN connectivity
+*D. The phone sends and receives data in VLAN 50, but a workstation connected to the phone sends and receives data in VLAN 1
+
+65. [Exhibit] The default-information originate command is configured under the R1 OSPF configuration After testing workstations on VLAN 20 at Site B cannot reach a DNS server on the Internet Which action corrects the configuration issue?
+A. Add the default-information originate command onR2
+*B. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.18 command on R1
+C. Configure the ip route 0.0.0.0 0.0.0.0 10.10.10.2 command on R2
+D. Add the always keyword to the default-information originate command on R1
+
+66. The service password-encryption command is entered on a router. What is the effect of this configuration?
+*A. restricts unauthorized users from viewing clear-text passwords in the running configuration
+B. encrypts the password exchange when a VPN tunnel is established
+C. prevents network administrators from configuring clear-text passwords
+D. protects the VLAN database from unauthorized PC connections on the switch
+
+67. Refer to Exhibit. Which action do the switches take on the trunk link?
+A. The trunk does not form and the ports go into an err-disabled status.
+*B. The trunk forms but the mismatched native VLANs are merged into a single broadcast domain.
+C. The trunk does not form, but VLAN 99 and VLAN 999 are allowed to traverse the link.
+D. The trunk forms but VLAN 99 and VLAN 999 are in a shutdown state.
+
+68. Which protocol requires authentication to transfer a backup configuration file from a router to a remote server?
+A. DTP
+*B. FTP
+C. SMTP
+D. TFTP
+
+69. [Exhibit] Which command must be executed for Gi1.1 on SW1 to become a trunk port if Gi1/1 on SW2 is configured in desirable or trunk mode?
+A. switchport mode trunk
+B. switchport mode dot1-tunnel
+*C. switchport mode dynamic auto
+D. switchport mode dynamic desirable
+
+70. An engineer must establish a trunk link between two switches. The neighboring switch is set to trunk or desirable mode. What action should be taken?
+A. configure switchport nonegotiate
+B. configure switchport mode dynamic desirable
+*C. configure switchport mode dynamic auto
+D. configure switchport trunk dynamic desirable
+
+71. A network administrator needs to aggregate 4 ports into a single logical link which must negotiate layer 2 connectivity to ports on another switch. What must be configured when using active mode on both sides of the connection?
+A. 802.1q trunks
+B. Cisco vPC
+C. LLDP
+*D. LACP
+
+72. An engineer requires a scratch interface to actively attempt to establish a trunk link with a neighbor switch. What command must be configured?
+A. switchport mode trunk
+B. switchport mode dynamic desirable
+*C. switchport mode dynamic auto
+D. switchport nonegotiate
+
+73. Refer to Exhibit. How does SW2 interact with other switches in this VTP domain?
+A. It processes VTP updates from any VTP clients on the network on its access ports.
+B. It receives updates from all VTP servers and forwards all locally configured VLANs out all trunk ports
+*C. It forwards only the VTP advertisements that it receives on its trunk ports.
+D. It transmits and processes VTP updates from any VTP Clients on the network on its trunk ports
+
+74. Which two network actions occur within the data plane? (Choose two.)
+A. Add or remove an 802.1Q trunking header.
+*B. Make a configuration change from an incoming NETCONF RPC.
+C. Run routing protocols.
+*D. Match the destination MAC address to the MAC address table.
+E. Reply to an incoming ICMP echo request.
+
+75. How does Rapid PVST+ create a fast loop-free network topology?
+*A. lt requires multiple links between core switches
+B. It generates one spanning-tree instance for each VLAN
+C. It maps multiple VLANs into the same spanning-tree instance
+D. It uses multiple active paths between end stations.
+
+76. A network engineer must configure two new subnets using the address block 10 70 128 0/19 to meet these requirements: • The first subnet must support 24 hosts • The second subnet must support 472 hosts • Both subnets must use the longest subnet mask possible from the address block Which two configurations must be used to configure the new subnets and meet a requirement to use the first available address in each subnet for the router interfaces? (Choose two )
+A. interface vlan 1234ip address 10.70.159.1 255.255.254.0
+*B. interface vlan 1148ip address 10.70.148.1 255.255.254.0
+C. interface vlan 4722ip address 10.70.133.17 255.255.255.192
+*D. interface vlan 3002ip address 10.70.147.17 255.255.255.224
+E. interface vlan 155ip address 10.70.155.65 255.255.255.224
+
+77. [Exhibit] Users on existing VLAN 100 can reach sites on the Internet. Which action must the administrator take to establish connectivity to the Internet for users in VLAN 200?
+A. Define a NAT pool on the router.
+*B. Configure static NAT translations for VLAN 200.
+C. Configure the ip nat outside command on another interface for VLAN 200.
+D. Update the NAT INSIDF RANGFS ACL
+
+78. [Exhibit] All VLANs are present in the VLAN database. Which command sequence must be applied to complete the configuration?
+A. Interface FastEthernet0/1 switchport trunk native vlan 10 switchport trunk allowed vlan 10,15
+B. Interface FastEthernet0/1 switchport mode trunk switchport trunk allowed vlan 10,15
+*C. interface FastEthernet0/1 switchport mode access switchport voice vlan 10
+D. Interface FastEthernet0/1 switchport trunk allowed vlan add 10 vlan 10 private-vlan isolated
+
+79. [Exhibit] Switch A is newly configured. All VLANs are present in the VLAN database. The IP phone and PC A on Gi0/1 must be configured for the appropriate VLANs to establish connectivity between the PCs. Which command set fulfills the requirement? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+80. Which Layer 2 switch function encapsulates packets for different VLANs so that the packets traverse the same port and maintain traffic separation between the VLANs?
+A. VLAN numbering
+B. VLAN DSCP
+*C. VLAN tagging
+D. VLAN marking
+
+81. A Cisco engineer must configure a single switch interface to meet these requirements • accept untagged frames and place them in VLAN 20 • accept tagged frames in VLAN 30 when CDP detects a Cisco IP phone Which command set must the engineer apply? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+82. [Exhibit] Which switch becomes the root of a spanning tree for VLAN 20 if all li links are of equal speed?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+83. A network engineer must implement an IPv6 configuration on the vlan 2000 interface to create a routable locally-unique unicast address that is blocked from being advertised to the internet. Which configuration must the engineer apply?
+A. interface vlan 2000ipv6 address ffc0:0000:aaaa::1234:2343/64
+*B. interface vlan 2000Ipv6 address fc00:0000:aaaa:a15d:1234:2343:8aca/64
+C. interface vlan 2000ipv6 address fe80;0000:aaaa::1234:2343/64
+D. interface vlan 2000ipv6 address fd00::1234:2343/64
+
+84. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+85. Which interface mode must be configured to connect the lightweight APs in a centralized architecture?
+A. WLAN dynamic
+B. management
+C. trunk
+*D. access
+
+86. [Exhibit] The following must be considered: • SW1 is fully configured for all traffic • The SW4 and SW9 links to SW1 have been configured • The SW4 interface Gi0/1 and Gi0/0 on SW9 have been configured • The remaining switches have had all VLANs adde d to their VLAN database Which configuration establishes a successful ping from PC2 to PC7 without interruption to traffic flow between other PCs? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+87. [Exhibit] An engineer is asked to insert the new VLAN into the existing trunk without modifying anything previously configured Which command accomplishes this task?
+A. switchport trunk allowed vlan 100-104
+B. switchport trunk allowed vlan add 104
+C. switchport trunk allowed vlan all
+*D. switchport trunk allowed vlan 104
+
+88. Two switches have been implemented and all interfaces are at the default configuration level. A trunk link must be implemented between two switches with these requirements: • using an industry-standard trunking protocol • permitting VLANs 1 -10 and denying other VLANs How must the interconnecting ports be configured? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+89. What is a specification for SSIDS?
+A. They are a Cisco proprietary security feature.
+*B. They must include one number and one letter.
+C. They define the VLAN on a switch.
+D. They are case sensitive.
+
+90. [Exhibit] A new VLAN and switch are added to the network. A remote engineer configures OldSwitch and must ensure that the configuration meets these requirements: • accommodates current configured VLANs • expands the range to include VLAN 20 • allows for IEEE standard support for virtual LANs Which configuration on the NewSwitch side of the link meets these requirements? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+91. How does frame switching function on a switch?
+A. forwards frames to a neighbor port using CDP
+B. modifies frames that contain a known source VLAN
+C. inspects and drops frames from unknown destinations
+*D. forwards known destinations to the destination port
+
+92. What is a function of MAC address learning?
+*A. It is enabled by default on all VLANs and interfaces
+B. It increases the potential for MAC address flooding.
+C. It is disabled by default on all interfaces connected to trunks
+D. lt increases security on the management VLAN
+
+93. [Exhibit] An engineer is updating the management access configuration of switch SW1 to allow secured, encrypted remote configuration. Which two commands or command sequences must the engineer apply to the switch? (Choose two.)
+*A. SW1(config)#enable secret ccnaTest123
+B. SW1(config)#username NEW secret R3mote123
+*C. SW1(config)#line vty 0 15 SW1(config-line)#transport input ssh
+D. SW1(config)# crypto key generate rsa
+E. SW1(config)# interface f0/1 SW1(confif-if)# switchport mode trunk
+
+94. An engineer is configuring a switch port that is connected to a VoIP handset. Which command must the engineer configure to enable port security with a manually assigned MAC address of abod-bod on voice VLAN 4?
+*A. switchport port-security mac-address abcd.abcd.abcd
+B. switchport port-security mac-address abed.abed.abed vlan 4
+C. switchport port-security mac-address sticky abcd.abcd.abcd vlan 4
+D. switchport port-security mac-address abcd.abcd.abcd vlan voice
+
+95. What must be considered for a locally switched FlexConnect AP if the VLANs that are used by the AP and client access are different?
+A. The APs must be connected to the switch with multiple links in LAG mode
+B. The switch port mode must be set to trunk
+*C. The native VLAN must match the management VLAN of the AP
+D. IEEE 802.10 trunking must be disabled on the switch port.
+
+96. [Exhibit] Which configuration establishes a Layer 2 LACP EtherChannel when applied to both switches?
+*A. Interface range G1/1 – 1/3 switchport mode trunk channel-group 1 mode active no shutdown
+B. Interface range G1/1 – 1/3 switchport mode access channel-group 1 mode passive no shutdown
+C. Interface range G1/1 – 1/3 switchport mode trunkchannel-group 1 mode desirableno shutdown
+D. Interface range G1/1 – 1/3 switchport mode access channel-group 1 mode on no shutdown
+
+97. [Exhibit] PC A and the file server. Which commend must be configured on switch A to prevent interruption of other communications?
+A. switch port trunk allowed vlan 12
+B. switchport trunk allowed vlan none
+*C. switchport trunk allowed vlan add 13
+D. switch port trunk allowed vlan remove 10-11
+
+98. Which type of port is used to connect lo the wired network when an autonomous AP maps two VLANs to its WLANs?
+A. LAG
+B. EtherChannel
+C. trunk
+*D. access
+
+99. What is a reason to configure a trunk port that connects to a WLC distribution port?
+A. Eliminate redundancy with a link failure in the data path.
+B. Allow multiple VLAN to be used in the data path.
+C. Provide redundancy if there is a link failure for out-of-band management.
+*D. Permit multiple VLANs to provide out-of-band management.
+
+100. The address block 192.168.32.0/24 must be subnetted into smaller networks. The engineer must meet these requirements: Create 8 new subnets Each subnet must accommodate 30 hosts Interface VLAN 10 must use the last usable IP in the first new subnet. A Layer 3 interface is used. Which configuration must be applied to the interface?
+*A. no switchportip address 192.168.32.30 255.255.255.224
+B. no switchport mode trunkip address 192.168.32.97 255.255.255.224
+C. no switchport mode accessip address 192.168.32.62 255.255.255.240
+D. switchportip address 192.168.32.65 255.255.255.240
+
+101. [Exhibit] The SW1 and SW2 Gi0/0 ports have been preconfigured. An engineer is given these requirements: • Allow all PCs to communicate with each other at Layer 3. • Configure untagged traffic to use VLAN 5. • Disable VLAN 1 from being used. Which configuration set meets these requirements?
+A. SW1#interface Gi0/1switchport mode trunkswitchport trunk allowed vlan 5,7,9,108switchport trunk native vlan 5interface Gi0/2switchport mode trunkswitchport trunk allowed vlan 5,7,9,108SW2#interface Gi0/1switchport mode accessswitchport access vlan 7interface Gi0/7switchport mode trunkswitchport trunk allowed vlan 7,9,108
+B. SW1#interface Gi0/1switchport mode trunkswitchport trunk allowed vlan 5,7,9,108switchport trunk native vlan 5interface Gi0/2switchport mode accessswitchport trunk allowed vlan 7,9,108SW2#interface Gi0/1switchport mode accessno switchport access vlan 1switchport access vlan 7interface Gi0/7switchport mode trunkswitchport trunk allowed vlan 7,9,108switchport trunk native vlan 5
+*C. SW#1 -interface Gi0/1switchport mode trunkswitchport trunk allowed vlan 5,7,9,108switchport trunk native vlan 5interface Gi0/2switchport mode trunkswitchport trunk allowed vlan 5,7,9,108SW2#interface Gi0/1switchport mode accessswitchport access vlan 7interface Gi0/7switchport mode trunkswitchport trunk allowed vlan 5,7,9,108switchport trunk native vlan 5
+D. SW1#interface Gi0/1switchport mode trunkswitchport trunk allowed vian 5,7,9,108interface Gi0/2switchport mode trunkswitchport trunk allowed vlan 7,9,108SW2#interface Gi0/1switchport mode trunkswitchport trunk allowed vlan 7interface Gi0/7switchport mode trunkswitchport trunk allowed vlan 5,7,9,108
+
+102. [Exhibit] SW_1 and SW_12 represent two companies that are merging. They use separate network vendors. The VLANs on both Sides have been migrated to share IP subnets. Which command sequence must be issued on both sides to join the two companies and pass all VLANs between the companies?
+*A. switchport mode trunkswitchport trunk encapsulation dot1q
+B. switchport mode trunkswitchport trunk allowed vlan allswitchport dot1q ethertype 0800
+C. switchport mode dynamic desirableswitchport trunk allowed vlan allswitchport trunk native vlan 7
+D. switchport dynamic autoswitchport nonegotiate
+
+103. A network engineer is upgrading a small data center to host several new applications, including server backups that are expected to account for up to 90% of the bandwidth during peak times. The data center connects to the MPLS network provider via a primary circuit and a secondary circuit. How does the engineer inexpensively update the data center to avoid saturation of the primary circuit by traffic associated with the backups?
+*A. Assign traffic from the backup servers to a dedicated switch.
+B. Configure a dedicated circuit for the backup traffic.
+C. Place the backup servers in a dedicated VLAN.
+D. Advertise a more specific route for the backup traffic via the secondary circuit.
+
+104. [Exhibit] The DHCP server is configured with a DHCP pool for each of the subnets represented. Which command must be configured on switch SW1 to allow DHCP clients on VLAN 10 to receive dynamic IP addresses from the DHCP server?
+A. SW1(config-if)#ip helper-address 192.168.20.2
+B. SW1(config-if)#ip helper-address 192.168.20.1
+*C. SW1(config-if)#ip helper-address 192.168.10.2
+D. SW1(config-if)#ip helper-address 192.168.10.1
+
+105. What happens when a switch receives a frame with a destination MAC address that recently aged out?
+A. The switch references the MAC address aging table for historical addresses on the port that received the frame.
+B. The switch floods the frame to all ports in all VLANs except the port that received the frame
+C. The switch drops the frame and learns the destination MAC address again from the port that received the frame
+*D. The switch floods the frame to all ports in the VLAN except the port that received the frame.
+
+106. [Exhibit] Rapid PVST+ mode is on the same VLAN on each switch. Which switch becomes the root bridge and why?
+A. SW2, because its MAC address is the highest
+*B. SW3, because its priority is the highest
+C. SW4, because its priority is highest and its MAC address is lower
+D. SW1, because its priority is the lowest and its MAC address is higher
+
+107. Which interface IP address serves as the tunnel source for CAPWAP packets from the WLC to an AP?
+A. service
+B. trunk
+*C. AP-manager
+D. virtual AP connection
+
+108. What is a function of an endpoint?
+*A. It is used directly by an individual user to access network services
+B. It passes unicast communication between hosts in a network
+C. It transmits broadcast traffic between devices in the same VLAN
+D. It provides security between trusted and untrusted sections of the network.
+
+109. PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not listed in the MAC address table of the switch, so the switch sends the packet to all ports in the same VLAN Which switching concept does this describe?
+*A. MAC address aging
+B. MAC address table
+C. frame flooding
+D. spanning-tree protocol
+
+110. Which port type does a lightweight AP use to connect to the wired network when it is configured in local mode?
+A. EtherChannel
+B. LAG
+*C. trunk
+D. access
+
+111. [Exhibit] An engineer is configuring a new Cisco switch NewSW, to replace SW2 The details have been provided • Switches SW1 and SW2 are third-party devices without support for trunk ports • The existing connections must be maintained between PC1 PC2 and PC3 • Allow the switch to pass traffic from future VLAN 10. Which configuration must be applied? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+112. What is the default port-security behavior on a trunk link?
+*A. It causes a network loop when a violation occurs.
+B. It disables the native VLAN configuration as soon as port security is enabled.
+C. It places the port in the err-disabled state if it learns more than one MAC address.
+D. It places the port in the err-disabled slate after 10 MAC addresses are statically configured.
+
+113. What is the operating mode and role of a backup port on a shared LAN segment in Rapid PVST+?
+A. forwarding mode and provides the lowest-cost path to the root bridge for each VLAN
+B. learning mode and provides the shortest path toward the root bridge handling traffic away from the LAN
+*C. blocking mode and provides an alternate path toward the designated bridge
+D. listening mode and provides an alternate path toward the root bridge
+
+114. Which protocol is used in Software Defined Access (SDA) to provide a tunnel between two edge nodes in different fabrics?
+A. Generic Router Encapsulation (GRE)
+B. Virtual Local Area Network (VLAN)
+*C. Virtual Extensible LAN (VXLAN)
+D. Point-to-Point Protocol
+
+115. [Exhibit] An engineer assigns IP addressing to the current VLAN with three PCs. The configuration must also account for the expansion of 30 additional VLANS using the same Class C subnet for subnetting and host count. Which command set fulfills the request while reserving address space for the expected growth?
+A. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 265 255.255.252
+*B. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255 255.255.248
+C. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255 255.255.0
+D. Switch(config)#interface vlan 10Switch(config-if)#ip address 192.168.0.1 255.255.255.128
+
+116. [Exhibit] An engineer is building a new Layer 2 LACP EtherChannel between SW1 and SW2. and they executed the given show commands to verify the work Which additional task must be performed so that the switches successfully bundle the second member in the LACP port-channel?
+A. Configure the switchport trunk allowed vlan 300 command on SW1 port-channel 1
+*B. Configure the switchport trunk allowed vlan 300 command on interface Fa0/2 on SW1.
+C. Configure the switchport trunk allowtd vlan add 300 command on interface FaO 2 on SW2.
+D. Configure the switchport trunk allowtd vlan add 300 command on SW1 port-channel 1
+
+117. Which two protocols are used by an administrator for authentication and configuration on access points?
+A. Kerberos
+B. 802.1Q
+C. 802.1x
+*D. TACACS+
+*E. RADIUS
+
+118. Which command do you enter so that a switch configured with Rapid PVST + listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+119. [Exhibit] An engineer must configure the interface that connects to PC 1 and secure it in a way that only PC1 is allowed to use the port No VLAN tagging can be used except for a voice VLAN. Which command sequence must be entered to configure the switch? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+120. What provides connection redundancy increased bandwidth and load sharing between a wireless LAN controller and a Layer 2 switch?
+A. VLAN trunking
+B. tunneling
+C. first hop redundancy
+*D. link aggregation
+
+121. What does a switch do when it receives a frame whose destination MAC address is missing from the MAC address table?
+*A. It floods the frame unchanged across all remaining ports in the incoming VLAN.
+B. It appends the table with a static entry for the MAC and shuts down the port.
+C. It updates the CAM table with the destination MAC address of the frame.
+D. It changes the checksum of the frame to a value that indicates an invalid frame.
+
+122. The address block 192 168 32 0/24 must be subnetted into smaller networks The engineer must meet these requirements • Create 8 new subnets • Each subnet must accommodate 30 hosts • Interface VLAN 10 must use the last usable IP in the first new subnet • A Layer 3 interface is used Which configuration must be applied to the interface? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+123. [Exhibit] An engineer configures interface fa0/1 on SW1 and SW2 to pass traffic from two different VLANs. For security reasons, company policy requires the native VLAN to be set to a nondefault value. Which configuration meets this requirement? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+124. [Exhibit] All interfaces are in the same VLAN. All switches are configured with the default STP priorities. During the STP electronics, which switch becomes the root bridge?
+A. MDF-DC-4:08:E0:19: 08:B3:19
+B. MDF-DC-3:08:0E:18::1A:3C:9D
+*C. MDF-DC-08:0E:18:22:05:97
+D. MDF-DC-1:DB:E:44:02:54:79
+
+125. [Exhibit] Host A switch interface is configured in VLAN 2. Host D sends a unicast packet destined for the IP address of host A. What does the switch do when it receives the frame from host D?
+A. It creates a broadcast storm.
+B. It drops the frame from the MAC table of the switch.
+*C. It shuts down the source port and places It In err-disable mode.
+D. It floods the frame out of every port except the source port.
+
+126. [Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10.0/24 network on VLAN 20. The engineer wants to limit the number of devices that connect to the WLAN on the USERWL SSID to 125. Which configuration must the engineer perform on the WLC?
+A. In the Management Software activation configuration, set the Clients value to 125.
+B. In the Controller IPv6 configuration, set the Throttle value to 125.
+*C. In the WLAN configuration, set the Maximum Allowed Clients value to 125.
+D. In the Advanced configuration, set the DTIM value to 125.
+
+127. Which switch port configuration must be configured when connected to an AP running in FlexConnect mode, and the WLANs use flex local switching?
+A. access port with one VLAN
+*B. trunk port with pruned VLANs
+C. Layer 3 port with an IP address
+D. tagged port with MAC Filtering enabled
+
+128. [Exhibit] An administrator must connect SW_1 and the printer to the network. SW_2 requires DTP to be used for the connection to SW_1. The printer is configured as an access port with VLAN 5. Which set of commands completes the connectivity?
+A. switchport mode dynamic autoswitchport private-vlan association host 5
+B. switchport mode dynamic autoswitchport trunk encapsulation negotiate
+*C. switchport mode dynamic desirableswitchport trunk allowed vlan add 5
+D. switchport mode trunkswitchport trunk pruning vlan add 5
+
+129. Which type of wired port is required when an AP offers one unique SSID, passes client data and management traffic, and is in autonomous mode?
+A. Default
+*B. Access
+C. Trunk
+D. LAG
+
+130. How does MAC learning function?
+A. Sends frames with unknown destinations to a multicast group.
+B. Increases security on the management VLAN.
+C. Rewrites the source and destination MAC address.
+*D. Associates the MAC address with the port on which it is received.
+
+131. [Exhibit] VLAN 23 is being implemented between SW1 and SW2. The command show interface ethernet0/0 switchport has been issued on SW1. Ethernet0/0 on SW1 is the uplink to SW2. Which command when entered on the uplink interface allows PC 1 and PC 2 to communicate without impact to the communication between PC 11 and PC 12?
+A. switchport trunk allowed vlan 2-1001
+*B. switchport trunk allowed vlan add 23
+C. switchport trunk allowed vlan 23
+D. switchport trunk allowed vlan 22-23
+
+132. Which type of wired port is required when an AP offers one unique SSID, passes client data and management traffic, and is in autonomous mode?
+A. LAG
+*B. default
+C. trunk
+D. Bopess
+
+133. Which command must be configured to enable port security with a manually assigned MAC address of aabb.cc00.1234 for a VoIP handset on VLAN 4?
+A. switchport port-security mac-address aabb.cc00.1234
+*B. switchport port-security mac-address aabb.cc00.1234 vlan 4
+C. mac-address-table static aabb.cc00.1234 vlan 4 interface fa0/1
+D. switchport port-security mac-address sticky
+
+134. [Exhibit] A network engineer is adding another physical interface as a new member to the existing Port-Channel1 bundle. Which command set must be configured on the new interface to complete the process?
+A. switchport mode trunk channel-group 1 mode active
+*B. no switchport channel-group 1 mode active
+C. no switchport channel-group 1 mode on
+D. switchport switchport mode trunk
+
+135. [Exhibit] Inter-VLAN routing is configured on SW1. Client A is running Linux as an OS in VLAN 10 with a default gateway IP 10.0.0.1 but cannot ping client B in VLAN 20 running Windows. What action must be taken to verify that client A has the correct IP settings?
+A. Run the ipconfig command on client A and ensure that the IP address is within the host range of 10.0.0.1 - 10.0.255.254.
+*B. Run the ifconfig command on client A to confirm that its IP and subnet mask fall within 255.254.0.0.
+C. Run the ipconfig command on client A to confirm that the correct 10.0.0.1 default gateway is used.
+D. Run the ifconfig command on client A to confirm that the subnet mask is set to 255.255.128.0.
+
+136. [Exhibit] An administrator is configuring a new WLAN for a wireless network that has these requirements: Dual-band clients that connect to the WLAN must be directed to the 5-GHz spectrum. Wireless clients on this WLAN must be able to apply VLAN settings from RADIUS attributes. Which two actions meet these requirements? (Choose two.)
+A. Enable the Aironet IE option.
+B. Enable the Coverage Hole Detection option.
+C. Set the MFP Client Protection option to Required
+*D. Enable the client band select option.
+*E. Enable the allow AAA Override option
+
+137. An engineer requires a switch interface to actively attempt to establish a trunk link with a neighbor switch. What command must be configured?
+*A. switchport mode dynamic desirable
+B. switchport mode trunk
+C. switchport nonegotiate
+D. switchport mode dynamic auto
+

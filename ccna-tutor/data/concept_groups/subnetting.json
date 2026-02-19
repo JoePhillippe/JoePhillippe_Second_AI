@@ -1,0 +1,925 @@
+{
+  "protocol": "subnetting",
+  "groups": [
+    {
+      "group_id": "subnetting_q1",
+      "concept": "### A network engineer must configure two new subnets using the address block 10...",
+      "question_ids": [
+        "subnetting_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q2",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "subnetting_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q3",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "subnetting_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q4",
+      "concept": "An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to...",
+      "question_ids": [
+        "subnetting_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q5",
+      "concept": "[Exhibit] Which command configures a floating static route to provide a backup t...",
+      "question_ids": [
+        "subnetting_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q6",
+      "concept": "A corporate office uses four floors in a building -   Floor 1 has 24 users -   F...",
+      "question_ids": [
+        "subnetting_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q7",
+      "concept": "[Exhibit] Which IPv6 configuration is required for R17 to successfully ping the ...",
+      "question_ids": [
+        "subnetting_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q8",
+      "concept": "[Exhibit] A network administrator assumes a task to complete the connectivity be...",
+      "question_ids": [
+        "subnetting_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q9",
+      "concept": "Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0\\'1. Which a...",
+      "question_ids": [
+        "subnetting_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q10",
+      "concept": "[Exhibit] If OSPF is running on this network, how does Router 2 handle traffic f...",
+      "question_ids": [
+        "subnetting_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q11",
+      "concept": "[Exhibit] An administrator must turn off the Cisco Discovery Protocol on the por...",
+      "question_ids": [
+        "subnetting_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q12",
+      "concept": "[Exhibit] When PC-A sends traffic to PC-B, which network component is in charge ...",
+      "question_ids": [
+        "subnetting_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q13",
+      "concept": "[Exhibit] An extended ACL has been configured and applied to router R2 The confi...",
+      "question_ids": [
+        "subnetting_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q14",
+      "concept": "[Exhibit] What is the metric of the route to the 192.168.10.33/28 subnet?",
+      "question_ids": [
+        "subnetting_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q15",
+      "concept": "[Exhibit] An administrator must turn off the Cisco Discovery Protocol on the por...",
+      "question_ids": [
+        "subnetting_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q16",
+      "concept": "In which situation is private IPv4 addressing appropriate for a new subnet on th...",
+      "question_ids": [
+        "subnetting_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q17",
+      "concept": "An engineer must configure a/30 subnet between two routers. Which usable IP addr...",
+      "question_ids": [
+        "subnetting_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q18",
+      "concept": "[Exhibit] What commands are needed to add a subinterface to Ethernet0/0 on R1 to...",
+      "question_ids": [
+        "subnetting_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q19",
+      "concept": "[Exhibit] A network administrator must permit SSH access to remotely manage rout...",
+      "question_ids": [
+        "subnetting_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q20",
+      "concept": "Refer to the exhibit Router R1 Fa0/0 is unable to ping router R3 Fa0'1. Which ac...",
+      "question_ids": [
+        "subnetting_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q21",
+      "concept": "Which two command sequences must you configure on switch to establish a Layer 3 ...",
+      "question_ids": [
+        "subnetting_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q22",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol in a specific subnet?",
+      "question_ids": [
+        "subnetting_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q23",
+      "concept": "[Exhibit] A network administrator assumes a task to complete the connectivity be...",
+      "question_ids": [
+        "subnetting_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q24",
+      "concept": "[Exhibit] An engineer must add a subnet for a new office that will add 20 users ...",
+      "question_ids": [
+        "subnetting_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q25",
+      "concept": "A corporate office uses four floors in a building \u2022 Floor 1 has 24 users \u2022 Floor...",
+      "question_ids": [
+        "subnetting_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q26",
+      "concept": "[Exhibit] Which command configures a floating static route to provide a backup t...",
+      "question_ids": [
+        "subnetting_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q27",
+      "concept": "An office has 8 floors with approximately 30-40 users per floor What command mus...",
+      "question_ids": [
+        "subnetting_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q28",
+      "concept": "[Exhibit] Router R1 Fa0/0 is unable ping router R3 Fa0/1. Which action must be t...",
+      "question_ids": [
+        "subnetting_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q29",
+      "concept": "An engineer is configuring NAT to translate the source subnet of 10.10.0.0/24 to...",
+      "question_ids": [
+        "subnetting_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q30",
+      "concept": "A packet is destined for 10.10.1.22. Which static route does the router choose t...",
+      "question_ids": [
+        "subnetting_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q31",
+      "concept": "A network engineer must configure two new subnets using the address block 10 70 ...",
+      "question_ids": [
+        "subnetting_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q32",
+      "concept": "[Exhibit] An IP subnet must be configured on each router that provides enough ad...",
+      "question_ids": [
+        "subnetting_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q33",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "subnetting_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q34",
+      "concept": "An engineer is configuring remote access to a router from IP subnet 10.139.58.0/...",
+      "question_ids": [
+        "subnetting_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q35",
+      "concept": "[Exhibit] Routers R1 and R3 have the default configuration The router R2 priorit...",
+      "question_ids": [
+        "subnetting_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q36",
+      "concept": "[Exhibit] The router has been configured with a supernet to accommodate the requ...",
+      "question_ids": [
+        "subnetting_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q37",
+      "concept": "[Exhibit] An engineer is updating the R1 configuration to connect a new server t...",
+      "question_ids": [
+        "subnetting_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q38",
+      "concept": "OSPF must be configured between routers R1 and R2. Which OSPF configuration must...",
+      "question_ids": [
+        "subnetting_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q39",
+      "concept": "[Exhibit] R1 learns all routes via OSPF Which command configures a backup static...",
+      "question_ids": [
+        "subnetting_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q40",
+      "concept": "[Exhibit] Which route must be configured on R1 so that OSPF routing is used when...",
+      "question_ids": [
+        "subnetting_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q41",
+      "concept": "[Exhibit] An engineer just installed network 10.120.10.0/24. Which configuration...",
+      "question_ids": [
+        "subnetting_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q42",
+      "concept": "[Exhibit] An engineer must configure a floating static route on an external EIGR...",
+      "question_ids": [
+        "subnetting_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q43",
+      "concept": "[Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subn...",
+      "question_ids": [
+        "subnetting_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q44",
+      "concept": "[Exhibit] A network engineer is updating the configuration on router R1 to conne...",
+      "question_ids": [
+        "subnetting_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q45",
+      "concept": "In which circumstance would a network architect decide to implement a global uni...",
+      "question_ids": [
+        "subnetting_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q46",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "subnetting_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q47",
+      "concept": "[Exhibit] How does router R1 handle traffic to the 172.16.1.4/30 subnet?",
+      "question_ids": [
+        "subnetting_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q48",
+      "concept": "[Exhibit] What is the subnet mask for route 172.16.4.0?",
+      "question_ids": [
+        "subnetting_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q49",
+      "concept": "[Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its nex...",
+      "question_ids": [
+        "subnetting_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q50",
+      "concept": "A HCP pool has been created with the name CONTROL. The pool uses the next to las...",
+      "question_ids": [
+        "subnetting_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q51",
+      "concept": "[Exhibit] The My_WLAN wireless LAN was configured with WPA2 Layer 2 PSK security...",
+      "question_ids": [
+        "subnetting_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q52",
+      "concept": "[Exhibit] What is the subnet mask of the route to the 10.10.13.160 prefix?",
+      "question_ids": [
+        "subnetting_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q53",
+      "concept": "[Exhibit] A packet sourced from 172.16.32 254 is destined for 172.16.32.8. What ...",
+      "question_ids": [
+        "subnetting_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q54",
+      "concept": "The address block 192.168.32.0/24 must be subnetted into smaller networks. The e...",
+      "question_ids": [
+        "subnetting_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q55",
+      "concept": "An engineer is installing a new wireless printer with a static IP address on the...",
+      "question_ids": [
+        "subnetting_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q56",
+      "concept": "[Exhibit] A newly configured PC fails to connect to the internet using TCP port ...",
+      "question_ids": [
+        "subnetting_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q57",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol on a specific subnet?",
+      "question_ids": [
+        "subnetting_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q58",
+      "concept": "[Exhibit] Router R14 is in the process of being configured. Which configuration ...",
+      "question_ids": [
+        "subnetting_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q59",
+      "concept": "[Exhibit] Which IP route command created the best path for a packet destined for...",
+      "question_ids": [
+        "subnetting_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q60",
+      "concept": "[Exhibit] A packet sourced from 10.10.10.1 is destined for 10.10.8.14. What is t...",
+      "question_ids": [
+        "subnetting_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q61",
+      "concept": "What are two features of the DHCP relay agent? (Choose two.)",
+      "question_ids": [
+        "subnetting_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q62",
+      "concept": "[Exhibit] A packet sourced from 172.16.32.254 is destined for 172.16.32.8. What ...",
+      "question_ids": [
+        "subnetting_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q63",
+      "concept": "[Exhibit] What does route 10.0.1.3/32 represent in the routing table?",
+      "question_ids": [
+        "subnetting_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q64",
+      "concept": "[Exhibit] How does router R1 handle traffic to the 172.16.1.4/30 subnet?",
+      "question_ids": [
+        "subnetting_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q65",
+      "concept": "[Exhibit] Routers R1 and R2 are configured with RIP as the dynamic routing proto...",
+      "question_ids": [
+        "subnetting_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q66",
+      "concept": "Which type of address is shared by routers in a HSRP implementation and used by ...",
+      "question_ids": [
+        "subnetting_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q67",
+      "concept": "[Exhibit] Router R1 is added to the network and configured with the 10.0.0.64/26...",
+      "question_ids": [
+        "subnetting_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q68",
+      "concept": "[Exhibit] The image server and client A are running an application that transfer...",
+      "question_ids": [
+        "subnetting_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q69",
+      "concept": "[Exhibit] The router R1 is in the process of being configured. Routers R2 and R3...",
+      "question_ids": [
+        "subnetting_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q70",
+      "concept": "[Exhibit] A network engineer must configure router R1 with a host route to the s...",
+      "question_ids": [
+        "subnetting_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q71",
+      "concept": "[Exhibit] An engineer assigns IP addressing to the current VLAN with three PCs. ...",
+      "question_ids": [
+        "subnetting_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q72",
+      "concept": "[Exhibit] What is the subnet mask of the route to the 10.10.13.160 prefix?",
+      "question_ids": [
+        "subnetting_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q73",
+      "concept": "A network engineer must configure an access list on a new Cisco IOS router. The ...",
+      "question_ids": [
+        "subnetting_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q74",
+      "concept": "[Exhibit] A network engineer must configure R1 so that it sends all packets dest...",
+      "question_ids": [
+        "subnetting_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q75",
+      "concept": "[Exhibit] Each router must be configured with the last usable IP address in the ...",
+      "question_ids": [
+        "subnetting_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q76",
+      "concept": "The clients and OHCP server reside on different subnets. Which command must be u...",
+      "question_ids": [
+        "subnetting_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q77",
+      "concept": "[Exhibit] Router R1 must be configured to reach the 10.0.3.0/24 network from the...",
+      "question_ids": [
+        "subnetting_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q78",
+      "concept": "[Exhibit] A network engineer must provide configured IP addressing details to in...",
+      "question_ids": [
+        "subnetting_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q79",
+      "concept": "A network engineer must configure an interface with IP address 10.10.10.145 and ...",
+      "question_ids": [
+        "subnetting_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q80",
+      "concept": "[Exhibit] Traffic from R1 to the 10.10.2.0/24 subnet uses 192.168.1.2 as its nex...",
+      "question_ids": [
+        "subnetting_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q81",
+      "concept": "[Exhibit] What does route 10.0.1.3/32 represent in the routing table?",
+      "question_ids": [
+        "subnetting_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q82",
+      "concept": "[Exhibit] What is the subnet mask for route 172.16.4.0?",
+      "question_ids": [
+        "subnetting_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q83",
+      "concept": "A DHCP pool has been created with the name NOCC. The pool is using 192.168.20.0/...",
+      "question_ids": [
+        "subnetting_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q84",
+      "concept": "[Exhibit] The router has been configured with a subnet to accommodate the requir...",
+      "question_ids": [
+        "subnetting_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q85",
+      "concept": "What are two reasons to implement DHCP in a network? (Choose two.)",
+      "question_ids": [
+        "subnetting_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q86",
+      "concept": "The address block 192 168 32 0/24 must be subnetted into smaller networks The en...",
+      "question_ids": [
+        "subnetting_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q87",
+      "concept": "Why would VRRP be implemented when configuring a new subnet in a multivendor env...",
+      "question_ids": [
+        "subnetting_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q88",
+      "concept": "[Exhibit] A network engineer is configuring a WLAN to connect with the 172.16.10...",
+      "question_ids": [
+        "subnetting_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q89",
+      "concept": "What is a difference between an IPv6 multicast address and an IPv6 anycast addre...",
+      "question_ids": [
+        "subnetting_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q90",
+      "concept": "[Exhibit] Routers R1 and R2 have been configured with their respective LAN inter...",
+      "question_ids": [
+        "subnetting_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q91",
+      "concept": "[Exhibit] A network engineer must configure the CPE router to allow computers in...",
+      "question_ids": [
+        "subnetting_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q92",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "subnetting_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q93",
+      "concept": "[Exhibit] A packet sourced from 10.10.10.1 is destined for 172.16.3.254. What is...",
+      "question_ids": [
+        "subnetting_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q94",
+      "concept": "An engineer must update the configuration on two PCs in two different subnets to...",
+      "question_ids": [
+        "subnetting_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q95",
+      "concept": "What is a similarity between global and unique local IPv6 addresses?",
+      "question_ids": [
+        "subnetting_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q96",
+      "concept": "[Exhibit] A static route must be configured on R14 to forward traffic for the 17...",
+      "question_ids": [
+        "subnetting_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q97",
+      "concept": "[Exhibit] Inter-VLAN routing is configured on SW1. Client A is running Linux as ...",
+      "question_ids": [
+        "subnetting_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q98",
+      "concept": "[Exhibit] Which interface does a packet take to reach the host address of 192.16...",
+      "question_ids": [
+        "subnetting_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q99",
+      "concept": "[Exhibit] Configurations for the switch and PCs are complete. Which configuratio...",
+      "question_ids": [
+        "subnetting_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q100",
+      "concept": "[Exhibit] During initial configuration testing, the Windows workstation PC1 cann...",
+      "question_ids": [
+        "subnetting_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q101",
+      "concept": "[Exhibit] A secondary route is required on router R1 to pass traffic to the LAN ...",
+      "question_ids": [
+        "subnetting_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "subnetting_q102",
+      "concept": "[Exhibit] A secondary route is required on router R1 to pass traffic to the LAN ...",
+      "question_ids": [
+        "subnetting_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 102,
+  "total_questions": 102
+}

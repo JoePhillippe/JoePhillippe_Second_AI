@@ -1,0 +1,168 @@
+CCNA 200-301 - FHRP - First Hop Redundancy Protocols
+==================================================
+
+1. When the active router in an HSRP group fails, what router assumes the role and forwards packets?
+A. backup
+*B. standby
+C. listening
+D. forwarding
+
+2. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+3. What is the benefit of using FHRP?
+A. reduced management overhead on network routers
+B. balancing traffic across multiple gateways in proportion to their loads
+*C. higher degree of availability
+D. reduced ARP traffic on the network
+
+4. Which two outcomes are predictable behaviors for HSRP? (Choose two.)
+A. The two routers synchronize configurations to provide consistent packet forwarding
+*B. The two routers negotiate one router as the active router and the other as the standby router
+C. Each router has a different IP address, both routers act as the default gateway on the LAN, and traffic is load-balanced between them
+*D. The two routers share a virtual IP address that is used as the default gateway for devices on the LAN
+E. The two routers share the same interface IP address and default gateway traffic is load- balanced between them
+
+5. What is a benefit of VRRP?
+A. It provides traffic load balancing to destinations that are more than two hops from the source.
+*B. It provides the default gateway redundancy on a LAN using two or more routers.
+C. It allows neighbors to share routing table information between each other.
+D. It prevents loops in a Layer 2 LAN by forwarding all traffic to a root bridge, which then makes the final forwarding decision.
+
+6. Which virtual MAC address is used by VRRP group 1?
+A. 0050.0c05.ad81
+B. 0007.c061.bc01
+*C. 0000.5E00.0101
+D. 0500.3976.6401
+
+7. Which MAC address is recognized as a VRRP virtual address?
+*A. 0000.5E00.010a
+B. 0005.3711.0975
+C. 0000.0C07.AC99
+D. 0007.C070/AB01
+
+8. What is the purpose of using First Hop Redundancy Protocol in a specific subnet?
+A. Filter traffic based on destination IP addressing
+B. Sends the default route to the hosts on a network
+C. ensures a loop-free physical topology
+*D. forwards multicast hello messages between routers
+
+9. How does HSRP provide first hop redundancy?
+A. It load-balances traffic by assigning the same metric value to more than one route to the same destination m the IP routing table.
+B. It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.
+C. It forwards multiple packets to the same destination over different routed links n the data path
+*D. It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN
+
+10. What is the primary purpose of a First Hop Redundancy Protocol?
+A. It allows directly connected neighbors to share configuration information.
+B. It allows a router to use bridge priorities to create multiple loop-free paths to a single destination.
+C. It reduces routing failures by allowing Layer 3 load balancing between OSPF neighbors that have the same link metric.
+*D. It reduces routing failures by allowing more than one router to represent itself, as the default gateway of a network.
+
+11. What is the benefit of using FHRP?
+A. reduced management overhead on network routers
+B. balancing traffic across multiple gateways in proportion to their loads
+*C. higher degree of availability
+D. reduced ARP traffic on the network
+
+12. Which two outcomes are predictable behaviors for HSRP? (Choose two)
+*A. The two routers share a virtual IP address that is used as the default gateway for devices on the LAN.
+*B. The two routers negotiate one router as the active router and the other as the standby router
+C. Each router has a different IP address both routers act as the default gateway on the LAN, and traffic is load balanced between them.D The two routers synchronize configurations to provide consistent packet forwarding
+D. The two routed share the same IP address, and default gateway traffic is load-balanced between them
+
+13. When the active router in an HSRP group fails, what router assumes the role and forwards packets?
+A. backup
+*B. standby
+C. listening
+D. forwarding
+
+14. What is the MAC address used with VRRP as a virtual address?
+A. 00-00-0C-07-AD-89
+*B. 00-00-5E-00-01-0a
+C. 00-07-C0-70-AB-01
+D. 00-C6-41-93-90-91
+
+15. What are two capabilities provided by VRRP within a LAN network? (Choose two.)
+*A. dynamic routing updates
+B. bandwidth optimization
+*C. granular QoS
+D. load sharing
+E. redundancy
+
+16. What is a function of the core and distribution layers in a collapsed-core architecture?
+A. The router must use IPv4 and IPv6 addresses at Layer 3.
+B. The core and distribution layers are deployed on two different devices to enable failover.
+C. The router can support HSRP for Layer 2 redundancy in an IPv6 network.
+*D. The router operates on a single device or a redundant pair.
+
+17. Which Cisco proprietary protocol ensures traffic recovers immediately, transparently, and automatically when edge devices or access circuits fail?
+A. SLB
+B. FHRP
+C. VRRP
+*D. HSRP
+
+18. What is the purpose of using First Hop Redundancy Protocol on a specific subnet?
+A. ensures a loop-free physical topology
+B. filters traffic based on destination IP addressing
+C. sends the default route to the hosts on a network
+*D. forwards multicast hello messages between routers
+
+19. What is the benefit of using FHRP (First Hop Redundancy Protocol)?
+A. Reduced ARP traffic on the network
+B. Balancing traffic across multiple gateways in proportion to their loads
+C. Reduced management overhead on network routers
+*D. Higher degree of availability
+
+20. Which type of address is shared by routers in a HSRP implementation and used by hosts on the subnet as their default gateway address?
+A. multicast address
+B. loopback IP address
+*C. virtual IP address
+D. broadcast address
+
+21. What are two purposes of HSRP? (Choose two.)
+*A. It groups two or more routers to operate as one virtual router.
+*B. It improves network availability by providing redundant gateways.
+C. It passes configuration information to hosts in a TCP/IP network.
+D. It helps hosts on the network to reach remote subnets without a default gateway.
+E. It provides a mechanism for diskless clients to autoconfigure their IP parameters during boot.
+
+22. Why implement VRRP?
+*A. to provide end users with a virtual gateway in a multivendor network
+B. to leverage a weighting scheme to provide uninterrupted service
+C. to detect link failures without the overhead of Bidirectional Forwarding Detection
+D. to hand over to end users the autodiscovery of virtual gateways
+
+23. What provides connection redundancy increased bandwidth and load sharing between a wireless LAN controller and a Layer 2 switch?
+A. VLAN trunking
+B. tunneling
+C. first hop redundancy
+*D. link aggregation
+
+24. Why would VRRP be implemented when configuring a new subnet in a multivendor environment?
+*A. when a gateway protocol is required that support more than two Cisco devices for redundancy
+B. to enable normal operations to continue after a member failure without requiring a change In a host ARP cache
+C. to ensure that the spanning-tree forwarding path to the gateway is loop-free
+D. to interoperate normally with all vendors and provide additional security features for Cisco devices
+
+25. What is a reason to implement HSRP on a network?
+A. to Identify the closest hop to the default gateway In a LAN network
+B. to provide load balancing over multiple gateways in a LAN network
+C. to optimally route traffic based on the forwarding capacity of the edge routing devices in the LAN network
+*D. to ensure that user traffic in a LAN rapidly recovers from the failure of an edge routing device
+
+26. Which type of protocol is VRRP?
+A. uses dynamic IP address assignment
+B. allows two or more routers to act as a default gateway
+C. uses a destination IP address 224.0.0.102 for router-to-router communication
+*D. uses Cisco-proprietary First Hop Redundancy Protocol
+
+27. When deploying a new network that includes both Cisco and third-party network devices, which redundancy protocol avoids the interruption of network traffic if the default gateway router fails?
+A. FHRP
+B. HSRP
+C. GLBP
+*D. VRRP
+

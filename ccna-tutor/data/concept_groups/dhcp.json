@@ -1,0 +1,493 @@
+{
+  "protocol": "dhcp",
+  "groups": [
+    {
+      "group_id": "dhcp_q1",
+      "concept": "[Exhibit] The DHCP server and clients are connected to the same switch. What is ...",
+      "question_ids": [
+        "dhcp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q2",
+      "concept": "Which function is performed by DHCP snooping?",
+      "question_ids": [
+        "dhcp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q3",
+      "concept": "[Exhibit] An engineer deploys a topology in which R1 obtains its IP configuratio...",
+      "question_ids": [
+        "dhcp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q4",
+      "concept": "Which type of information resides on a DHCP server?",
+      "question_ids": [
+        "dhcp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q5",
+      "concept": "What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose tw...",
+      "question_ids": [
+        "dhcp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q6",
+      "concept": "[Exhibit] If the network environment is operating normally, which type of device...",
+      "question_ids": [
+        "dhcp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q7",
+      "concept": "Which command enables a router to become a DHCP client?",
+      "question_ids": [
+        "dhcp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q8",
+      "concept": "Where does the configuration reside when a helper address Is configured lo suppo...",
+      "question_ids": [
+        "dhcp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q9",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "dhcp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q10",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dhcp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q11",
+      "concept": "Which access layer threat-mitigation technique provides security based on identi...",
+      "question_ids": [
+        "dhcp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q12",
+      "concept": "Which command automatically generates an IPv6 address from a specified IPv6 pref...",
+      "question_ids": [
+        "dhcp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q13",
+      "concept": "A network administrator must enable DHCP services between two sites. What must b...",
+      "question_ids": [
+        "dhcp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q14",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dhcp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q15",
+      "concept": "When implementing a router as a DHCP server, which two features must be configur...",
+      "question_ids": [
+        "dhcp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q16",
+      "concept": "When DHCP is configured on a router, which command must be entered so the defaul...",
+      "question_ids": [
+        "dhcp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q17",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "dhcp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q18",
+      "concept": "[Exhibit] If the network environment is operating normally, which type of device...",
+      "question_ids": [
+        "dhcp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q19",
+      "concept": "Which type of information resides on a DHCP server?",
+      "question_ids": [
+        "dhcp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q20",
+      "concept": "What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose tw...",
+      "question_ids": [
+        "dhcp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q21",
+      "concept": "Which command enables a router to become a DHCP client?",
+      "question_ids": [
+        "dhcp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q22",
+      "concept": "Which protocol does an IPv4 host use to obtain a dynamically assigned IP address...",
+      "question_ids": [
+        "dhcp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q23",
+      "concept": "Where does the configuration reside when a helper address Is configured lo suppo...",
+      "question_ids": [
+        "dhcp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q24",
+      "concept": "Which function is performed by DHCP snooping?",
+      "question_ids": [
+        "dhcp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q25",
+      "concept": "Which command must be entered to configure a DHCP relay?",
+      "question_ids": [
+        "dhcp_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q26",
+      "concept": "When a client and server are not on the same physical network, which device is u...",
+      "question_ids": [
+        "dhcp_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q27",
+      "concept": "What prevents a workstation from receiving a DHCP address?",
+      "question_ids": [
+        "dhcp_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q28",
+      "concept": "[Exhibit] An engineer deploys a topology in which R1 obtains its IP configuratio...",
+      "question_ids": [
+        "dhcp_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q29",
+      "concept": "[Exhibit] What is the effect of this configuration?",
+      "question_ids": [
+        "dhcp_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q30",
+      "concept": "Where does a switch maintain DHCP snooping information?",
+      "question_ids": [
+        "dhcp_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q31",
+      "concept": "[Exhibit] Which configuration enables DHCP addressing for hosts connected to int...",
+      "question_ids": [
+        "dhcp_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q32",
+      "concept": "[Exhibit] An engineer is configuring a new router on the network and applied thi...",
+      "question_ids": [
+        "dhcp_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q33",
+      "concept": "[Exhibit] The DHCP server and clients are connected to the same switch. What is ...",
+      "question_ids": [
+        "dhcp_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q34",
+      "concept": "What is the purpose of the ip address dhcp command?",
+      "question_ids": [
+        "dhcp_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q35",
+      "concept": "What is a DHCP client?",
+      "question_ids": [
+        "dhcp_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q36",
+      "concept": "What are two functions of DHCP servers? (Choose two.)",
+      "question_ids": [
+        "dhcp_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q37",
+      "concept": "A HCP pool has been created with the name CONTROL. The pool uses the next to las...",
+      "question_ids": [
+        "dhcp_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q38",
+      "concept": "An engineer is installing a new wireless printer with a static IP address on the...",
+      "question_ids": [
+        "dhcp_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q39",
+      "concept": "[Exhibit] The DHCP server is configured with a DHCP pool for each of the subnets...",
+      "question_ids": [
+        "dhcp_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q40",
+      "concept": "[Exhibit] A newly configured PC fails to connect to the internet using TCP port ...",
+      "question_ids": [
+        "dhcp_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q41",
+      "concept": "[Exhibit] The P2P blocking action option is disabled on the WLC.",
+      "question_ids": [
+        "dhcp_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q42",
+      "concept": "Which IPv6 address range is suitable for anycast addresses for distributed servi...",
+      "question_ids": [
+        "dhcp_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q43",
+      "concept": "What are two features of the DHCP relay agent? (Choose two.)",
+      "question_ids": [
+        "dhcp_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q44",
+      "concept": "When an access point is seeking to join wireless LAN controller, which message i...",
+      "question_ids": [
+        "dhcp_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q45",
+      "concept": "Refer to the exhibit An IPv6 address must be obtained automatically on the LAN i...",
+      "question_ids": [
+        "dhcp_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q46",
+      "concept": "What is used to identify spurious DHCP servers?",
+      "question_ids": [
+        "dhcp_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q47",
+      "concept": "[Exhibit] What does the host do when using the IPv4 Preferred function?",
+      "question_ids": [
+        "dhcp_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q48",
+      "concept": "The clients and OHCP server reside on different subnets. Which command must be u...",
+      "question_ids": [
+        "dhcp_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q49",
+      "concept": "A DHCP pool has been created with the name NOCC. The pool is using 192.168.20.0/...",
+      "question_ids": [
+        "dhcp_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q50",
+      "concept": "[Exhibit] An architect is managing a wireless network with APs from several bran...",
+      "question_ids": [
+        "dhcp_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q51",
+      "concept": "What are two reasons to implement DHCP in a network? (Choose two.)",
+      "question_ids": [
+        "dhcp_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q52",
+      "concept": "[Exhibit] A network engineer must configure the CPE router to allow computers in...",
+      "question_ids": [
+        "dhcp_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q53",
+      "concept": "Which interface on the WLC is used exclusively as a DHCP relay?",
+      "question_ids": [
+        "dhcp_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "dhcp_q54",
+      "concept": "A new DHCP server has been deployed in a corporate environment with lease time s...",
+      "question_ids": [
+        "dhcp_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 54,
+  "total_questions": 54
+}

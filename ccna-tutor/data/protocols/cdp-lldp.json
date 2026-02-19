@@ -1,0 +1,10 @@
+{
+  "name": "CDP and LLDP",
+  "slug": "cdp-lldp",
+  "category": "Network Services",
+  "description": "Cisco Discovery Protocol (CDP) and Link Layer Discovery Protocol (LLDP) discover and share information about directly connected network devices.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

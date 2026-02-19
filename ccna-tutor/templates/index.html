@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Home - CCNA Tutor{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-cisco-blue">CCNA Exam Preparation</h1>
+    <p class="lead">Guided by Cisco Configuration Guides</p>
+</div>
+
+<!-- Introduction -->
+<div class="row justify-content-center mb-5">
+    <div class="col-lg-8">
+        <div class="alert alert-info">
+            <h5 class="alert-heading">About This Tutor</h5>
+            <p>This AI tutor uses <strong>official Cisco configuration guides</strong> as the authoritative source for CCNA exam preparation. Unlike third-party training materials, our content is drawn directly from Cisco's own documentation for switches and routers.</p>
+            <hr>
+            <p class="mb-0"><strong>Prerequisites:</strong> This tutor is designed for students who have completed foundational networking coursework in a network administration degree program. Basic networking concepts should already be familiar.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Feature Cards -->
+<div class="row g-4">
+    <!-- Study Protocols Card -->
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-cisco-teal">
+                    <i class="bi bi-book"></i> Study Protocols
+                </h5>
+                <p class="card-text flex-grow-1">
+                    Deep dive into network protocols with explanations drawn from Cisco configuration guides. Learn how protocols work and how to configure them on Cisco devices.
+                </p>
+                <a href="/protocols" class="btn btn-cisco-blue mt-auto">Start Learning</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Practice Exam Questions Card -->
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-cisco-teal">
+                    <i class="bi bi-question-circle"></i> Practice Exam Questions
+                </h5>
+                <p class="card-text flex-grow-1">
+                    Jump straight into exam questions — get AI-powered explanations grounded in Cisco configuration guides with added depth from Cisco docs and CCNA references.
+                </p>
+                <a href="/practice/" class="btn btn-cisco-blue mt-auto">Start Practice</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Packet Tracer Labs Card -->
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-cisco-teal">
+                    <i class="bi bi-laptop"></i> Packet Tracer Labs
+                </h5>
+                <p class="card-text flex-grow-1">
+                    Hands-on practice with Cisco Packet Tracer lab scenarios. Apply your knowledge in simulated network environments to reinforce learning.
+                </p>
+                <a href="#" class="btn btn-cisco-blue mt-auto">Launch Labs</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Getting Started Section -->
+<div class="row justify-content-center mt-5">
+    <div class="col-lg-8">
+        <div class="card bg-light">
+            <div class="card-body text-center">
+                <h5 class="card-title">Ready to Get Started?</h5>
+                <p class="card-text">Choose a study path above or explore the navigation menu to dive into specific protocols.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

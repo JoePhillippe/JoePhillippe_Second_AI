@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Practice Summary - CCNA Tutor{% endblock %}
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-10 mx-auto">
+
+        <h1 class="display-5 fw-bold text-cisco-blue mb-2">Practice Summary</h1>
+        <h4 class="text-muted mb-4">{{ protocol_name }}</h4>
+
+        <!-- Score Overview -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-6 col-md-3 mb-3 mb-md-0">
+                        <h2 id="total-answered" class="display-4 text-cisco-blue">-</h2>
+                        <p class="text-muted mb-0">Answered</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-3 mb-md-0">
+                        <h2 id="correct-pct" class="display-4 text-success">-</h2>
+                        <p class="text-muted mb-0">Correct %</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h2 id="total-correct" class="display-4 text-success">-</h2>
+                        <p class="text-muted mb-0">Correct</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h2 id="total-incorrect" class="display-4 text-danger">-</h2>
+                        <p class="text-muted mb-0">Incorrect</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skipped Info -->
+        <div id="skipped-section" class="alert alert-warning d-none mb-4">
+            <strong id="skipped-count">0</strong> questions skipped
+        </div>
+
+        <!-- Missed Questions -->
+        <div id="missed-section" class="card shadow-sm mb-4 d-none">
+            <div class="card-body">
+                <h4 class="text-danger mb-3">Missed Questions</h4>
+                <div id="missed-list" class="list-group list-group-flush"></div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+            <a href="/practice/{{ protocol_slug }}" class="btn btn-cisco-blue btn-lg">
+                Practice Again
+            </a>
+            <a href="/practice/" class="btn btn-cisco-teal btn-lg">
+                Pick New Topic
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    window.summaryConfig = {
+        protocolSlug: "{{ protocol_slug }}",
+        protocolName: "{{ protocol_name }}"
+    };
+</script>
+<script src="{{ url_for('static', filename='js/practice.js') }}"></script>
+
+{% endblock %}

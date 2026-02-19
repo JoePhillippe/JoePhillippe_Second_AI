@@ -1,0 +1,178 @@
+{
+  "protocol": "tcp-ip",
+  "groups": [
+    {
+      "group_id": "tcp-ip_q1",
+      "concept": "How do TCP and UDP differ in the way they provide reliability for delivery of pa...",
+      "question_ids": [
+        "tcp-ip_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q2",
+      "concept": "How do TCP and UDP differ in the way that they establish a connection between tw...",
+      "question_ids": [
+        "tcp-ip_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q3",
+      "concept": "What is the difference regarding reliability and communication type between TCP ...",
+      "question_ids": [
+        "tcp-ip_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q4",
+      "concept": "How do TCP and UDP differ in the way they provide reliability for delivery of pa...",
+      "question_ids": [
+        "tcp-ip_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q5",
+      "concept": "What is the difference in data transmission delivery and reliability between TCP...",
+      "question_ids": [
+        "tcp-ip_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q6",
+      "concept": "How do TCP and UDP differ in the way that they establish a connection between tw...",
+      "question_ids": [
+        "tcp-ip_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q7",
+      "concept": "How do TCP and UDP differ in the way they guarantee packet delivery?",
+      "question_ids": [
+        "tcp-ip_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q8",
+      "concept": "Why is TCP desired over UDP for application that require extensive error checkin...",
+      "question_ids": [
+        "tcp-ip_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q9",
+      "concept": "Under which condition is TCP preferred over UDP?",
+      "question_ids": [
+        "tcp-ip_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q10",
+      "concept": "How do TCP and UDP fit into a query-response model?",
+      "question_ids": [
+        "tcp-ip_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q11",
+      "concept": "What is the role of SNMP in the network?",
+      "question_ids": [
+        "tcp-ip_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q12",
+      "concept": "Why is UDP more suitable than TCP for applications that require low latency, suc...",
+      "question_ids": [
+        "tcp-ip_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q13",
+      "concept": "Why is UDP more suitable than TCP tor applications that require low latency, suc...",
+      "question_ids": [
+        "tcp-ip_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q14",
+      "concept": "[Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and...",
+      "question_ids": [
+        "tcp-ip_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q15",
+      "concept": "Which two transport layer protocols carry syslog messages? (Choose two.)",
+      "question_ids": [
+        "tcp-ip_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q16",
+      "concept": "What is the difference between the TCP and UDP protocols?",
+      "question_ids": [
+        "tcp-ip_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q17",
+      "concept": "Which default condition must be considered when an encrypted mobility tunnel is ...",
+      "question_ids": [
+        "tcp-ip_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q18",
+      "concept": "What is a characteristic of a Layer 2 switch?",
+      "question_ids": [
+        "tcp-ip_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "tcp-ip_q19",
+      "concept": "What differentiates the TCP and UDP protocols?",
+      "question_ids": [
+        "tcp-ip_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 19,
+  "total_questions": 19
+}

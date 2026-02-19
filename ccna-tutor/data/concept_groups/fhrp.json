@@ -1,0 +1,250 @@
+{
+  "protocol": "fhrp",
+  "groups": [
+    {
+      "group_id": "fhrp_q1",
+      "concept": "When the active router in an HSRP group fails, what router assumes the role and ...",
+      "question_ids": [
+        "fhrp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q2",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "fhrp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q3",
+      "concept": "What is the benefit of using FHRP?",
+      "question_ids": [
+        "fhrp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q4",
+      "concept": "Which two outcomes are predictable behaviors for HSRP? (Choose two.)",
+      "question_ids": [
+        "fhrp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q5",
+      "concept": "What is a benefit of VRRP?",
+      "question_ids": [
+        "fhrp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q6",
+      "concept": "Which virtual MAC address is used by VRRP group 1?",
+      "question_ids": [
+        "fhrp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q7",
+      "concept": "Which MAC address is recognized as a VRRP virtual address?",
+      "question_ids": [
+        "fhrp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q8",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol in a specific subnet?",
+      "question_ids": [
+        "fhrp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q9",
+      "concept": "How does HSRP provide first hop redundancy?",
+      "question_ids": [
+        "fhrp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q10",
+      "concept": "What is the primary purpose of a First Hop Redundancy Protocol?",
+      "question_ids": [
+        "fhrp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q11",
+      "concept": "What is the benefit of using FHRP?",
+      "question_ids": [
+        "fhrp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q12",
+      "concept": "Which two outcomes are predictable behaviors for HSRP? (Choose two)",
+      "question_ids": [
+        "fhrp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q13",
+      "concept": "When the active router in an HSRP group fails, what router assumes the role and ...",
+      "question_ids": [
+        "fhrp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q14",
+      "concept": "What is the MAC address used with VRRP as a virtual address?",
+      "question_ids": [
+        "fhrp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q15",
+      "concept": "What are two capabilities provided by VRRP within a LAN network? (Choose two.)",
+      "question_ids": [
+        "fhrp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q16",
+      "concept": "What is a function of the core and distribution layers in a collapsed-core archi...",
+      "question_ids": [
+        "fhrp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q17",
+      "concept": "Which Cisco proprietary protocol ensures traffic recovers immediately, transpare...",
+      "question_ids": [
+        "fhrp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q18",
+      "concept": "What is the purpose of using First Hop Redundancy Protocol on a specific subnet?",
+      "question_ids": [
+        "fhrp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q19",
+      "concept": "What is the benefit of using FHRP (First Hop Redundancy Protocol)?",
+      "question_ids": [
+        "fhrp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q20",
+      "concept": "Which type of address is shared by routers in a HSRP implementation and used by ...",
+      "question_ids": [
+        "fhrp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q21",
+      "concept": "What are two purposes of HSRP? (Choose two.)",
+      "question_ids": [
+        "fhrp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q22",
+      "concept": "Why implement VRRP?",
+      "question_ids": [
+        "fhrp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q23",
+      "concept": "What provides connection redundancy increased bandwidth and load sharing between...",
+      "question_ids": [
+        "fhrp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q24",
+      "concept": "Why would VRRP be implemented when configuring a new subnet in a multivendor env...",
+      "question_ids": [
+        "fhrp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q25",
+      "concept": "What is a reason to implement HSRP on a network?",
+      "question_ids": [
+        "fhrp_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q26",
+      "concept": "Which type of protocol is VRRP?",
+      "question_ids": [
+        "fhrp_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "fhrp_q27",
+      "concept": "When deploying a new network that includes both Cisco and third-party network de...",
+      "question_ids": [
+        "fhrp_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 27,
+  "total_questions": 27
+}

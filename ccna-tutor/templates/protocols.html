@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Protocols - CCNA Tutor{% endblock %}
+
+{% block content %}
+<!-- Header -->
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-cisco-blue">Network Protocols</h1>
+    <p class="lead">Study CCNA protocols using official Cisco configuration guides</p>
+</div>
+
+<!-- Protocols by Category -->
+{% for category, protocols in protocols_by_category.items() %}
+<div class="mb-5">
+    <h2 class="text-cisco-teal mb-3">{{ category }}</h2>
+    <div class="row g-4">
+        {% for protocol in protocols %}
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h5 class="card-title text-cisco-blue mb-0">{{ protocol.name }}</h5>
+                        {% if protocol.exam_weight == 'High' %}
+                            <span class="badge bg-danger">High</span>
+                        {% elif protocol.exam_weight == 'Medium' %}
+                            <span class="badge bg-warning text-dark">Medium</span>
+                        {% else %}
+                            <span class="badge bg-success">Low</span>
+                        {% endif %}
+                    </div>
+                    <p class="card-text text-muted flex-grow-1">{{ protocol.description[:120] }}{% if protocol.description|length > 120 %}...{% endif %}</p>
+                    <a href="/protocol/{{ protocol.slug }}" class="btn btn-cisco-blue mt-auto">Study Protocol</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+<!-- Info Box -->
+<div class="row justify-content-center mt-5">
+    <div class="col-lg-8">
+        <div class="alert alert-info">
+            <h5 class="alert-heading">About Protocol Study</h5>
+            <p>Each protocol page includes:</p>
+            <ul>
+                <li><strong>Key Topics</strong> relevant to the CCNA exam</li>
+                <li><strong>Common Misconceptions</strong> found in third-party training materials</li>
+                <li><strong>Configuration Guide References</strong> from official Cisco documentation</li>
+                <li><strong>AI Tutor Chat</strong> powered by Claude, using Cisco guides as the authoritative source</li>
+                <li><strong>Practice Questions</strong> to test your knowledge</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

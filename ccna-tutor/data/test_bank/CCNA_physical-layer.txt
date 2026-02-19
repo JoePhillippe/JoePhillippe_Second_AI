@@ -1,0 +1,152 @@
+CCNA 200-301 - Physical Layer and Cabling
+==================================================
+
+1. [Exhibit] Site A was recently connected to site B over a new single-mode fiber path. Users at site A report Intermittent connectivity Issues with applications hosted at site B. What is the reason for the problem?
+A. Heavy usage is causing high latency.
+*B. An incorrect type of transceiver has been inserted into a device on the link.
+C. physical network errors are being transmitted between the two sites.
+D. The wrong cable type was used to make the connection.
+
+2. [Exhibit] The link between PC1 and the switch is up. but it is performing poorly. Which interface condition is causing the performance problem?
+*A. There is a duplex mismatch on the interface
+B. There is an issue with the fiber on the switch interface.
+C. There is a speed mismatch on the interface.
+D. There is an interface type mismatch
+
+3. What are two differences between optical-fiber cabling and copper cabling? (Choose two)
+*A. Light is transmitted through the core of the fiber
+B. A BNC connector is used for fiber connections
+*C. The glass core component is encased in a cladding
+D. Fiber connects to physical interfaces using Rj-45 connections
+E. The data can pass through the cladding
+
+4. What is the same for both copper and fiber interfaces when using SFP modules?
+A. They support an inline optical attenuator to enhance signal strength
+*B. They provide minimal interruption to services by being hot-swappable
+C. They offer reliable bandwidth up to 100 Mbps in half duplex mode
+D. They accommodate single-mode and multi-mode in a single module
+
+5. What is a similarity between OM3 and OM4 fiber optic cable?
+*A. Both have a 50 micron core diameter
+B. Both have a 9 micron core diameter
+C. Both have a 62.5 micron core diameter
+D. Both have a 100 micron core diameter
+
+6. What are two similarities between UTP Cat 5e and Cat 6a cabling? (Choose two.)
+A. Both operate at a frequency of 500 MHz.
+B. Both support runs of up to 55 meters.
+*C. Both support runs of up to 100 meters.
+*D. Both support speeds of at least 1 Gigabit.
+E. Both support speeds up to 10 Gigabit.
+
+7. What is a similarly between 1000BASE-LX and 1000BASE-T standards?
+*A. Both use the same data-link header and trailer formats
+B. Both cable types support LP connectors
+C. Both cable types support Rj-45 connectors
+D. Both support up to 550 meters between nodes
+
+8. How does CAPWAP communicate between an access point in local mode and a WLC?
+A. The access point must directly connect to the WLC using a copper cable
+B. The access point must not be connected to the wired network, as it would create a loop
+C. The access point must be connected to the same switch as the WLC
+*D. The access point has the ability to link to any switch in the network, assuming connectivity to the WLC
+
+9. What are two differences between optical-fiber cabling and copper cabling? (Choose two)
+*A. Light is transmitted through the core of the fiber
+B. A BNC connector is used for fiber connections
+*C. The glass core component is encased in a cladding
+D. Fiber connects to physical interfaces using Rj-45 connections
+E. The data can pass through the cladding
+
+10. [Exhibit] Shortly after SiteA was connected to SiteB over a new single-mode fiber path users at SiteA report intermittent connectivity issues with applications hosted at SiteB What is the cause of the intermittent connectivity issue?
+*A. Interface errors are incrementing
+B. An incorrect SFP media type was used at SiteA
+C. High usage is causing high latency
+D. The sites were connected with the wrong cable type
+
+11. What is the same for both copper and fiber interfaces when using SFP modules?
+A. They support an inline optical attenuator to enhance signal strength
+*B. They provide minimal interruption to services by being hot-swappable
+C. They offer reliable bandwidth up to 100 Mbps in half duplex mode
+D. They accommodate single-mode and multi-mode in a single module
+
+12. [Exhibit] Site A was recently connected to site B over a new single-mode fiber path. Users at site A report Intermittent connectivity Issues with applications hosted at site B. What is the reason for the problem?
+A. Heavy usage is causing high latency.
+*B. An incorrect type of transceiver has been inserted into a device on the link.
+C. physical network errors are being transmitted between the two sites.
+D. The wrong cable type was used to make the connection.
+
+13. [Exhibit] The link between PC1 and the switch is up. but it is performing poorly. Which interface condition is causing the performance problem?
+*A. There is a duplex mismatch on the interface
+B. There is an issue with the fiber on the switch interface.
+C. There is a speed mismatch on the interface.
+D. There is an interface type mismatch
+
+14. Refer the exhibit. What is the cause of poor performance on router R19?
+*A. excessive collisions
+B. speed and duplex mismatch
+C. port oversubscription
+D. excessive CRC errors
+
+15. What is the difference between 1000BASE-LX/LH and 1000BASE-ZX interfaces?
+A. 1000BASE-ZX is supported on links up to 1000km, and 1000BASE-LX/LH operates over links up to 70 km.
+B. 1000BASE-LX/LH interoperates with multimode and single-mode fiber, and 10008ASE- ZX needs a conditioning patch cable with a multimode.
+*C. 1000BASE-LX/LH is supported on links up to 10km, and 1000BASE-ZX operates over links up to 70 km
+D. 1000BASE-ZX interoperates with dual-rate 100M/1G 10Km SFP over multimode fiber, and 1000BASE-LX/LH supports only single-rate.
+
+16. Which cable type must be used when connecting a router and switch together using these criteria? • Pins 1 and 2 are receivers and pins 3 and 6 are transmitters • Auto detection MDi-X is unavailable
+A. straight-through
+B. rollover
+*C. crossover
+D. console
+
+17. What are two lacts that differentiate optical-fiber cabling from copper cabling? (Choose two.)
+A. It is less expensive when purchasing patch cables.
+B. It has a greater sensitivity to changes in temperature and moisture.
+*C. It provides greater throughput options.
+*D. It carries signals for longer distances.
+E. It carries electrical current further distances for PoE devices.
+
+18. What is a similarity OM3 and OM4 fiber optical cable?
+A. Both have a 62.5 micron core diameter.
+*B. Both have a 50 micron core diameter.
+C. Both have a 100 micron core diameter.
+D. Both have a 9 micron core diameter.
+
+19. What are two facts that differentiate optical fiber cabling from copper cabling? (Choose two.)
+*A. It has a greater sensitivity to changes in temperature and moisture.
+*B. It carries signals for longer distances.
+C. It carries electrical current further distances for PoE devices.
+D. It is less expensive when purchasing patch cables.
+E. It provides greater throughput options.
+
+20. Which properly is shared by 10GBase-SR and 10GBase-LR interfaces?
+*A. Both require fiber cable media for transmission.
+B. Both require UTP cable media for transmission.
+C. Both use the single-mode fiber type.
+D. Both use the multimode fiber type.
+
+21. A Cisco engineer notices thai two OSPF neighbors are connected using a crossover Ethernet cable. The neighbors are taking too long to become fully adjacent. Which command must be issued under the interface configuration on each router to reduce the time required for the adjacency to reach the FULL state?
+A. ip ospf network broadcast
+B. ip ospf dead-interval 40
+*C. ip ospf network point-to-point
+D. ip ospf priority 0
+
+22. Which cable type must be used to interconnect one switch using 1000 BASE-SX GBiC modules and another switch using 1000 BASE-SX SFP modules?
+A. LC to SC
+B. SC t ST
+C. SC to SC
+*D. LC to LC
+
+23. How do UTP and STP cables compare?
+A. STP cables are cheaper to procure and easier to install and UTP cables are more expensive and harder to install.
+B. UTP cables are less prone to crosstalk and interference and STP cables are more prone to crosstalk and interference.
+C. UTP cables provide taster and more reliable data transfer rates and STP cables are slower and less reliable.
+*D. STP cables are shielded and protect against electromagnetic interference and UTP lacks the same protection against electromagnetic interference.
+
+24. [Exhibit] The EtherChannel is configured with a speed of 1000 and duplex as full on both ends of channel group 1. What is the next step to configure the channel on switch A to respond to but not initiate LACP communication?
+A. interface range gigabitethernet0/0/0-15 channel-group 1 mode on
+B. interface range gigabitethernet0/0/0-15 channel-group 1 mode desirable
+C. interface port-channel 1 channel-group 1 mode auto
+*D. interface port-channel 1 channel-group 1 mode passive
+

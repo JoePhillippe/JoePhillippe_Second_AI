@@ -1,0 +1,295 @@
+{
+  "protocol": "cdp-lldp",
+  "groups": [
+    {
+      "group_id": "cdp-lldp_q1",
+      "concept": "Which protocol does an access point use to draw power from a connected switch?",
+      "question_ids": [
+        "cdp-lldp_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q2",
+      "concept": "What Is a syslog facility?",
+      "question_ids": [
+        "cdp-lldp_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q3",
+      "concept": "An engineer configures interface Gi1/0 on the company PE router to connect to an...",
+      "question_ids": [
+        "cdp-lldp_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q4",
+      "concept": "An engineer needs to configure LLDP to send the port description time length val...",
+      "question_ids": [
+        "cdp-lldp_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q5",
+      "concept": "[Exhibit] An administrator must turn off the Cisco Discovery Protocol on the por...",
+      "question_ids": [
+        "cdp-lldp_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q6",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "cdp-lldp_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q7",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "cdp-lldp_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q8",
+      "concept": "[Exhibit] How must router A be configured so that it only sends Cisco Discovery ...",
+      "question_ids": [
+        "cdp-lldp_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q9",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "cdp-lldp_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q10",
+      "concept": "[Exhibit] An administrator must turn off the Cisco Discovery Protocol on the por...",
+      "question_ids": [
+        "cdp-lldp_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q11",
+      "concept": "An engineer is asked to protect unused ports that are configured in the default ...",
+      "question_ids": [
+        "cdp-lldp_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q12",
+      "concept": "Which command is used to specify the delay time in seconds for LLDP to initializ...",
+      "question_ids": [
+        "cdp-lldp_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q13",
+      "concept": "[Exhibit] How must router A be configured so that it only sends Cisco Discovery ...",
+      "question_ids": [
+        "cdp-lldp_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q14",
+      "concept": "[Exhibit] Which command provides this output?",
+      "question_ids": [
+        "cdp-lldp_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q15",
+      "concept": "Which protocol does an IPv4 host use to obtain a dynamically assigned IP address...",
+      "question_ids": [
+        "cdp-lldp_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q16",
+      "concept": "A network engineer must create a diagram of a multivendor network. Which command...",
+      "question_ids": [
+        "cdp-lldp_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q17",
+      "concept": "Which protocol does an access point use to draw power from a connected switch?",
+      "question_ids": [
+        "cdp-lldp_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q18",
+      "concept": "A network administrator needs to aggregate 4 ports into a single logical link wh...",
+      "question_ids": [
+        "cdp-lldp_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q19",
+      "concept": "An engineer configures interface Gi1/0 on the company PE router to connect to an...",
+      "question_ids": [
+        "cdp-lldp_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q20",
+      "concept": "An engineer needs to configure LLDP to send the port description time length val...",
+      "question_ids": [
+        "cdp-lldp_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q21",
+      "concept": "[Exhibit] A network engineer must update the configuration on Switch2 so that it...",
+      "question_ids": [
+        "cdp-lldp_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q22",
+      "concept": "A Cisco engineer must configure a single switch interface to meet these requirem...",
+      "question_ids": [
+        "cdp-lldp_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q23",
+      "concept": "How does frame switching function on a switch?",
+      "question_ids": [
+        "cdp-lldp_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q24",
+      "concept": "An engineer must configure neighbor discovery between the company router and an ...",
+      "question_ids": [
+        "cdp-lldp_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q25",
+      "concept": "Refer to the exhibit Routers R1 R2 and R3 use a protocol to identify their neigh...",
+      "question_ids": [
+        "cdp-lldp_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q26",
+      "concept": "[Exhibit] An engineer is configuring a Layer 3 port-channel interface with LACP....",
+      "question_ids": [
+        "cdp-lldp_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q27",
+      "concept": "[Exhibit] Which action must be taken so that neighbofing devices rapidly discove...",
+      "question_ids": [
+        "cdp-lldp_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q28",
+      "concept": "[Exhibit] A network engineer must update the configuring on switch2 so that it s...",
+      "question_ids": [
+        "cdp-lldp_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q29",
+      "concept": "[Exhibit] The network administrator must prevent the switch Cat9K-2 IP address f...",
+      "question_ids": [
+        "cdp-lldp_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q30",
+      "concept": "A switch is a forwarding a frame out of an interfaces except the interface that ...",
+      "question_ids": [
+        "cdp-lldp_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q31",
+      "concept": "A switch is forwarding a frame out of all interfaces except the interface that r...",
+      "question_ids": [
+        "cdp-lldp_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "cdp-lldp_q32",
+      "concept": "How does MAC learning function?",
+      "question_ids": [
+        "cdp-lldp_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 32,
+  "total_questions": 32
+}

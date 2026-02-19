@@ -1,0 +1,15 @@
+# Environment / secrets
+.env
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows artifacts
+nul
+
+# Generated intermediate files
+extracted_text/

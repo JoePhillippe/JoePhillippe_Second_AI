@@ -1,0 +1,118 @@
+CCNA 200-301 - TCP/UDP and Transport Layer
+==================================================
+
+1. How do TCP and UDP differ in the way they provide reliability for delivery of packets?
+A. TCP is a connectionless protocol that does not provide reliable delivery of data, UDP is a connection-oriented protocol that uses sequencing to provide reliable delivery.
+B. TCP does not guarantee delivery or error checking to ensure that there is no corruption of data UDP provides message acknowledgement and retransmits data if lost.
+*C. TCP provides flow control to avoid overwhelming a receiver by sending too many packets at once, UDP sends packets to the receiver in a continuous stream without checking for sequencing
+D. TCP uses windowing to deliver packets reliably; UDP provides reliable message transfer between hosts by establishing a three-way handshake
+
+2. How do TCP and UDP differ in the way that they establish a connection between two endpoints?
+A. TCP uses synchronization packets, and UDP uses acknowledgment packets.
+B. UDP uses SYN, SYN ACK and FIN bits in the frame header while TCP uses SYN, SYN ACK and ACK bits
+C. UDP provides reliable message transfer and TCP is a connectionless protocol
+*D. TCP uses the three-way handshake and UDP does not guarantee message delivery
+
+3. What is the difference regarding reliability and communication type between TCP and UDP?
+*A. TCP is reliable and is a connection-oriented protocol UDP is not reliable and is a connectionless protocol
+B. TCP is not reliable and is a connection-oriented protocol; UDP is reliable and is a connectionless protocol
+C. TCP is not reliable and is a connectionless protocol; UDP is reliable and is a connection- oriented protocol
+D. TCP is reliable and is a connectionless protocol; UDP is not reliable and is a connection- oriented protocol
+
+4. How do TCP and UDP differ in the way they provide reliability for delivery of packets?
+A. TCP is a connectionless protocol that does not provide reliable delivery of data, UDP is a connection-oriented protocol that uses sequencing to provide reliable delivery.
+B. TCP does not guarantee delivery or error checking to ensure that there is no corruption of data UDP provides message acknowledgement and retransmits data if lost.
+*C. TCP provides flow control to avoid overwhelming a receiver by sending too many packets at once, UDP sends packets to the receiver in a continuous stream without checking for sequencing
+D. TCP uses windowing to deliver packets reliably; UDP provides reliable message transfer between hosts by establishing a three-way handshake
+
+5. What is the difference in data transmission delivery and reliability between TCP and UDP?
+A. TCP transmits data at a higher rate and ensures packet delivery. UDP retransmits lost data to ensure applications receive the data on the remote end.
+B. UDP sets up a connection between both devices before transmitting data. TCP uses the three-way handshake to transmit data with a reliable connection.
+C. UDP is used for multicast and broadcast communication. TCP is used for unicast communication and transmits data at a higher rate with error checking.
+*D. TCP requires the connection to be established before transmitting data. UDP transmits data at a higher rate without ensuring packet delivery.
+
+6. How do TCP and UDP differ in the way that they establish a connection between two endpoints?
+A. TCP uses synchronization packets, and UDP uses acknowledgment packets.
+B. UDP uses SYN, SYN ACK and FIN bits in the frame header while TCP uses SYN, SYN ACK and ACK bits
+C. UDP provides reliable message transfer and TCP is a connectionless protocol
+*D. TCP uses the three-way handshake and UDP does not guarantee message delivery
+
+7. How do TCP and UDP differ in the way they guarantee packet delivery?
+*A. TCP uses checksum, acknowledgement, and retransmissions, and UDP uses checksums only.
+B. TCP uses two-dimensional parity checks, checksums, and cyclic redundancy checks and UDP uses retransmissions only.
+C. TCP uses checksum, parity checks, and retransmissions, and UDP uses acknowledgements only.
+D. TCP uses retransmissions, acknowledgement and parity checks and UDP uses cyclic redundancy checks only.
+
+8. Why is TCP desired over UDP for application that require extensive error checking, such as HTTPS?
+*A. UDP operates without acknowledgments, and TCP sends an acknowledgment for every packet received.
+B. UDP reliably guarantees delivery of all packets, and TCP drops packets under heavy load.
+C. UDP uses flow control mechanisms for the delivery of packets, and TCP uses congestion control for efficient packet delivery.
+D. UDP uses sequencing data tor packets to arrive in order, and TCP offers trie capability to receive packets in random order.
+
+9. Under which condition is TCP preferred over UDP?
+A. UDP is used when low latency is optimal, and TCP is used when latency is tolerable.
+B. TCP is used when dropped data is more acceptable, and UDP is used when data is accepted outof-order.
+*C. TCP is used when data reliability is critical, and UDP is used when missing packets are acceptable.
+D. UDP is used when data is highly interactive, and TCP is used when data is time- sensitive.
+
+10. How do TCP and UDP fit into a query-response model?
+*A. TCP establishes a connection prior to sending data, and UDP sends immediately.
+B. TCP uses error detection for packets, and UDP uses error recovery.
+C. TCP avoids using sequencing, and UDP avoids using acknowledgments.
+D. TCP encourages out-of-order packet delivery, and UDP prevents re-ordering.
+
+11. What is the role of SNMP in the network?
+A. to monitor network devices and functions using a TCP underlay that operates on the presentation layer
+B. to collect data directly from network devices using an SSL underlay that operates on the transport layer
+*C. to monitor and manage network devices using a UDP underlay that operates on the application layer
+D. to collect telemetry and critical information from network devices using an SSH underlay that operates on the network layer
+
+12. Why is UDP more suitable than TCP for applications that require low latency, such as VoIP?
+A. TCP uses congestion control for efficient packet delivery, and UDP uses flow control mechanisms for the delivery of packets.
+*B. TCP sends an acknowledgment for every packet that is received, and UDP operates without acknowledgments.
+C. UDP reliably guarantees delivery of all packets, and TCP drops packets under heavy load.
+D. UDP uses sequencing data for packets to arrive in order, and TCP offers the capability to receive packets in random order.
+
+13. Why is UDP more suitable than TCP tor applications that require low latency, such as VoIP?
+A. UDP reliably guarantees delivery of all packets and TCP drops packets under heavy load.
+*B. TCP sends an acknowledgment for every packet that is received and UDP operates without acknowledgments.
+C. UDP uses sequencing data for packets to arrive in order, and TCP offers the capability to receive packets in random order.
+D. TCP uses congestion control for efficient packet delivery and UDP uses flow control mechanisms for the delivery of packets.
+
+14. [Exhibit] This ACL is configured to allow client access only to HTTP, HTTPS, and DNS services via UDP. The new administrator wants to add TCP access to the DNS service. Which configuration updates the ACL efficiently?
+*A. ip access-list extended Services35 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+B. no ip access-list extended Servicesip access-list extended Services30 permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+C. ip access-list extended Servicespermit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domain
+D. no ip access-list extended Servicesip access-list extended Servicespermit udp 10.0.0.0 0.255.255.255 any eq 53permit tcp 10.0.0.0 0.255.255.255 host 198.51.100.11 eq domaindeny ip any any log
+
+15. Which two transport layer protocols carry syslog messages? (Choose two.)
+*A. UDP
+B. RTP
+*C. TCP
+D. IP
+E. ARP
+
+16. What is the difference between the TCP and UDP protocols?
+*A. TCP ensures ordered, reliable data delivery, and UDP offers low latency and high throughput.
+B. TCP is used for transmitting data over the internet, and UDP is used for transmitting data over a local network.
+C. TCP manages multicast and broadcast data transfers, and UDP only handles unicast communications.
+D. TCP is used to ensure data integrity in a file transfer, and UDP is used to broadcast a message to multiple recipients.
+
+17. Which default condition must be considered when an encrypted mobility tunnel is used between two Cisco WLCs?
+*A. TCP port 443 and UDP 21 are used.
+B. Control and data traffic encryption are enabled.
+C. The tunnel uses the IPsec protocol for encapsulation.
+D. The tunnel uses the EolP protocol to transmit data traffic.
+
+18. What is a characteristic of a Layer 2 switch?
+A. Maintains stateful transaction information
+B. Responsible for sending data in a particular sequence
+*C. Makes forwarding decisions based on MAC addresses
+D. Filters based on a transport layer protocol
+
+19. What differentiates the TCP and UDP protocols?
+A. TCP tracks segments being transmitted or received by assigning segment numbers, and UDP adjusts data flow according to network conditions.
+*B. TCP establishes a connection with the device on the other end before transferring, and UDP transfers without establishing a connection.
+C. TCP sends data at a constant rate with error checking on upper protocol layers, and UDP provides error-checking and sequencing.
+D. TCP immediately transmits data without waiting for a handshake, and UDP awaits a response from the receiver before sending additional data.
+

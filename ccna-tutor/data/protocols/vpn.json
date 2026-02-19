@@ -1,0 +1,10 @@
+{
+  "name": "VPN and Tunneling",
+  "slug": "vpn",
+  "category": "Security",
+  "description": "Virtual Private Networks, IPsec, GRE tunnels, site-to-site VPNs, and remote access VPN technologies.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}Practice {{ protocol_name }} - CCNA Tutor{% endblock %}
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-10 mx-auto">
+
+        <!-- Header -->
+        <div class="mb-4">
+            <h1 class="display-5 fw-bold text-cisco-blue">{{ protocol_name }}</h1>
+            <p class="text-muted">Questions-first practice &mdash; {{ total_questions }} questions</p>
+        </div>
+
+        <!-- Progress Card -->
+        <div class="card shadow-sm mb-3">
+            <div class="card-body py-2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span id="question-counter" class="fw-bold text-cisco-blue">Loading...</span>
+                    <div>
+                        <span id="correct-count" class="badge bg-success me-1">Correct: 0</span>
+                        <span id="incorrect-count" class="badge bg-danger">Incorrect: 0</span>
+                    </div>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div id="progress-bar" class="progress-bar bg-cisco-teal" role="progressbar" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Card -->
+        <div id="question-card" class="card shadow-sm mb-3">
+            <div class="card-body">
+                <div id="multi-answer-badge" class="d-none mb-2">
+                    <span class="badge bg-warning text-dark">Select multiple answers</span>
+                </div>
+                <h5 id="question-text" class="card-title mb-4"></h5>
+                <div id="answer-choices"></div>
+            </div>
+        </div>
+
+        <!-- Feedback Section -->
+        <div id="feedback-section" class="d-none">
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <div id="feedback-status" class="alert mb-3"></div>
+                    <div id="feedback-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Loading Spinner -->
+        <div id="ai-loading" class="d-none text-center mb-3">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Getting AI feedback...</span>
+            </div>
+            <p class="text-muted mt-2">Getting AI feedback...</p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="d-flex gap-2 flex-wrap mb-4">
+            <button id="submit-btn" class="btn btn-cisco-blue btn-lg" disabled>Submit Answer</button>
+            <button id="try-again-btn" class="btn btn-warning btn-lg d-none">Try Again</button>
+            <button id="reveal-btn" class="btn btn-outline-danger btn-lg d-none">Reveal Answer</button>
+            <button id="next-btn" class="btn btn-cisco-teal btn-lg d-none">Next Question</button>
+            <button id="skip-btn" class="btn btn-outline-secondary btn-lg ms-auto">Skip</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    window.practiceConfig = {
+        protocolSlug: "{{ protocol_slug }}",
+        protocolName: "{{ protocol_name }}",
+        totalQuestions: {{ total_questions }}
+    };
+</script>
+<script src="{{ url_for('static', filename='js/practice.js') }}"></script>
+
+{% endblock %}

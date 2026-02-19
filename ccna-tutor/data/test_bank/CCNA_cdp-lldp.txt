@@ -1,0 +1,197 @@
+CCNA 200-301 - CDP and LLDP - Discovery Protocols
+==================================================
+
+1. Which protocol does an access point use to draw power from a connected switch?
+A. Internet Group Management Protocol
+B. Adaptive Wireless Path Protocol
+*C. Cisco Discovery Protocol
+D. Neighbor Discovery Protocol
+
+2. What Is a syslog facility?
+A. Host that is configured for the system to send log messages
+B. password that authenticates a Network Management System to receive log messages
+*C. group of log messages associated with the configured severity level
+D. set of values that represent the processes that can generate a log message
+
+3. An engineer configures interface Gi1/0 on the company PE router to connect to an ISP Neighbor discovery is disabled Which action is necessary to complete the configuration if the ISP uses third-party network devices?
+A. Enable LLDP globally
+B. Disable autonegotiation
+C. Disable Cisco Discovery Protocol on the interface
+*D. Enable LLDP-MED on the ISP device
+
+4. An engineer needs to configure LLDP to send the port description time length value (TLV). What command sequence must be implemented?
+A. switch(config-line)#IIdp port-description
+*B. switch(config)#IIdp port-description
+C. switch(config-if)#IIdp port-description
+D. switch#IIdp port-description
+
+5. [Exhibit] An administrator must turn off the Cisco Discovery Protocol on the port configured with address last usable address in the 10.0.0.0/30 subnet. Which command set meets the requirement?
+A. interface gi0/1 no cdp enable
+B. interface gi0/1 clear cdp table
+C. interface gi0/0no cdp advertise-v2
+*D. interface gi0/0 no cdp run
+
+6. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+7. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+8. [Exhibit] How must router A be configured so that it only sends Cisco Discovery Protocol Information to router C?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+9. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+10. [Exhibit] An administrator must turn off the Cisco Discovery Protocol on the port configured with address last usable address in the 10.0.0.0/30 subnet. Which command set meets the requirement?
+A. interface gi0/1no cdp enable
+B. interface gi0/1clear cdp table
+C. interface gi0/0no cdp advertise-v2
+*D. interface gi0/0no cdp run
+
+11. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+12. Which command is used to specify the delay time in seconds for LLDP to initialize on any interface?
+A. lldp timer
+B. lldp holdtimt
+*C. lldp reinit
+D. lldp tlv-select
+
+13. [Exhibit] How must router A be configured so that it only sends Cisco Discovery Protocol Information to router C?
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+14. [Exhibit] Which command provides this output?
+A. show ip route
+B. show ip interface
+C. show interface
+*D. show cdp neighbor
+
+15. Which protocol does an IPv4 host use to obtain a dynamically assigned IP address?
+A. ARP
+*B. DHCP
+C. CDP
+D. DNS
+
+16. A network engineer must create a diagram of a multivendor network. Which command must be configured on the Cisco devices so that the topology of the network can be mapped?
+*A. Device(Config)#lldp run
+B. Device(Config)#cdp run
+C. Device(Config-if)#cdp enable
+D. Device(Config)#flow-sampler-map topology
+
+17. Which protocol does an access point use to draw power from a connected switch?
+A. Internet Group Management Protocol
+B. Adaptive Wireless Path Protocol
+*C. Cisco Discovery Protocol
+D. Neighbor Discovery Protocol
+
+18. A network administrator needs to aggregate 4 ports into a single logical link which must negotiate layer 2 connectivity to ports on another switch. What must be configured when using active mode on both sides of the connection?
+A. 802.1q trunks
+B. Cisco vPC
+C. LLDP
+*D. LACP
+
+19. An engineer configures interface Gi1/0 on the company PE router to connect to an ISP Neighbor discovery is disabled Which action is necessary to complete the configuration if the ISP uses third-party network devices?
+A. Enable LLDP globally
+B. Disable autonegotiation
+C. Disable Cisco Discovery Protocol on the interface
+*D. Enable LLDP-MED on the ISP device
+
+20. An engineer needs to configure LLDP to send the port description time length value (TLV). What command sequence must be implemented?
+A. switch(config-line)#IIdp port-description
+*B. switch(config)#IIdp port-description
+C. switch(config-if)#IIdp port-description
+D. switch#IIdp port-description
+
+21. [Exhibit] A network engineer must update the configuration on Switch2 so that it sends LLDP packets every minute and the information sent via LLDP is refreshed every 3 minutes Which configuration must the engineer apply? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+22. A Cisco engineer must configure a single switch interface to meet these requirements • accept untagged frames and place them in VLAN 20 • accept tagged frames in VLAN 30 when CDP detects a Cisco IP phone Which command set must the engineer apply? A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+23. How does frame switching function on a switch?
+A. forwards frames to a neighbor port using CDP
+B. modifies frames that contain a known source VLAN
+C. inspects and drops frames from unknown destinations
+*D. forwards known destinations to the destination port
+
+24. An engineer must configure neighbor discovery between the company router and an ISP What is the next step to complete the configuration if the ISP uses a third-party router?
+*A. Enable LLDP globally.
+B. Disable CDP on gi0/0.
+C. Enable LLDP TLVs on the ISP router.
+D. Disable auto-negotiation.
+
+25. Refer to the exhibit Routers R1 R2 and R3 use a protocol to identify their neighbors' IP addresses hardware platforms, and software versions. A network engineer must configure R2 to avoid sharing any neighbor information with R3, and maintain its relationship with R1. What action meets this requirement?
+*A. Configure the no cdp enable command on gO/2.
+B. Configure the no cdp run command globally.
+C. Configure the no lldp run command globally.
+D. Configure the no lldp receive command on gQV1.
+
+26. [Exhibit] An engineer is configuring a Layer 3 port-channel interface with LACP. The configuration on the first device is complete, and it is verified that both interfaces have registered the neighbor device in the CDP table. Which task on the neighbor device enables the new port channel to come up without negotiating the channel?
+A. Change the EtherChannel mode on the neighboring interfaces to auto.
+B. Configure the IP address of the neighboring device.
+C. Bring up the neighboring interfaces using the no shutdown command.
+*D. Modify the static EtherChannel configuration of the device to passive mode.
+
+27. [Exhibit] Which action must be taken so that neighbofing devices rapidly discover switch Cat9300?
+*A. Configure the cdp timer 10 command on switch Cat9300.
+B. Enable portfast on the ports that connect to neighboring devices.
+C. Configure the cdp holdtime 10 command on switch Cat9300.
+D. Configure the cdp timer 10 command on the neighbors of switch Cat9300.
+
+28. [Exhibit] A network engineer must update the configuring on switch2 so that it sends LLDP packets. A) B) C) D)
+A. Option A
+B. Option B
+*C. Option C
+D. Option D
+
+29. [Exhibit] The network administrator must prevent the switch Cat9K-2 IP address from being visible in LLDP without disabling the protocol. Which action must be taken must be taken to complete the task?
+*A. Configure the no lldp tlv-select-management-address command globally on Cat9K-2
+B. Configure the no lldp transmit command on interface G1/0/21 in Cat9K-1
+C. Configure the no lldp receive command on interface G1/0/21 on Cat9K-1
+D. Configure the no lldp mac-phy-cfg command globally on Cat9K-2
+
+30. A switch is a forwarding a frame out of an interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. CDP
+*C. flooding
+D. multicast
+
+31. A switch is forwarding a frame out of all interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. Multicast
+C. CDP
+*D. Flooding
+
+32. How does MAC learning function?
+*A. Enabled by default on all VLANs and interfaces
+B. Forwards frames to a neighbor port using CDP
+C. Overwrites the known source MAC address in the address table
+D. Protects against denial of service attacks
+

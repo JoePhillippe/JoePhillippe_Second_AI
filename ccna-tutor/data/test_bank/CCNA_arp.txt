@@ -1,0 +1,150 @@
+CCNA 200-301 - ARP - Address Resolution Protocol
+==================================================
+
+1. [Exhibit] Only four switches are participating in the VLAN spanning-tree process. Branch-1 priority 614440 Branch-2: priority 39082416 Branch-3: priority 0 Branch-4: root primary Which switch becomes the permanent root bridge for VLAN 5?
+A. Branch-1
+B. Branch-2
+*C. Branch-3
+D. Branch-4
+
+2. What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closer? (Choose two.)
+A. enable the PortFast feature on ports
+*B. implement port-based authentication
+C. configure static ARP entries
+D. configure ports to a fixed speed
+*E. shut down unused ports
+
+3. Which type of attack can be mitigated by dynamic ARP inspection?
+A. worm
+B. malware
+C. DDoS
+*D. man-in-the-middle
+
+4. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+5. What is the benefit of using FHRP?
+A. reduced management overhead on network routers
+B. balancing traffic across multiple gateways in proportion to their loads
+*C. higher degree of availability
+D. reduced ARP traffic on the network
+
+6. If a notice-level messaging is sent to a syslog server, which event has occurred?
+A. A network device has restarted
+B. An ARP inspection has failed
+*C. A routing instance has flapped
+D. A debug operation is running
+
+7. [Exhibit] PC1 is trying to ping PC3 for the first time and sends out an ARP to S1 Which action is taken by S1?
+A. It forwards it out G0/3 only
+*B. It is flooded out every port except G0/0.
+C. It drops the frame.
+D. It forwards it out interface G0/2 only.
+
+8. A network engineer must back up 20 network router configurations globally within a customer environment. Which protocol allows the engineer to perform this function using the Cisco IOS MIB?
+A. CDP
+*B. SNMP
+C. SMTP
+D. ARP
+
+9. What is a practice that protects a network from VLAN hopping attacks?
+A. Enable dynamic ARP inspection
+B. Configure an ACL to prevent traffic from changing VLANs
+*C. Change native VLAN to an unused VLAN ID
+D. Implement port security on internet-facing VLANs
+
+10. Which access layer threat-mitigation technique provides security based on identity?
+A. Dynamic ARP Inspection
+B. using a non-default native VLAN
+*C. 802.1x
+D. DHCP snooping
+
+11. How are VLAN hopping attacks mitigated?
+A. enable dynamic ARP inspection
+*B. manually implement trunk ports and disable DTP
+C. activate all ports and place in the default VLAN
+D. configure extended VLANs
+
+12. If a notice-level messaging is sent to a syslog server, which event has occurred?
+A. A network device has restarted
+B. An ARP inspection has failed
+*C. A routing instance has flapped
+D. A debug operation is running
+
+13. Which type of attack can be mitigated by dynamic ARP inspection?
+A. worm
+B. malware
+C. DDoS
+*D. man-in-the-middle
+
+14. Which protocol does an IPv4 host use to obtain a dynamically assigned IP address?
+A. ARP
+*B. DHCP
+C. CDP
+D. DNS
+
+15. What is the benefit of using FHRP?
+A. reduced management overhead on network routers
+B. balancing traffic across multiple gateways in proportion to their loads
+*C. higher degree of availability
+D. reduced ARP traffic on the network
+
+16. What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closer? (Choose two.)
+A. enable the PortFast feature on ports
+*B. implement port-based authentication
+C. configure static ARP entries
+D. configure ports to a fixed speed
+*E. shut down unused ports
+
+17. [Exhibit] What is the effect of this configuration?
+*A. The switch port interface trust state becomes untrusted
+B. The switch port remains administratively down until the interface is connected to another switch
+C. Dynamic ARP inspection is disabled because the ARP ACL is missing
+D. The switch port remains down until it is configured to trust or untrust incoming packets
+
+18. [Exhibit] What is the effect of this configuration?
+A. All ARP packets are dropped by the switch
+B. Egress traffic is passed only if the destination is a DHCP server.
+C. All ingress and egress traffic is dropped because the interface is untrusted
+*D. The switch discard all ingress ARP traffic with invalid MAC-to-IP address bindings.
+
+19. [Exhibit] Router-WAN1 has a new connection via Gi0/0 to the ISP. Users running the web applications indicate that connectivity is unstable to the internet. What is causing the interface issue?
+A. Small frames less than 64 bytes are rejected due to size.
+B. The receive buffer is full due to a broadcast storm.
+*C. Frames are discarded due to a half-duplex negotiation.
+D. Broadcast packets are rejected because ARP timeout is enabled.
+
+20. What is the benefit of using FHRP (First Hop Redundancy Protocol)?
+A. Reduced ARP traffic on the network
+B. Balancing traffic across multiple gateways in proportion to their loads
+C. Reduced management overhead on network routers
+*D. Higher degree of availability
+
+21. A switch is a forwarding a frame out of an interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. CDP
+*C. flooding
+D. multicast
+
+22. A switch is forwarding a frame out of all interfaces except the interface that received the frame. What is the technical term for this process?
+A. ARP
+B. Multicast
+C. CDP
+*D. Flooding
+
+23. Why would VRRP be implemented when configuring a new subnet in a multivendor environment?
+*A. when a gateway protocol is required that support more than two Cisco devices for redundancy
+B. to enable normal operations to continue after a member failure without requiring a change In a host ARP cache
+C. to ensure that the spanning-tree forwarding path to the gateway is loop-free
+D. to interoperate normally with all vendors and provide additional security features for Cisco devices
+
+24. Which two transport layer protocols carry syslog messages? (Choose two.)
+*A. UDP
+B. RTP
+*C. TCP
+D. IP
+E. ARP
+

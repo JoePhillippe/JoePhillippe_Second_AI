@@ -1,0 +1,70 @@
+{
+  "protocol": "poe",
+  "groups": [
+    {
+      "group_id": "poe_q1",
+      "concept": "Which PoE mode enables powered-device detection and guarantees power when the de...",
+      "question_ids": [
+        "poe_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q2",
+      "concept": "Which action is taken by a switch port enabled for PoE power classification over...",
+      "question_ids": [
+        "poe_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q3",
+      "concept": "Which action is taken by a switch port enabled for PoE power classification over...",
+      "question_ids": [
+        "poe_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q4",
+      "concept": "Which PoE mode enables powered-device detection and guarantees power when the de...",
+      "question_ids": [
+        "poe_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q5",
+      "concept": "What are two lacts that differentiate optical-fiber cabling from copper cabling?...",
+      "question_ids": [
+        "poe_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q6",
+      "concept": "What are two facts that differentiate optical fiber cabling from copper cabling?...",
+      "question_ids": [
+        "poe_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "poe_q7",
+      "concept": "What is an advantage of using auto mode versus static mode for power allocation ...",
+      "question_ids": [
+        "poe_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 7,
+  "total_questions": 7
+}

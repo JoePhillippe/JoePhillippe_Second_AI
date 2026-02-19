@@ -1,0 +1,38 @@
+{
+  "name": "BGP",
+  "slug": "bgp",
+  "category": "Routing Protocols",
+  "description": "Border Gateway Protocol (BGP) is the routing protocol of the Internet, used to exchange routing information between autonomous systems (AS). BGP is a path vector protocol.",
+  "key_topics": [
+    "eBGP (External BGP) vs iBGP (Internal BGP)",
+    "Autonomous System (AS) numbers",
+    "BGP neighbor relationships (peers)",
+    "BGP attributes: AS_PATH, NEXT_HOP, LOCAL_PREF, MED",
+    "BGP path selection algorithm",
+    "Default administrative distance: 20 (eBGP), 200 (iBGP)",
+    "BGP states: Idle, Connect, Active, OpenSent, OpenConfirm, Established",
+    "Route aggregation and summarization"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "router bgp",
+      "neighbor",
+      "network",
+      "bgp router-id",
+      "show ip bgp",
+      "show ip bgp summary"
+    ],
+    "switch": []
+  },
+  "common_misconceptions": [
+    "Many training resources claim BGP is only for ISPs. Cisco documentation clarifies large enterprises use BGP for multi-homing and when connecting multiple AS numbers",
+    "Third-party materials often oversimplify BGP path selection. Cisco config guides detail the multi-step algorithm: Weight, LOCAL_PREF, locally originated, AS_PATH length, ORIGIN, MED, eBGP over iBGP, etc.",
+    "Training books frequently confuse eBGP and iBGP TTL requirements. eBGP uses TTL=1 by default (directly connected), iBGP requires manual configuration for multi-hop",
+    "Common error: forgetting that iBGP peers do NOT advertise routes learned from one iBGP peer to another iBGP peer. This requires full mesh, route reflectors, or confederation"
+  ],
+  "exam_weight": "Low",
+  "related_protocols": [
+    "ospf",
+    "eigrp"
+  ]
+}

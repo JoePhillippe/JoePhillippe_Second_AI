@@ -1,0 +1,212 @@
+CCNA 200-301 - Cloud and Virtualization
+==================================================
+
+1. What are two characteristics of a public cloud Implementation? (Choose two.)
+A. It is owned and maintained by one party, but it is shared among multiple organizations.
+B. It enables an organization to fully customize how It deploys network resources.
+*C. It provides services that are accessed over the Internet.
+D. It Is a data center on the public Internet that maintains cloud services for only one company.
+*E. It supports network resources from a centralized third-party provider and privately- owned virtual resources
+
+2. Which statement identifies the functionality of virtual machines?
+A. Virtualized servers run most efficiently when they are physically connected to a switch that is separate from the hypervisor
+*B. The hypervisor can virtualize physical components including CP
+C. memory, and storage
+D. Each hypervisor can support a single virtual machine and a single software switch
+E. The hypervisor communicates on Layer 3 without the need for additional resources
+
+3. What are two functions of a server on a network? (Choose two)
+A. achieves redundancy by exclusively using virtual server clustering
+*B. runs applications that send and retrieve data for workstations that make requests
+*C. handles requests from multiple workstations at the same time
+D. runs the same operating system in order to communicate with other servers
+E. housed solely in a data center that is dedicated to a single client
+
+4. An organization has decided to start using cloud-provided services. Which cloud service allows the organization to install its own operating system on a virtual machine?
+A. platform-as-a-service
+*B. software-as-a-service
+C. network-as-a-service
+D. infrastructure-as-a-service
+
+5. What describes the operation of virtual machines?
+A. Virtual machines are responsible for managing and allocating host hardware resources
+*B. In a virtual machine environment, physical servers must run one operating system at a time.
+C. Virtual machines are the physical hardware that support a virtual environment.
+D. Virtual machines are operating system instances that are decoupled from server hardware
+
+6. Which resource is able to be shared among virtual machines deployed on the same physical server?
+A. disk
+B. applications
+*C. VM configuration file
+D. operating system
+
+7. What are two fundamentals of virtualization? (choose two)
+A. The environment must be configured with one hypervisor that serves solely as a network manager to monitor SNMP traffic
+*B. It allows logical network devices to move traffic between virtual machines and the rest of the physical network
+*C. It allows multiple operating systems and applications to run independently on one physical server.
+D. It allows a physical router to directly connect NICs from each virtual machine into the network
+E. It requires that some servers, virtual machines and network gear reside on the Internet
+
+8. Which technology allows for multiple operating systems to be run on a single host computer?
+A. virtual routing and forwarding
+B. network port ID visualization
+C. virtual device contexts
+*D. server visualization
+
+9. Which statement identifies the functionality of virtual machines?
+A. Virtualized servers run most efficiently when they are physically connected to a switch that is separate from the hypervisor
+*B. The hypervisor can virtualize physical components including CPU. memory, and storage
+C. Each hypervisor can support a single virtual machine and a single software switch
+D. The hypervisor communicates on Layer 3 without the need for additional resources
+
+10. What is a characteristic of cloud-based network topology?
+*A. wireless connections provide the sole access method to services
+B. onsite network services are provided with physical Layer 2 and Layer 3 components
+C. services are provided by a public, private, or hybrid deployment
+D. physical workstations are configured to share resources
+
+11. An organization has decided to start using cloud-provided services. Which cloud service allows the organization to install its own operating system on a virtual machine?
+A. platform-as-a-service
+*B. software-as-a-service
+C. network-as-a-service
+D. infrastructure-as-a-service
+
+12. What are two functions of a server on a network? (Choose two)
+A. achieves redundancy by exclusively using virtual server clustering
+*B. runs applications that send and retrieve data for workstations that make requests
+*C. handles requests from multiple workstations at the same time
+D. runs the same operating system in order to communicate with other servers
+E. housed solely in a data center that is dedicated to a single client
+
+13. A manager asks a network engineer to advise which cloud service models are used so employees do not have to waste their time installing, managing, and updating software which is only used occasionally Which cloud service model does the engineer recommend?
+A. infrastructure-as-a-service
+B. platform-as-a-service
+C. business process as service to support different types of service
+*D. software-as-a-service
+
+14. How do servers connect to the network in a virtual environment?
+A. wireless to an access point that is physically connected to the network
+B. a cable connected to a physical switch on the network
+C. a virtual switch that links to an access point that is physically connected to the network
+*D. a software switch on a hypervisor that is physically connected to the network
+
+15. What role does a hypervisor provide for each virtual machine in server virtualization?
+A. infrastructure-as-a-service.
+B. Software-as-a-service
+*C. control and distribution of physical resources
+D. services as a hardware controller.
+
+16. An implementer is preparing hardware for virtualization to create virtual machines on a host. What is needed to provide communication between hardware and virtual machines?
+*A. hypervisor
+B. router
+C. straight cable
+D. switch
+
+17. What are two characteristics of a public cloud Implementation? (Choose two.)
+A. It is owned and maintained by one party, but it is shared among multiple organizations.
+B. It enables an organization to fully customize how It deploys network resources.
+*C. It provides services that are accessed over the Internet.
+D. It Is a data center on the public Internet that maintains cloud services for only one company.
+*E. It supports network resources from a centralized third-party provider and privately- owned virtual resources
+
+18. What is a benefit for external users who consume public cloud resources?
+A. implemented over a dedicated WAN
+B. located in the same data center as the users
+C. all hosted on physical servers
+*D. accessed over the Internet
+
+19. Which physical component is distributed among multiple virtual machines running on the same hypervisor?
+A. external storage
+*B. hardware resources
+C. network interfaces
+D. backplane network
+
+20. What is a function of a southbound API?
+A. Automate configuration changes between a server and a switching fabric.
+B. Use orchestration to provision a virtual server configuration from a web server.
+*C. Manage flow control between an SDN controller and a switching fabric.
+D. Facilitate the information exchange between an SDN controller and application.
+
+21. Which type of hypervisor operates without an underlying OS to host virtual machines?
+*A. Type 1
+B. Type 2
+C. Type 3
+D. Type 12
+
+22. What must a network administrator consider when deciding whether to configure a new wireless network with APs in autonomous mode or APs running in cloud-based mode? Autonomous mode APs are less dependent on an underlay but more complex to maintain than APs in cloud-based mode. Cloud-based mode APs relay on underlays and are more complex to maintain than APs in autonomous mode.
+*A. Cloud-based mode APs are easy to deploy but harder to automate than APs in autonomous mode.
+B. Autonomous mode APs are easy to deploy and automate than APs in cloud-based mode.
+
+23. Which component controls and distributes physical resources for each virtual machine?
+A. OS
+*B. hypervisor
+C. CPU
+D. physical enclosure
+
+24. A manager asks a network engineer to recommend a cloud service model so that employees do not spend time installing, managing, and updating software that is only used occasionally. Which cloud service model does the engineer recommend?
+A. Infrastructure-as-a-service
+*B. software-as-a-service
+C. business process as a service
+D. platform-as-a-service
+
+25. A wireless access point is needed and must meet these requirements: • "zero-touch" deployed and managed by a WLC • process only real-time MAC functionality • used in a split-MAC architecture. Which access point type must be used?
+A. autonomous
+*B. lightweight
+C. mesh
+D. cloud-based
+
+26. Which components are contained within a virtual machine?
+A. physical resources, including the NIC, RAM, disk, and CPU
+*B. configuration files backed by physical resources from the Hypervisor
+C. applications running on the Hypervisor
+D. processes running on the Hypervisor and a guest OS
+
+27. Which architecture is best for small offices with minimal wireless needs and no central management?
+A. cloud-based AP
+B. split MAC
+*C. autonomous AP
+D. mesh network
+
+28. A network architect planning a new Wi-Fi network must decide between autonomous, cloud-based, and split MAC architectures. Which two facts should the architect consider? (Choose two.)
+*A. Lightweight access points are solely used by split MAC architectures.
+B. Cloud-based architectures uniquely use the CAPWAP protocol to communicate between access points and clients.
+C. Each of the three architectures must use WLCs to manage their access points.
+D. All three architectures use access points to manage the wireless devices connected to the wired infrastructure.
+*E. Autonomous architectures exclusively use tunneling protocols to manage access points remotely.
+
+29. In a cloud-computing environment what is rapid elasticity?
+A. control and monitoring of resource consumption by the tenant
+*B. automatic adjustment of capacity based on need
+C. pooling resources in a multitenant model based on need
+D. self-service of computing resources by the tenant
+
+30. Which technology allows multiple operating systems to run a single physical server?
+A. Containers
+B. Cloud computing
+C. Application hosting
+*D. Virtualization
+
+31. Where are the real-time control functions processed in a split MAC architecture?
+A. Centralized cloud management platform
+B. Central WLC
+*C. Individual AP
+D. Client device
+
+32. Which cloud-provided service allows an organization to install its own operating system on a virtual machine?
+A. platform-as-a-service
+B. software-as-a-service
+*C. infrastructure-as-a-service
+D. network-as-a-service
+
+33. Which statement describes virtualization on containers?
+*A. It is a type of operating system virtualization that allows the host operating system to control the different CPU memory processes.
+B. It emulates a physical computer and enables multiple machines to run with many operating systems on a physical machine.
+C. It separates virtual machines from each other and allocates memory, processors, and storage to compute.
+D. It contains a guest operating system and virtual partition of hardware for OS and requires application libraries.
+
+34. Which technology allows multiple operating systems lo run a single physical server?
+A. cloud computing
+*B. virtualization
+C. application hosting
+D. containers
+

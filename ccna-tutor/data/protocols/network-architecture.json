@@ -1,0 +1,10 @@
+{
+  "name": "Network Architecture",
+  "slug": "network-architecture",
+  "category": "Architecture",
+  "description": "Network design architectures including spine-leaf, three-tier, collapsed core, and campus network designs.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

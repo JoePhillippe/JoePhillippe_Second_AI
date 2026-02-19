@@ -1,0 +1,10 @@
+{
+  "name": "Subnetting and IP Addressing",
+  "slug": "subnetting",
+  "category": "IP Services",
+  "description": "IPv4 subnetting, CIDR notation, VLSM, address classes, private vs public addresses, and subnet calculations.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

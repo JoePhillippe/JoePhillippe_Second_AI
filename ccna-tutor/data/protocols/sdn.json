@@ -1,0 +1,10 @@
+{
+  "name": "SDN and Automation",
+  "slug": "sdn",
+  "category": "Automation",
+  "description": "Software-Defined Networking, REST APIs, configuration management (Ansible, Puppet, Chef), JSON/YAML, and Cisco DNA Center.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

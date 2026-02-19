@@ -1,0 +1,335 @@
+CCNA 200-301 - DHCP - Dynamic Host Configuration Protocol
+==================================================
+
+1. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+2. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+3. [Exhibit] An engineer deploys a topology in which R1 obtains its IP configuration from DHCP. If the switch and DHCP server configurations are complete and correct. Which two sets of commands must be configured on R1 and R2 to complete the task? (Choose two)
+A. R1(config)# interface fa0/0R1(config-if)# ip helper-address 198.51.100.100
+*B. R2(config)# interface gi0/0R2(config-if)# ip helper-address 198.51.100.100
+*C. R1(config)# interface fa0/0 R1(config-if)# ip address dhcp R1(config-if)# no shutdown
+D. R2(config)# interface gi0/0 R2(config-if)# ip address dhcp
+E. R1(config)# interface fa0/0R1(config-if)# ip helper-address 192.0.2.2
+
+4. Which type of information resides on a DHCP server?
+*A. a list of the available IP addresses in a pool
+B. a list of public IP addresses and their corresponding names
+C. usernames and passwords for the end users in a domain
+D. a list of statically assigned MAC addresses
+
+5. What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose two)
+*A. The DHCP server offers the ability to exclude specific IP addresses from a pool of IP addresses
+B. The DHCP client can request up to four DNS server addresses
+C. The DHCP server assigns IP addresses without requiring the client to renew them
+*D. The DHCP server leases client IP addresses dynamically.
+E. The DHCP client maintains a pool of IP addresses it can assign.
+
+6. [Exhibit] If the network environment is operating normally, which type of device must be connected to interface FastEthernet 0/1?
+A. DHCP client
+B. access point
+*C. router
+D. PC
+
+7. Which command enables a router to become a DHCP client?
+*A. ip address dhcp
+B. ip helper-address
+C. ip dhcp pool
+D. ip dhcp client
+
+8. Where does the configuration reside when a helper address Is configured lo support DHCP?
+A. on the router closest to the server
+*B. on the router closest to the client
+C. on every router along the path
+D. on the switch trunk interface
+
+9. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+10. What is a DHCP client?
+A. a workstation that requests a domain name associated with its IP address
+*B. a host that is configured to request an IP address automatically
+C. a server that dynamically assigns IP addresses to hosts.
+D. a router that statically assigns IP addresses to hosts.
+
+11. Which access layer threat-mitigation technique provides security based on identity?
+A. Dynamic ARP Inspection
+B. using a non-default native VLAN
+*C. 802.1x
+D. DHCP snooping
+
+12. Which command automatically generates an IPv6 address from a specified IPv6 prefix and MAC address of an interface?
+A. ipv6 address dhcp
+B. ipv6 address 2001:DB8:5:112::/64 eui-64
+*C. ipv6 address autoconfig
+D. ipv6 address 2001:DB8:5:112::2/64 link-local
+
+13. A network administrator must enable DHCP services between two sites. What must be configured for the router to pass DHCPDISCOVER messages on to the server?
+*A. a DHCP Relay Agent
+B. DHCP Binding
+C. a DHCP Pool
+D. DHCP Snooping
+
+14. What is a DHCP client?
+*A. a host that is configured to request an IP address automatically
+B. a server that dynamically assigns IP addresses to hosts
+C. a workstation that requests a domain name associated with its IP address
+D. a rooter that statically assigns IP addresses to hosts
+
+15. When implementing a router as a DHCP server, which two features must be configured'? (Choose two)
+A. relay agent information
+B. database agent
+*C. address pool
+D. smart-relay
+*E. manual bindings
+
+16. When DHCP is configured on a router, which command must be entered so the default gateway is automatically distributed?
+*A. default-router
+B. default-gateway
+C. ip helper-address
+D. dns-server
+
+17. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+18. [Exhibit] If the network environment is operating normally, which type of device must be connected to interface FastEthernet 0/1?
+A. DHCP client
+B. access point
+*C. router
+D. PC
+
+19. Which type of information resides on a DHCP server?
+*A. a list of the available IP addresses in a pool
+B. a list of public IP addresses and their corresponding names
+C. usernames and passwords for the end users in a domain
+D. a list of statically assigned MAC addresses
+
+20. What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose two)
+*A. The DHCP server offers the ability to exclude specific IP addresses from a pool of IP addresses
+B. The DHCP client can request up to four DNS server addresses
+C. The DHCP server assigns IP addresses without requiring the client to renew them
+*D. The DHCP server leases client IP addresses dynamically.
+E. The DHCP client maintains a pool of IP addresses it can assign.
+
+21. Which command enables a router to become a DHCP client?
+*A. ip address dhcp
+B. ip helper-address
+C. ip dhcp pool
+D. ip dhcp client
+
+22. Which protocol does an IPv4 host use to obtain a dynamically assigned IP address?
+A. ARP
+*B. DHCP
+C. CDP
+D. DNS
+
+23. Where does the configuration reside when a helper address Is configured lo support DHCP?
+A. on the router closest to the server
+*B. on the router closest to the client
+C. on every router along the path
+D. on the switch trunk interface
+
+24. Which function is performed by DHCP snooping?
+*A. propagates VLAN information between switches
+B. listens to multicast traffic for packet forwarding
+C. provides DDoS mitigation
+D. rate-limits certain traffic
+
+25. Which command must be entered to configure a DHCP relay?
+*A. ip helper-address
+B. ip address dhcp
+C. ip dhcp pool
+D. ip dhcp relay
+
+26. When a client and server are not on the same physical network, which device is used to forward requests and replies between client and server for DHCP?
+*A. DHCP relay agent
+B. DHCP server
+C. DHCPDISCOVER
+D. DHCPOFFER
+
+27. What prevents a workstation from receiving a DHCP address?
+A. DTP
+*B. STP
+C. VTP
+D. 802.10
+
+28. [Exhibit] An engineer deploys a topology in which R1 obtains its IP configuration from DHCP. If the switch and DHCP server configurations are complete and correct. Which two sets of commands must be configured on R1 and R2 to complete the task? (Choose two)
+A. R1(config)# interface fa0/0R1(config-if)# ip helper-address 198.51.100.100
+*B. R2(config)# interface gi0/0R2(config-if)# ip helper-address 198.51.100.100
+*C. R1(config)# interface fa0/0R1(config-if)# ip address dhcpR1(config-if)# no shutdown
+D. R2(config)# interface gi0/0R2(config-if)# ip address dhcp
+E. R1(config)# interface fa0/0R1(config-if)# ip helper-address 192.0.2.2
+
+29. [Exhibit] What is the effect of this configuration?
+A. All ARP packets are dropped by the switch
+B. Egress traffic is passed only if the destination is a DHCP server.
+C. All ingress and egress traffic is dropped because the interface is untrusted
+*D. The switch discard all ingress ARP traffic with invalid MAC-to-IP address bindings.
+
+30. Where does a switch maintain DHCP snooping information?
+A. in the MAC address table
+B. in the CAM table
+*C. in the binding database
+D. in the frame forwarding database
+
+31. [Exhibit] Which configuration enables DHCP addressing for hosts connected to interface FastEthernetO/1 on router R4?
+A. interface FastEthernet0/0ip helper-address 10.0.1.1iaccess-list 100 permit udp host 10.0.1.1 eq bootps host 10.148.2.1
+*B. interface FastEthernot0/1ip helper-address 10.0.1.1!access-list 100 permit tcp host 10.0.1.1 eq 67 host 10.148.2.1
+C. interface FastEthernetO/0ip helper-address 10.0.1.1Iaccess-list 100 permit host 10.0.1.1 host 10.148.2.1 eq bootps
+D. interface FastEthernet0/1ip helper-address 10.0.1.1!access-list 100 permit udp host 10.0.1.1 eq bootps host 10.148.2.1
+
+32. [Exhibit] An engineer is configuring a new router on the network and applied this configuration. Which additional configuration allows the PC to obtain its IP address from a DHCP server?
+A. Configure the ip dhcp relay information command under interface Gi0/1.
+B. Configure the ip dhcp smart-relay command globally on the router
+*C. Configure the ip helper-address 172.16.2.2 command under interface Gi0/0
+D. Configure the ip address dhcp command under interface Gi0/0
+
+33. [Exhibit] The DHCP server and clients are connected to the same switch. What is the next step to complete the DHCP configuration to allow clients on VLAN 1 to receive addresses from the DHCP server?
+A. Configure the ip dhcp snooping trust command on the interlace that is connected to the DHCP client.
+B. Configure the ip dhcp relay information option command on the interface that is connected to the DHCP client.
+*C. Configure the ip dhcp snooping trust command on the interface that is connected to the DHCP server.
+D. Configure the Ip dhcp relay information option command on the interface that is connected to the DHCP server.
+
+34. What is the purpose of the ip address dhcp command?
+A. to configure an Interface as a DHCP server
+B. to configure an interface as a DHCP helper
+C. to configure an interface as a DHCP relay
+*D. to configure an interface as a DHCP client
+
+35. What is a DHCP client?
+A. a server that dynamically assigns IP addresses to hosts
+B. a router that statically assigns IP addresses to hosts
+*C. a host that is configured to request an IP address automatically
+D. a workstation that requests a domain name associated with its IP address
+
+36. What are two functions of DHCP servers? (Choose two.)
+A. prevent users from assigning their own IP addresses to hosts
+*B. assign dynamic IP configurations to hosts in a network
+*C. support centralized IP management
+D. issue DHCPDISCOVER messages when added to the network
+E. respond to client DHCPOFFER requests by issuing an IP address
+
+37. A HCP pool has been created with the name CONTROL. The pool uses the next to last usable IP address as the default gateway for the DHCP clients. The server is located at 172.16 32.15. What is the step in the process for clients on the 192.168.52.0/24 subnet to reach the DHCP server?
+A. ip forward-protocol udp 137
+B. ip default-network 192.168.52.253
+*C. ip helper-address 172.16.32.15
+D. ip default-gateway 192.168.52.253
+
+38. An engineer is installing a new wireless printer with a static IP address on the Wi-Fi network. Which feature must be enabled and configured to prevent connection issues with the printer?
+A. client exclusion
+B. passive client
+*C. DHCP address assignment
+D. static IP tunneling
+
+39. [Exhibit] The DHCP server is configured with a DHCP pool for each of the subnets represented. Which command must be configured on switch SW1 to allow DHCP clients on VLAN 10 to receive dynamic IP addresses from the DHCP server?
+A. SW1(config-if)#ip helper-address 192.168.20.2
+B. SW1(config-if)#ip helper-address 192.168.20.1
+*C. SW1(config-if)#ip helper-address 192.168.10.2
+D. SW1(config-if)#ip helper-address 192.168.10.1
+
+40. [Exhibit] A newly configured PC fails to connect to the internet using TCP port 80 to www cisco com Which setting must be modified for the connection to work?
+A. Subnet Mask
+*B. DNS Servers
+C. Default Gateway
+D. DHCP Server
+
+41. [Exhibit] The P2P blocking action option is disabled on the WLC.
+*A. Enable the Static IP Tunneling option.
+B. Disable the Coverage Hole Detection option.
+C. Check the DHCP Addr. Assignment check box.
+D. Set the P2P Blocking Action option to Forward-UpStream.
+
+42. Which IPv6 address range is suitable for anycast addresses for distributed services such DHCP or DNS?
+*A. FF00:1/12
+B. 2001:db8:0234:ca3e::1/128
+C. 2002:db84:3f37:ca98:be05:8/64
+D. FE80::1/10
+
+43. What are two features of the DHCP relay agent? (Choose two.)
+A. assigns DNS locally and then forwards request to DHCP server
+*B. permits one IP helper command under an individual Layer 3 interface
+C. allows only MAC-to-IP reservations to determine the local subnet of a client
+D. minimizes the necessary number of DHCP servers
+*E. configured under the Layer 3 interface of a router on the client subnet
+
+44. When an access point is seeking to join wireless LAN controller, which message is sent to the AP- Manager interface?
+A. Discovery response
+B. DHCP request
+C. DHCP discover
+*D. Discovery request
+
+45. Refer to the exhibit An IPv6 address must be obtained automatically on the LAN interface on R1 Which command must be implemented to accomplish the task?
+A. Ipv6 address 2001:dbB:d8d2:1008:4343:61:0010::/64
+*B. Ipv6 address autoconfig
+C. Ipv6 address fe80::/10
+D. Ipv6 address dhcp
+
+46. What is used to identify spurious DHCP servers?
+A. DHCPREQUEST
+B. DHCPDISCOVER
+C. DHCPACK
+*D. DHCPOFFER
+
+47. [Exhibit] What does the host do when using the IPv4 Preferred function?
+A. It continues to use a statically assigned IPv4 address
+B. It forces the DNS server to provide the same IPv4 address at each renewal.
+*C. It requests the same IPv4 address when it renews its lease with the DHCP server.
+D. It prefers a pool of addresses when renewing the IPv4 host IP address
+
+48. The clients and OHCP server reside on different subnets. Which command must be used to forward requests and replies between clients on the 10.10.0.1/24 subnet and the DHCP server at 192.168.10.1?
+A. ip route 192.168.10.1
+B. ip default-gateway 192.168.10.1
+*C. ip helper-address 192.168.10.1
+D. ip dhcp address 192.168.10.1
+
+49. A DHCP pool has been created with the name NOCC. The pool is using 192.168.20.0/24 and must use the next to last usable IP address as the default gateway for the DHCP clients. What is the next step in the process?
+*A. default-router192.168.20.253
+B. network 192.168.20.254 255.255.255.0 secondary
+C. ip default-gateway 0.0.0.0 0.0.0.0 192.168.20.253
+D. next-server 192.168.20.254
+
+50. [Exhibit] An architect is managing a wireless network with APs from several branch offices connecting to the WLC in the data center. There is a new requirement for a single WLAN to process the client data traffic without sending it to the WLC. Which action must be taken to complete the request?
+A. Enable local HTTP profiling.
+B. Enable Disassociation Imminent.
+*C. Enable FlexConnect Local Switching.
+D. Enable local DHCP Profiling.
+
+51. What are two reasons to implement DHCP in a network? (Choose two.)
+A. reduce administration time in managing IP address ranges for clients
+B. control the length of time an IP address is used by a network device
+C. manually control and configure IP addresses on network devices
+*D. dynamic control over the best path to reach an IP address
+*E. access a website by name instead of by IP address
+
+52. [Exhibit] A network engineer must configure the CPE router to allow computers in the 172.20.1.0/24 network to obtain their IP configurations from the central DHCP server. Which configuration must the engineer apply to the CPE?
+*A. interface GigabitEthernet0/1ip helper-address 172.20.254.1
+B. interface GigabitEthernet0/0ip helper-address 172.20.1.1
+C. interface GigabitEthernet0/0ip helper-address 172.20.255.1
+D. interface GigabitEthernet0/ip helper-address 172.20.255.11
+
+53. Which interface on the WLC is used exclusively as a DHCP relay?
+A. distribution
+*B. service
+C. AP-manager
+D. virtual
+
+54. A new DHCP server has been deployed in a corporate environment with lease time set to eight hours. Which CMD command on a Windows-based device allows the engineer to verify the DHCP lease expiration?
+A. ipconfig /renew
+B. ipconfig
+*C. ipconfig /all
+D. ipconfig /displaydns
+

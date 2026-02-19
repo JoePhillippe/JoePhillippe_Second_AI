@@ -1,0 +1,149 @@
+CCNA 200-301 - Network Architecture
+==================================================
+
+1. What are two descriptions of three-tier network topologies? (Choose two)
+A. The core and distribution layers perform the same functions
+B. The access layer manages routing between devices in different domains
+*C. The network core is designed to maintain continuous connectivity when devices fail.
+D. The core layer maintains wired connections for each host
+*E. The distribution layer runs Layer 2 and Layer 3 technologies
+
+2. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+3. in Which way does a spine and-leaf architecture allow for scalability in a network when additional access ports are required?
+A. A spine switch and a leaf switch can be added with redundant connections between them
+B. A spine switch can be added with at least 40 GB uplinks
+C. A leaf switch can be added with a single connection to a core spine switch.
+*D. A leaf switch can be added with connections to every spine switch
+
+4. Which function is performed by the collapsed core layer in a two-tier architecture?
+*A. enforcing routing policies
+B. marking interesting traffic for data polices
+C. attaching users to the edge of the network
+D. applying security policies
+
+5. What are two characteristics of the distribution layer in a three-tier network architecture? (Choose two.)
+A. serves as the network aggregation point
+*B. provides a boundary between Layer 2 and Layer 3 communications
+*C. designed to meet continuous, redundant uptime requirements
+D. is the backbone for the network topology
+E. physical connection point for a LAN printer
+
+6. What is a characteristic of a SOHO network?
+A. connects each switch to every other switch in the network
+*B. enables multiple users to share a single broadband connection
+C. provides high throughput access for 1000 or more users
+D. includes at least three tiers of devices to provide load balancing and redundancy
+
+7. Which access layer threat-mitigation technique provides security based on identity?
+A. Dynamic ARP Inspection
+B. using a non-default native VLAN
+*C. 802.1x
+D. DHCP snooping
+
+8. What are two characteristics of the distribution layer in a three-tier network architecture? (Choose two.)
+A. serves as the network aggregation point
+*B. provides a boundary between Layer 2 and Layer 3 communications
+*C. designed to meet continuous, redundant uptime requirements
+D. is the backbone for the network topology
+E. physical connection point for a LAN printer
+
+9. How are the switches in a spine-and-leaf topology interconnected?
+A. Each leaf switch is connected to one of the spine switches.
+B. Each leaf switch is connected to two spine switches, making a loop.
+*C. Each leaf switch is connected to each spine switch.
+D. Each leaf switch is connected to a central leaf switch, then uplinked to a core spine switch.
+
+10. Which two WAN architecture options help a business scalability and reliability for the network? (Choose two)
+*A. asychronous routing
+B. single-homed branches
+*C. dual-homed branches
+D. static routing
+E. dynamic routing
+
+11. What is a characteristic of a SOHO network?
+A. connects each switch to every other switch in the network
+*B. enables multiple users to share a single broadband connection
+C. provides high throughput access for 1000 or more users
+D. includes at least three tiers of devices to provide load balancing and redundancy
+
+12. Which two functions are performed by the core layer in a three-tier architecture? (Choose two)
+*A. Provide uninterrupted forwarding service.
+B. Police traffic that is sent to the edge of the network.
+C. Provide direct connectivity for end user devices.
+*D. Ensure timely data transfer between layers.
+E. Inspect packets for malicious activity.
+
+13. in Which way does a spine and-leaf architecture allow for scalability in a network when additional access ports are required?
+A. A spine switch and a leaf switch can be added with redundant connections between them
+B. A spine switch can be added with at least 40 GB uplinks
+C. A leaf switch can be added with a single connection to a core spine switch.
+*D. A leaf switch can be added with connections to every spine switch
+
+14. Which two WAN architecture options help a business improve scalability and reliability for the network? (Choose two.)
+*A. asynchronous routing
+B. single-homed branches
+*C. dual-homed branches
+D. static routing
+E. dynamic routing
+
+15. Which function is performed by the collapsed core layer in a two-tier architecture?
+*A. enforcing routing policies
+B. marking interesting traffic for data polices
+C. attaching users to the edge of the network
+D. applying security policies
+
+16. What are two descriptions of three-tier network topologies? (Choose two)
+A. The core and distribution layers perform the same functions
+B. The access layer manages routing between devices in different domains
+*C. The network core is designed to maintain continuous connectivity when devices fail.
+D. The core layer maintains wired connections for each host
+*E. The distribution layer runs Layer 2 and Layer 3 technologies
+
+17. What benefit does controller-based networking provide versus traditional networking?
+A. moves from a two-tier to a three-tier network architecture to provide maximum redundancy
+B. provides an added layer of security to protect from DDoS attacks
+*C. allows configuration and monitoring of the network from one centralized port
+D. combines control and data plane functionality on a single device to minimize latency
+
+18. What is a characteristic of spine-and-leaf architecture?
+*A. Each device is separated by the same number of hops
+B. It provides variable latency
+C. It provides greater predictability on STP blocked ports.
+D. Each link between leaf switches allows for higher bandwidth.
+
+19. [Exhibit] Which plan must be Implemented to ensure optimal QoS marking practices on this network?
+A. As traffic traverses MLS1 remark the traffic, but trust all markings at the access layer.
+B. Trust the IP phone markings on SW1 and mark traffic entering SW2 at SW2.
+*C. Remark traffic as it traverses R1 and trust all markings at the access layer.
+D. As traffic enters from the access layer on SW1 and SW2. trust all traffic markings.
+
+20. What is the collapsed layer in collapsed core architectures?
+A. core and WAN
+B. access and WAN
+C. distribution and access
+*D. core and distribution
+
+21. What are two characteristics of a small office / home office connection environment? (Choose two.)
+A. It requires 10Gb ports on all uplinks.
+B. It supports between 50 and 100 users.
+*C. It supports between 1 and 50 users.
+D. It requires a core, distribution, and access layer architecture.
+*E. A router port connects to a broadband connection.
+
+22. What is a characteristics of a collapsed-core network topology?
+A. It allows the core and distribution layers to run as a single combined layer.
+*B. It enables the core and access layers to connect to one logical distribution device over an EtherChannel.
+C. It enables all workstations in a SOHO environment to connect on a single switch with internet access.
+D. It allows wireless devices to connect directly to the core layer, which enables faster data transmission.
+
+23. In which way does a spine-and-leaf architecture allow for scalability in a network when additional access ports are required?
+A. A spine switch and a leaf switch are added with redundant connections between them.
+B. A spine switch is added with at least 40GB uplinks.
+C. A leaf switch is added with a single connection to a core spine switch.
+*D. A leaf switch is added with connections to every spine switch.
+

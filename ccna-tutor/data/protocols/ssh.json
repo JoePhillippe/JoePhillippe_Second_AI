@@ -1,0 +1,10 @@
+{
+  "name": "SSH and Remote Access",
+  "slug": "ssh",
+  "category": "Security",
+  "description": "Secure Shell (SSH), Telnet, console access, VTY lines, and device management access methods.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

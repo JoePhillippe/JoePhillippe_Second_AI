@@ -1,0 +1,240 @@
+CCNA 200-301 - QoS - Quality of Service
+==================================================
+
+1. [Exhibit] Traffic that is flowing over interface TenGigabitEthernet0/0 experiences slow transfer speeds. What is the reason for the issue?
+A. heavy traffic congestion
+B. a duplex incompatibility
+*C. a speed conflict
+D. queuing drops
+
+2. Which two QoS tools provides congestion management? ( Choose two )
+A. CAR
+*B. CBWFQ
+*C. PQ
+D. PBR
+E. FRTS
+
+3. Which two values or settings must be entered when configuring a new WLAN in the Cisco Wireless LAN Controller GUI? (Choose two)
+A. management interface settings
+B. QoS settings
+C. Ip address of one or more access points
+*D. SSID
+*E. Profile name
+
+4. Which action is taken by a switch port enabled for PoE power classification override?
+A. When a powered device begins drawing power from a PoE switch port a syslog message is generated
+B. As power usage on a PoE switch port is checked data flow to the connected device is temporarily paused
+C. If a switch determines that a device is using less than the minimum configured power it assumes the device has failed and disconnects
+*D. Should a monitored port exceeds the maximum administrative value for power, the port is shutdown and err-disabled
+
+5. In QoS, which prioritization method is appropriate for interactive voice and video?
+A. expedited forwarding
+B. traffic policing
+C. round-robin scheduling
+*D. low-latency queuing
+
+6. Which function is performed by the collapsed core layer in a two-tier architecture?
+*A. enforcing routing policies
+B. marking interesting traffic for data polices
+C. attaching users to the edge of the network
+D. applying security policies
+
+7. What is the purpose of traffic shaping?
+A. to mitigate delays over slow links
+*B. to provide fair queuing for buffered flows
+C. to limit the bandwidth that a flow can use to
+D. be a marking mechanism that identifies different flows
+
+8. Which QoS Profile is selected in the GUI when configuring a voice over WLAN deployment?
+A. Bronze
+*B. Platinum
+C. Silver
+D. Gold
+
+9. Which QoS Profile is selected in the GUI when configuring a voice over WLAN deployment?
+A. Bronze
+*B. Platinum
+C. Silver
+D. Gold
+
+10. An engineer must configure Interswitch VLAN communication between a Cisco switch and a third-party switch. Which action should be taken?
+A. configure IEEE 802.1p
+*B. configure IEEE 802.1q
+C. configure ISL
+D. configure DSCP
+
+11. How does QoS optimize voice traffic?
+A. reducing bandwidth usage
+B. by reducing packet loss
+*C. by differentiating voice and video traffic
+D. by increasing jitter
+
+12. In QoS, which prioritization method is appropriate for interactive voice and video?
+A. expedited forwarding
+B. traffic policing
+C. round-robin scheduling
+*D. low-latency queuing
+
+13. What is the purpose of traffic shaping?
+A. to mitigate delays over slow links
+*B. to provide fair queuing for buffered flows
+C. to limit the bandwidth that a flow can use to
+D. be a marking mechanism that identifies different flows
+
+14. Which two actions are performed by the Weighted Random Early Detection mechanism? (Choose two)
+*A. It drops lower-priority packets before it drops higher-priority packets
+B. It can identify different flows with a high level of granularity
+C. It guarantees the delivery of high-priority packets
+*D. It can mitigate congestion by preventing the queue from filling up
+E. it supports protocol discovery
+
+15. Which function is performed by the collapsed core layer in a two-tier architecture?
+*A. enforcing routing policies
+B. marking interesting traffic for data polices
+C. attaching users to the edge of the network
+D. applying security policies
+
+16. Which two values or settings must be entered when configuring a new WLAN in the Cisco Wireless LAN Controller GUI? (Choose two)
+A. management interface settings
+B. QoS settings
+C. Ip address of one or more access points
+*D. SSID
+*E. Profile name
+
+17. Which QoS tool is used to optimize voice traffic on a network that is primarily intended for data traffic?
+A. FIFO
+B. WFQ
+*C. PQ
+D. WRED
+
+18. Which two QoS tools provides congestion management? ( Choose two )
+A. CAR
+*B. CBWFQ
+*C. PQ
+D. PBR
+E. FRTS
+
+19. [Exhibit] Traffic that is flowing over interface TenGigabitEthernet0/0 experiences slow transfer speeds. What is the reason for the issue?
+A. heavy traffic congestion
+B. a duplex incompatibility
+*C. a speed conflict
+D. queuing drops
+
+20. [Exhibit] Which plan must be Implemented to ensure optimal QoS marking practices on this network?
+A. As traffic traverses MLS1 remark the traffic, but trust all markings at the access layer.
+B. Trust the IP phone markings on SW1 and mark traffic entering SW2 at SW2.
+*C. Remark traffic as it traverses R1 and trust all markings at the access layer.
+D. As traffic enters from the access layer on SW1 and SW2. trust all traffic markings.
+
+21. Which Layer 2 switch function encapsulates packets for different VLANs so that the packets traverse the same port and maintain traffic separation between the VLANs?
+A. VLAN numbering
+B. VLAN DSCP
+*C. VLAN tagging
+D. VLAN marking
+
+22. Which QoS per-hop behavior changes the value of the ToS field in the IPv4 packet header?
+A. shaping
+B. classification
+C. policing
+*D. marking
+
+23. Which QoS traffic handling technique retains excess packets in a queue and reschedules these packets for later transmission when the configured maximum bandwidth has been surpassed?
+A. weighted random early detection
+B. traffic policing
+*C. traffic shaping
+D. traffic prioritization
+
+24. What is the purpose of classifying network traffic in QoS?
+A. services traffic according to its class
+*B. identifies the type of traffic that will receive a particular treatment
+C. writes the class identifier of a packet to a dedicated field in the packet header
+D. configures traffic-matching rules on network devices
+
+25. What is a purpose of traffic shaping?
+*A. It enables dynamic flow identification.
+B. It enables policy-based routing.
+C. It provides best-effort service.
+D. It limits bandwidth usage.
+
+26. [Exhibit] An administrator received a call from a branch office regarding poor application performance hosted at the headquarters. Ethernet 1 is connected between Router1 and the LAN switch. What identifies the issue?
+A. The QoS policy is dropping traffic.
+*B. There is a duplex mismatch.
+C. The link is over utilized.
+D. The MTU is not set to the default value.
+
+27. What are two capabilities provided by VRRP within a LAN network? (Choose two.)
+*A. dynamic routing updates
+B. bandwidth optimization
+*C. granular QoS
+D. load sharing
+E. redundancy
+
+28. SIP-based Call Admission Control must be configured in the Cisco WLC GUI. SIP call- snooping ports are configured. Which two actions must be completed next? (Choose two.)
+A. Set the QoS level to silver or greater for voice traffic.
+B. Set the QoS level to platinum for voice traffic.
+C. Enable Media Session Snooping on re WLAN.
+*D. Enable traffic shaping for the LAN interlace of the WLC.
+*E. Configure two different QoS rotes tor data and voice traffic.
+
+29. [Exhibit] Which per-hop QoS behavior is R1 applying to incoming packets?
+A. queuing
+B. marking
+C. shaping
+*D. policing
+
+30. What does traffic shaping do?
+*A. It modifies the QoS attributes of a packet
+B. It queues excess traffic
+C. It organizes traffic into classes.
+D. It sets QoS attributes within a packet.
+
+31. Which QoS queuing method discards or marks packets that exceed the desired bit rate of traffic flow?
+A. shaping
+*B. policing
+C. CBWFQ
+D. LLQ
+
+32. What is an advantage of using auto mode versus static mode for power allocation when an access point is connected to a PoE switch port?
+A. All four pairs of the cable are used
+B. It detects the device is a powered device
+C. The default level is used for the access point
+*D. Power policing is enabled at the same time
+
+33. Which IP header field is changed by a Cisco device when QoS marking is enabled?
+A. Header Checksum
+*B. Type of service
+C. DSCP
+D. ECN
+
+34. [Exhibit] Users at a branch office are experiencing application performance issues, poor VoIP audio quality, and slow downloads. What is the cause of the issues?
+A. broadcast storm
+B. overutilization
+C. interface configuration
+*D. QoS queuing
+
+35. What is the purpose of classifying network traffic in QoS?
+A. Writes the class identifier of a packet to a dedicated field in the packet header
+B. Services traffic according to its class
+C. Configures traffic-matching rules on network devices
+*D. Identifies the type of traffic that will receive a particular treatment
+
+36. Which two principles must be considered when using per-hop behavior in QoS? (Choose two.)
+A. Policing is not supported on subinterfaces.
+B. Shaping and rate limiting have the same effect.
+C. Shaping drops excessive traffic without adding traffic delay.
+*D. Shaping levels out traffic bursts by delaying excess traffic.
+*E. Policing is performed in the inbound and outbound directions.
+
+37. Which two QoS tools provide congestion management? (Choose two.)
+A. PBR
+B. FRTS
+*C. PQ
+D. CBWFQ
+E. CAR
+
+38. Which QoS feature drops traffic that exceeds the committed access rate?
+A. Shaping
+*B. Policing
+C. Weighted fair queuing
+D. FIFO
+

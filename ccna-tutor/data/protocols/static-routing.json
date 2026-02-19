@@ -1,0 +1,10 @@
+{
+  "name": "Static and Default Routing",
+  "slug": "static-routing",
+  "category": "Routing Protocols",
+  "description": "Static routes, default routes, floating static routes, and route selection based on administrative distance.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "High",
+  "related_protocols": []
+}

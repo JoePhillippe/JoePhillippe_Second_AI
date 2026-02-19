@@ -1,0 +1,1474 @@
+{
+  "protocol": "uncategorized",
+  "groups": [
+    {
+      "group_id": "uncategorized_q1",
+      "concept": "[Exhibit] Which two configurations must the engineer apply on this network so th...",
+      "question_ids": [
+        "uncategorized_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q2",
+      "concept": "Which two components comprise part of a PKI? (Choose two.)",
+      "question_ids": [
+        "uncategorized_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q3",
+      "concept": "Which characteristic differentiates the concept of authentication from authoriza...",
+      "question_ids": [
+        "uncategorized_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q4",
+      "concept": "[Exhibit] If R1 receives a packet destined to 172.161.1, to which IP address doe...",
+      "question_ids": [
+        "uncategorized_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q5",
+      "concept": "[Exhibit] An engineer must configure GigabitEthernet1/1 to accommodate voice and...",
+      "question_ids": [
+        "uncategorized_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q6",
+      "concept": "What are two reasons for an engineer to configure a floating state route? (Choos...",
+      "question_ids": [
+        "uncategorized_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q7",
+      "concept": "[Exhibit] Which route does R1 select for traffic that is destined to 192 168.16....",
+      "question_ids": [
+        "uncategorized_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q8",
+      "concept": "[Exhibit] A network engineer is in the process of establishing IP connectivity b...",
+      "question_ids": [
+        "uncategorized_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q9",
+      "concept": "[Exhibit] For security reasons, automatic neighbor discovery must be disabled on...",
+      "question_ids": [
+        "uncategorized_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q10",
+      "concept": "The SW1 interface g0/1 is in the down/down state. Which two configurations are v...",
+      "question_ids": [
+        "uncategorized_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q11",
+      "concept": "What Is the path for traffic sent from one user workstation to another workstati...",
+      "question_ids": [
+        "uncategorized_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q12",
+      "concept": "What is the function of a server?",
+      "question_ids": [
+        "uncategorized_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q13",
+      "concept": "Which type of organization should use a collapsed-core architecture?",
+      "question_ids": [
+        "uncategorized_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q14",
+      "concept": "An organization secures its network with multi-factor authentication using an au...",
+      "question_ids": [
+        "uncategorized_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q15",
+      "concept": "[Exhibit] What is the next hop address for traffic that is destined to host 10.0...",
+      "question_ids": [
+        "uncategorized_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q16",
+      "concept": "Which level of severity must be set to get informational syslogs?",
+      "question_ids": [
+        "uncategorized_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q17",
+      "concept": "[Exhibit] which path is used by the router for internet traffic ?",
+      "question_ids": [
+        "uncategorized_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q18",
+      "concept": "-   (Topic 1) [Exhibit] All routers in the network are configured R2 must be the...",
+      "question_ids": [
+        "uncategorized_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q19",
+      "concept": "Which technology allows for multiple operating systems to be run on a single hos...",
+      "question_ids": [
+        "uncategorized_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q20",
+      "concept": "[Exhibit] which path is used by the router for internet traffic ?",
+      "question_ids": [
+        "uncategorized_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q21",
+      "concept": "Which level of severity must be set to get informational syslogs?",
+      "question_ids": [
+        "uncategorized_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q22",
+      "concept": "[Exhibit] All routers in the network are configured R2 must be the DR. After the...",
+      "question_ids": [
+        "uncategorized_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q23",
+      "concept": "In software-defined architecture, which place handles switching for traffic thro...",
+      "question_ids": [
+        "uncategorized_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q24",
+      "concept": "Refer to exhibit. Which statement explains the configuration error message that ...",
+      "question_ids": [
+        "uncategorized_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q25",
+      "concept": "[Exhibit] What is the next hop address for traffic that is destined to host 10.0...",
+      "question_ids": [
+        "uncategorized_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q26",
+      "concept": "Which network allows devices to communicate without the need to access the Inter...",
+      "question_ids": [
+        "uncategorized_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q27",
+      "concept": "What is a recommended approach to avoid co-channel congestion while installing a...",
+      "question_ids": [
+        "uncategorized_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q28",
+      "concept": "[Exhibit] Which prefix does Router 1 use for traffic to Host A?",
+      "question_ids": [
+        "uncategorized_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q29",
+      "concept": "A device detects two stations transmitting frames at the same time. This conditi...",
+      "question_ids": [
+        "uncategorized_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q30",
+      "concept": "If a switch port receives a new frame while it is actively transmitting a previo...",
+      "question_ids": [
+        "uncategorized_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q31",
+      "concept": "[Exhibit] With which metric was the route to host 172.16.0.202 learned?",
+      "question_ids": [
+        "uncategorized_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q32",
+      "concept": "What are two reasons that cause late collisions to increment on an Ethernet inte...",
+      "question_ids": [
+        "uncategorized_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q33",
+      "concept": "[Exhibit] An engineer must configure GigabitEthernet1/1 to accommodate voice and...",
+      "question_ids": [
+        "uncategorized_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q34",
+      "concept": "The SW1 interface g0/1 is in the down/down state. Which two configurations are v...",
+      "question_ids": [
+        "uncategorized_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q35",
+      "concept": "[Exhibit] A packet is being sent across router R1 to host 172.16.0.14. What is t...",
+      "question_ids": [
+        "uncategorized_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q36",
+      "concept": "Which set of action satisfy the requirement for multifactor authentication?",
+      "question_ids": [
+        "uncategorized_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q37",
+      "concept": "[Exhibit] Which route does R1 select for traffic that is destined to 192 168.16....",
+      "question_ids": [
+        "uncategorized_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q38",
+      "concept": "Refer to me exhibit. Which action is taken by the router when a packet is source...",
+      "question_ids": [
+        "uncategorized_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q39",
+      "concept": "An organization secures its network with multi-factor authentication using an au...",
+      "question_ids": [
+        "uncategorized_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q40",
+      "concept": "[Exhibit] For security reasons, automatic neighbor discovery must be disabled on...",
+      "question_ids": [
+        "uncategorized_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q41",
+      "concept": "[Exhibit] To which device does Router1 send packets that are destined to host 10...",
+      "question_ids": [
+        "uncategorized_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q42",
+      "concept": "Which type of organization should use a collapsed-core architecture?",
+      "question_ids": [
+        "uncategorized_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q43",
+      "concept": "[Exhibit] A packet is being sent across router R1 to host 172.163.3.14. To which...",
+      "question_ids": [
+        "uncategorized_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q44",
+      "concept": "[Exhibit] A network engineer is in the process of establishing IP connectivity b...",
+      "question_ids": [
+        "uncategorized_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q45",
+      "concept": "What are two reasons for an engineer to configure a floating state route? (Choos...",
+      "question_ids": [
+        "uncategorized_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q46",
+      "concept": "[Exhibit] If R1 receives a packet destined to 172.161.1, to which IP address doe...",
+      "question_ids": [
+        "uncategorized_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q47",
+      "concept": "Using direct sequence spread spectrum, which three 2.4-GHz channels are used to ...",
+      "question_ids": [
+        "uncategorized_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q48",
+      "concept": "Which goal is achieved by the implementation of private IPv4 addressing on a net...",
+      "question_ids": [
+        "uncategorized_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q49",
+      "concept": "What is the function of a server?",
+      "question_ids": [
+        "uncategorized_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q50",
+      "concept": "What Is the path for traffic sent from one user workstation to another workstati...",
+      "question_ids": [
+        "uncategorized_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q51",
+      "concept": "What is the function of the controller in a software-defined network?",
+      "question_ids": [
+        "uncategorized_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q52",
+      "concept": "[Exhibit] An engineer has started to configure replacement switch SW1. To verify...",
+      "question_ids": [
+        "uncategorized_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q53",
+      "concept": "Which characteristic differentiates the concept of authentication from authoriza...",
+      "question_ids": [
+        "uncategorized_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q54",
+      "concept": "[Exhibit] Which next-hop IP address does Routed use for packets destined to host...",
+      "question_ids": [
+        "uncategorized_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q55",
+      "concept": "[Exhibit] Which two configurations must the engineer apply on this network so th...",
+      "question_ids": [
+        "uncategorized_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q56",
+      "concept": "[Exhibit] Which minimum configuration items are needed to enable Secure Shell ve...",
+      "question_ids": [
+        "uncategorized_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q57",
+      "concept": "[Exhibit] What is a reason for poor performance on the network interface?",
+      "question_ids": [
+        "uncategorized_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q58",
+      "concept": "An engineer must configure R1 for a new user account. The account must meet thes...",
+      "question_ids": [
+        "uncategorized_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q59",
+      "concept": "Which two components comprise part of a PKI? (Choose two.)",
+      "question_ids": [
+        "uncategorized_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q60",
+      "concept": "[Exhibit] When router R1 receives a packet with destination IP address 10.56.0 6...",
+      "question_ids": [
+        "uncategorized_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q61",
+      "concept": "[Exhibit] Four load-balancing servers are reachable through this router; however...",
+      "question_ids": [
+        "uncategorized_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q62",
+      "concept": "[Exhibit] A multivendor network exists and the company is implementing VoIP over...",
+      "question_ids": [
+        "uncategorized_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q63",
+      "concept": "[Exhibit] What is the next hop for traffic entering R1 with a destination of 10....",
+      "question_ids": [
+        "uncategorized_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q64",
+      "concept": "[Exhibit] With a reference bandwidth of 100 Gb on all routers, which path does r...",
+      "question_ids": [
+        "uncategorized_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q65",
+      "concept": "What is the put method within HTTP?",
+      "question_ids": [
+        "uncategorized_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q66",
+      "concept": "[Exhibit] What is the prefix length for the route that Router1 will use to reach...",
+      "question_ids": [
+        "uncategorized_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q67",
+      "concept": "When should an engineer implement a collapsed-core architecture?",
+      "question_ids": [
+        "uncategorized_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q68",
+      "concept": "Which type of encryption does WPA1 use for data protection?",
+      "question_ids": [
+        "uncategorized_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q69",
+      "concept": "[Exhibit] A) B) C) D)",
+      "question_ids": [
+        "uncategorized_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q70",
+      "concept": "[Exhibit] Which entry is the longest prefix match for host IP address 192.168.10...",
+      "question_ids": [
+        "uncategorized_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q71",
+      "concept": "[Exhibit] Packets are flowing from 192.168 10.1 to the destination at IP address...",
+      "question_ids": [
+        "uncategorized_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q72",
+      "concept": "[Exhibit] Which action by the router when a packet is sourced from 10.10.10.2 an...",
+      "question_ids": [
+        "uncategorized_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q73",
+      "concept": "[Exhibit] What is the prefix length for the route that router1 will use to reach...",
+      "question_ids": [
+        "uncategorized_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q74",
+      "concept": "[Exhibit] The given Windows PC is requesting the IP address of the host at www.c...",
+      "question_ids": [
+        "uncategorized_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q75",
+      "concept": "[Exhibit] A packet sourced from 172.18.33.2 is destined for 172.18.32.38. Where ...",
+      "question_ids": [
+        "uncategorized_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q76",
+      "concept": "Which type of IPv4 address type helps to conserve the globally unique address cl...",
+      "question_ids": [
+        "uncategorized_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q77",
+      "concept": "What is the function of a controller in a software-defined network?",
+      "question_ids": [
+        "uncategorized_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q78",
+      "concept": "A) B) C) D)",
+      "question_ids": [
+        "uncategorized_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q79",
+      "concept": "[Exhibit] A network administrator configures the CPE to provide internet access ...",
+      "question_ids": [
+        "uncategorized_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q80",
+      "concept": "What is a reason why an administrator would choose to implement an automated net...",
+      "question_ids": [
+        "uncategorized_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q81",
+      "concept": "What is a zero-day exploit?",
+      "question_ids": [
+        "uncategorized_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q82",
+      "concept": "A) B) C) D)",
+      "question_ids": [
+        "uncategorized_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q83",
+      "concept": "Which plane is centralized in software-defined networking?",
+      "question_ids": [
+        "uncategorized_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q84",
+      "concept": "Which authentication method requires the user to provide a physical attribute to...",
+      "question_ids": [
+        "uncategorized_qb084"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q85",
+      "concept": "[Exhibit] In which structure does the word \"warning\" directly reside?",
+      "question_ids": [
+        "uncategorized_qb085"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q86",
+      "concept": "[Exhibit] Packets are flowing from 192.168.10.1 to the destination at IP address...",
+      "question_ids": [
+        "uncategorized_qb086"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q87",
+      "concept": "SW1 supports connectivity for a lobby conference room and must be secured. The e...",
+      "question_ids": [
+        "uncategorized_qb087"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q88",
+      "concept": "What determines the sequence in which materials are planned during the material ...",
+      "question_ids": [
+        "uncategorized_qb088"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q89",
+      "concept": "A) B) C) D)",
+      "question_ids": [
+        "uncategorized_qb089"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q90",
+      "concept": "Which set of actions satisfies the requirement for multifactor authentication?",
+      "question_ids": [
+        "uncategorized_qb090"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q91",
+      "concept": "[Exhibit] What is missing from this output for it to be executed?",
+      "question_ids": [
+        "uncategorized_qb091"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q92",
+      "concept": "Which two statements distinguish authentication from accounting? (Choose two.)",
+      "question_ids": [
+        "uncategorized_qb092"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q93",
+      "concept": "What must be considered before deploying virtual machines?",
+      "question_ids": [
+        "uncategorized_qb093"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q94",
+      "concept": "[Exhibit] The primary route across Gi0/0 is configured on both routers. A second...",
+      "question_ids": [
+        "uncategorized_qb094"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q95",
+      "concept": "[Exhibit] An engineer must translate the PC1 IP address to 10.199.77.100 and per...",
+      "question_ids": [
+        "uncategorized_qb095"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q96",
+      "concept": "What are two benefits for using private IPv4 addressing? (Choose two.)",
+      "question_ids": [
+        "uncategorized_qb096"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q97",
+      "concept": "[Exhibit] Which route does R1 select for traffic that is destined to 192.168.16....",
+      "question_ids": [
+        "uncategorized_qb097"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q98",
+      "concept": "[Exhibit] Which next-hop IP address has the least desirable metric when sourced ...",
+      "question_ids": [
+        "uncategorized_qb098"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q99",
+      "concept": "[Exhibit] All routers in the network are configured conrectly, and the expected ...",
+      "question_ids": [
+        "uncategorized_qb099"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q100",
+      "concept": "What is a characteristic of RSA?",
+      "question_ids": [
+        "uncategorized_qb100"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q101",
+      "concept": "[Exhibit] What is the next-hop P address for R2 so that PC2 reaches the applicat...",
+      "question_ids": [
+        "uncategorized_qb101"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q102",
+      "concept": "Which two server types support dornas name to IP address resolution? (Choose two...",
+      "question_ids": [
+        "uncategorized_qb102"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q103",
+      "concept": "Which alternative to password authentication Is Implemented to allow enterprise ...",
+      "question_ids": [
+        "uncategorized_qb103"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q104",
+      "concept": "Which two features introduced in SNMPv2 provides the ability to retrieve large a...",
+      "question_ids": [
+        "uncategorized_qb104"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q105",
+      "concept": "[Exhibit] All routers in the network are configured correctly, and the expected ...",
+      "question_ids": [
+        "uncategorized_qb105"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q106",
+      "concept": "[Exhibit] A network administrator configures an interface control re switch so t...",
+      "question_ids": [
+        "uncategorized_qb106"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q107",
+      "concept": "What is the temporary state that switch ports always enter immediately after the...",
+      "question_ids": [
+        "uncategorized_qb107"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q108",
+      "concept": "[Exhibit] What is represented beginning with line 1 and ending with line 5?",
+      "question_ids": [
+        "uncategorized_qb108"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q109",
+      "concept": "A) B) C) D)",
+      "question_ids": [
+        "uncategorized_qb109"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q110",
+      "concept": "[Exhibit] The switch cat9k acc.1 connects users to the campus LAN. Printing serv...",
+      "question_ids": [
+        "uncategorized_qb110"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q111",
+      "concept": "Which two practices are recommended for an acceptable security posture in a netw...",
+      "question_ids": [
+        "uncategorized_qb111"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q112",
+      "concept": "By default, how long will the switch continue to know a workstation MAC address ...",
+      "question_ids": [
+        "uncategorized_qb112"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q113",
+      "concept": "[Exhibit] A network engineer must configure the link with these requirements: \u2022 ...",
+      "question_ids": [
+        "uncategorized_qb113"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q114",
+      "concept": "What is the primary purpose of private address space?",
+      "question_ids": [
+        "uncategorized_qb114"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q115",
+      "concept": "[Exhibit] Rooter R1 is added to the network and configured with tie 10 0 0 64/26...",
+      "question_ids": [
+        "uncategorized_qb115"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q116",
+      "concept": "Which action must be taken when password protection is Implemented?",
+      "question_ids": [
+        "uncategorized_qb116"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q117",
+      "concept": "[Exhibit] Which interface does a packet take to reach the destination address of...",
+      "question_ids": [
+        "uncategorized_qb117"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q118",
+      "concept": "What is a reason to implement IPv4 private addressing?",
+      "question_ids": [
+        "uncategorized_qb118"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q119",
+      "concept": "[Exhibit] Which interface is chosen to forward traffic to the host at 192.168.0....",
+      "question_ids": [
+        "uncategorized_qb119"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q120",
+      "concept": "Which group of channels in the 802.1ib/g/n/ac/ax 2.4 GHz frequency Bands are non...",
+      "question_ids": [
+        "uncategorized_qb120"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q121",
+      "concept": "Which signal frequency appears 60 times per minute?",
+      "question_ids": [
+        "uncategorized_qb121"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q122",
+      "concept": "[Exhibit] When router R1 is sending traffic to IP address 10.56.192 1, which int...",
+      "question_ids": [
+        "uncategorized_qb122"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q123",
+      "concept": "Company has decided to require multifactor authentication for all systems. Which...",
+      "question_ids": [
+        "uncategorized_qb123"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q124",
+      "concept": "[Exhibit] After applying this configuration to router R1, a network engineer is ...",
+      "question_ids": [
+        "uncategorized_qb124"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q125",
+      "concept": "What are two examples of multifactor authentication? (Choose two.)",
+      "question_ids": [
+        "uncategorized_qb125"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q126",
+      "concept": "[Exhibit] PC A is communicating with another device at IP address 10.227.225.255...",
+      "question_ids": [
+        "uncategorized_qb126"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q127",
+      "concept": "Which group of channels in the 802.11b/g/n/ax 2.4 GHz frequency bands are non- o...",
+      "question_ids": [
+        "uncategorized_qb127"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q128",
+      "concept": "What is a functionality of the control plane in the network?",
+      "question_ids": [
+        "uncategorized_qb128"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q129",
+      "concept": "What is a characteristic of a Layer 2 switch?",
+      "question_ids": [
+        "uncategorized_qb129"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q130",
+      "concept": "[Exhibit] All routers In the network are configured. R2 must be the DR. After th...",
+      "question_ids": [
+        "uncategorized_qb130"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q131",
+      "concept": "How is AI used to identify issues within network traffic?",
+      "question_ids": [
+        "uncategorized_qb131"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q132",
+      "concept": "[Exhibit] Network services must be enabled on interface Gil/0734. Which configur...",
+      "question_ids": [
+        "uncategorized_qb132"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q133",
+      "concept": "Which feature of Digest Authentication prevents credentials from being sent in p...",
+      "question_ids": [
+        "uncategorized_qb133"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q134",
+      "concept": "What is a characteristic of a Layer 2 switch?",
+      "question_ids": [
+        "uncategorized_qb134"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q135",
+      "concept": "[Exhibit] What is the correct next hop for router R1 to reach IP addresses 192.1...",
+      "question_ids": [
+        "uncategorized_qb135"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q136",
+      "concept": "Which interface is used to send traffic to the destination network? O 10.76.170 ...",
+      "question_ids": [
+        "uncategorized_qb136"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q137",
+      "concept": "What is a characteristic of a Layer 2 switch?",
+      "question_ids": [
+        "uncategorized_qb137"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q138",
+      "concept": "Which AP mode wirelessly connects two separate network segments each set up with...",
+      "question_ids": [
+        "uncategorized_qb138"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q139",
+      "concept": "[Exhibit] The loopback IP of R3 has been learned via the two interfaces on R1. R...",
+      "question_ids": [
+        "uncategorized_qb139"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q140",
+      "concept": "[Exhibit] The route for 10.220.100.96/27 has been very unstable. The same route ...",
+      "question_ids": [
+        "uncategorized_qb140"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q141",
+      "concept": "[Exhibit] How does router R1 forward packets destined to 10.0.4.10?",
+      "question_ids": [
+        "uncategorized_qb141"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q142",
+      "concept": "What is a characteristic of a Layer 2 switch?",
+      "question_ids": [
+        "uncategorized_qb142"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q143",
+      "concept": "Which interface condition is occurring in this output?",
+      "question_ids": [
+        "uncategorized_qb143"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q144",
+      "concept": "[Exhibit] The static routes were implemented on the border router. What is the n...",
+      "question_ids": [
+        "uncategorized_qb144"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q145",
+      "concept": "Which role do predictive Al models play in network load balancing?",
+      "question_ids": [
+        "uncategorized_qb145"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q146",
+      "concept": "Which interface condition is occurring in this output?",
+      "question_ids": [
+        "uncategorized_qb146"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q147",
+      "concept": "Which interface is used to send traffic to the destination network? * 10.174.208...",
+      "question_ids": [
+        "uncategorized_qb147"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q148",
+      "concept": "Which interface is used to send traffic to the destination network? * 10.90.207....",
+      "question_ids": [
+        "uncategorized_qb148"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q149",
+      "concept": "What is the function of generative AI in network operations?",
+      "question_ids": [
+        "uncategorized_qb149"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q150",
+      "concept": "Which statement describes virtual machines?",
+      "question_ids": [
+        "uncategorized_qb150"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q151",
+      "concept": "[Exhibit] Which interface does a packet take to reach the destination address of...",
+      "question_ids": [
+        "uncategorized_qb151"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q152",
+      "concept": "Which interface is used to send traffic to the destination network? O 10.18.75.1...",
+      "question_ids": [
+        "uncategorized_qb152"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q153",
+      "concept": "How is Al used to identify issues within network traffic?",
+      "question_ids": [
+        "uncategorized_qb153"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q154",
+      "concept": "[Exhibit] To which device does Router1 send packets that are destined to host 10...",
+      "question_ids": [
+        "uncategorized_qb154"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q155",
+      "concept": "Which interface is used to send traffic to the destination network? * 10.249.210...",
+      "question_ids": [
+        "uncategorized_qb155"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q156",
+      "concept": "Why would a network administrator choose to implement RFC 1918 address space?",
+      "question_ids": [
+        "uncategorized_qb156"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q157",
+      "concept": "Which security element uses a combination of one-time passwords, a login name, a...",
+      "question_ids": [
+        "uncategorized_qb157"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q158",
+      "concept": "What is a function of Layer 3 switches?",
+      "question_ids": [
+        "uncategorized_qb158"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q159",
+      "concept": "[Exhibit] What is occurring on this switch?",
+      "question_ids": [
+        "uncategorized_qb159"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q160",
+      "concept": "What is the total number of users permitted to simultaneously browse the control...",
+      "question_ids": [
+        "uncategorized_qb160"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q161",
+      "concept": "What is the main capability of multifactor authentication?",
+      "question_ids": [
+        "uncategorized_qb161"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q162",
+      "concept": "[Exhibit] What is the metric for the route to the 192.168.10.33 host?",
+      "question_ids": [
+        "uncategorized_qb162"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "uncategorized_q163",
+      "concept": "Which combination of methods satisfies the minimum security requirements when a ...",
+      "question_ids": [
+        "uncategorized_qb163"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 163,
+  "total_questions": 163
+}

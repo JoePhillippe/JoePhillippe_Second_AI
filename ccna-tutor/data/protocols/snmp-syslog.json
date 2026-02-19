@@ -1,0 +1,42 @@
+{
+  "name": "SNMP/Syslog",
+  "slug": "snmp-syslog",
+  "category": "Network Management",
+  "description": "SNMP (Simple Network Management Protocol) and Syslog are essential tools for network monitoring, management, and troubleshooting. SNMP collects device statistics; Syslog records system events and messages.",
+  "key_topics": [
+    "SNMP versions: v1, v2c, v3 (with authentication and encryption)",
+    "SNMP components: Manager, Agent, MIB (Management Information Base)",
+    "SNMP operations: GET, SET, TRAP, INFORM",
+    "SNMP community strings (read-only, read-write)",
+    "Syslog severity levels (0-7): Emergency to Debug",
+    "Syslog facility codes",
+    "Configuring Cisco device to send logs to syslog server",
+    "NTP (Network Time Protocol) for accurate timestamps"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "snmp-server community",
+      "snmp-server host",
+      "snmp-server enable traps",
+      "logging",
+      "logging host",
+      "logging trap",
+      "service timestamps"
+    ],
+    "switch": [
+      "snmp-server",
+      "logging",
+      "ntp server"
+    ]
+  },
+  "common_misconceptions": [
+    "Training materials often claim SNMPv2c added security. Cisco documentation clarifies v2c only added bulk transfers and inform; community strings are still sent in cleartext. Only SNMPv3 provides real security",
+    "Many resources confuse SNMP TRAPs and INFORMs. Cisco config guides explain TRAPs are unacknowledged (UDP fire-and-forget), while INFORMs require acknowledgment (more reliable but more overhead)",
+    "Third-party books frequently overlook syslog severity levels. Cisco emphasizes understanding levels 0-7 is critical: 0=Emergency (system unusable), 7=Debug (detailed info)",
+    "Common error: not configuring NTP when using syslog. Without synchronized time across devices, correlating logs from multiple devices during troubleshooting becomes nearly impossible"
+  ],
+  "exam_weight": "Medium",
+  "related_protocols": [
+    "tcp-ip"
+  ]
+}

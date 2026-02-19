@@ -1,0 +1,42 @@
+{
+  "name": "DHCP",
+  "slug": "dhcp",
+  "category": "Network Services",
+  "description": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration to devices. It operates using a client-server model over UDP ports 67 (server) and 68 (client).",
+  "key_topics": [
+    "DORA process: Discover, Offer, Request, Acknowledge",
+    "DHCP relay agent (ip helper-address)",
+    "DHCP lease time and renewal (T1 at 50%, T2 at 87.5%)",
+    "DHCP options: subnet mask, default gateway, DNS server",
+    "IP address exclusion and reservation",
+    "DHCP snooping for security",
+    "Configuring Cisco router as DHCP server",
+    "DHCP binding database"
+  ],
+  "config_guide_refs": {
+    "router": [
+      "ip dhcp pool",
+      "network",
+      "default-router",
+      "dns-server",
+      "lease",
+      "ip dhcp excluded-address",
+      "ip helper-address"
+    ],
+    "switch": [
+      "ip dhcp snooping",
+      "ip dhcp snooping trust"
+    ]
+  },
+  "common_misconceptions": [
+    "Many training resources state DHCP uses only broadcast. Cisco documentation clarifies that DHCP Offer and Ack can be unicast if the client set a flag, and DHCP relay converts broadcasts to unicast",
+    "Third-party materials often confuse lease renewal. Cisco config guides show T1 timer (50% of lease) triggers unicast renewal to original server; T2 timer (87.5%) triggers broadcast to any server",
+    "Training books frequently overlook DHCP snooping. Cisco emphasizes this security feature prevents rogue DHCP servers and is critical in production networks",
+    "Common error: placing ip helper-address on the wrong interface. It must be configured on the interface receiving the DHCP Discover broadcast, NOT the interface facing the DHCP server"
+  ],
+  "exam_weight": "Medium",
+  "related_protocols": [
+    "dns",
+    "tcp-ip"
+  ]
+}

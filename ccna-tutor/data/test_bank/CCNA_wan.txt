@@ -1,0 +1,257 @@
+CCNA 200-301 - WAN Technologies
+==================================================
+
+1. [Exhibit] Web traffic is coming in from the WAN interface. Which route takes precedence when the router is processing traffic destined for the LAN network at 10 0.10.0/24?
+*A. via next-hop 10.0.1.5
+B. via next-hop 10 0 1.4
+C. via next-hop 10.0 1.50
+D. via next-hop 10.0 1 100
+
+2. [Exhibit] Which IPv6 configuration is required for R17 to successfully ping the WAN interface on R18? A) B) C\) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+3. A user configured OSPF in a single area between two routers A serial interface connecting R1 and R2 is running encapsulation PPP By default which OSPF network type is seen on this interface when the user types show ip ospf interface on R1 or R2?
+A. port-to-multipoint
+B. broadcast
+*C. point-to-point
+D. nonbroadcast
+
+4. A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF By default, which type of OSPF network does this interface belong to?
+A. point-to-multipoint
+B. point-to-point
+*C. broadcast
+D. nonbroadcast
+
+5. Which WAN access technology is preferred for a small office / home office architecture?
+*A. broadband cable access
+B. frame-relay packet switching
+C. dedicated point-to-point leased line
+D. Integrated Services Digital Network switching.
+
+6. in Which way does a spine and-leaf architecture allow for scalability in a network when additional access ports are required?
+A. A spine switch and a leaf switch can be added with redundant connections between them
+B. A spine switch can be added with at least 40 GB uplinks
+C. A leaf switch can be added with a single connection to a core spine switch.
+*D. A leaf switch can be added with connections to every spine switch
+
+7. Which WAN topology provides a combination of simplicity quality, and availability?
+A. partial mesh
+B. full mesh
+*C. point-to-point
+D. hub-and-spoke
+
+8. What is a characteristic of a SOHO network?
+A. connects each switch to every other switch in the network
+*B. enables multiple users to share a single broadband connection
+C. provides high throughput access for 1000 or more users
+D. includes at least three tiers of devices to provide load balancing and redundancy
+
+9. -   (Topic 1) Refer to the exhibit Routers R1 and R2 have been configured with their respective LAN interfaces The two circuits are operational and reachable across WAN Which command set establishes failover redundancy if the primary circuit goes down?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+10. Which two WAN architecture options help a business scalability and reliability for the network? (Choose two)
+*A. asychronous routing
+B. single-homed branches
+*C. dual-homed branches
+D. static routing
+E. dynamic routing
+
+11. Which WAN topology provides a combination of simplicity quality, and availability?
+A. partial mesh
+B. full mesh
+*C. point-to-point
+D. hub-and-spoke
+
+12. What is the function of a hub-and-spoke WAN topology?
+A. allows access restrictions to be implemented between subscriber sites.
+*B. provides direct connections between subscribers
+C. supports Layer 2 VPNs
+D. supports application optimization
+
+13. Which two WAN architecture options help a business scalability and reliability for the network? (Choose two)
+*A. asychronous routing
+B. single-homed branches
+*C. dual-homed branches
+D. static routing
+E. dynamic routing
+
+14. What is a characteristic of a SOHO network?
+A. connects each switch to every other switch in the network
+*B. enables multiple users to share a single broadband connection
+C. provides high throughput access for 1000 or more users
+D. includes at least three tiers of devices to provide load balancing and redundancy
+
+15. What are two functions of a Layer 2 switch? (Choose two)
+*A. acts as a central point for association and authentication servers
+B. selects the best route between networks on a WAN
+C. moves packets within a VLAN
+D. moves packets between different VLANs
+*E. makes forwarding decisions based on the MAC address of a packet
+
+16. Which WAN access technology is preferred for a small office / home office architecture?
+*A. broadband cable access
+B. frame-relay packet switching
+C. dedicated point-to-point leased line
+D. Integrated Services Digital Network switching.
+
+17. What are two roles of Domain Name Services (DNS)? (Choose Two)
+A. builds a flat structure of DNS names for more efficient IP operations
+B. encrypts network Traffic as it travels across a WAN by default
+C. improves security by protecting IP addresses under Fully Qualified Domain Names (FQDNs)
+*D. enables applications to identify resources by name instead of IP address
+*E. allows a single host name to be shared across more than one IP address
+
+18. What is the maximum bandwidth of a T1 point-to-point connection?
+*A. 1.544 Mbps
+B. 2.048 Mbps
+C. 34.368 Mbps
+D. 43.7 Mbps
+
+19. Which two WAN architecture options help a business improve scalability and reliability for the network? (Choose two.)
+*A. asynchronous routing
+B. single-homed branches
+*C. dual-homed branches
+D. static routing
+E. dynamic routing
+
+20. Refer to the exhibit Routers R1 and R2 have been configured with their respective LAN interfaces The two circuits are operational and reachable across WAN Which command set establishes failover redundancy if the primary circuit goes down?
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+21. [Exhibit] Which IPv6 configuration is required for R17 to successfully ping the WAN interface on R18? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+22. [Exhibit] An engineer is bringing up a new circuit to the MPLS provider on the Gi0/1 interface of Router1 The new circuit uses eBGP and teams the route to VLAN25 from the BGP path What s the expected behavior for the traffic flow for route 10.10.13.0/25?
+A. Traffic to 10.10.13.0.25 is load balanced out of multiple interfaces
+B. Route 10.10.13.0/25 is updated in the routing table as being learned from interface Gi0/1.
+C. Traffic to 10.10.13.0/25 is asymmeteical
+*D. Route 10.10.13.0/25 learned via the GiO/0 interface remains in the routing table
+
+23. A user configured OSPF in a single area between two routers A serial interface connecting R1 and R2 is running encapsulation PPP By default which OSPF network type is seen on this interface when the user types show ip ospf interface on R1 or R2?
+A. port-to-multipoint
+B. broadcast
+*C. point-to-point
+D. nonbroadcast
+
+24. [Exhibit] Web traffic is coming in from the WAN interface. Which route takes precedence when the router is processing traffic destined for the LAN network at 10 0.10.0/24?
+*A. via next-hop 10.0.1.5
+B. via next-hop 10 0 1.4
+C. via next-hop 10.0 1.50
+D. via next-hop 10.0 1 100
+
+25. [Exhibit] All traffic enters the CPE router from interface Serial0/3 with an IP address of 192 168 50 1 Web traffic from the WAN is destined for a LAN network where servers are load-balanced An IP packet with a destination address of the HTTP virtual IP of 192 1681 250 must be forwarded Which routing table entry does the router use?
+A. 192.168.1.0/24 via 192.168.12.2
+*B. 192.168.1.128/25 via 192.168.13.3
+C. 192.168.1.192/26 via 192.168.14.4
+D. 192.168.1.224/27 via 192.168.15.5
+
+26. [Exhibit] Load-balanced traffic is coming in from the WAN destined to a host at 172.16.1.190. Which next-hop is used by the router to forward the request?
+A. 192.168.7.4
+*B. 192.168.7.7
+C. 192.168.7.35
+D. 192.168.7.40
+
+27. What is a benefit for external users who consume public cloud resources?
+A. implemented over a dedicated WAN
+B. located in the same data center as the users
+C. all hosted on physical servers
+*D. accessed over the Internet
+
+28. [Exhibit] A network administrator must permit traffic from the 10.10.0.0/24 subnet to the WAN on interlace Seria10. What is the effect of the configuration as the administrator applies the command?
+A. The permit command fails and returns an error code.
+B. The router accepts all incoming traffic to Seria10 with the last octet of the source IP set to 0.
+*C. The sourced traffic from IP range 10.0.0.0 -10.0.0.255 is allowed on Seria10.
+D. The router fails to apply the access list to the interface.
+
+29. What is the collapsed layer in collapsed core architectures?
+A. core and WAN
+B. access and WAN
+C. distribution and access
+*D. core and distribution
+
+30. What are two characteristics of a small office / home office connection environment? (Choose two.)
+A. It requires 10Gb ports on all uplinks.
+B. It supports between 50 and 100 users.
+*C. It supports between 1 and 50 users.
+D. It requires a core, distribution, and access layer architecture.
+*E. A router port connects to a broadband connection.
+
+31. A network engineer is upgrading a small data center to host several new applications, including server backups that are expected to account for up to 90% of the bandwidth during peak times. The data center connects to the MPLS network provider via a primary circuit and a secondary circuit. How does the engineer inexpensively update the data center to avoid saturation of the primary circuit by traffic associated with the backups?
+*A. Assign traffic from the backup servers to a dedicated switch.
+B. Configure a dedicated circuit for the backup traffic.
+C. Place the backup servers in a dedicated VLAN.
+D. Advertise a more specific route for the backup traffic via the secondary circuit.
+
+32. A network engineer is configuring a new router at a branch office. The router is connected to an upstream WAN network that allows the branch to communicate with the head office. The central time server with IP address 172.24.54.8 is located behind a firewall at the head office. Which command must the engineer configure so that the software clock of the new router synchronizes with the time server?
+A. ntp master 172.24.54.8
+B. ntp client 172.24.54.8
+C. ntp peer 172.24.54.8
+*D. ntp server 172.24.54.8
+
+33. Which WAN topology has the highest degree of reliability?
+*A. full mesh
+B. Point-to-point
+C. hub-and-spoke
+D. router-on-a-stick
+
+34. A Cisco engineer at a new branch office is configuring a wireless network with access points that connect to a controller that is based at corporate headquarters Wireless client traffic must terminate at the branch office and access-point survivability is required in the event of a WAN outage Which access point mode must be selected?
+A. Lightweight with local switching disabled
+B. Local with AP fallback enabled
+C. OfficeExtend with high availability disabled
+*D. FlexConnect with local switching enabled
+
+35. Which capability does TFTP provide?
+*A. loads configuration files on systems without data storage devices
+B. provides authentication for data communications over a private data network
+C. provides encryption mechanisms for file transfer across a WAN
+D. provides secure file access within the LAN
+
+36. What is a benefit of a point-to-point leased line?
+A. flexibility of design
+B. simplicity of configurator
+*C. low cost
+D. full-mesh capability
+
+37. [Exhibit] Routers R1 and R2 have been configured with their respective LAN interfaces. The two circuits are operational and reachable across the WAN. Which command set establishes failover redundancy if the primary circuit goes down?
+*A. Ri(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.62R2(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.5 2
+B. Ri(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.6R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.5
+C. Ri(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.6R2(config)#ip route 0.0.0.0 0.0.0.0 10.10.10.5
+D. Ri(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.2R2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.1
+
+38. What are two benefits of private IPv4 addressing? (Choose two.)
+A. provides external internet network connectivity
+B. provides unlimited address ranges
+C. propagates routing information to WAN links
+*D. reuses addresses at multiple sites
+*E. conserves globally unique address space
+
+39. [Exhibit] What is preventing host A from reaching the internet?
+A. The domain name server is unreachable.
+B. LAN and WAN network segments are different.
+*C. IP address assignment is incorrect.
+D. The default gateway should be the first usable IP address.
+
+40. What are two behaviors of a point-to-point WAN topology? (Choose two.)
+A. It uses a single router to route traffic between sites.
+*B. It leverages a dedicated connection.
+*C. It connects remote networks through a single line.
+D. t delivers redundancy between the central office and branch offices.
+E. It provides direct connections between each router in the topology.
+
+41. A default route must be configured to temporarily use a local broadband modem with the IP address of 192.168.1.1 until a WAN circuit is installed. The WAN circuit will use an external routing protocol that exchanges network prefixes between two separate autonomous systems on the Internet. Only a default route will be received by the ISP Which configuration must be applied to allow the new WAN circuit to take precedence when It Is In place?
+A. Ip route 0.0.0.0 0.0.0.0 192.168.1.1
+*B. Ip route 0.0.0.0 0.0.0.0 192.168.1.1 25
+C. Ip route 0.0.0.0 0.0.0.0 192.168.1.1 track 1
+D. Ip route 0.0.0.0 0.0.0.0 192.168.1.1 20
+

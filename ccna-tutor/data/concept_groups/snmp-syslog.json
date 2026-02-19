@@ -1,0 +1,439 @@
+{
+  "protocol": "snmp-syslog",
+  "groups": [
+    {
+      "group_id": "snmp-syslog_q1",
+      "concept": "Which action is taken by a switch port enabled for PoE power classification over...",
+      "question_ids": [
+        "snmp-syslog_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q2",
+      "concept": "Which condition must be met before an NMS handles an SNMP trap from an agent?",
+      "question_ids": [
+        "snmp-syslog_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q3",
+      "concept": "What Is a syslog facility?",
+      "question_ids": [
+        "snmp-syslog_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q4",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "snmp-syslog_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q5",
+      "concept": "An engineering team asks an implementer to configure syslog for warning conditio...",
+      "question_ids": [
+        "snmp-syslog_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q6",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "snmp-syslog_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q7",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "snmp-syslog_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q8",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "snmp-syslog_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q9",
+      "concept": "If a notice-level messaging is sent to a syslog server, which event has occurred...",
+      "question_ids": [
+        "snmp-syslog_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q10",
+      "concept": "What protocol allows an engineer to back up 20 network router configurations glo...",
+      "question_ids": [
+        "snmp-syslog_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q11",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "snmp-syslog_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q12",
+      "concept": "A network engineer must back up 20 network router configurations globally within...",
+      "question_ids": [
+        "snmp-syslog_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q13",
+      "concept": "What are two fundamentals of virtualization? (choose two)",
+      "question_ids": [
+        "snmp-syslog_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q14",
+      "concept": "What event has occurred if a router sends a notice level message to a syslog ser...",
+      "question_ids": [
+        "snmp-syslog_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q15",
+      "concept": "What protocol allows an engineer to back up 20 network router configurations glo...",
+      "question_ids": [
+        "snmp-syslog_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q16",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "snmp-syslog_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q17",
+      "concept": "How does Cisco DNA Center gather data from the network?",
+      "question_ids": [
+        "snmp-syslog_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q18",
+      "concept": "An engineering team asks an implementer to configure syslog for warning conditio...",
+      "question_ids": [
+        "snmp-syslog_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q19",
+      "concept": "On workstations running Microsoft Windows, which protocol provides the default g...",
+      "question_ids": [
+        "snmp-syslog_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q20",
+      "concept": "If a notice-level messaging is sent to a syslog server, which event has occurred...",
+      "question_ids": [
+        "snmp-syslog_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q21",
+      "concept": "Which condition must be met before an NMS handles an SNMP trap from an agent?",
+      "question_ids": [
+        "snmp-syslog_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q22",
+      "concept": "What is a role of access points in an enterprise network?",
+      "question_ids": [
+        "snmp-syslog_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q23",
+      "concept": "What benefit does controller-based networking provide versus traditional network...",
+      "question_ids": [
+        "snmp-syslog_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q24",
+      "concept": "Which function does an SNMP agent perform?",
+      "question_ids": [
+        "snmp-syslog_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q25",
+      "concept": "When deploying syslog, which severity level logs informational message?",
+      "question_ids": [
+        "snmp-syslog_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q26",
+      "concept": "What Is a syslog facility?",
+      "question_ids": [
+        "snmp-syslog_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q27",
+      "concept": "Which action is taken by a switch port enabled for PoE power classification over...",
+      "question_ids": [
+        "snmp-syslog_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q28",
+      "concept": "Which technology must be implemented to configure network device monitoring with...",
+      "question_ids": [
+        "snmp-syslog_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q29",
+      "concept": "What describes a northbound REST API for SON?",
+      "question_ids": [
+        "snmp-syslog_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q30",
+      "concept": "Which protocol does a REST API use to communicate?",
+      "question_ids": [
+        "snmp-syslog_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q31",
+      "concept": "What is the role of syslog level 7 in network device health monitoring?",
+      "question_ids": [
+        "snmp-syslog_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q32",
+      "concept": "What is the difference between SNMP traps and SNMP polling?",
+      "question_ids": [
+        "snmp-syslog_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q33",
+      "concept": "Which event has occurred if a router sends a notice level message to a syslog se...",
+      "question_ids": [
+        "snmp-syslog_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q34",
+      "concept": "What is the role of SNMP in the network?",
+      "question_ids": [
+        "snmp-syslog_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q35",
+      "concept": "Which protocol does Ansible use to push modules to nodes in a network?",
+      "question_ids": [
+        "snmp-syslog_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q36",
+      "concept": "Which protocol is implemented when an organization must verify network performan...",
+      "question_ids": [
+        "snmp-syslog_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q37",
+      "concept": "Which syslog severity level is considered the most severe and results in the sys...",
+      "question_ids": [
+        "snmp-syslog_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q38",
+      "concept": "Which command implies the use of SNMPv3?",
+      "question_ids": [
+        "snmp-syslog_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q39",
+      "concept": "What is the role of community strings in SNMP operations?",
+      "question_ids": [
+        "snmp-syslog_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q40",
+      "concept": "A network administrator wants the syslog server to filter incoming messages into...",
+      "question_ids": [
+        "snmp-syslog_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q41",
+      "concept": "How does authentication differ from authorization?",
+      "question_ids": [
+        "snmp-syslog_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q42",
+      "concept": "What is the purpose of configuring different levels of syslog for different devi...",
+      "question_ids": [
+        "snmp-syslog_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q43",
+      "concept": "Which two transport layer protocols carry syslog messages? (Choose two.)",
+      "question_ids": [
+        "snmp-syslog_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q44",
+      "concept": "Which fact must the engineer consider when implementing syslog on a new network?",
+      "question_ids": [
+        "snmp-syslog_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q45",
+      "concept": "Which role does AI play in monitoring network data flow?",
+      "question_ids": [
+        "snmp-syslog_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q46",
+      "concept": "Which syslog message logging level displays interface line protocol up/down even...",
+      "question_ids": [
+        "snmp-syslog_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q47",
+      "concept": "How does automation leverage data models to reduce the operational complexity of...",
+      "question_ids": [
+        "snmp-syslog_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "snmp-syslog_q48",
+      "concept": "Which action prevents debug messages from being sent via syslog while allowing o...",
+      "question_ids": [
+        "snmp-syslog_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 48,
+  "total_questions": 48
+}

@@ -1,0 +1,754 @@
+{
+  "protocol": "ssh",
+  "groups": [
+    {
+      "group_id": "ssh_q1",
+      "concept": "A Cisco engineer is configuring a factory-default router with these three passwo...",
+      "question_ids": [
+        "ssh_qb001"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q2",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "ssh_qb002"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q3",
+      "concept": "What is the primary different between AAA authentication and authorization?",
+      "question_ids": [
+        "ssh_qb003"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q4",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "ssh_qb004"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q5",
+      "concept": "[Exhibit] An administrator configures four switches for local authentication usi...",
+      "question_ids": [
+        "ssh_qb005"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q6",
+      "concept": "What is a function of TFTP in network operations?",
+      "question_ids": [
+        "ssh_qb006"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q7",
+      "concept": "[Exhibit] An engineer booted a new switch and applied this configuration via the...",
+      "question_ids": [
+        "ssh_qb007"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q8",
+      "concept": "Which configuration is needed to generate an RSA key for SSH on a router?",
+      "question_ids": [
+        "ssh_qb008"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q9",
+      "concept": "[Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-...",
+      "question_ids": [
+        "ssh_qb009"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q10",
+      "concept": "What are two characteristics of a controller-based network? (Choose two)",
+      "question_ids": [
+        "ssh_qb010"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q11",
+      "concept": "Which command prevents passwords from being stored in the configuration as plain...",
+      "question_ids": [
+        "ssh_qb011"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q12",
+      "concept": "Which global command encrypt all passwords in the running configuration?",
+      "question_ids": [
+        "ssh_qb012"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q13",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "ssh_qb013"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q14",
+      "concept": "What protocol allows an engineer to back up 20 network router configurations glo...",
+      "question_ids": [
+        "ssh_qb014"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q15",
+      "concept": "[Exhibit] A network administrator must permit SSH access to remotely manage rout...",
+      "question_ids": [
+        "ssh_qb015"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q16",
+      "concept": "Which global command encrypt all passwords in the running configuration?",
+      "question_ids": [
+        "ssh_qb016"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q17",
+      "concept": "What protocol allows an engineer to back up 20 network router configurations glo...",
+      "question_ids": [
+        "ssh_qb017"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q18",
+      "concept": "Which command prevents passwords from being stored in the configuration as plain...",
+      "question_ids": [
+        "ssh_qb018"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q19",
+      "concept": "What facilitates a Telnet connection between devices by entering the device name...",
+      "question_ids": [
+        "ssh_qb019"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q20",
+      "concept": "[Exhibit] A network administrator must permit SSH access to remotely manage rout...",
+      "question_ids": [
+        "ssh_qb020"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q21",
+      "concept": "[Exhibit] Which password must an engineer use to enter the enable mode?",
+      "question_ids": [
+        "ssh_qb021"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q22",
+      "concept": "[Exhibit] Which configuration on RTR-1 denies SSH access from PC-1 to any RTR-1 ...",
+      "question_ids": [
+        "ssh_qb022"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q23",
+      "concept": "Which two protocols are supported on service-port interfaces? (Choose two.)",
+      "question_ids": [
+        "ssh_qb023"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q24",
+      "concept": "[Exhibit] An administrator configures four switches for local authentication usi...",
+      "question_ids": [
+        "ssh_qb024"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q25",
+      "concept": "[Exhibit] An engineer booted a new switch and applied this configuration via the...",
+      "question_ids": [
+        "ssh_qb025"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q26",
+      "concept": "Which networking function occurs on the data plane?",
+      "question_ids": [
+        "ssh_qb026"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q27",
+      "concept": "A network administrator must to configure SSH for remote access to router R1 The...",
+      "question_ids": [
+        "ssh_qb027"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q28",
+      "concept": "Which configuration is needed to generate an RSA key for SSH on a router?",
+      "question_ids": [
+        "ssh_qb028"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q29",
+      "concept": "What is a capability of FTP in network management operations?",
+      "question_ids": [
+        "ssh_qb029"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q30",
+      "concept": "[Exhibit] A network administrator has been tasked with securing VTY access to a ...",
+      "question_ids": [
+        "ssh_qb030"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q31",
+      "concept": "What is a function of TFTP in network operations?",
+      "question_ids": [
+        "ssh_qb031"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q32",
+      "concept": "Which two protocols must be disabled to increase security for management connect...",
+      "question_ids": [
+        "ssh_qb032"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q33",
+      "concept": "What are two characteristics of a controller-based network? (Choose two)",
+      "question_ids": [
+        "ssh_qb033"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q34",
+      "concept": "Which protocol requires authentication to transfer a backup configuration file f...",
+      "question_ids": [
+        "ssh_qb034"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q35",
+      "concept": "Which two must be met before SSH can operate normally on a Cisco IOS switch? (Ch...",
+      "question_ids": [
+        "ssh_qb035"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q36",
+      "concept": "[Exhibit] An access list is created to deny Telnet access from host PC-1 to RTR-...",
+      "question_ids": [
+        "ssh_qb036"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q37",
+      "concept": "Which WLC management connection type is vulnerable to man-in-the-middle attacks?",
+      "question_ids": [
+        "ssh_qb037"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q38",
+      "concept": "A Cisco engineer is configuring a factory-default router with these three passwo...",
+      "question_ids": [
+        "ssh_qb038"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q39",
+      "concept": "An engineer is configuring remote access to a router from IP subnet 10.139.58.0/...",
+      "question_ids": [
+        "ssh_qb039"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q40",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "ssh_qb040"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q41",
+      "concept": "[Exhibit] Traffic sourced from the loopback0 Interface is trying to connect via ...",
+      "question_ids": [
+        "ssh_qb041"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q42",
+      "concept": "[Exhibit] Which two commands must be configured on router R1 to enable the route...",
+      "question_ids": [
+        "ssh_qb042"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q43",
+      "concept": "Which protocol uses the SSL?",
+      "question_ids": [
+        "ssh_qb043"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q44",
+      "concept": "Which protocol is used for secure remote CLI access?",
+      "question_ids": [
+        "ssh_qb044"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q45",
+      "concept": "[Exhibit] Which two commands must be added to update the configuration of router...",
+      "question_ids": [
+        "ssh_qb045"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q46",
+      "concept": "[Exhibit] Which configuration for RTR-1 deniess SSH access from PC-1 to any RTR-...",
+      "question_ids": [
+        "ssh_qb046"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q47",
+      "concept": "Which protocol does a REST API use to communicate?",
+      "question_ids": [
+        "ssh_qb047"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q48",
+      "concept": "[Exhibit] An engineer executed the script and added commands that were not neces...",
+      "question_ids": [
+        "ssh_qb048"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q49",
+      "concept": "[Exhibit] A network administrator is configuring a router for user access via SS...",
+      "question_ids": [
+        "ssh_qb049"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q50",
+      "concept": "[Exhibit] An engineer is updating the management access configuration of switch ...",
+      "question_ids": [
+        "ssh_qb050"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q51",
+      "concept": "Which selections must be used on the WLC when implementing a RADIUS server for w...",
+      "question_ids": [
+        "ssh_qb051"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q52",
+      "concept": "A network engineer is configuring a switch so that it is remotely reachable via ...",
+      "question_ids": [
+        "ssh_qb052"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q53",
+      "concept": "[Exhibit] A network engineer must configure NETCONF. After creating the configur...",
+      "question_ids": [
+        "ssh_qb053"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q54",
+      "concept": "What is the role of SNMP in the network?",
+      "question_ids": [
+        "ssh_qb054"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q55",
+      "concept": "A network engineer starts to implement a new wireless LAN by configuring the aut...",
+      "question_ids": [
+        "ssh_qb055"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q56",
+      "concept": "Which protocol does Ansible use to push modules to nodes in a network?",
+      "question_ids": [
+        "ssh_qb056"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q57",
+      "concept": "Which protocol is implemented when an organization must verify network performan...",
+      "question_ids": [
+        "ssh_qb057"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q58",
+      "concept": "Which command enables HTTP access to the Cisco WLC?",
+      "question_ids": [
+        "ssh_qb058"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q59",
+      "concept": "[Exhibit] Local access for R4 must be established and these requirements must be...",
+      "question_ids": [
+        "ssh_qb059"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q60",
+      "concept": "An administrator must use the password complexity not manufacturer-name command ...",
+      "question_ids": [
+        "ssh_qb060"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q61",
+      "concept": "How does IPsec provide secure networking for applications within an organization...",
+      "question_ids": [
+        "ssh_qb061"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q62",
+      "concept": "What are two characteristics of a controller-based network? (Choose two.)",
+      "question_ids": [
+        "ssh_qb062"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q63",
+      "concept": "Why choose Cisco DNA Center for automated lifecycle management?",
+      "question_ids": [
+        "ssh_qb063"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q64",
+      "concept": "What is a function performed by a web server?",
+      "question_ids": [
+        "ssh_qb064"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q65",
+      "concept": "Which is a fact related to FTP?",
+      "question_ids": [
+        "ssh_qb065"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q66",
+      "concept": "How is a configuration change made to a wireless AP in lightweight mode?",
+      "question_ids": [
+        "ssh_qb066"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q67",
+      "concept": "Which benefit does Cisco ONA Center provide over traditional campus management?",
+      "question_ids": [
+        "ssh_qb067"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q68",
+      "concept": "[Exhibit] A network engineer started to change default settings on SW1 to allow ...",
+      "question_ids": [
+        "ssh_qb068"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q69",
+      "concept": "Which protocol should be used to transfer large files on a company intranet that...",
+      "question_ids": [
+        "ssh_qb069"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q70",
+      "concept": "[Exhibit] An engineer executed the script and added commands that were not neces...",
+      "question_ids": [
+        "ssh_qb070"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q71",
+      "concept": "Which WLC management connection type is vulnerable to man-in-the-middIe attacks?",
+      "question_ids": [
+        "ssh_qb071"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q72",
+      "concept": "An engineer is configuring SSH version 2 exclusively on the R1 router. What is t...",
+      "question_ids": [
+        "ssh_qb072"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q73",
+      "concept": "Which capability does TFTP provide?",
+      "question_ids": [
+        "ssh_qb073"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q74",
+      "concept": "A network engineer is replacing the switches that belong to a managed-services c...",
+      "question_ids": [
+        "ssh_qb074"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q75",
+      "concept": "Which remote access protocol provides unsecured remote CLI access?",
+      "question_ids": [
+        "ssh_qb075"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q76",
+      "concept": "Which solution is appropriate when mitigating password attacks where the attacke...",
+      "question_ids": [
+        "ssh_qb076"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q77",
+      "concept": "How does a network administrator securely manage an AP in lightweight mode?",
+      "question_ids": [
+        "ssh_qb077"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q78",
+      "concept": "[Exhibit] Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1...",
+      "question_ids": [
+        "ssh_qb078"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q79",
+      "concept": "[Exhibit] Which tasks must be performed on the Download File tab to install new ...",
+      "question_ids": [
+        "ssh_qb079"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q80",
+      "concept": "What is the main purpose of SSH management access?",
+      "question_ids": [
+        "ssh_qb080"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q81",
+      "concept": "A network engineer starts to implement a new wireless LAN by configuring the aut...",
+      "question_ids": [
+        "ssh_qb081"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q82",
+      "concept": "[Exhibit] A VTY password has been set to Labtest32! for remote access. Which com...",
+      "question_ids": [
+        "ssh_qb082"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    },
+    {
+      "group_id": "ssh_q83",
+      "concept": "Which protocol should be used to transfer large files on a company intranet that...",
+      "question_ids": [
+        "ssh_qb083"
+      ],
+      "group_size": 1,
+      "confidence": "INDIVIDUAL"
+    }
+  ],
+  "total_groups": 83,
+  "total_questions": 83
+}

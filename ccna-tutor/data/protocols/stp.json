@@ -1,0 +1,37 @@
+{
+  "name": "STP",
+  "slug": "stp",
+  "category": "Switching & Layer 2",
+  "description": "Spanning Tree Protocol (STP) prevents Layer 2 loops in switched networks by blocking redundant paths. Modern variants include RSTP (Rapid STP) and PVST+ (Per-VLAN STP).",
+  "key_topics": [
+    "Root bridge election (lowest Bridge ID)",
+    "Port states: Blocking, Listening, Learning, Forwarding, Disabled",
+    "Port roles: Root port, Designated port, Alternate port, Backup port",
+    "BPDU (Bridge Protocol Data Unit) operation",
+    "Path cost calculation based on link speed",
+    "RSTP (802.1w) fast convergence",
+    "PVST+ (Per-VLAN Spanning Tree Plus) - Cisco proprietary",
+    "PortFast and BPDU Guard for edge ports"
+  ],
+  "config_guide_refs": {
+    "switch": [
+      "spanning-tree mode",
+      "spanning-tree vlan priority",
+      "spanning-tree portfast",
+      "spanning-tree bpduguard enable",
+      "spanning-tree cost"
+    ],
+    "router": []
+  },
+  "common_misconceptions": [
+    "Many training resources state that STP port states are always sequential. Cisco documentation shows RSTP's alternate and backup ports can transition directly to forwarding, skipping listening and learning",
+    "Third-party materials often confuse root port selection. Cisco's tie-breakers are: 1) lowest path cost, 2) lowest sender Bridge ID, 3) lowest sender port ID, 4) lowest receiver port ID",
+    "Training books frequently claim PortFast is only for end-user devices. Cisco guides clarify PortFast should NEVER be enabled on ports connected to switches or bridges as it bypasses loop prevention",
+    "Common error: assuming all VLANs share one spanning tree. Cisco's PVST+ runs a separate STP instance per VLAN, unlike standard 802.1D"
+  ],
+  "exam_weight": "High",
+  "related_protocols": [
+    "vlan",
+    "ethernet"
+  ]
+}

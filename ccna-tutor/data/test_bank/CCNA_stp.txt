@@ -1,0 +1,398 @@
+CCNA 200-301 - STP - Spanning Tree Protocol
+==================================================
+
+1. How does Rapid PVST+ create a fast loop-free network topology?
+*A. lt requires multiple links between core switches
+B. It generates one spanning-tree instance for each VLAN
+C. It maps multiple VLANs into the same spanning-tree instance
+D. It uses multiple active paths between end stations.
+
+2. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+3. Which type of traffic is sent with pure iPsec?
+A. broadcast packets from a switch that is attempting to locate a MAC address at one of several remote sites
+B. multicast traffic from a server at one site to hosts at another location
+C. spanning-tree updates between switches that are at two different sites
+*D. unicast messages from a host at a remote site to a server at headquarters
+
+4. [Exhibit] Only four switches are participating in the VLAN spanning-tree process. Branch-1 priority 614440 Branch-2: priority 39082416 Branch-3: priority 0 Branch-4: root primary Which switch becomes the permanent root bridge for VLAN 5?
+A. Branch-1
+B. Branch-2
+*C. Branch-3
+D. Branch-4
+
+5. What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closer? (Choose two.)
+A. enable the PortFast feature on ports
+*B. implement port-based authentication
+C. configure static ARP entries
+D. configure ports to a fixed speed
+*E. shut down unused ports
+
+6. When using Rapid PVST+, which command guarantees the switch is always the root bridge for VLAN 200?
+A. spanning -tree vlan 200 priority 614440
+B. spanning -tree vlan 200 priority 38572422
+*C. spanning -tree vlan 200 priority 0
+D. spanning -tree vlan 200 root primary
+
+7. [Exhibit] After the election process what is the root bridge in the HQ LAN?
+A. Switch 1
+B. Switch 2
+*C. Switch 3
+D. Switch 4
+
+8. Which command on a port enters the forwarding state immediately when a PC is connected to it?
+A. switch(config)#spanning-tree portfast default
+B. switch(config)#spanning-tree portfast bpduguard default
+*C. switch(config-if)#spanning-tree portfast trunk
+D. switch(config-if)#no spanning-tree portfast
+
+9. [Exhibit] What two conclusions should be made about this configuration? (Choose two )
+A. The designated port is FastEthernet 2/1
+B. This is a root bridge
+*C. The spanning-tree mode is Rapid PVST+
+D. The spanning-tree mode is PVST+
+*E. The root port is FastEthernet 2/1
+
+10. [Exhibit] Which switch in this configuration will be elected as the root bridge?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+11. Which configuration ensures that the switch is always the root for VLAN 750?
+A. Switch(config)#spanning-tree vlan 750 priority 38003685
+B. Switch(config)#spanning-tree vlan 750 root primary
+C. Switch(config)#spanning-tree vlan 750 priority 614440
+*D. Switch(config)#spanning-tree vlan 750 priority 0
+
+12. Aside from discarding, which two states does the switch port transition through while using RSTP (802.1w)? (Choose two)
+A. listening
+B. blocking
+*C. forwarding
+*D. learning
+E. speaking
+
+13. Which command entered on a switch configured with Rapid PVST\* listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+14. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+15. Which command on a port enters the forwarding state immediately when a PC is connected to it?
+A. switch(config)#spanning-tree portfast default
+B. switch(config)#spanning-tree portfast bpduguard default
+*C. switch(config-if)#spanning-tree portfast trunk
+D. switch(config-if)#no spanning-tree portfast
+
+16. [Exhibit] Which switch becomes the root of the spanning tree for VLAN 110?
+A. Switch 1
+*B. Switch 2
+C. Switch 3
+D. Switch 4
+
+17. What is a benefit of VRRP?
+A. It provides traffic load balancing to destinations that are more than two hops from the source.
+*B. It provides the default gateway redundancy on a LAN using two or more routers.
+C. It allows neighbors to share routing table information between each other.
+D. It prevents loops in a Layer 2 LAN by forwarding all traffic to a root bridge, which then makes the final forwarding decision.
+
+18. Which switch technology establishes a network connection immediately when it is plugged in?
+*A. PortFast
+B. BPDU guard
+C. UplinkFast
+D. BackboneFast
+
+19. Aside from discarding, which two states does the switch port transition through while using RSTP (802.1w)? (Choose two)
+A. listening
+B. blocking
+*C. forwarding
+*D. learning
+E. speaking
+
+20. Which spanning-tree enhancement avoids the learning and listening states and immediately places ports in the forwarding state?
+A. BPDUfilter
+*B. PortFast
+C. Backbonefast
+D. BPDUguard
+
+21. When using Rapid PVST+, which command guarantees the switch is always the root bridge for VLAN 200?
+A. spanning -tree vlan 200 priority 614440
+B. spanning -tree vlan 200 priority 38572422
+*C. spanning -tree vlan 200 priority 0
+D. spanning -tree vlan 200 root primary
+
+22. [Exhibit] What is the result if Gig1/11 receives an STP BPDU?
+A. The port transitions to STP blocking
+B. The port transitions to the root port
+C. The port immediately transitions to STP forwarding.
+*D. The port goes into error-disable state
+
+23. What is the primary effect of the spanning-tree portfast command?
+A. it enables BPDU messages
+*B. It minimizes spanning-tree convergence time
+C. It immediately puts the port into the forwarding state when the switch is reloaded
+D. It immediately enables the port in the listening state
+
+24. On workstations running Microsoft Windows, which protocol provides the default gateway for the device?
+*A. DHCP
+B. STP
+C. SNMP
+D. DNS
+
+25. [Exhibit] What two conclusions should be made about this configuration? (Choose two )
+A. The designated port is FastEthernet 2/1
+B. This is a root bridge
+*C. The spanning-tree mode is Rapid PVST+
+D. The spanning-tree mode is PVST+
+*E. The root port is FastEthernet 2/1
+
+26. Which command entered on a switch configured with Rapid PVST* listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+27. [Exhibit] Which switch in this configuration will be elected as the root bridge?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+28. Which configuration ensures that the switch is always the root for VLAN 750?
+A. Switch(config)#spanning-tree vlan 750 priority 38003685
+B. Switch(config)#spanning-tree vlan 750 root primary
+C. Switch(config)#spanning-tree vlan 750 priority 614440
+*D. Switch(config)#spanning-tree vlan 750 priority 0
+
+29. What criteria is used first during the root port selection process?
+A. local port ID
+*B. lowest path cost to the root bridge
+C. lowest neighbor's bridge ID
+D. lowest neighbor's port ID
+
+30. What criteria is used first during me root port selection process?
+A. local port ID
+*B. lowest path cost to the root bridge
+C. lowest neighbor's bridge ID
+D. lowest neighbor's port ID
+
+31. [Exhibit] Which switch becomes the root bridge?
+A. S1
+*B. S2
+C. S3
+D. S4
+
+32. [Exhibit] After the election process what is the root bridge in the HQ LAN?
+A. Switch 1
+B. Switch 2
+*C. Switch 3
+D. Switch 4
+
+33. What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closer? (Choose two.)
+A. enable the PortFast feature on ports
+*B. implement port-based authentication
+C. configure static ARP entries
+D. configure ports to a fixed speed
+*E. shut down unused ports
+
+34. [Exhibit] Only four switches are participating in the VLAN spanning-tree process. Branch-1 priority 614440 Branch-2: priority 39082416 Branch-3: priority 0 Branch-4: root primary Which switch becomes the permanent root bridge for VLAN 5?
+A. Branch-1
+B. Branch-2
+*C. Branch-3
+D. Branch-4
+
+35. Which networking function occurs on the data plane?
+*A. forwarding remote client/server traffic
+B. facilitates spanning-tree elections
+C. processing inbound SSH management traffic
+D. sending and receiving OSPF Hello packets
+
+36. Which result occurs when PortFast is enabled on an interface that is connected to another switch?
+*A. Spanning tree may fail to detect a switching loop in the network that causes broadcast storms
+B. VTP is allowed to propagate VLAN configuration information from switch to switch automatically.
+C. Root port choice and spanning tree recalculation are accelerated when a switch link goes down
+D. After spanning tree converges PortFast shuts down any port that receives BPDUs.
+
+37. Which type of traffic is sent with pure iPsec?
+A. broadcast packets from a switch that is attempting to locate a MAC address at one of several remote sites
+B. multicast traffic from a server at one site to hosts at another location
+C. spanning-tree updates between switches that are at two different sites
+*D. unicast messages from a host at a remote site to a server at headquarters
+
+38. What is the benefit of configuring PortFast on an interface?
+A. After the cable is connected, the interface uses the fastest speed setting available for that cable type
+*B. After the cable is connected, the interface is available faster to send and receive user data
+C. The frames entering the interface are marked with higher priority and then processed faster by a switch.
+D. Real-time voice and video frames entering the interface are processed faster
+
+39. What prevents a workstation from receiving a DHCP address?
+A. DTP
+*B. STP
+C. VTP
+D. 802.10
+
+40. Which port type supports the spanning-tree portfast command without additional configuration?
+*A. access ports
+B. Layer 3 main Interfaces
+C. Layer 3 suninterfaces
+D. trunk ports
+
+41. What are two benefits of using the PortFast feature? (Choose two )
+*A. Enabled interfaces are automatically placed in listening state
+*B. Enabled interfaces come up and move to the forwarding state immediately
+C. Enabled interfaces never generate topology change notifications.
+D. Enabled interfaces that move to the learning state generate switch topology change notifications
+E. Enabled interfaces wait 50 seconds before they move to the forwarding state
+
+42. What is a characteristic of spine-and-leaf architecture?
+*A. Each device is separated by the same number of hops
+B. It provides variable latency
+C. It provides greater predictability on STP blocked ports.
+D. Each link between leaf switches allows for higher bandwidth.
+
+43. How does Rapid PVST+ create a fast loop-free network topology?
+*A. lt requires multiple links between core switches
+B. It generates one spanning-tree instance for each VLAN
+C. It maps multiple VLANs into the same spanning-tree instance
+D. It uses multiple active paths between end stations.
+
+44. [Exhibit] Which switch becomes the root of a spanning tree for VLAN 20 if all li links are of equal speed?
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+45. Which two spanning-tree states are bypassed on an interface running PortFast? (Choose two.)
+A. disabled
+*B. listening
+C. forwarding
+*D. learning
+E. blocking
+
+46. What are two reasons a switch experiences frame flooding? (Choose two.)
+*A. A defective patch cable is connected to the switch port
+*B. Topology changes are occurring within spanning-tree
+C. An aged MAC (able entry is causing excessive updates
+D. Port-security is configured globally
+E. The forwarding table has overflowed
+
+47. Which protocol does a REST API use to communicate?
+A. SSH
+B. SNMP
+*C. HTTP
+D. STP
+
+48. What does the implementation of a first-hop redundancy protocol protect against on a network?
+A. root-bridge loss
+B. spanning-tree loops
+*C. default gateway failure
+D. BGP neighbor flapping
+
+49. What is the role of the root port in a switched network?
+A. It replaces the designated port when the designated port fails
+*B. It is the best path to the root from a nonroot switch.
+C. It replaces the designated port when the root port fails.
+D. It is administratively disabled until a failover occurs.
+
+50. Exhibit. The switches are connected via a Cat5 Ethernet cable that was successfully tested. The Interfaces are configured as access ports and are both in a 'down" status. What is the cause of this issue?
+A. The switches are configured with incompatible duplex settings.
+B. The distance between the two switches is not supported by Cut5.
+*C. The speed settings on the switches are mismatched.
+D. The portfast command is missing from the configuration.
+
+51. [Exhibit] Rapid PVST+ mode is on the same VLAN on each switch. Which switch becomes the root bridge and why?
+A. SW2, because its MAC address is the highest
+*B. SW3, because its priority is the highest
+C. SW4, because its priority is highest and its MAC address is lower
+D. SW1, because its priority is the lowest and its MAC address is higher
+
+52. What are two reasons lo configure PortFast on a switch port attached to an end host? (Choose two.)
+A. to enable the number of MAC addresses learned on the port to l
+*B. to protect the operation of the port from topology change processes
+*C. to enable the pod to enter the forwarding state immediately when the host boots up
+D. to prevent the port from participating in Spanning Tree Protocol operations
+E. to block another switch or host from communicating through the port
+
+53. Which Rapid PVST+ feature should be configured on a switch port to immediately send traffic to a connected server as soon as it is active?
+A. BPDU guard
+B. loop guard
+*C. portfast
+D. uplinkfast
+
+54. PC1 tries to send traffic to newly installed PC2. The PC2 MAC address is not listed in the MAC address table of the switch, so the switch sends the packet to all ports in the same VLAN Which switching concept does this describe?
+*A. MAC address aging
+B. MAC address table
+C. frame flooding
+D. spanning-tree protocol
+
+55. [Exhibit] Given the following switch MAC addresses, which switch will be elected as the root bridge? SW1: 0C:5A:05:53:27:17 SW2: 0C:0A:A8:1A:3C:9D SW3: 0C:0A:18:81:83:19 SW4: 0C:0A:05:22:05:97
+A. SW1
+B. SW2
+*C. SW3
+D. SW4
+
+56. [Exhibit] Which action must be taken so that neighbofing devices rapidly discover switch Cat9300?
+*A. Configure the cdp timer 10 command on switch Cat9300.
+B. Enable portfast on the ports that connect to neighboring devices.
+C. Configure the cdp holdtime 10 command on switch Cat9300.
+D. Configure the cdp timer 10 command on the neighbors of switch Cat9300.
+
+57. What is the operating mode and role of a backup port on a shared LAN segment in Rapid PVST+?
+A. forwarding mode and provides the lowest-cost path to the root bridge for each VLAN
+B. learning mode and provides the shortest path toward the root bridge handling traffic away from the LAN
+*C. blocking mode and provides an alternate path toward the designated bridge
+D. listening mode and provides an alternate path toward the root bridge
+
+58. [Exhibit] Which switch becomes the root bridge? A) B) C) D)
+A. Option A
+*B. Option B
+C. Option C
+D. Option D
+
+59. How do UTP and STP cables compare?
+A. STP cables are cheaper to procure and easier to install and UTP cables are more expensive and harder to install.
+B. UTP cables are less prone to crosstalk and interference and STP cables are more prone to crosstalk and interference.
+C. UTP cables provide taster and more reliable data transfer rates and STP cables are slower and less reliable.
+*D. STP cables are shielded and protect against electromagnetic interference and UTP lacks the same protection against electromagnetic interference.
+
+60. Which command do you enter so that a switch configured with Rapid PVST + listens and learns for a specific time period?
+A. switch(config)#spanning-tree vlan 1 max-age 6
+B. switch(config)#spanning-tree vlan 1 hello-time 10
+C. switch(config)#spanning-tree vlan 1 priority 4096
+*D. switch(config)#spanning-tree vlan 1 forward-time 20
+
+61. [Exhibit] What are two conclusions about this configuration? {Choose two.)
+*A. The spanning-tree mode is Rapid PVST+.
+B. This is a root bridge.
+C. The root port is FastEthernet 2/1.
+D. The designated port is FastEthernet 2/1.
+E. The spanning-tree mode is PVST+.
+
+62. [Exhibit] All interfaces are in the same VLAN. All switches are configured with the default STP priorities. During the STP electronics, which switch becomes the root bridge?
+A. MDF-DC-4:08:E0:19: 08:B3:19
+B. MDF-DC-3:08:0E:18::1A:3C:9D
+*C. MDF-DC-08:0E:18:22:05:97
+D. MDF-DC-1:DB:E:44:02:54:79
+
+63. Why would VRRP be implemented when configuring a new subnet in a multivendor environment?
+*A. when a gateway protocol is required that support more than two Cisco devices for redundancy
+B. to enable normal operations to continue after a member failure without requiring a change In a host ARP cache
+C. to ensure that the spanning-tree forwarding path to the gateway is loop-free
+D. to interoperate normally with all vendors and provide additional security features for Cisco devices
+
+64. [Exhibit] What is the cause of the issue?
+A. STP
+B. port security
+*C. wrong cable type
+D. shutdown command
+

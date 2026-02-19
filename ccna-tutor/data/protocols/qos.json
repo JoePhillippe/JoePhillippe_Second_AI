@@ -1,0 +1,10 @@
+{
+  "name": "QoS",
+  "slug": "qos",
+  "category": "IP Services",
+  "description": "Quality of Service (QoS) mechanisms for traffic classification, marking, queuing, and policing to prioritize network traffic.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Medium",
+  "related_protocols": []
+}

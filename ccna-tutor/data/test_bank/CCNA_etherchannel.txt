@@ -1,0 +1,201 @@
+CCNA 200-301 - EtherChannel - Link Aggregation
+==================================================
+
+1. [Exhibit] An engineer is configuring an EtherChannel using LACP between Switches 1 and 2 Which configuration must be applied so that only Switch 1 sends LACP initiation packets?
+A. Switch 1 (config-if)#channel-group 1 mode on Swrtch2(config-if)#channel-group 1 mode passive
+B. Switch1(config-if)#channel-group 1 mode passive Switch2(config-if)#channel-group 1 mode active
+*C. Switch1{config-if)£channel-group 1 mode active Switch2(config-if)#channel-group 1 mode passive
+D. Switch1(config-if)#channel-group 1 mode on Switch2(config-if)#channel-group 1 mode active
+
+2. [Exhibit] Which two commands when used together create port channel 10? (Choose two.)
+*A. int range g0/0-1channel-group 10 mode active
+B. int range g0/0-1 chanm.l-group 10 mode desirable
+*C. int range g0/0-1channel-group 10 mode passive
+D. int range g0/0-1 channel-group 10 mode auto
+E. int range g0/0-1 channel-group 10 mode on
+
+3. Which statement about Link Aggregation when implemented on a Cisco Wireless LAN Controller is true?
+A. To pass client traffic two or more ports must be configured.
+B. The EtherChannel must be configured in \"mode active\"
+C. When enabled the WLC bandwidth drops to 500 Mbps
+*D. One functional physical port is needed to pass client traffic
+
+4. Which mode must be used to configure EtherChannel between two switches without using a negotiation protocol?
+*A. on
+B. auto
+C. active
+D. desirable
+
+5. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+6. An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two)
+A. Configure the ports in an EtherChannel.
+*B. Administratively shut down the ports
+*C. Configure the port type as access and place in VLAN 99
+D. Configure the ports as trunk ports
+E. Enable the Cisco Discovery Protocol
+
+7. Which two command sequences must you configure on switch to establish a Layer 3 EtherChannel with an open-standard protocol? (Choose two )
+A. interface GigabitEthernet0/0/1channel-group 10 mode on
+*B. interface GigabitEthernet0/0/1channel-group 10 mode active
+C. interface GigabitEthernet0/0/1channel-group 10 mode auto
+D. interface port-channel 10switchportswitchport mode trunk
+*E. interface port-channel 10no switchportip address 172.16.0.1.255.255.255.0
+
+8. Which mode must be used to configure EtherChannel between two switches without using a negotiation protocol?
+*A. on
+B. auto
+C. active
+D. desirable
+
+9. [Exhibit] Which change to the configuration on Switch? allows the two switches to establish an GtherChannel?
+A. Change the protocol to EtherChannel mode on.
+*B. Change the LACP mode to active
+C. Change the LACP mode to desirable
+D. Change the protocol to PAqP and use auto mode
+
+10. [Exhibit] Based on the LACP neighbor status, in which mode is the SW1 port channel configured?
+A. passive
+B. mode on
+C. auto
+*D. active
+
+11. Which statement about Link Aggregation when implemented on a Cisco Wireless LAN Controller is true?
+A. To pass client traffic two or more ports must be configured.
+B. The EtherChannel must be configured in "mode active"
+C. When enabled the WLC bandwidth drops to 500 Mbps
+*D. One functional physical port is needed to pass client traffic
+
+12. [Exhibit] Which two commands were used to create port channel 10? (Choose two )
+*A. Option A
+B. Option B
+*C. Option C
+D. Option D
+E. Option E
+
+13. A network administrator needs to aggregate 4 ports into a single logical link which must negotiate layer 2 connectivity to ports on another switch. What must be configured when using active mode on both sides of the connection?
+A. 802.1q trunks
+B. Cisco vPC
+C. LLDP
+*D. LACP
+
+14. [Exhibit] An engineer built a new L2 LACP EtherChannel between SW1 and SW2 and executed these show commands to verify the work. Which additional task allows the two switches to establish an LACP port channel?
+A. Change the channel-group mode on SW2 to auto
+B. Change the channel-group mode on SW1 to desirable.
+C. Configure the interface port-channel 1 command on both switches.
+*D. Change the channel-group mode on SW1 to active or passive.
+
+15. [Exhibit] Which two commands when used together create port channel 10? (Choose two.)
+*A. int range g0/0-1channel-group 10 mode active
+B. int range g0/0-1 chanm.l-group 10 mode desirable
+*C. int range g0/0-1channel-group 10 mode passive
+D. int range g0/0-1 channel-group 10 mode auto
+E. int range g0/0-1 channel-group 10 mode on
+
+16. [Exhibit] An engineer is configuring an EtherChannel using LACP between Switches 1 and 2 Which configuration must be applied so that only Switch 1 sends LACP initiation packets?
+A. Switch 1 (config-if)#channel-group 1 mode onSwrtch2(config-if)#channel-group 1 mode passive
+B. Switch1(config-if)#channel-group 1 mode passiveSwitch2(config-if)#channel-group 1 mode active
+*C. Switch1{config-if)£channel-group 1 mode activeSwitch2(config-if)#channel-group 1 mode passive
+D. Switch1(config-if)#channel-group 1 mode onSwitch2(config-if)#channel-group 1 mode active
+
+17. Which EtherChannel mode must be configured when using LAG on a WLC?
+*A. on
+B. active
+C. auto
+D. passive
+
+18. [Exhibit] Which configuration establishes a Layer 2 LACP EtherChannel when applied to both switches?
+*A. Interface range G1/1 – 1/3 switchport mode trunk channel-group 1 mode active no shutdown
+B. Interface range G1/1 – 1/3 switchport mode access channel-group 1 mode passive no shutdown
+C. Interface range G1/1 – 1/3 switchport mode trunkchannel-group 1 mode desirableno shutdown
+D. Interface range G1/1 – 1/3 switchport mode access channel-group 1 mode on no shutdown
+
+19. Which type of port is used to connect lo the wired network when an autonomous AP maps two VLANs to its WLANs?
+A. LAG
+B. EtherChannel
+C. trunk
+*D. access
+
+20. [Exhibit] An engineer is configuring a Layer 3 port-channel interface with LACP. The configuration on the first device is complete, and it is verified that both interfaces have registered the neighbor device in the CDP table. Which task on the neighbor device enables the new port channel to come up without negotiating the channel?
+A. Change the EtherChannel mode on the neighboring interfaces to auto.
+B. Configure the IP address of the neighboring device.
+C. Bring up the neighboring interfaces using the no shutdown command.
+*D. Modify the static EtherChannel configuration of the device to passive mode.
+
+21. Which port type does a lightweight AP use to connect to the wired network when it is configured in local mode?
+A. EtherChannel
+B. LAG
+*C. trunk
+D. access
+
+22. [Exhibit] PC1 regularly sends 1800 Mbps of traffic to the server. A network engineer needs to configure the EtherChannel to disable Port Channel 1 between SW1 and SW2 when the Ge0/0 and Ge0/1 ports on SW2 go down. Which configuration must the engineer apply to the switch? A) B) C) D)
+A. Option A
+B. Option B
+C. Option C
+*D. Option D
+
+23. [Exhibit] A network engineer updates the existing configuration on interface fastethernet1/1 switch SW1. It must establish an EtherChannel by using the same group designation with another vendor switch. Which configuration must be performed to complete the process?
+A. interface port-channel 2channel-group 2 mode desirable
+*B. interface fasteinernet 1/1channel-group 2 mode active
+C. interface fasteinernet 1/1channel-group 2 mode on
+D. interface port-channel 2channel-group 2 mode auto
+
+24. Which channel-group mode must be configured when multiple distribution interfaces connected to a WLC are bundled?
+A. Channel-group mode passive.
+*B. Channel-group mode on.
+C. Channel-group mode desirable.
+D. Channel-group mode active.
+
+25. [Exhibit] An engineer is building a new Layer 2 LACP EtherChannel between SW1 and SW2. and they executed the given show commands to verify the work Which additional task must be performed so that the switches successfully bundle the second member in the LACP port-channel?
+A. Configure the switchport trunk allowed vlan 300 command on SW1 port-channel 1
+*B. Configure the switchport trunk allowed vlan 300 command on interface Fa0/2 on SW1.
+C. Configure the switchport trunk allowtd vlan add 300 command on interface FaO 2 on SW2.
+D. Configure the switchport trunk allowtd vlan add 300 command on SW1 port-channel 1
+
+26. What is a characteristics of a collapsed-core network topology?
+A. It allows the core and distribution layers to run as a single combined layer.
+*B. It enables the core and access layers to connect to one logical distribution device over an EtherChannel.
+C. It enables all workstations in a SOHO environment to connect on a single switch with internet access.
+D. It allows wireless devices to connect directly to the core layer, which enables faster data transmission.
+
+27. [Exhibit] Which set of commands must be applied to the two switches to configure an LACP Layer 2 EtherChannel? A) B) C) D)
+*A. Option A
+B. Option B
+C. Option C
+D. Option D
+
+28. [Exhibit] The EtherChannel is configured with a speed of 1000 and duplex as full on both ends of channel group 1. What is the next step to configure the channel on switch A to respond to but not initiate LACP communication?
+A. interface range gigabitethernet0/0/0-15 channel-group 1 mode on
+B. interface range gigabitethernet0/0/0-15 channel-group 1 mode desirable
+C. interface port-channel 1 channel-group 1 mode auto
+*D. interface port-channel 1 channel-group 1 mode passive
+
+29. [Exhibit] A network engineer is adding another physical interface as a new member to the existing Port-Channel1 bundle. Which command set must be configured on the new interface to complete the process?
+A. switchport mode trunk channel-group 1 mode active
+*B. no switchport channel-group 1 mode active
+C. no switchport channel-group 1 mode on
+D. switchport switchport mode trunk
+
+30. [Exhibit] The LACP EtherChannel is configured, and the last change is to modify the interfaces on SwitchA to respond to packets received, but not to initiate negotiation. The interface range gigabitethernet0/0-15 command is entered. What must be configured next?
+A. SwitchA(config-if-range) #channel-group 1 mode desirable
+B. SwitchA(config-if-range) #channel-group 1 mode auto
+C. SwitchA(config-if-range) #channel-group 1 mode active
+*D. SwitchA(config-if-range) #channel-group 1 mode passive
+
+31. [Exhibit] An LACP EtherChannel between two directly connected switches is in the configuration process. Which command must be configured on switch SW2’s Gi0/1-2 interfaces to establish the channel to SW1?
+A. channel-group 1 mode desirable
+B. channel-group 1 mode on
+C. channel-group 1 mode auto
+*D. channel-group 1 mode active
+
+32. Which feature, when used on a WLC, allows it to bundle its distribution system ports into one 802.3ad group?
+A. QinQ
+B. ISL
+C. PAgP
+*D. LAG
+

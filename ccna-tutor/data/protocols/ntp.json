@@ -1,0 +1,10 @@
+{
+  "name": "NTP",
+  "slug": "ntp",
+  "category": "Network Services",
+  "description": "Network Time Protocol (NTP) synchronizes clocks across network devices for consistent logging and authentication.",
+  "key_topics": [],
+  "config_guide_refs": {},
+  "exam_weight": "Low",
+  "related_protocols": []
+}
