@@ -1,4 +1,5 @@
-from flask import Flask, render_template, jsonify, request, send_from_directory
+from flask import Flask, render_template, jsonify, request, send_from_directory, session, redirect, url_for
+from functools import wraps
 import os
 import uuid
 import random
@@ -15,6 +16,20 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
+
+# Hardcoded credentials (single-user auth)
+APP_USERNAME = 'Student12345'
+APP_PASSWORD = '12345FTCC!@#$%'
+
+
+def login_required(f):
+    """Decorator to protect routes behind login."""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get('logged_in'):
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
 
 # Initialize managers
 protocol_manager = ProtocolManager()
@@ -43,12 +58,41 @@ quiz_sessions = {}
 init_practice_routes(protocol_manager, question_parser)
 app.register_blueprint(practice_bp)
 
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    """Login page and authentication handler."""
+    if session.get('logged_in'):
+        return redirect(url_for('index'))
+
+    error = None
+    if request.method == 'POST':
+        username = request.form.get('username', '')
+        password = request.form.get('password', '')
+        if username == APP_USERNAME and password == APP_PASSWORD:
+            session['logged_in'] = True
+            session['username'] = username
+            return redirect(url_for('index'))
+        else:
+            error = 'Invalid credentials. Please try again.'
+
+    return render_template('login.html', error=error)
+
+
+@app.route('/logout')
+def logout():
+    """Clear session and redirect to login."""
+    session.clear()
+    return redirect(url_for('login'))
+
+
 @app.route('/')
+@login_required
 def index():
     """Render the landing page"""
     return render_template('index.html')
 
 @app.route('/test-ai')
+@login_required
 def test_ai():
     """Test route to verify AI tutor functionality"""
     try:
@@ -111,12 +155,14 @@ def test_ai():
         }), 500
 
 @app.route('/protocols')
+@login_required
 def protocols():
     """Display all protocols grouped by category"""
     protocols_by_category = protocol_manager.get_protocols_by_category()
     return render_template('protocols.html', protocols_by_category=protocols_by_category)
 
 @app.route('/protocol/<slug>')
+@login_required
 def protocol(slug):
     """Display individual protocol study page"""
     protocol_data = protocol_manager.get_protocol(slug)
@@ -129,6 +175,7 @@ def protocol(slug):
     return render_template('protocol.html', protocol=protocol_data, related_protocols=related_protocols)
 
 @app.route('/api/ask', methods=['POST'])
+@login_required
 def api_ask():
     """API endpoint for AI tutor chat on protocol pages"""
     try:
@@ -188,6 +235,7 @@ def api_ask():
         }), 500
 
 @app.route('/api/questions/<protocol_slug>', methods=['GET'])
+@login_required
 def api_questions_by_protocol(protocol_slug):
     """API endpoint to get questions for a specific protocol"""
     try:
@@ -203,6 +251,7 @@ def api_questions_by_protocol(protocol_slug):
         }), 500
 
 @app.route('/api/questions/multi-protocol', methods=['GET'])
+@login_required
 def api_multi_protocol_questions():
     """API endpoint to get all multi-protocol questions"""
     try:
@@ -217,6 +266,7 @@ def api_multi_protocol_questions():
         }), 500
 
 @app.route('/api/drag-drop-questions', methods=['GET'])
+@login_required
 def api_drag_drop_questions():
     """API endpoint to get drag-and-drop questions"""
     try:
@@ -234,6 +284,7 @@ def api_drag_drop_questions():
         }), 500
 
 @app.route('/api/drag-drop-questions/<int:question_id>', methods=['GET'])
+@login_required
 def api_drag_drop_question(question_id):
     """API endpoint to get a specific drag-and-drop question"""
     try:
@@ -256,11 +307,13 @@ def api_drag_drop_question(question_id):
         }), 500
 
 @app.route('/drag-drop')
+@login_required
 def drag_drop_viewer():
     """Serve the drag-and-drop question viewer"""
     return send_from_directory(os.path.join(app.root_path, 'data', 'test_bank'), 'drag_drop_viewer.html')
 
 @app.route('/api/concept-groups/<protocol_slug>', methods=['GET'])
+@login_required
 def api_concept_groups(protocol_slug):
     """API endpoint to get concept groups for a protocol"""
     try:
@@ -284,6 +337,7 @@ def api_concept_groups(protocol_slug):
         }), 500
 
 @app.route('/admin/regroup', methods=['POST'])
+@login_required
 def admin_regroup_all():
     """Admin endpoint to regenerate all concept groups using AI"""
     try:
@@ -320,6 +374,7 @@ def admin_regroup_all():
         }), 500
 
 @app.route('/admin/regroup/<protocol_slug>', methods=['POST'])
+@login_required
 def admin_regroup_protocol(protocol_slug):
     """Admin endpoint to regenerate concept groups for one protocol"""
     try:
@@ -358,6 +413,7 @@ def admin_regroup_protocol(protocol_slug):
         }), 500
 
 @app.route('/quiz')
+@login_required
 def quiz():
     """Render the quiz page"""
     protocol_slug = request.args.get('protocol', '')
@@ -367,6 +423,7 @@ def quiz():
                          selected_protocol=protocol_slug)
 
 @app.route('/api/quiz/start/<protocol_slug>', methods=['GET'])
+@login_required
 def api_quiz_start(protocol_slug):
     """Start a new quiz session for a protocol"""
     try:
@@ -426,6 +483,7 @@ def api_quiz_start(protocol_slug):
         }), 500
 
 @app.route('/api/quiz/submit', methods=['POST'])
+@login_required
 def api_quiz_submit():
     """Submit an answer and get AI feedback"""
     try:
@@ -516,6 +574,7 @@ def api_quiz_submit():
         }), 500
 
 @app.route('/api/quiz/group-question/<group_id>', methods=['GET'])
+@login_required
 def api_quiz_group_question(group_id):
     """Get another random question from the same concept group"""
     try:

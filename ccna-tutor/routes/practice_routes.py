@@ -5,13 +5,20 @@ Questions-first study flow with AI-powered feedback
 
 import random
 import uuid
-from flask import Blueprint, render_template, jsonify, request, session
+from flask import Blueprint, render_template, jsonify, request, session, redirect, url_for
 
 from utils.ai_tutor import CCNATutor
 from utils.protocol_manager import ProtocolManager
 from utils.question_parser import QuestionParser
 
 practice_bp = Blueprint('practice', __name__, url_prefix='/practice')
+
+
+@practice_bp.before_request
+def require_login():
+    """Redirect to login if not authenticated."""
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
 
 # Shared instances (set during blueprint registration via init_app)
 _protocol_manager = None
